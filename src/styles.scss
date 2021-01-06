@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: BrixSlab-Regular;
+    src: url(assets/fonts/BrixSlab-Regular.otf);
+}
+@font-face {
+    font-family: BrixSlab-Bold;
+    font-weight: bold;
+    src: url(assets/fonts/BrixSlab-Bold.otf); 
+}
+@font-face {
+    font-family: Nunito-Regular;
+    src: url(assets/fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: Nunito-Bold;
+    font-weight: bold;
+    src: url(assets/fonts/NunitoSans-Bold.ttf); 
+}
+
+
+// Set your brand colors
+$red: #EB5C37;
+$red-light: rgba(235,92,55,0.15);
+$black: #38383A;
+$grey: #707070;
+
+// // Update Bulma's global variables
+$primary: $red;
+$family-sans-serif: 'Nunito-Regular';
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+
+// // Update some of Bulma's component variables
+// // $body-background-color: $beige-lighter;
+// $body-background-color: #fff;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// Import only what you need from Bulma
+@import '~node_modules/bulma/sass/utilities/_all';
+@import '~node_modules/bulma/sass/base/_all';
+@import '~node_modules/bulma/sass/elements/button';
+@import '~node_modules/bulma/sass/elements/container';
+@import '~node_modules/bulma/sass/elements/title';
+@import '~node_modules/bulma/sass/form/_all';
+@import '~node_modules/bulma/sass/components/navbar';
+@import '~node_modules/bulma/sass/layout/hero';
+@import '~node_modules/bulma/sass/layout/section';
