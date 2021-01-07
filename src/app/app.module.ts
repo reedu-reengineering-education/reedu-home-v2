@@ -12,6 +12,9 @@ import { StartComponent } from './components/pages/start/start.component';
 import { AngeboteComponent } from './components/pages/angebote/angebote.component';
 import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { ImprintComponent } from './components/pages/imprint/imprint.component';
+import { PrivacyComponent } from './components/pages/privacy/privacy.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,7 +27,10 @@ export function createTranslateLoader(http: HttpClient) {
     StartComponent,
     AngeboteComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    ImprintComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
