@@ -53,10 +53,22 @@
           routerLinkActive="active"
           class="navbar-item"
         >
-          PHILOSOPHY
+          PHILOSOPHIE
         </a>
-        <a class="navbar-item"> AUSZEICHNUNGEN </a>
-        <a class="navbar-item"> TEAM </a>
+        <a
+          [routerLink]="['auszeichnungen']"
+          routerLinkActive="active"
+          class="navbar-item"
+        >
+          AUSZEICHNUNGEN
+        </a>
+        <a
+          [routerLink]="['team']"
+          routerLinkActive="active"
+          class="navbar-item"
+        >
+          TEAM
+        </a>
       </div>
     </div>
     <a class="navbar-item">
