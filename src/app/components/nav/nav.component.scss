@@ -12,7 +12,8 @@
   margin-top: -0.75rem;
 }
 .navbar-dropdown {
-  background-color: $black;
+  background-color: rgba($black, 0.5);
+  backdrop-filter: blur(1rem);
 
   > .navbar-item:hover {
     color: #eeeeee !important;
