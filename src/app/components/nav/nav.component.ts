@@ -1,3 +1,4 @@
+import { HostListener } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -9,6 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavComponent implements OnInit {
 
   currentLang = 'de';
+  scroll = 0;
 
   constructor(private translate: TranslateService) { }
 
@@ -18,5 +20,12 @@ export class NavComponent implements OnInit {
   selectLang(lang){
     this.currentLang = lang;
     this.translate.use(lang);
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event) {
+    this.scroll = window.pageYOffset 
+    || document.documentElement.scrollTop 
+    || document.body.scrollTop || 0; 
   }
 }

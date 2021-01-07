@@ -1,12 +1,12 @@
-<nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent is-fixed-top" [class.scrolled]="scroll != 0" role="navigation" aria-label="main navigation">
   <div class="navbar-start">
     <a class="navbar-item">
       <a class="lang-select" [class.active]="currentLang === 'de'" (click)="selectLang('de')">DE</a> / <a [class.active]="currentLang === 'en'" class="lang-select"(click)="selectLang('en')">EN</a>
     </a>
-    <a class="navbar-item">
+    <a [routerLink]="['angebote']" routerLinkActive="active" class="navbar-item">
       {{'ANGEBOTE' | translate}}
     </a>
-    <a class="navbar-item">
+    <a [routerLink]="['portfolio']" routerLinkActive="active" class="navbar-item">
       Portfolio
     </a>
   </div>

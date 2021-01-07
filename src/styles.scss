@@ -18,16 +18,9 @@
     src: url(assets/fonts/NunitoSans-Bold.ttf); 
 }
 
-
 // Set your brand colors
-$red: #EB5C37;
-$red-light: rgba(235,92,55,0.15);
-$black: #38383A;
-$grey: #707070;
+@import './styles/variables.scss';
 
-// // Update Bulma's global variables
-$primary: $red;
-$family-sans-serif: 'Nunito-Regular';
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
 // $link: $pink;
@@ -51,3 +44,7 @@ $family-sans-serif: 'Nunito-Regular';
 @import '~node_modules/bulma/sass/components/navbar';
 @import '~node_modules/bulma/sass/layout/hero';
 @import '~node_modules/bulma/sass/layout/section';
+
+
+@import './styles/general.scss';
+
