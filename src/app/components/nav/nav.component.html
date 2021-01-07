@@ -1,35 +1,35 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-start">
-        <a class="navbar-item">
-            DE / EN
-        </a>  
-        <a class="navbar-item">
-            {{'ANGEBOTE' | translate}}
-        </a>  
-        <a class="navbar-item">
-            Portfolio
-        </a>  
-    </div>
-    <div class="navbar-brand">
-        <a class="navbar-item" href="">
-            <img src="assets/img/logos/logo_white.svg" width="112" height="28">
-            re:edu<br>
-            reengineering education
-        </a>
-    </div>
-    <div class="navbar-end">
-        <a class="navbar-item">
-            FORSCHUNG
-        </a>  
-        <a class="navbar-item">
-            ABOUT US
-        </a>  
-        <a class="navbar-item">
-            In F
-        </a>  
-    </div>
+<nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-start">
+    <a class="navbar-item">
+      <a class="lang-select" [class.active]="currentLang === 'de'" (click)="selectLang('de')">DE</a> / <a [class.active]="currentLang === 'en'" class="lang-select"(click)="selectLang('en')">EN</a>
+    </a>
+    <a class="navbar-item">
+      {{'ANGEBOTE' | translate}}
+    </a>
+    <a class="navbar-item">
+      Portfolio
+    </a>
+  </div>
+  <div class="navbar-brand">
+    <a class="navbar-item" href="">
+      <img src="assets/img/logos/logo_white.svg" width="112" height="28">
+      re:edu<br>
+      reengineering education
+    </a>
+  </div>
+  <div class="navbar-end">
+    <a class="navbar-item">
+      FORSCHUNG
+    </a>
+    <a class="navbar-item">
+      ABOUT US
+    </a>
+    <a class="navbar-item">
+      In F
+    </a>
+  </div>
 
-    <!-- <div class="navbar-brand">
+  <!-- <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
