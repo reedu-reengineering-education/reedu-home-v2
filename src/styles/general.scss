@@ -3,8 +3,16 @@
 }
 
 a {
+    font-size: 18px;
+    font-family: BrixSlab-Bold;
     color: #ffffff;
     :hover {
         color: #eeeeee;
     }
+}
+
+p {
+    color: $white;
+    font-family: NunitoSans-Regular;
+    font-size: 16px;
 }

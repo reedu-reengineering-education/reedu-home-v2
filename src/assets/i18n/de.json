@@ -1,3 +1,9 @@
 {
-    "ANGEBOTE": "Angebote"
+    "ANGEBOTE": "Angebote",
+
+    "KONTAKT": "Kontakt",
+    "IMPRESSUM": "Impressum",
+    "DATENSCHUTZ": "Datenschutz",
+    "COPYRIGHT":"Copyright &copy; 2021 Reedu GmbH & Co. KG. Alle Rechte vorbehalten."
+
 }

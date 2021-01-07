@@ -3,4 +3,13 @@
 .footer {
     background: $black;
     min-height: 20VH;
+    padding: 1em;
+
+    .footer-nav {
+        display: flex;
+        justify-content: flex-end;
+        .footer-nav-item {
+            padding: 1em;
+        }
+    }
 }
