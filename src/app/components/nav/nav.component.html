@@ -4,84 +4,105 @@
   role="navigation"
   aria-label="main navigation"
 >
-  <div class="navbar-start">
-    <a class="navbar-item">
-      <a
-        class="lang-select"
-        [class.active]="currentLang === 'de'"
-        (click)="selectLang('de')"
-        >DE</a
-      >
-      /
-      <a
-        [class.active]="currentLang === 'en'"
-        class="lang-select"
-        (click)="selectLang('en')"
-        >EN</a
-      >
-    </a>
+  <div>
     <a
-      [routerLink]="['angebote']"
-      routerLinkActive="active"
-      class="navbar-item"
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+      (click)="mobileOpen = !mobileOpen"
     >
-      {{ "ANGEBOTE" | translate }}
-    </a>
-    <a
-      [routerLink]="['portfolio']"
-      routerLinkActive="active"
-      class="navbar-item"
-    >
-      Portfolio
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-reedu"   [class.scrolled]="scroll != 0">
-    <a class="navbar-reedu-item" [routerLink]="['']">
-      <img src="assets/img/logos/logo_text_cropped.png"  />
-    </a>
-    <a class="navbar-reedu-item-small" [routerLink]="['']">
-      <img src="assets/img/logos/logo_white.svg"  />
-    </a>
-  </div>
-  <div class="navbar-end">
-    <a class="navbar-item"> FORSCHUNG </a>
 
-    <div class="navbar-item has-dropdown is-hoverable">
-      <a class="navbar-link"> ABOUT US </a>
-      <div class="navbar-dropdown">
+  <div
+    id="navbarBasicExample"
+    [class.is-active]="mobileOpen"
+    class="navbar-menu"
+  >
+    <div class="navbar-start">
+      <a class="navbar-item">
         <a
-          [routerLink]="['philosophie']"
-          routerLinkActive="active"
-          class="navbar-item"
+          class="lang-select"
+          [class.active]="currentLang === 'de'"
+          (click)="selectLang('de')"
+          >DE</a
         >
-          PHILOSOPHIE
-        </a>
+        /
         <a
-          [routerLink]="['auszeichnungen']"
-          routerLinkActive="active"
-          class="navbar-item"
+          [class.active]="currentLang === 'en'"
+          class="lang-select"
+          (click)="selectLang('en')"
+          >EN</a
         >
-          AUSZEICHNUNGEN
-        </a>
-        <a
-          [routerLink]="['team']"
-          routerLinkActive="active"
-          class="navbar-item"
-        >
-          TEAM
-        </a>
-      </div>
+      </a>
+      <a
+        [routerLink]="['angebote']"
+        routerLinkActive="active"
+        class="navbar-item"
+      >
+        {{ "ANGEBOTE" | translate }}
+      </a>
+      <a
+        [routerLink]="['portfolio']"
+        routerLinkActive="active"
+        class="navbar-item"
+      >
+        Portfolio
+      </a>
     </div>
-    <a class="navbar-item">
-      <span class="icon">
-        <i class="fab fa-lg fa-linkedin"></i>
-      </span>
-    </a>
-    <a class="navbar-item">
-      <span class="icon">
-        <i class="fab fa-lg fa-facebook"></i>
-      </span>
-    </a>
+    <div class="navbar-reedu" [class.scrolled]="scroll != 0">
+      <a class="navbar-reedu-item" [routerLink]="['']">
+        <img src="assets/img/logos/logo_text_cropped.png" />
+      </a>
+      <a class="navbar-reedu-item-small" [routerLink]="['']">
+        <img src="assets/img/logos/logo_white.svg" />
+      </a>
+    </div>
+    <div class="navbar-end">
+      <a class="navbar-item"> FORSCHUNG </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link"> ABOUT US </a>
+        <div class="navbar-dropdown">
+          <a
+            [routerLink]="['philosophie']"
+            routerLinkActive="active"
+            class="navbar-item"
+          >
+            PHILOSOPHIE
+          </a>
+          <a
+            [routerLink]="['auszeichnungen']"
+            routerLinkActive="active"
+            class="navbar-item"
+          >
+            AUSZEICHNUNGEN
+          </a>
+          <a
+            [routerLink]="['team']"
+            routerLinkActive="active"
+            class="navbar-item"
+          >
+            TEAM
+          </a>
+        </div>
+      </div>
+      <a class="navbar-item">
+        <span class="icon">
+          <i class="fab fa-lg fa-linkedin"></i>
+        </span>
+      </a>
+      <a class="navbar-item">
+        <span class="icon">
+          <i class="fab fa-lg fa-facebook"></i>
+        </span>
+      </a>
+    </div>
   </div>
 
   <!-- <div class="navbar-brand">
