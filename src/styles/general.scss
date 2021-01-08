@@ -66,9 +66,12 @@ p {
     padding: 0.3em 0.5em;
     height: 50px;
     align-items: center;
+    cursor: pointer;
 
     img {
-        height: 25px;
+        height: 30px;
+        position: relative;
+        top: -1px
     }
 
 }
