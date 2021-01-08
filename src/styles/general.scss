@@ -89,3 +89,20 @@ h6 {
     top: -1px;
   }
 }
+
+//sections
+
+.black-section {
+  background: $black;
+  color: $white;
+}
+
+.red-section {
+  background: $primary;
+  color: white;
+}
+
+.white-section {
+  background: $white;
+  color: $primary;
+}
