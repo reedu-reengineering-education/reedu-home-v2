@@ -16,7 +16,6 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { ImprintComponent } from './components/pages/imprint/imprint.component';
 import { PrivacyComponent } from './components/pages/privacy/privacy.component';
 import { PhilosophieComponent } from './components/pages/about-us/philosophie/philosophie.component';
-import { IonicModule } from '@ionic/angular';
 import { AuszeichnungenComponent } from './components/pages/about-us/auszeichnungen/auszeichnungen.component';
 import { TeamComponent } from './components/pages/about-us/team/team.component';
 
@@ -50,9 +49,7 @@ export function createTranslateLoader(http: HttpClient) {
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
       }
-    }),
-    IonicModule.forRoot()
-  ],
+    })],
   providers: [],
   bootstrap: [AppComponent]
 })
