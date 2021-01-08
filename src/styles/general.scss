@@ -1,4 +1,41 @@
+@import "./variables.scss";
+
 .navbar {
+  font-family: BrixSlab-Bold;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: BrixSlab-Bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: BrixSlab-Bold;
+}
+
+.headline-underline {
+  span {
+    position: relative;
+    display: inline-block;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      bottom: -0.5em;
+      left: 0;
+      border-bottom: 4px solid $black;
+    }
+  }
+}
+
+.bold-text-1 {
+  font-size: 25px;
+  font-family: BrixSlab-Bold;
+}
+
+.bold-text-2 {
+  font-size: 18px;
   font-family: BrixSlab-Bold;
 }
 
@@ -29,4 +66,26 @@ h6 {
 
 .site {
   min-height: 100vh;
+
+  // color: $white;
+  font-family: NunitoSans-Regular;
+  font-size: 16px;
+}
+
+.re-button {
+  display: inline-flex;
+  border: 4px solid $black;
+  font-family: BrixSlab-Bold;
+  font-size: 20px;
+  padding: 0.3em 0.5em;
+  height: 50px;
+  align-items: center;
+  cursor: pointer;
+  background: $white;
+
+  img {
+    height: 30px;
+    position: relative;
+    top: -1px;
+  }
 }
