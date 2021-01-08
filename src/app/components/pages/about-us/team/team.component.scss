@@ -5,6 +5,14 @@
   min-height: 100vh;
 }
 
+.floating-reedu-logo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 170px;
+  right: -150px;
+}
+
 .site-title {
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -23,11 +31,12 @@
 
   > .container {
     transform: translateY(-6rem);
-
-    > .card {
-      height: 300px;
-    }
   }
+}
+
+.profile-img {
+  max-height: 230px;
+  width: auto;
 }
 
 .orange {

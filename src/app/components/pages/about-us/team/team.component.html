@@ -1,6 +1,7 @@
 <div class="site">
   <div class="container">
     <h1 class="title site-title">Wer wir sind</h1>
+    <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
   </div>
   <div class="stripes-vertical">
     <div class="container">
@@ -10,12 +11,14 @@
             <div class="card-content">
               <div class="container">
                 <div class="columns is-multiline">
-                  <img
-                    *ngIf="member.photo"
-                    class="column is-one-third"
-                    src="{{ member.photo }}"
-                    alt="image"
-                  />
+                  <div class="column is-one-third">
+                    <img
+                      *ngIf="member.photo"
+                      class="profile-img"
+                      src="{{ member.photo }}"
+                      alt="image"
+                    />
+                  </div>
                   <div class="column">
                     <h1 class="title">{{ member.name }}</h1>
                     <h2 class="subtitle">{{ member.position }}</h2>
