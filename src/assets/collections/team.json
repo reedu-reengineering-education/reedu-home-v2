@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Dr. Thomas Bartoschek",
+    "position": "Geschäftsführer",
+    "tags": ["Science", "Education", "Speaking", "Sales", "UX", "Vision"],
+    "email": "t.bartoschek@reedu.de",
+    "photo": "/assets/img/team/Bartoschek_Thomas.jpg"
+  },
+  {
+    "name": "Jan Wirwahn",
+    "position": "Geschäftsführer",
+    "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
+    "email": "j.wirwahn@reedu.de",
+    "photo": "/assets/img/team/Wirwahn_Jan.jpg"
+  },
+  {
+    "name": "Umut Taş",
+    "position": "Co-Founder",
+    "tags": [
+      "Data Visualization",
+      "Maps",
+      "Open Data",
+      "Angular",
+      "Node",
+      "Mongo"
+    ],
+    "email": "u.tas@reedu.de",
+    "photo": "/assets/img/team/Tas_Umut.png"
+  },
+  {
+    "name": "Matthias Pfeil",
+    "position": "Entwickler, openSenseMap",
+    "tags": ["Cizizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
+    "email": "m.pfeil@reedu.de",
+    "photo": "/assets/img/team/Pfeil_Matthias.jpg"
+  },
+  {
+    "name": "Sergey Mukhametov",
+    "position": "Special Operations",
+    "tags": ["Science", "Museen & Ausstellungen"],
+    "email": "s.mukhametov@reedu.de"
+  },
+  {
+    "name": "Felix Erdmann",
+    "position": "Entwickler",
+    "tags": ["Maps", "React", "Node", "Mongo", "IoT", "GIS"],
+    "email": "f.erdmann@reedu.de",
+    "photo": "/assets/img/team/Erdmann_Felix.png"
+  },
+  {
+    "name": "Eric Thieme-Garmann",
+    "position": "Entwickler",
+    "tags": ["IoT"],
+    "photo": "/assets/img/team/Eric.png"
+  },
+  {
+    "name": "Verena Witte",
+    "position": "Bildung",
+    "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
+    "email": "t.bartoschek@reedu.de",
+    "photo": "/assets/img/team/Witte_Verena.png"
+  }
+]

@@ -1,22 +1,32 @@
 .navbar {
-    font-family: BrixSlab-Bold;
+  font-family: BrixSlab-Bold;
 }
 
 a {
-    font-size: 18px;
-    font-family: BrixSlab-Bold;
-    color: #ffffff;
-    &:hover {
-        color: #eeeeee;
-    }
+  font-size: 18px;
+  font-family: BrixSlab-Bold;
+  color: #ffffff;
+  &:hover {
+    color: #eeeeee;
+  }
 }
 
 p {
-    color: $white;
-    font-family: NunitoSans-Regular;
-    font-size: 16px;
+  color: $white;
+  font-family: NunitoSans-Regular;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: BrixSlab-Bold;
+  color: $white;
 }
 
 .site {
-    min-height: 100VH;
+  min-height: 100vh;
 }
