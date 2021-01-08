@@ -56,3 +56,30 @@
     }
   }
 }
+
+.navbar-reedu {
+
+  position: absolute;
+  width: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &.scrolled {
+    width: 50px;
+    .navbar-reedu-item {
+      display: none;
+    }
+    .navbar-reedu-item-small {
+      display: block;
+    }
+  }
+  .navbar-reedu-item {
+    height: 150px;
+  }
+  .navbar-reedu-item-small {
+    display: none;
+  }
+  img {
+    max-height: 100%;
+  }
+}

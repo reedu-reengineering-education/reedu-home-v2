@@ -6,3 +6,7 @@ $grey: #707070;
 // // Update Bulma's global variables
 $primary: $red;
 $family-sans-serif: 'Nunito-Regular';
+
+body {
+    --ion-color-primary: #ffffff;
+}

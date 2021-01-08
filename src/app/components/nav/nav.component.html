@@ -35,11 +35,12 @@
       Portfolio
     </a>
   </div>
-  <div class="navbar-brand">
-    <a class="navbar-item" [routerLink]="['']">
-      <img src="assets/img/logos/logo_white.svg" width="112" height="28" />
-      re:edu<br />
-      reengineering education
+  <div class="navbar-reedu"   [class.scrolled]="scroll != 0">
+    <a class="navbar-reedu-item" [routerLink]="['']">
+      <img src="assets/img/logos/logo_text_cropped.png"  />
+    </a>
+    <a class="navbar-reedu-item-small" [routerLink]="['']">
+      <img src="assets/img/logos/logo_white.svg"  />
     </a>
   </div>
   <div class="navbar-end">
