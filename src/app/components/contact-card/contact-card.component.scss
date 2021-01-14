@@ -1,0 +1,28 @@
+.contact-card-container {
+  padding-top: 5rem;
+
+  .contact-title {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 4rem;
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .icon-text {
+    display: flex;
+    align-items: center;
+
+    > span {
+      width: 16px;
+    }
+
+    > .title {
+      margin-left: 1rem;
+    }
+
+    + h6 {
+      margin-left: 2rem;
+    }
+  }
+}
