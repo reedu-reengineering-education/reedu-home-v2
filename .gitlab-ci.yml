@@ -1,0 +1,27 @@
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/
+image: node:15
+
+stages:
+  - deploy
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - yarn
+
+pages:
+  stage: deploy
+  script:
+    - yarn build --prod=true
+    - yarn add netlify-cli -g
+    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir dist/reedu-home-v2/
+  artifacts:
+    paths:
+      - dist/reedu-home-v2/
+  only:
+    - master
