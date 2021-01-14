@@ -1,21 +1,21 @@
 [
   {
     "name": "Dr. Thomas Bartoschek",
-    "position": "Geschäftsführer",
+    "position": "CEO",
     "tags": ["Science", "Education", "Speaking", "Sales", "UX", "Vision"],
     "email": "t.bartoschek@reedu.de",
     "photo": "/assets/img/team/Bartoschek_Thomas.jpg"
   },
   {
     "name": "Jan Wirwahn",
-    "position": "Geschäftsführer",
+    "position": "CEP",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
     "photo": "/assets/img/team/Wirwahn_Jan.jpg"
   },
   {
     "name": "Umut Taş",
-    "position": "Co-Founder & Entwickler",
+    "position": "Co-Founder & Developer",
     "tags": [
       "Data Visualization",
       "Maps",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Matthias Pfeil",
-    "position": "Entwickler, openSenseMap",
+    "position": "Developer, openSenseMap",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
     "photo": "/assets/img/team/Pfeil_Matthias.jpg"
@@ -37,27 +37,27 @@
   {
     "name": "Sergey Mukhametov",
     "position": "Special Operations",
-    "tags": ["Science", "Museen & Ausstellungen"],
+    "tags": ["Science", "Museums & Exhibitions"],
     "email": "s.mukhametov@reedu.de",
     "photo": "/assets/img/team/sergey.jpg"
   },
   {
     "name": "Felix Erdmann",
-    "position": "Entwickler",
+    "position": "Developer",
     "tags": ["Maps", "React", "Node", "Mongo", "IoT", "GIS"],
     "email": "f.erdmann@reedu.de",
     "photo": "/assets/img/team/Erdmann_Felix.png"
   },
   {
     "name": "Eric Thieme-Garmann",
-    "position": "Entwickler",
+    "position": "Developer",
     "tags": ["IoT"],
     "photo": "/assets/img/team/Eric.png"
   },
   {
     "name": "Verena Witte",
-    "position": "Bildung",
-    "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
+    "position": "Education",
+    "tags": ["Mathematics", "Geography", "Education", "DLRG", "Music"],
     "photo": "/assets/img/team/Witte_Verena.png"
   }
 ]

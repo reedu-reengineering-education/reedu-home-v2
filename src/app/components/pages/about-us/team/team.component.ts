@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import reTeam from '../../../../../assets/collections/team.json';
+import reTeamDE from '../../../../../assets/collections/team.json';
+import reTeamEN from '../../../../../assets/collections/team-en.json';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 're-team',
@@ -10,11 +12,21 @@ export class TeamComponent implements OnInit {
 
   team: any[]
 
-  constructor() {
-    this.team = reTeam
+  constructor(public translate: TranslateService) {
+
   }
 
   ngOnInit(): void {
+    this.team = reTeamDE;
+
+    this.translate.onLangChange.subscribe((event) => {
+      if (event.lang === 'de') {
+        this.team = reTeamDE;
+      } else {
+        this.team = reTeamEN;
+      }
+    });
+
   }
 
 }
