@@ -18,8 +18,7 @@ pages:
   stage: deploy
   script:
     - yarn build --prod=true
-    - yarn add netlify-cli -g
-    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir dist/reedu-home-v2/
+    - npx -p netlify-cli netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir dist/reedu-home-v2/
   artifacts:
     paths:
       - dist/reedu-home-v2/
