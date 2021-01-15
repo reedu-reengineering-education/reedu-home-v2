@@ -2,5 +2,70 @@
 
 .site {
   background: $black;
-  min-height: 100vh;
+}
+
+.site-title-container {
+  height: 40rem;
+  overflow: hidden;
+  display: flex;
+
+  > img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) sepia(1) saturate(3000%) contrast(0.5);
+  }
+}
+
+.columns {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  > .column {
+    padding: 4rem;
+  }
+}
+
+.site-title {
+  font-size: 5rem;
+}
+
+.card-content {
+  padding: 4rem;
+
+  > p,
+  h1,
+  h2,
+  h3 {
+    color: $primary;
+  }
+
+  > p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.sensebox-logo {
+  max-width: 220px;
+}
+
+.stripes-horizontal {
+  background: repeating-linear-gradient(
+    0deg,
+    $red,
+    $red 30px,
+    #f18d73 30px,
+    #f18d73 38px
+  );
+}
+
+.spacing {
+  > * {
+    margin-bottom: 2rem;
+  }
+}
+
+.underscore {
+  display: inline-block;
+  border-bottom: 5px solid $black;
 }
