@@ -19,6 +19,8 @@ import { PhilosophieComponent } from './components/pages/about-us/philosophie/ph
 import { AuszeichnungenComponent } from './components/pages/about-us/auszeichnungen/auszeichnungen.component';
 import { TeamComponent } from './components/pages/about-us/team/team.component';
 import { ContactCardComponent } from './components/contact-card/contact-card.component';
+import { ForschungComponent } from './components/pages/forschung/forschung.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -39,6 +41,8 @@ export function createTranslateLoader(http: HttpClient) {
     AuszeichnungenComponent,
     TeamComponent,
     ContactCardComponent,
+    ForschungComponent,
+    TabsComponent,
   ],
   imports: [
     BrowserModule,

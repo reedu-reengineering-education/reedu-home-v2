@@ -1,0 +1,65 @@
+@import "./../../../styles/variables.scss";
+
+.tab-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.tab-switcher {
+  max-width: 50%;
+
+  > h3 {
+    display: inline-block;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+
+    &.underscore-red {
+      &.active {
+        border-bottom: 5px solid $red;
+      }
+
+      &:hover {
+        border-bottom: 5px solid $red;
+      }
+    }
+
+    &.underscore-dark {
+      &.active {
+        border-bottom: 5px solid $black;
+      }
+
+      &:hover {
+        border-bottom: 5px solid $black;
+      }
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 4rem;
+
+  .card {
+    max-width: 75%;
+
+    h2,
+    p {
+      color: $red;
+    }
+  }
+}
+
+.card-tab-switcher {
+  $control-height: 4rem;
+
+  width: 100%;
+  height: $control-height;
+
+  > img {
+    float: right;
+    width: $control-height;
+  }
+
+  .left {
+    transform: rotate(180deg);
+  }
+}

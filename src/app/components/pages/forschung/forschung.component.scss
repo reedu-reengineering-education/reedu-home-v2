@@ -1,0 +1,44 @@
+@import "./../../../../styles/variables.scss";
+
+.site {
+  background: $red;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.site-title-container {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-title {
+  font-size: 4rem;
+  color: white;
+}
+
+.floating-reedu-logo {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+  position: absolute;
+  max-width: 35rem;
+  transform: rotate(90deg);
+  bottom: -12rem;
+  right: -20rem;
+}
+
+.stripes {
+  padding: 1rem;
+
+  background: repeating-linear-gradient(
+    -45deg,
+    $black,
+    $black 15px,
+    #4c3f3c 15px,
+    #4c3f3c 20px
+  );
+
+  background-repeat: repeat;
+}

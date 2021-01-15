@@ -1,0 +1,42 @@
+[
+  {
+    "title": "senseBox:Pro",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+    "link": "sensebox.de",
+    "linkText": "sensebox.de",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "red"
+  },
+  {
+    "title": "SIMPORT",
+    "description": "Lorem ipsum",
+    "link": "sensebox.de",
+    "linkText": "sensebox.de",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "red"
+  },
+  {
+    "title": "STEAM+",
+    "description": "Lorem ipsum",
+    "link": "sensebox.de",
+    "linkText": "sensebox.de",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "red"
+  },
+  {
+    "title": "EXIST",
+    "description": "Lorem ipsum",
+    "link": "sensebox.de",
+    "linkText": "sensebox.de",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "red"
+  },
+  {
+    "title": "iDROP",
+    "description": "Lorem ipsum",
+    "link": "sensebox.de",
+    "linkText": "sensebox.de",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "red"
+  }
+]
