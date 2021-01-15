@@ -1,5 +1,7 @@
 <div class="tab-wrapper">
-  <div class="tab-switcher is-flex is-justify-content-space-between">
+  <div
+    class="tab-switcher is-flex is-flex-wrap-wrap is-justify-content-space-between"
+  >
     <h3
       *ngFor="let tab of tabs; let i = index"
       [class.active]="tab == activeTab"
@@ -17,20 +19,29 @@
           <img
             class="right"
             (click)="nextTab()"
-            src="assets/img/logos/logo_orange.svg"
+            src="assets/img/logos/logo_outline_red.svg"
           />
           <img
             class="left"
             (click)="previousTab()"
-            src="assets/img/logos/logo_orange.svg"
+            src="assets/img/logos/logo_outline_red.svg"
           />
         </div>
-        <h2>{{ activeTab.title }}</h2>
-        <p>{{ activeTab.description }}</p>
-        <button class="re-button">
-          <span>{{ activeTab.linkText }}</span>
-          <img src="/assets/img/logos/logo_black.svg" />
-        </button>
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <h2>{{ activeTab.title }}</h2>
+            <p>{{ activeTab.description }}</p>
+            <a [href]="activeTab.link">
+              <button class="re-button">
+                <span>{{ activeTab.linkText }}</span>
+                <img src="/assets/img/logos/logo_black.svg" />
+              </button>
+            </a>
+          </div>
+          <div class="column is-full">
+            <img [src]="activeTab.image" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
