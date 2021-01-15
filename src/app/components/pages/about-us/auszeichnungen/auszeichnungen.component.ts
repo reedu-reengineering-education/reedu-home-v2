@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import awardsDe from '../../../../../assets/collections/awards.json';
+
 
 @Component({
   selector: 're-auszeichnungen',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuszeichnungenComponent implements OnInit {
 
+  awards: any[]
+
+
   constructor() { }
 
   ngOnInit(): void {
+    this.awards = awardsDe;
   }
 
 }

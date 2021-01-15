@@ -1,6 +1,62 @@
 @import "../../../../../styles/variables.scss";
 
 .site {
-  background: $red;
+  background: $black;
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.site-title-container {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-title {
+  font-size: 4rem;
+  color: white;
+}
+
+.floating-reedu-logo {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+  position: absolute;
+  max-width: 35rem;
+  transform: rotate(90deg);
+  bottom: -12rem;
+  right: -20rem;
+}
+
+.stripes-zig-zag {
+  padding: 1rem;
+
+  background: repeating-linear-gradient(
+    -45deg,
+    #fce6e0,
+    #fce6e0 15px,
+    rgba(255, 255, 255, 0.3) 15px,
+    rgba(255, 255, 255, 0.3) 20px
+  );
+
+  background-repeat: repeat;
+}
+
+.card {
+  color: $black !important;
+  margin: 4rem;
+  padding: 4rem;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1,
+    h2,
+    h3 {
+      color: $red !important;
+    }
+  }
 }
