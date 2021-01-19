@@ -56,8 +56,9 @@
     flex-direction: column;
     padding: 3em;
     cursor: pointer;
-    @media screen and (max-width: 1023px){
+    @media screen and (max-width: 768px){
       padding: 0;
+      padding-top: 2em;
     }
 
     p {
