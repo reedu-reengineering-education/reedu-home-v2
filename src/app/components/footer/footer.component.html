@@ -1,24 +1,24 @@
 <div class="footer">
-
+  <div class="container">
     <div class="footer-nav">
-        <a routerLink="contact" class="footer-nav-item">
-            {{'KONTAKT' | translate}}
-        </a>
-        <a routerLink="imprint" class="footer-nav-item">
-            {{'IMPRESSUM' | translate}}
-        </a>
-        <a routerLink="privacy" class="footer-nav-item">
-            {{'DATENSCHUTZ' | translate}}
-        </a>
+      <a routerLink="contact" class="footer-nav-item">
+        {{ "KONTAKT" | translate }}
+      </a>
+      <a routerLink="imprint" class="footer-nav-item">
+        {{ "IMPRESSUM" | translate }}
+      </a>
+      <a routerLink="privacy" class="footer-nav-item">
+        {{ "DATENSCHUTZ" | translate }}
+      </a>
     </div>
 
     <div class="footer-logos">
-        <div class="logo">
-          <img src="assets/img/logos/logo_small_text_white.png" />
-        </div>
+      <div class="logo">
+        <img src="assets/img/logos/logo_small_text_white.png" />
+      </div>
     </div>
     <div>
-        <p [innerHTML]="'COPYRIGHT' | translate"></p>
+      <p [innerHTML]="'COPYRIGHT' | translate"></p>
     </div>
-
+  </div>
 </div>

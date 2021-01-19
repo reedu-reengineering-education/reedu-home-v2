@@ -1,24 +1,22 @@
-@import '../../../styles/variables.scss';
+@import "../../../styles/variables.scss";
 
 .footer {
-    background: $black;
-    min-height: 20VH;
-    padding: 1em;
-    color: $white;
+  background: $black;
+  min-height: 20vh;
+  padding: 1em;
+  color: $white;
 
-    .footer-logos {
-        max-height: 150px;
-        position: relative;
-        img {
-            max-height: 150px;
-            height: 100%;
-        }
+  .footer-logos {
+    img {
+      max-height: 150px;
+      height: 100%;
     }
-    .footer-nav {
-        display: flex;
-        justify-content: flex-end;
-        .footer-nav-item {
-            padding: 1em;
-        }
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    .footer-nav-item {
+      padding: 1em;
     }
+  }
 }
