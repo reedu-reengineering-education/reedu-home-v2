@@ -8,16 +8,26 @@ h1 {
   font-size: 60px;
   font-family: BrixSlab-Bold;
   line-height: 70px;
+  @media screen and (max-width: 768px){
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 h2 {
   font-size: 30px;
   font-family: BrixSlab-Bold;
+  @media screen and (max-width: 768px){
+    font-size: 20px;
+  }
 }
 
 h3 {
   font-size: 20px;
   font-family: BrixSlab-Bold;
+  @media screen and (max-width: 768px){
+    font-size: 15px;
+  }
 }
 
 .headline-underline {
