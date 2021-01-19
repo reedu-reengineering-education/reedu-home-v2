@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 export interface Tab {
   title: string;
+  title2: string;
   description: string;
   link: string;
   linkText: string;
