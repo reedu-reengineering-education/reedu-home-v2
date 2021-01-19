@@ -27,10 +27,14 @@
 
 .site-title {
   font-size: 5rem;
+  word-break: break-word;
 }
 
 .card-content {
   padding: 4rem;
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 2rem;
+  }
 
   > p,
   h1,
@@ -46,7 +50,8 @@
 }
 
 .sensebox-logo {
-  max-width: 220px;
+  max-width: 210px;
+  margin-bottom: 5px;
 }
 
 .stripes-horizontal {
