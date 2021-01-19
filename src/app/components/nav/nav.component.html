@@ -4,18 +4,47 @@
   role="navigation"
   aria-label="main navigation"
 >
-  <div>
+  <div  class="re-mobile-menu">
     <a
       role="button"
       class="navbar-burger"
       aria-label="menu"
       aria-expanded="false"
       data-target="navbarBasicExample"
+      *ngIf="!mobileOpen"
       (click)="mobileOpen = !mobileOpen"
     >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
+    </a>
+    <a
+      role="button"
+      class="re-navbar-close"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+      *ngIf="mobileOpen"
+      (click)="mobileOpen = !mobileOpen"
+    >
+      <i class="fa fa-times"></i>
+    </a>
+    <a class="navbar-reedu-logo" [routerLink]="['']">
+      <img src="assets/img/logos/logo_white.svg" />
+    </a>
+    <a class="navbar-item re-navbar-item">
+      <a
+        class="lang-select"
+        [class.active]="currentLang === 'de'"
+        (click)="selectLang('de')"
+        >DE</a
+      >
+      <a
+        [class.active]="currentLang === 'en'"
+        class="lang-select"
+        (click)="selectLang('en')"
+        >EN</a
+      >
     </a>
   </div>
 
@@ -25,14 +54,13 @@
     class="navbar-menu"
   >
     <div class="navbar-start">
-      <a class="navbar-item">
+      <a class="navbar-item re-lang-select">
         <a
           class="lang-select"
           [class.active]="currentLang === 'de'"
           (click)="selectLang('de')"
           >DE</a
         >
-        /
         <a
           [class.active]="currentLang === 'en'"
           class="lang-select"
@@ -52,7 +80,7 @@
         routerLinkActive="active"
         class="navbar-item"
       >
-        Portfolio
+        {{"PORTFOLIO" | translate}}
       </a>
     </div>
     <div class="navbar-reedu" [class.scrolled]="scroll != 0">
@@ -69,45 +97,68 @@
         routerLinkActive="active"
         class="navbar-item"
       >
-        FORSCHUNG
+        {{'FORSCHUNG' | translate}}
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"> ABOUT US </a>
+        <a class="navbar-link">{{'ABOUT_US' | translate}} </a>
         <div class="navbar-dropdown">
           <a
             [routerLink]="['philosophie']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            PHILOSOPHIE
+            {{'PHILOSOPHIE' | translate}}
           </a>
           <a
             [routerLink]="['auszeichnungen']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            AUSZEICHNUNGEN
+            {{'AUSZEICHNUNGEN' | translate}}
           </a>
           <a
             [routerLink]="['team']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            TEAM
+            {{'TEAM' | translate}}
           </a>
         </div>
       </div>
-      <a class="navbar-item">
-        <span class="icon">
-          <i class="fab fa-lg fa-linkedin"></i>
-        </span>
+      <a
+        [routerLink]="['team']"
+        routerLinkActive="active"
+        class="navbar-item re-mobile-navitem-only"
+      >
+        {{'KONTAKT' | translate}}
       </a>
-      <a class="navbar-item">
-        <span class="icon">
-          <i class="fab fa-lg fa-facebook"></i>
-        </span>
+      <a
+        [routerLink]="['team']"
+        routerLinkActive="active"
+        class="navbar-item re-mobile-navitem-only"
+      >
+        {{'IMPRESSUM' | translate}}
       </a>
+      <a
+        [routerLink]="['team']"
+        routerLinkActive="active"
+        class="navbar-item re-mobile-navitem-only"
+      >
+        {{'DATENSCHUTZ' | translate}}
+      </a>
+      <div class="is-flex">
+        <a class="navbar-item">
+          <span class="icon">
+            <i class="fab fa-lg fa-linkedin"></i>
+          </span>
+        </a>
+        <a class="navbar-item">
+          <span class="icon">
+            <i class="fab fa-lg fa-facebook"></i>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 

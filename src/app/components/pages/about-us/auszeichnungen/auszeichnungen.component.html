@@ -1,4 +1,4 @@
-<div class="site">
+<div class="site sb-white-text">
   <div class="container site-title-container">
     <div class="columns">
       <div class="column is-half">
@@ -14,18 +14,20 @@
     </div>
     <img class="floating-reedu-logo" src="assets/img/logos/logo_orange.svg" />
   </div>
-  <div class="stripes-zig-zag">
-    <div class="container">
-      <div class="card" *ngFor="let award of awards">
-        <div class="card-content">
-          <div class="container">
-            <div class="columns is-multiline">
-              <div class="column is-one-third">
-                <img *ngIf="award.photo" src="{{ award.photo }}" alt="image" />
-              </div>
-              <div class="column">
-                <h1 class="title">{{ award.title }}</h1>
-                <h2 class="subtitle">{{ award.description }}</h2>
+  <div class="stripes-container">
+    <div class="stripes-zig-zag">
+      <div class="container">
+        <div class="card" *ngFor="let award of awards">
+          <div class="card-content">
+            <div class="container">
+              <div class="columns is-multiline">
+                <div class="column is-one-third">
+                  <img *ngIf="award.photo" src="{{ award.photo }}" alt="image" />
+                </div>
+                <div class="column">
+                  <h1 class="title">{{ award.title }}</h1>
+                  <h2 class="subtitle">{{ award.description }}</h2>
+                </div>
               </div>
             </div>
           </div>

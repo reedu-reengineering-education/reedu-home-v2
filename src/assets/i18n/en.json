@@ -1,5 +1,29 @@
 {
   "ANGEBOTE": "Products",
+  "PORTFOLIO": "Portfolio",
+  "FORSCHUNG": "Research",
+  "ABOUT_US": "About us",
+  "PHILOSOPHIE": "Philosophie",
+  "AUSZEICHNUNGEN": "Rewards",
+  "TEAM": "Team",
+
+  "STARTPAGE_HEADLINE": "",
+  "WHAT_WE_DO": "",
+  "WHAT_WE_DO_IMPORTANT": "",
+  "SPIN_OFF": "",
+
+  "HARDWARE_ENTWICKLUNG": "",
+  "SOFTWARE_ENTWICKLUNG": "",
+  "SCHULUNGEN": "",
+  "WORKSHOPS": "",
+  "HACKATHONS": "",
+  "BERATUNG": "",
+
+  "EXPERIENCE": "Wir haben Erfahrung.",
+  "PORTFOLIO_TEXT": "Projekte projekte projekte",
+  "PORTFOLIO_ANSEHEN": "Portfolio ansehen",
+  "FORSCHUNG_TEXT": "Forschung Forschung Forschung",
+  "FORSCHUNG_ANSEHEN": "Forschungsprojekte ansehen",
 
   "KONTAKT": "Contact",
   "IMPRESSUM": "Imprint",

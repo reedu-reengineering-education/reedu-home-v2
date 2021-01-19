@@ -5,8 +5,9 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-family: BrixSlab-Bold;
+  line-height: 70px;
 }
 
 h2 {
@@ -20,6 +21,8 @@ h3 {
 }
 
 .headline-underline {
+  text-transform: uppercase;
+  margin-bottom: 1.4em;
   span {
     position: relative;
     display: inline-block;
@@ -37,11 +40,13 @@ h3 {
 .bold-text-1 {
   font-size: 25px;
   font-family: BrixSlab-Bold;
+  line-height: 29px;
 }
 
 .bold-text-2 {
   font-size: 18px;
   font-family: BrixSlab-Bold;
+  line-height: 22px;
 }
 
 a {
@@ -54,19 +59,40 @@ a {
 }
 
 p {
-  color: $white;
   font-family: NunitoSans-Regular;
   font-size: 16px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: BrixSlab-Bold;
-  color: $white;
+.sb-red-text {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: BrixSlab-Bold;
+    color: $primary;
+  }
+}
+.sb-white-text {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: BrixSlab-Bold;
+    color: $white;
+  }
+
+  .headline-underline {
+    span::after {
+      border-color: $primary;
+    }
+  }
+
 }
 
 .card {
@@ -114,4 +140,12 @@ h6 {
 .white-section {
   background: $white;
   color: $primary;
+}
+
+.is-red-image {
+  > img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) sepia(1) saturate(3000%) contrast(0.5);
+  }
 }
