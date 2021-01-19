@@ -29,18 +29,22 @@
   right: -20rem;
 }
 
-.stripes-zig-zag {
-  padding: 1rem;
+.stripes-container {
+  background: white;
 
-  background: repeating-linear-gradient(
-    -45deg,
-    #fce6e0,
-    #fce6e0 15px,
-    rgba(255, 255, 255, 0.3) 15px,
-    rgba(255, 255, 255, 0.3) 20px
-  );
-
-  background-repeat: repeat;
+  .stripes-zig-zag {
+    padding: 1rem;
+  
+    background: repeating-linear-gradient(
+      -45deg,
+      #EB5C3727,
+      #EB5C3727 12px,
+      #38383A67 12px,
+      #38383A67 15px
+    );
+  
+    background-repeat: repeat;
+  }
 }
 
 .card {

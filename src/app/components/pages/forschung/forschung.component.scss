@@ -29,15 +29,18 @@
   right: -20rem;
 }
 
+
+.stripes-container {
+  background: $black;
+}
 .stripes {
   padding: 1rem;
-
   background: repeating-linear-gradient(
-    -45deg,
+    0deg,
     $black,
-    $black 15px,
-    #4c3f3c 15px,
-    #4c3f3c 20px
+    $black 12px,
+    rgba($white,0.07) 12px,
+    rgba($white,0.07) 16px
   );
 
   background-repeat: repeat;

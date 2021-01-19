@@ -11,13 +11,17 @@
   width: 100%;
   height: 100%;
 }
-.hero-background.is-transparent {
-  opacity: 0.3;
-}
 
 #what-we-do {
   color: $primary;
-  background: $primary;
+  background: #EB5C3727 repeating-linear-gradient(-40deg, #EB5C3727,#EB5C3727 10px,#eb5c376e 0,#eb5c376e 12px);
+
+  .sb-flex-container-column {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
 
   .content-tile  {
     background: $white;
@@ -26,7 +30,7 @@
   .topic-block {
     height: 100px;
     background: $primary;
-    padding: 0.3em 0.3em 0.3em 2.4em;
+    padding: 0.4em 0.4em 0.4em 2.7em;
     margin: 0.5em 0;
     color: $white;
     font-family: BrixSlab-Bold;
@@ -37,10 +41,45 @@
       content: url("/assets/img/logos/logo_white.svg");
       position: absolute;
       left: 2px;
-      top: 0;
+      top: 0.4em;
       width: 50px;
       height: 50px;
 
+    }
+  }
+}
+
+
+#experience {
+
+  .sb-item {
+    flex-direction: column;
+    padding: 3em;
+    cursor: pointer;
+    @media screen and (max-width: 1023px){
+      padding: 0;
+    }
+
+    p {
+      margin: 0.5em 0em;
+    }
+  }
+
+  .sb-image-caption {
+    position: relative;
+    img {
+      border: 5px solid white;
+      border-bottom: 45px solid white;
+    }
+    .sb-caption {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: 10px;
+      left: 0px;
+      h3 {
+        color: $primary;
+      }
     }
   }
 }
