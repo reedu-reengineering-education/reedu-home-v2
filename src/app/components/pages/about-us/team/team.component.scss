@@ -3,14 +3,20 @@
 .site {
   background: $red;
   min-height: 100vh;
+
+  overflow-x: hidden;
 }
 
 .floating-reedu-logo {
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 170px;
   right: -150px;
+  top: 170px;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    top: 200px;
+  }
 }
 
 .site-title {

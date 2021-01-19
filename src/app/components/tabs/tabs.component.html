@@ -29,8 +29,10 @@
         </div>
         <div class="columns">
           <div class="column is-two-thirds">
-            <h2 *ngIf="activeTab.title2"><span>{{activeTab.title}}: </span>{{ activeTab.title2 }}</h2>
-            <h2 *ngIf="!activeTab.title2">{{activeTab.title}}</h2>
+            <h2 *ngIf="activeTab.title2">
+              <span>{{ activeTab.title }}: </span>{{ activeTab.title2 }}
+            </h2>
+            <h2 *ngIf="!activeTab.title2">{{ activeTab.title }}</h2>
             <p>{{ activeTab.description }}</p>
             <a [href]="activeTab.link">
               <button class="re-button">
@@ -40,7 +42,7 @@
             </a>
           </div>
           <div class="column is-full">
-            <img [src]="activeTab.image" />
+            <img class="is-tab-image" [src]="activeTab.image" />
           </div>
         </div>
       </div>
