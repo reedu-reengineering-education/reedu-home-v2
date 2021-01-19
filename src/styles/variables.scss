@@ -1,13 +1,18 @@
-$red: #EB5C37;
-$red-light: rgba(235,92,55,0.15);
-$black: #38383A;
+$red: #eb5c37;
+$red-light: rgba(235, 92, 55, 0.15);
+$black: #38383a;
 $grey: #707070;
 $white: #ffffff;
 
 // // Update Bulma's global variables
 $primary: $red;
-$family-sans-serif: 'Nunito-Regular';
+$family-sans-serif: "Nunito-Regular";
 
 body {
-    --ion-color-primary: #ffffff;
+  --ion-color-primary: #ffffff;
 }
+
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1216px;
+$breakpoint-fullhd: 1408px;

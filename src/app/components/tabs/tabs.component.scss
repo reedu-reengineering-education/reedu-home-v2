@@ -7,6 +7,12 @@
 
 .tab-switcher {
   max-width: 50%;
+  @media screen and (max-width: $breakpoint-desktop) {
+    max-width: 75%;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    max-width: 100%;
+  }
 
   > h3 {
     display: inline-block;
@@ -41,11 +47,16 @@
 
   .card {
     max-width: 75%;
+    @media screen and (max-width: $breakpoint-mobile) {
+      max-width: 100%;
+    }
     overflow: visible;
 
     .card-content {
-      padding-left: 4rem;
-      padding-bottom: 4rem;
+      @media screen and (min-width: $breakpoint-mobile) {
+        padding-left: 4rem;
+        padding-bottom: 4rem;
+      }
     }
 
     h2,
