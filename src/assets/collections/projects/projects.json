@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Origami",
+    "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Forschung", "Beratung"],
+    "year": [2019,2020],
+    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+  },
+  {
+    "name": "Origami",
+    "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Forschung", "Beratung"],
+    "year": [2019,2020],
+    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+  },
+  {
+    "name": "Origami",
+    "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Forschung", "Beratung"],
+    "year": [2019,2020],
+    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+  },
+  {
+    "name": "Origami",
+    "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Forschung", "Beratung"],
+    "year": [2019,2020],
+    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+  },
+  {
+    "name": "Origami",
+    "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Forschung", "Beratung"],
+    "year": [2019,2020],
+    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+  },
+  {
+    "name": "",
+    "desc": "",
+    "img": "",
+    "link": "",
+    "topics": [],
+    "customer": "",
+    "angebote": [],
+    "year": [],
+    "target": []
+  }
+]

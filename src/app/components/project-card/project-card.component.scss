@@ -1,0 +1,60 @@
+@import '../../../styles/variables.scss';
+
+
+.re-tags {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    z-index: 100;
+    .re-tag {
+        background: $primary;
+        color: white;
+        margin: 0.2em 0;
+        padding: 0.1em 0.2em;
+        text-align: right;
+        display: inline-block;
+        font-family: NunitoSans-Bold;
+        font-size: 16px;
+    }
+}
+.card {
+    width: 300px;
+    color: $primary;
+    border: 3px solid $white;
+    margin: 1em;
+
+    
+
+    img {
+        // height: 150px;
+    }
+
+    .red-title {
+        color: $primary;
+    }
+
+    .content {
+        font-family: NunitoSans-Bold;
+    }
+    .title {
+        font-family: BrixSlab-Bold;
+        padding-bottom: 0.2em;
+    }
+    .subtitle {
+        color: $black;
+        opacity: 0.5;
+    }
+
+    .card-footer {
+
+        border-top: unset;
+        .card-footer-item {
+            text-align: right;
+            color: $black;
+            justify-content: flex-end;
+        }
+    }
+}

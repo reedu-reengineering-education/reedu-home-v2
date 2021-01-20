@@ -1,3 +1,15 @@
-<div class="site">
-
+<div class="site sb-white-text black-section">
+  <div class="container">
+    <h1 class="site-title">{{'UNSERE_PROJEKTE' | translate}}</h1>
+  </div>
+  <div class="stripes-container">
+    <div class="stripes">
+      <div class="container re-offset-container">
+        FILTERN
+        <div class="project-container">
+          <re-project-card *ngFor="let project of projects" [project]="project"></re-project-card>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
