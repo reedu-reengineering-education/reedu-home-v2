@@ -31,3 +31,19 @@
     justify-content: center;
   }
 }
+
+
+.modal {
+  .re-select-button {
+    color: $primary;
+    border-color: $primary;
+    margin: 0.2em;
+    height: auto;
+    font-size: 15px;
+
+    &.active {
+      background: $primary;
+      color: $white;
+    }
+  }
+}
