@@ -4,7 +4,7 @@
   role="navigation"
   aria-label="main navigation"
 >
-  <div  class="re-mobile-menu">
+  <div class="re-mobile-menu">
     <a
       role="button"
       class="navbar-burger"
@@ -80,7 +80,7 @@
         routerLinkActive="active"
         class="navbar-item"
       >
-        {{"PORTFOLIO" | translate}}
+        {{ "PORTFOLIO" | translate }}
       </a>
     </div>
     <div class="navbar-reedu" [class.scrolled]="scroll != 0">
@@ -97,32 +97,32 @@
         routerLinkActive="active"
         class="navbar-item"
       >
-        {{'FORSCHUNG' | translate}}
+        {{ "FORSCHUNG" | translate }}
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">{{'ABOUT_US' | translate}} </a>
+        <a class="navbar-link">{{ "ABOUT_US" | translate }} </a>
         <div class="navbar-dropdown">
           <a
             [routerLink]="['philosophie']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            {{'PHILOSOPHIE' | translate}}
+            {{ "PHILOSOPHIE" | translate }}
           </a>
           <a
             [routerLink]="['auszeichnungen']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            {{'AUSZEICHNUNGEN' | translate}}
+            {{ "AUSZEICHNUNGEN" | translate }}
           </a>
           <a
             [routerLink]="['team']"
             routerLinkActive="active"
             class="navbar-item"
           >
-            {{'TEAM' | translate}}
+            {{ "TEAM" | translate }}
           </a>
         </div>
       </div>
@@ -131,31 +131,34 @@
         routerLinkActive="active"
         class="navbar-item re-mobile-navitem-only"
       >
-        {{'KONTAKT' | translate}}
+        {{ "KONTAKT" | translate }}
       </a>
       <a
         [routerLink]="['team']"
         routerLinkActive="active"
         class="navbar-item re-mobile-navitem-only"
       >
-        {{'IMPRESSUM' | translate}}
+        {{ "IMPRESSUM" | translate }}
       </a>
       <a
         [routerLink]="['team']"
         routerLinkActive="active"
         class="navbar-item re-mobile-navitem-only"
       >
-        {{'DATENSCHUTZ' | translate}}
+        {{ "DATENSCHUTZ" | translate }}
       </a>
       <div class="is-flex">
-        <a class="navbar-item">
+        <a href="https://de.linkedin.com/company/reedu-de" class="navbar-item">
           <span class="icon">
             <i class="fab fa-lg fa-linkedin"></i>
           </span>
         </a>
-        <a class="navbar-item">
+        <a
+          href="https://github.com/reedu-reengineering-education"
+          class="navbar-item"
+        >
           <span class="icon">
-            <i class="fab fa-lg fa-facebook"></i>
+            <i class="fab fa-lg fa-github"></i>
           </span>
         </a>
       </div>
