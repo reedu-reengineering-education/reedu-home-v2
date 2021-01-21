@@ -27,6 +27,10 @@
   > img {
     max-width: 4rem;
     transform: rotate(90deg);
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
