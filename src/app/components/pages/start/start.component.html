@@ -1,17 +1,23 @@
 <div class="hero is-fullheight is-primary is-red-image">
-  <img alt="" class="is-transparent hero-background" src="assets/img/start/hero.jpg" />
+  <img
+    alt=""
+    class="is-transparent hero-background"
+    src="assets/img/start/hero.jpg"
+  />
   <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Hero Image
+    <div
+      class="container is-flex is-flex-direction-column is-justify-content-center is-align-items-center"
+    >
+      <img src="assets/img/logos/logo_white.svg" />
+      <h1 class="has-text-centered">
+        {{ "STARTPAGE_HERO_HEADLINE" | translate }}
       </h1>
-      <h3 class="subtitle">
-        without CSS background-image
-      </h3>
     </div>
   </div>
+  <div class="scroller-arrow">
+    <img src="assets/img/logos/logo_outline.svg" />
+  </div>
 </div>
-
 
 <section id="what-we-do" class="sb-red-text">
   <div class="container px-3 py-5">
@@ -19,48 +25,47 @@
       <div class="content-tile tile is-vertical mx-2 is-8 p-6">
         <div class="sb-flex-container-column">
           <div>
-            <h1 class="pb-4">{{'STARTPAGE_HEADLINE' | translate}}</h1>
+            <h1 class="pb-4">{{ "STARTPAGE_HEADLINE" | translate }}</h1>
             <h3 class="headline-underline">
-              <span>{{'ABOUT_US' | translate}}</span>
+              <span>{{ "ABOUT_US" | translate }}</span>
             </h3>
             <p class="bold-text-2 py-2">
-              {{'WHAT_WE_DO' | translate}}
+              {{ "WHAT_WE_DO" | translate }}
             </p>
             <p class="bold-text-1 line-height-small py-3">
-              {{'WHAT_WE_DO_IMPORTANT' | translate}}
+              {{ "WHAT_WE_DO_IMPORTANT" | translate }}
             </p>
           </div>
-          <div> 
+          <div>
             <p class="bold-text-2 py-2">
-              {{'SPIN_OFF' | translate}}
+              {{ "SPIN_OFF" | translate }}
             </p>
           </div>
         </div>
-
       </div>
       <div class="content-tile tile is-vertical is-4 py-2 p-6 mx-2">
         <h3 class="headline-underline"><span>Angebote</span></h3>
         <div class="topic-block">
-          {{'HARDWARE_ENTWICKLUNG' | translate}}
+          {{ "HARDWARE_ENTWICKLUNG" | translate }}
         </div>
         <div class="topic-block">
-          {{'SOFTWARE_ENTWICKLUNG' | translate}}
+          {{ "SOFTWARE_ENTWICKLUNG" | translate }}
         </div>
         <div class="topic-block">
-          {{'SCHULUNGEN' | translate}},<br>
-          {{'WORKSHOPS' | translate}},<br>
-          {{'HACKATHONS' | translate}}
+          {{ "SCHULUNGEN" | translate }},<br />
+          {{ "WORKSHOPS" | translate }},<br />
+          {{ "HACKATHONS" | translate }}
         </div>
         <div class="topic-block">
-          {{'FORSCHUNG' | translate}}
+          {{ "FORSCHUNG" | translate }}
         </div>
         <div class="topic-block">
-          {{'BERATUNG' | translate}}
+          {{ "BERATUNG" | translate }}
         </div>
         <div class="py-5">
           <button class="re-button">
             <span>mehr dazu</span>
-            <img src="/assets/img/logos/logo_black.svg">
+            <img src="/assets/img/logos/logo_black.svg" />
           </button>
         </div>
       </div>
@@ -68,45 +73,48 @@
   </div>
 </section>
 
-
 <section id="experience" class="black-section sb-white-text">
   <div class="container px-3 py-5">
     <div class="container p-6">
-      <h1>{{'EXPERIENCE' | translate}}</h1>
+      <h1>{{ "EXPERIENCE" | translate }}</h1>
 
       <div class="tile is-ancestor mx-3 my-2">
         <div class="tile is-6 sb-item" [routerLink]="['portfolio']">
-          <h3 class="headline-underline"><span>{{'PORTFOLIO' | translate}}</span></h3>
+          <h3 class="headline-underline">
+            <span>{{ "PORTFOLIO" | translate }}</span>
+          </h3>
           <p>
-            {{'PORTFOLIO_TEXT' | translate}}
+            {{ "PORTFOLIO_TEXT" | translate }}
           </p>
           <div class="sb-image-caption">
-            <img src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg">
+            <img
+              src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg"
+            />
             <div class="sb-caption">
-              <h3>{{'PORTFOLIO_ANSEHEN' | translate}}</h3>
+              <h3>{{ "PORTFOLIO_ANSEHEN" | translate }}</h3>
             </div>
           </div>
         </div>
         <div class="tile is-6 sb-item" [routerLink]="['forschung']">
-          <h3 class="headline-underline"><span>{{'FORSCHUNG' | translate}}</span></h3>
+          <h3 class="headline-underline">
+            <span>{{ "FORSCHUNG" | translate }}</span>
+          </h3>
           <p>
-            {{'FORSCHUNG_TEXT' | translate}}
+            {{ "FORSCHUNG_TEXT" | translate }}
           </p>
           <div class="sb-image-caption">
-            <img src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg">
+            <img
+              src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg"
+            />
             <div class="sb-caption">
-              <h3>{{'FORSCHUNG_ANSEHEN' | translate}}</h3>
+              <h3>{{ "FORSCHUNG_ANSEHEN" | translate }}</h3>
             </div>
           </div>
-
         </div>
       </div>
-
     </div>
   </div>
 </section>
 <re-contact-card [background]="true"></re-contact-card>
 
-<section id="contact" class="red-section">
-
-</section>
+<section id="contact" class="red-section"></section>
