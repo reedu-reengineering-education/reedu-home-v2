@@ -22,25 +22,29 @@
   <div class="modal-content white-section p-5">
     <h3>{{'FILTER_PORTFOLIO' | translate}}</h3>
     <div>
-
-      <div class="field">
-        <label class="label">{{'CUSTOMER' | translate}}</label>
-        <div class="control">
-          <div class="select">
-            <select name="customer" id="customer">
-              <option *ngFor="let customer of customers" value="customer">{{customer}}</option>
-            </select>
-          </div>
+      <div class="columns is-desktop">
+        <div class="column">
+          <div class="field">
+            <label class="label">{{'CUSTOMER' | translate}}</label>
+            <div class="control">
+              <div class="select">
+                <select name="customer" id="customer">
+                  <option *ngFor="let customer of customers" value="customer">{{customer}}</option>
+                </select>
+              </div>
+            </div>
+          </div>    
         </div>
-      </div>
-
-      <div class="field">
-        <label class="label">{{'TOPICS' | translate}}</label>
-        <div class="control">
-          <div class="select">
-            <select name="topics" id="topics">
-              <option *ngFor="let topic of topics" value="topic">{{topic}}</option>
-            </select>
+        <div class="column">
+          <div class="field">
+            <label class="label">{{'TOPICS' | translate}}</label>
+            <div class="control">
+              <div class="select">
+                <select name="topics" id="topics">
+                  <option *ngFor="let topic of topics" value="topic">{{topic}}</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -49,7 +53,7 @@
         <label class="label">{{'ANGEBOT' | translate}}</label>
         <div class="control">
           <button class="re-button re-select-button" *ngFor="let angebot of angebote">
-            {{angebot}}
+            {{angebot | translate}}
           </button>
         </div>
       </div>
@@ -67,9 +71,13 @@
         <label class="label">{{'TARGET' | translate}}</label>
         <div class="control">
           <button class="re-button re-select-button" *ngFor="let target of targets">
-            {{target}}
+            {{target | translate}}
           </button>
         </div>
+      </div>
+
+      <div>
+        <button class="is-pulled-right re-button">{{'FILTER_ANWENDEN' | translate}}</button>
       </div>
 
     </div>

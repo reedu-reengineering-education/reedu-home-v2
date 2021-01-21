@@ -11,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class PortfolioComponent implements OnInit {
 
   projects: any[];
+  filteredProject: any[];
   customers;
   angebote = ["Software", "Hardware", "Veranstaltungen", "Forschung", "Beratung"];
   topics = [];
