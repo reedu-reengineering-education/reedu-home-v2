@@ -1,5 +1,49 @@
 @import '../../../../styles/variables.scss';
 
 .site {
-    background: $black;
+  background: $black;
+  min-height: 100vh;
+
+  .site-title {
+    font-size: 4rem;
+    padding-top: 200px;
+    margin-bottom: 300px;
+  }
+}
+
+.stripes-container {
+  background: $white;
+  .stripes {
+    padding: 1rem;
+    background: #EB5C3727 repeating-linear-gradient(-40deg, #EB5C3727,#EB5C3727 10px,#eb5c376e 0,#eb5c376e 12px);
+  
+    background-repeat: repeat;
+
+    .re-offset-container {
+      transform: translateY(-150px);
+    }
+
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+.modal {
+  .re-select-button {
+    color: $primary;
+    border-color: $primary;
+    margin: 0.2em;
+    height: auto;
+    font-size: 15px;
+
+    &.active {
+      background: $primary;
+      color: $white;
+    }
+  }
 }

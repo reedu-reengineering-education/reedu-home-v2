@@ -7,6 +7,7 @@ import { AngeboteComponent } from './components/pages/angebote/angebote.componen
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ForschungComponent } from './components/pages/forschung/forschung.component';
 import { ImprintComponent } from './components/pages/imprint/imprint.component';
+import { PortfolioItemComponent } from './components/pages/portfolio-item/portfolio-item.component';
 import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
 import { PrivacyComponent } from './components/pages/privacy/privacy.component';
 import { StartComponent } from './components/pages/start/start.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: '', component: StartComponent },
   { path: 'angebote', component: AngeboteComponent },
   { path: 'portfolio', component: PortfolioComponent },
+  { path: 'portfolio/:id', component: PortfolioItemComponent },
   { path: 'forschung', component: ForschungComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'privacy', component: PrivacyComponent },

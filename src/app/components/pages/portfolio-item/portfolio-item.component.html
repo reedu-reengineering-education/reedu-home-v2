@@ -1,0 +1,57 @@
+<div class="site black-section" *ngIf="project">
+
+  <div class="top-space-holder">
+
+  </div>
+  <div class="stripes-container">
+    <div class="stripes">
+      <div class="re-offset-container">
+        <div class="project-container">
+          <div class="container p-6">
+            <div class="white-section project-description">
+              <div>
+                <h1>{{project.name}}</h1>
+                <p>{{project.desc}}</p>
+              </div>
+              <div>
+                <img src="{{project.img}}">
+              </div>
+            </div>
+            <div class="red-section">
+              <ul>
+                <li>
+                  <span class="field-title">{{"KUNDE" | translate}}</span>
+                  <span class="">{{project.customer}}</span>
+                </li>
+                <li>
+                  <span class="field-title">{{"THEMEN" | translate}}</span>
+                  <div>
+                    <span *ngFor="let topic of project.topics" class="field-value">{{topic}}</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="field-title">{{"ANGEBOTE" | translate}}</span>
+                  <div>
+                    <span *ngFor="let angebot of project.angebote" class="field-value">{{angebot}}</span>
+                  </div>                
+                </li>
+                <li>
+                  <span class="field-title">{{"JAHR" | translate}}</span>
+                  <div>
+                    <span *ngFor="let year of project.year" class="field-value">{{year}}</span>
+                  </div> 
+                </li>
+                <li>
+                  <span class="field-title">{{"ZIELGRUPPE" | translate}}</span>
+                  <div>
+                    <span *ngFor="let target of project.target" class="field-value">{{target}}</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Origami",
+    "desc": "Development of best mobile game wo gibt.",
+    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "link": "https://origami.ifgi.de",
+    "topics": ["DigitalEducation", "AppDevelopment", "SpatialLearning", "Gamification", "Science"],
+    "customer": "Westfälische Wilhelms Universität Münster",
+    "angebote": ["Software", "Science", "Consulting"],
+    "year": [2019, 2020],
+    "target": ["Students", "Teachers", "University"]
+  }
+]
