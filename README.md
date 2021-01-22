@@ -1,27 +1,35 @@
 # ReeduHomeV2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+## Add/Edit Projects
 
-## Development server
+- go to assets/collections/projects
+- fill in the json format in projects.json and projects-en.json
+- images can be put in assets/img/portfolio/
+- images have to be in ratio 3-to-2
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Add/Edit Teammembers
 
-## Code scaffolding
+- go to assets/collections/
+- fill in the json format in team.json and team-en.json
+- images can be put in assets/img/team/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Add/Edit Awards
 
-## Build
+- go to assets/collections/
+- fill in the json format in awards.json
+- images can be put in assets/img/awards/
+- TODO: english file
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Add/Edit Angebote
 
-## Running unit tests
+- go to assets/collections/tabs
+- fill in the json format in angebote.json
+- TODO: english file
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Add/Edit Science
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- go to assets/collections/tabs
+- fill in the json format in science.json
+- TODO: english file
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
