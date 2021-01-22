@@ -121,7 +121,7 @@ p {
   border: 4px solid $black;
   font-family: BrixSlab-Bold;
   font-size: 20px;
-  padding: 0.5em 1.5em;
+  padding: 0.4em 1.5em;
   height: 50px;
   align-items: center;
   cursor: pointer;
@@ -157,4 +157,20 @@ p {
     object-fit: cover;
     filter: brightness(0.5) sepia(1) saturate(3000%) contrast(0.5);
   }
+}
+
+.re-uppercase {
+  text-transform: uppercase;
+}
+
+.re-pointer {
+  cursor: pointer;
+}
+
+label {
+  font-family: BrixSlab-Bold;
+}
+
+select {
+  font-family: BrixSlab-Bold;
 }

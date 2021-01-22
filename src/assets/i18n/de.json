@@ -38,5 +38,20 @@
   "SCHREIBEN": "SCHREIBEN",
   "BESUCHEN": "BESUCHEN",
 
-  "UNSERE_PROJEKTE": "Unsere Projekte"
+  "UNSERE_PROJEKTE": "Unsere Projekte",
+  "FILTERN": "Filtern",
+  "ACTIVE_FILTER": "Aktive Filter",
+  "CUSTOMER": "Projektkunde",
+  "TOPIC": "Thema",
+  "ANGEBOT": "Angebot",
+  "YEAR": "Jahr",
+  "TARGET": "Zielgruppe",
+
+  "AUSWAEHLEN": "auswählen",
+  "TOPICS": "Themen",
+  "FILTER_ANWENDEN": "Projekte filtern",
+
+  "MEHR_DAZU": "mehr dazu"
+
+
 }

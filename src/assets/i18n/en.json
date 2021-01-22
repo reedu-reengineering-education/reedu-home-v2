@@ -36,5 +36,23 @@
   "WIR_FREUEN_UNS_UEBER_FRAGEN_ODER_ANREGUNGEN": "We welcome any questions or ideas.",
   "ANRUFEN": "CALL",
   "SCHREIBEN": "WRITE",
-  "BESUCHEN": "VISIT"
+  "BESUCHEN": "VISIT",
+
+
+  "UNSERE_PROJEKTE": "Our Projects",
+  "FILTERN": "Filter",
+  "ACTIVE_FILTER": "Activ filters",
+  "CUSTOMER": "Customer",
+  "TOPIC": "Topic",
+  "ANGEBOT": "Offers",
+  "YEAR": "Year",
+  "TARGET": "Target audience",
+
+  "AUSWAEHLEN": "choose",
+  "TOPICS": "Topics",
+  "FILTER_ANWENDEN": "Filter projects",
+
+  "MEHR_DAZU": "more"
+
+
 }
