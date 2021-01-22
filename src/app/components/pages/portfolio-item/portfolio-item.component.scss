@@ -21,11 +21,52 @@
     }
   }
 
-  .field-value {
-    background: $white;
-    color: $primary;
-    padding: 0.1em 0.3em;
-    margin: 0.2em 0.2em;
+  .split-column {
+    // display: flex;
+    position: relative;
+    .field-title {
+      font-family: BrixSlab-Bold;
+      width: 120px;
+      flex-grow: 0;
+      display: inline-block;
+  
+    }
+    .re-values {
+      width: calc(100% - 120px);
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+    .field-value {
+      background: $white;
+      color: $primary;
+      padding: 0.1em 0.3em;
+      margin: 0.2em 0.2em;
+      font-family: NunitoSans-Bold;
+    }
   }
 
+}
+
+.image-desktop {
+  @media screen and (min-width: $breakpoint-mobile){
+    transform: translateX(20%);
+  }
+}
+
+
+.project-description {
+
+  .back-link {
+    color: $black;
+    position: relative;
+    top: -1.5em;
+  }
+  .description-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .re-button {
+    color: $black;
+  }
 }
