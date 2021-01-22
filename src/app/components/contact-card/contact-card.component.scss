@@ -2,7 +2,14 @@
 
 .background-container {
   &.background {
-    background: #EB5C3727 repeating-linear-gradient(-40deg, #EB5C3727, #EB5C3727 10px, #eb5c376e 0, #eb5c376e 12px);
+    background: #eb5c3727
+      repeating-linear-gradient(
+        -40deg,
+        #eb5c3727,
+        #eb5c3727 10px,
+        #eb5c376e 0,
+        #eb5c376e 12px
+      );
   }
 }
 .contact-card-container {
@@ -13,6 +20,10 @@
     padding-bottom: 4rem;
     flex: 1;
     min-width: 300px;
+  }
+
+  img {
+    max-width: 12rem;
   }
 
   .icon-text {

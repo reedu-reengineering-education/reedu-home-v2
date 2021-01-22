@@ -12,4 +12,8 @@ export class StartComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onScrollClick() {
+    window.scroll({ top: (window.innerHeight - 52), behavior: 'smooth' })
+  }
+
 }

@@ -1,4 +1,4 @@
-@import '../../../../styles/variables.scss';
+@import "../../../../styles/variables.scss";
 
 .hero.has-background {
   position: relative;
@@ -12,9 +12,38 @@
   height: 100%;
 }
 
+.hero-body {
+  h1 {
+    max-width: 600px;
+  }
+  img {
+    max-width: 20rem;
+  }
+}
+
+.scroller-arrow {
+  z-index: 1;
+  text-align: center;
+  > img {
+    max-width: 4rem;
+    transform: rotate(90deg);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 #what-we-do {
   color: $primary;
-  background: #EB5C3727 repeating-linear-gradient(-40deg, #EB5C3727,#EB5C3727 10px,#eb5c376e 0,#eb5c376e 12px);
+  background: #eb5c3727
+    repeating-linear-gradient(
+      -40deg,
+      #eb5c3727,
+      #eb5c3727 10px,
+      #eb5c376e 0,
+      #eb5c376e 12px
+    );
 
   .sb-flex-container-column {
     flex-direction: column;
@@ -23,7 +52,7 @@
     height: 100%;
   }
 
-  .content-tile  {
+  .content-tile {
     background: $white;
   }
 
@@ -44,19 +73,16 @@
       top: 0.4em;
       width: 50px;
       height: 50px;
-
     }
   }
 }
 
-
 #experience {
-
   .sb-item {
     flex-direction: column;
     padding: 3em;
     cursor: pointer;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       padding: 0;
       padding-top: 2em;
     }

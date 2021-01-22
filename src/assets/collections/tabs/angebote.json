@@ -1,46 +1,45 @@
 [
-    {
-      "title": "Hardware",
-      "title2": "senseBox",
-      "description": "Die Umweltmessstation zum selber bauen – für den Einsatz zuhause, in (Hoch)schulen, Unternehmen, Städten oder Gemeinden. Konfiguriere die Station nach deinen Wünschen und übertrage die Umweltdaten mit Lora, Wifi oder Lan ins Internet.",
-      "link": "sensebox.de",
-      "linkText": "Portfolio ansehen",
-      "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
-      "underscoreStyle": "dark"
-    },
-    {
-      "title": "Software",
-      "title2": "Digitale Bildung & Citizen Science",
-      "description": "Wir sind Experten in Sachen Datenanalyse und Apps. Sie brauchen eine Lernapp? Ein individuelles Lernmanagementsystem? Ein Lernspiel? Sprechen Sie uns an oder entdecken Sie unsere bisherigen Projekte.",
-      "link": "sensebox.de",
-      "linkText": "Portfolio ansehen",
-      "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
-      "underscoreStyle": "dark"
-    },
-    {
-      "title": "Veranstaltungen",
-      "title2": "Schulungen, Workshops und Hackathons",
-      "description": "Wir veranstalten und organisieren regelmäßig Events für Erwachsene und Kinder, wie z.B. Workshops, Lehrerfortbildungen, Projektwochen oder Hackevents. Interessiert an einem Event? Kontaktieren Sie uns oder klicken Sie sich durch unsere bisherigen Veranstaltungen.",
-      "link": "sensebox.de",
-      "linkText": "Portfolio ansehen",
-      "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
-      "underscoreStyle": "dark"
-    },
-    {
-      "title": "Forschung",
-      "description": "Lorem ipsum",
-      "link": "sensebox.de",
-      "linkText": "Portfolio ansehen",
-      "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
-      "underscoreStyle": "dark"
-    },
-    {
-      "title": "Beratung",
-      "description": "Lorem ipsum",
-      "link": "sensebox.de",
-      "linkText": "Portfolio ansehen",
-      "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
-      "underscoreStyle": "dark"
-    }
-  ]
-  
+  {
+    "title": "Hardware",
+    "title2": "senseBox",
+    "description": "Die Umweltmessstation zum selber bauen – für den Einsatz zuhause, in (Hoch)schulen, Unternehmen, Städten oder Gemeinden. Konfiguriere die Station nach deinen Wünschen und übertrage die Umweltdaten mit Lora, Wifi oder Lan ins Internet.",
+    "link": "https://sensebox.de",
+    "linkText": "Portfolio ansehen",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "dark"
+  },
+  {
+    "title": "Software",
+    "title2": "Digitale Bildung & Citizen Science",
+    "description": "Wir sind Experten in Sachen Datenanalyse und Apps. Sie brauchen eine Lernapp? Ein individuelles Lernmanagementsystem? Ein Lernspiel? Sprechen Sie uns an oder entdecken Sie unsere bisherigen Projekte.",
+    "link": "https://sensebox.de",
+    "linkText": "Portfolio ansehen",
+    "image": "https://origami.ifgi.de/pictures/photos/sachaufgabe.png",
+    "underscoreStyle": "dark"
+  },
+  {
+    "title": "Veranstaltungen",
+    "title2": "Schulungen, Workshops und Hackathons",
+    "description": "Wir veranstalten und organisieren regelmäßig Events für Erwachsene und Kinder, wie z.B. Workshops, Lehrerfortbildungen, Projektwochen oder Hackevents. Interessiert an einem Event? Kontaktieren Sie uns oder klicken Sie sich durch unsere bisherigen Veranstaltungen.",
+    "link": "https://sensebox.de",
+    "linkText": "Portfolio ansehen",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "dark"
+  },
+  {
+    "title": "Forschung",
+    "description": "Lorem ipsum",
+    "link": "https://sensebox.de",
+    "linkText": "Portfolio ansehen",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "dark"
+  },
+  {
+    "title": "Beratung",
+    "description": "Lorem ipsum",
+    "link": "https://sensebox.de",
+    "linkText": "Portfolio ansehen",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "dark"
+  }
+]
