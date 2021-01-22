@@ -9,6 +9,43 @@
           FILTERN
           <i class="fa fa-filter"></i>
         </h3>
+        <div>
+          <h5 class="">
+            {{'ACTIVE_FILTER' | translate}}
+          </h5>
+          <div class="tags">
+            <span class="tag" *ngIf="filter.customer">
+              {{'CUSTOMER' | translate}}: 
+              {{filter.customer}}
+              <button class="delete is-small" (click)="removeFilter('customer')"></button>
+            </span>
+            
+            <span class="tag" *ngIf="filter.topic">
+              {{'TOPIC' | translate}}: 
+              {{filter.topic}}
+              <button class="delete is-small" (click)="removeFilter('topic')"></button>
+            </span>
+
+            <span class="tag" *ngIf="filter.angebot">
+              {{'ANGEBOT' | translate}}: 
+              {{filter.angebot}}
+              <button class="delete is-small" (click)="removeFilter('angebot')"></button>
+            </span>
+
+            <span class="tag" *ngIf="filter.year">
+              {{'YEAR' | translate}}: 
+              {{filter.year}}
+              <button class="delete is-small" (click)="removeFilter('year')"></button>
+            </span>
+
+            <span class="tag" *ngIf="filter.target">
+              {{'TARGET' | translate}}: 
+              {{filter.target}}
+              <button class="delete is-small" (click)="removeFilter('target')"></button>
+            </span>
+          </div>
+        </div>
+
         <div class="project-container">
           <re-project-card *ngFor="let project of filteredProjects" [project]="project"></re-project-card>
         </div>

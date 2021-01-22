@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import reProjectsDE from '../../../../assets/collections/projects/projects.json';
 import reProjectsEN from '../../../../assets/collections/projects/projects-en.json';
 import { TranslateService } from '@ngx-translate/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 're-portfolio',
@@ -28,7 +29,7 @@ export class PortfolioComponent implements OnInit {
   }
 
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     if(this.translate.currentLang === 'de' || this.translate.currentLang === undefined){
@@ -110,7 +111,7 @@ export class PortfolioComponent implements OnInit {
       if(this.filter.topic && project.topics.indexOf(this.filter.topic) === -1) {
         return false;
       }
-      if(this.filter.angebot && project.angebot.indexOf(this.filter.angebot) === -1) {
+      if(this.filter.angebot && project.angebote.indexOf(this.filter.angebot) === -1) {
         return false;
       }
       if(this.filter.year && project.year.indexOf(this.filter.year) === -1) {
@@ -124,5 +125,10 @@ export class PortfolioComponent implements OnInit {
       // if(this.filter.angebote && this.filter.angebote.indexOf())
     })
     this.filterOpen = false;
+  }
+
+  removeFilter(key){
+    this.filter[key] = null;
+    this.applyFilters();
   }
 }

@@ -40,6 +40,7 @@
 @import "~node_modules/bulma/sass/elements/container";
 @import "~node_modules/bulma/sass/elements/title";
 @import "~node_modules/bulma/sass/elements/image";
+@import "~node_modules/bulma/sass/elements/tag";
 @import "~node_modules/bulma/sass/form/_all";
 @import "~node_modules/bulma/sass/components/navbar";
 @import "~node_modules/bulma/sass/components/card";
@@ -49,7 +50,9 @@
 @import "~node_modules/bulma/sass/grid/columns";
 @import "~node_modules/bulma/sass/grid/tiles";
 @import "~node_modules/bulma/sass/helpers/_all";
-
+// @import "~node_modules/bulma/sass/utilities/mixins";
+// @import "~node_modules/bulma/sass/utilities/controls";
+@import "~node_modules/bulma/bulma.sass";
 @import "./styles/general.scss";
 
 @import "~node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
