@@ -10,7 +10,7 @@
           <i class="fa fa-filter"></i>
         </h3>
         <div class="project-container">
-          <re-project-card *ngFor="let project of projects" [project]="project"></re-project-card>
+          <re-project-card *ngFor="let project of filteredProjects" [project]="project"></re-project-card>
         </div>
       </div>
     </div>
@@ -28,8 +28,9 @@
             <label class="label">{{'CUSTOMER' | translate}}</label>
             <div class="control">
               <div class="select">
-                <select name="customer" id="customer">
-                  <option *ngFor="let customer of customers" value="customer">{{customer}}</option>
+                <select name="customer" #c id="customer" (change)="changeCustomer(c.value)">
+                  <option value="null">{{'auswählen' | translate}}</option>
+                  <option *ngFor="let customer of customers" value="{{customer}}">{{customer}}</option>
                 </select>
               </div>
             </div>
@@ -40,8 +41,9 @@
             <label class="label">{{'TOPICS' | translate}}</label>
             <div class="control">
               <div class="select">
-                <select name="topics" id="topics">
-                  <option *ngFor="let topic of topics" value="topic">{{topic}}</option>
+                <select #t name="topics" id="topics" (change)="changeTopic(t.value)">
+                  <option value="null">{{'auswählen' | translate}}</option>
+                  <option *ngFor="let topic of topics" value="{{topic}}">{{topic}}</option>
                 </select>
               </div>
             </div>
@@ -52,7 +54,11 @@
       <div class="field">
         <label class="label">{{'ANGEBOT' | translate}}</label>
         <div class="control">
-          <button class="re-button re-select-button" *ngFor="let angebot of angebote">
+          <button 
+            class="re-button re-select-button" 
+            *ngFor="let angebot of angebote"
+            (click)="toggleAngebot(angebot)"
+            [class.active]="angebot === filter.angebot">
             {{angebot | translate}}
           </button>
         </div>
@@ -61,7 +67,11 @@
       <div class="field">
         <label class="label">{{'YEAR' | translate}}</label>
         <div class="control">
-          <button class="re-button re-select-button" *ngFor="let year of years">
+          <button 
+            class="re-button re-select-button" 
+            *ngFor="let year of years"
+            (click)="toggleYear(year)"
+            [class.active]="filter.year === year">
             {{year}}
           </button>
         </div>
@@ -70,14 +80,18 @@
       <div class="field">
         <label class="label">{{'TARGET' | translate}}</label>
         <div class="control">
-          <button class="re-button re-select-button" *ngFor="let target of targets">
+          <button 
+            class="re-button re-select-button" 
+            *ngFor="let target of targets"
+            (click)="toggleTarget(target)"
+            [class.active]="filter.target === target">
             {{target | translate}}
           </button>
         </div>
       </div>
 
       <div>
-        <button class="is-pulled-right re-button">{{'FILTER_ANWENDEN' | translate}}</button>
+        <button (click)="applyFilters()" class="is-pulled-right re-button">{{'FILTER_ANWENDEN' | translate}}</button>
       </div>
 
     </div>
