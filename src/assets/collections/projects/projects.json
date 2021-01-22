@@ -44,13 +44,13 @@
     "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
   },
   {
-    "name": "Origami",
+    "name": "senseBox",
     "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
     "img": "https://origami.ifgi.de/pictures/photos/header3.png",
     "link": "https://origami.ifgi.de",
     "topics": ["DigitaleBildung", "SpatialLearning", "Gamification", "Forschung"],
-    "customer": "Westfälische Wilhelms Universität Münster",
-    "angebote": ["Software", "Forschung", "Beratung"],
+    "customer": "Reedu",
+    "angebote": ["Hardware"],
     "year": [2019,2020],
     "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
   },

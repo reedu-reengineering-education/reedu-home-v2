@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import reProjectsDE from '../../../../assets/collections/projects/projects.json';
 import reProjectsEN from '../../../../assets/collections/projects/projects-en.json';
 import { TranslateService } from '@ngx-translate/core';
-import { ActivatedRoute } from '@angular/router';
-
+import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 're-portfolio',
   templateUrl: './portfolio.component.html',
@@ -28,10 +27,29 @@ export class PortfolioComponent implements OnInit {
     target: null,
   }
 
+  appliedFilter = {
+    customer: null,
+    topic: null,
+    angebot: null,
+    year: null,
+    target: null,
+  };
 
-  constructor(private translate: TranslateService, private route: ActivatedRoute) { }
+
+  constructor(private translate: TranslateService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
+
+    this.route.queryParamMap.subscribe((queryParams:any) => {
+      let params =  queryParams.params;
+      for( let param in params){
+        this.filter[param] = params[param];
+        this.appliedFilter[param] = params[param];
+      }
+      if(this.projects)
+        this.applyFilters();
+    })
+
     if(this.translate.currentLang === 'de' || this.translate.currentLang === undefined){
       this.projects = reProjectsDE;
     } else {
@@ -40,15 +58,17 @@ export class PortfolioComponent implements OnInit {
     this.buildFilters();
     
     this.translate.onLangChange.subscribe((event) => {
-      console.log(this.translate.currentLang);
       if (event.lang === 'de') {
         this.projects = reProjectsDE;
       } else {
         this.projects = reProjectsEN;
       }
       this.buildFilters();
+      this.filteredProjects = this.projects;
     });
     this.filteredProjects = this.projects;
+    this.applyFilters();
+
   }
 
   buildFilters() {
@@ -103,32 +123,36 @@ export class PortfolioComponent implements OnInit {
     this.filterOpen = !this.filterOpen;
   }
 
+  filterToUrl(){
+    this.appliedFilter = {...this.filter};
+    this.router.navigate([], {queryParams: this.appliedFilter});
+  }
+
   applyFilters() {
     this.filteredProjects = this.projects.filter(project => {
-      if(this.filter.customer && this.filter.customer != project.customer) {
+      if(this.appliedFilter.customer && this.appliedFilter.customer != project.customer) {
         return false;
       }
-      if(this.filter.topic && project.topics.indexOf(this.filter.topic) === -1) {
+      if(this.appliedFilter.topic && project.topics.indexOf(this.appliedFilter.topic) === -1) {
         return false;
       }
-      if(this.filter.angebot && project.angebote.indexOf(this.filter.angebot) === -1) {
+      if(this.appliedFilter.angebot && project.angebote.indexOf(this.appliedFilter.angebot) === -1) {
         return false;
       }
-      if(this.filter.year && project.year.indexOf(this.filter.year) === -1) {
+      if(this.appliedFilter.year && project.year.indexOf(parseInt(this.appliedFilter.year)) === -1) {
         return false;
       }
-      if(this.filter.target && project.target.indexOf(this.filter.target) === -1 ) {
+      if(this.appliedFilter.target && project.target.indexOf(this.appliedFilter.target) === -1 ) {
         return false;
       }
       return true;
 
-      // if(this.filter.angebote && this.filter.angebote.indexOf())
     })
     this.filterOpen = false;
   }
 
   removeFilter(key){
     this.filter[key] = null;
-    this.applyFilters();
+    this.filterToUrl();
   }
 }
