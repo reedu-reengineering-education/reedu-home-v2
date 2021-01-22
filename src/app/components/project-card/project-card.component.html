@@ -21,6 +21,13 @@
     </div>
   </div>
   <footer class="card-footer">
-    <a [routerLink]="['/portfolio', project.name]" class="card-footer-item">{{"MEHR_DAZU" | translate}}</a>
+    <button [routerLink]="['/portfolio', project.name]" class="footer-button button is-pulled-right">
+      <span>{{"MEHR_DAZU" | translate}}</span>
+      <span class="icon is-small">
+        <img src="assets/img/logos/logo_black.svg">
+      </span>
+      
+    
+    </button>
   </footer>
 </div>

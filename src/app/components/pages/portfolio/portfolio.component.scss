@@ -6,6 +6,7 @@
 
   .site-title {
     font-size: 4rem;
+    line-height: 4rem;
     padding-top: 200px;
     margin-bottom: 300px;
   }
@@ -20,7 +21,7 @@
     background-repeat: repeat;
 
     .re-offset-container {
-      transform: translateY(-150px);
+      transform: translateY(-200px);
     }
 
   }
@@ -44,6 +45,20 @@
     &.active {
       background: $primary;
       color: $white;
+    }
+  }
+
+  .re-modal {
+    border: 5px solid $black;
+
+    .re-select-button {
+      padding: 0.3em 1.5em;
+      font-family: BrixSlab-Bold;
+    }
+
+    label {
+      padding-top: 1em;
+      opacity: 0.8;
     }
   }
 }

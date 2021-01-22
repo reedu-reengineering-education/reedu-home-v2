@@ -29,4 +29,8 @@ export class NavComponent implements OnInit {
       || document.documentElement.scrollTop
       || document.body.scrollTop || 0;
   }
+
+  close() {
+    this.mobileOpen = false;
+  }
 }

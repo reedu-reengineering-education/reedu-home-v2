@@ -50,12 +50,19 @@
     }
 
     .card-footer {
-
+        display: unset;
         border-top: unset;
-        .card-footer-item {
+        .footer-button {
             text-align: right;
             color: $black;
             justify-content: flex-end;
+            padding: 0.2em 1.4em;
+            font-size: 0.9em;
+            border: none;
+            font-family: BrixSlab-Bold;
+            .icon {
+                opacity: 0.7;
+            }
         }
     }
 }
