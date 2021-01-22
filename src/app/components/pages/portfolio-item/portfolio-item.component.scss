@@ -20,7 +20,13 @@
   
     }
   }
+  .link-section {
+    @media screen and (min-width: $breakpoint-mobile){
+      padding: 3em;
+    }
 
+    padding: 0.5em;
+  }
   .split-column {
     // display: flex;
     position: relative;
@@ -71,4 +77,11 @@
   .re-button {
     color: $black;
   }
+}
+
+.padding-6-resp {
+  @media screen and (min-width: $breakpoint-mobile){
+    padding: 3rem;
+  }
+  padding: 0.5rem;
 }
