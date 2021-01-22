@@ -29,6 +29,7 @@
       width: 120px;
       flex-grow: 0;
       display: inline-block;
+      text-transform: uppercase;
   
     }
     .re-values {
@@ -42,6 +43,7 @@
       padding: 0.1em 0.3em;
       margin: 0.2em 0.2em;
       font-family: NunitoSans-Bold;
+      cursor: pointer;
     }
   }
 
