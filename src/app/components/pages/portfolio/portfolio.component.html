@@ -1,8 +1,8 @@
-<div class="site sb-white-text black-section">
-  <div class="container p-4">
+<div class="site black-section">
+  <div class="container p-4 sb-white-text">
     <h1 class="site-title">{{'UNSERE_PROJEKTE' | translate}}</h1>
   </div>
-  <div class="stripes-container">
+  <div class="stripes-container sb-white-text">
     <div class="stripes">
       <div class="container re-offset-container">
         <h3 class="re-pointer" (click)="toggleFilterModal()">
@@ -52,6 +52,12 @@
           <re-project-card *ngFor="let project of filteredProjects" [project]="project"></re-project-card>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="white-section sb-red-text">
+    <div class="container p-6">
+      <h1>{{'OUR_CUSTOMERS' | translate}}</h1>
     </div>
   </div>
 </div>
@@ -128,7 +134,7 @@
         </div>
       </div>
 
-      <div class="pt-3">
+      <div class="pt-5">
         <button (click)="filterToUrl()" class="is-pulled-right re-button">
           <span>{{'FILTER_ANWENDEN' | translate}}</span>
           <span class="icon">

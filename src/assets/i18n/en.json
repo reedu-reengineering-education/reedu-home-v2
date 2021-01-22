@@ -48,11 +48,13 @@
   "YEAR": "Year",
   "TARGET": "Target audience",
 
-  "AUSWAEHLEN": "choose",
+  "AUSWAEHLEN": "choose...",
   "TOPICS": "Topics",
   "FILTER_ANWENDEN": "Filter projects",
 
-  "MEHR_DAZU": "more"
+  "MEHR_DAZU": "more",
+  "OUR_CUSTOMERS": "Customers and Partners"
+
 
 
 }

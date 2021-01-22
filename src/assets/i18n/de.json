@@ -47,11 +47,11 @@
   "YEAR": "Jahr",
   "TARGET": "Zielgruppe",
 
-  "AUSWAEHLEN": "auswählen",
+  "AUSWAEHLEN": "auswählen...",
   "TOPICS": "Themen",
   "FILTER_ANWENDEN": "Projekte filtern",
 
-  "MEHR_DAZU": "mehr dazu"
-
+  "MEHR_DAZU": "mehr dazu",
+  "OUR_CUSTOMERS": "Unsere Kunden und Partner in der Übersicht"
 
 }
