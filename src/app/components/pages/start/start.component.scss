@@ -75,6 +75,23 @@
       height: 50px;
     }
   }
+  .text-container {
+    position: relative;
+    .reedu-floating-logo-red {
+      position: absolute;
+      right: 0;
+      transform: translateX(50%);
+      top: 2em;
+      width: 180px;
+      img {
+        width: 100%;
+      }
+      @media screen and (max-width: $breakpoint-mobile) {
+        display: none;
+      }
+    }
+  }
+
 }
 
 #experience {
@@ -96,16 +113,20 @@
     position: relative;
     img {
       border: 5px solid white;
-      border-bottom: 45px solid white;
+      border-bottom: 55px solid white;
     }
     .sb-caption {
       position: absolute;
       text-align: center;
       width: 100%;
-      bottom: 10px;
+      bottom: 17px;
       left: 0px;
       h3 {
         color: $primary;
+        position: relative;
+        img {
+          height: 20px;
+        }
       }
     }
   }

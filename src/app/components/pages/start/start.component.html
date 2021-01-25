@@ -21,9 +21,9 @@
 
 <section id="what-we-do" class="sb-red-text">
   <div class="container px-3 py-5">
-    <div class="tile is-ancestor mx-3 my-2">
-      <div class="content-tile tile is-vertical mx-2 is-8 p-6">
-        <div class="sb-flex-container-column">
+    <div class="columns is-tablet is-3 my-2">
+      <div class="column is-7 text-container">
+        <div class="sb-flex-container-column white-section p-6">
           <div>
             <h1 class="pb-4">{{ "STARTPAGE_HEADLINE" | translate }}</h1>
             <h3 class="headline-underline">
@@ -42,31 +42,36 @@
             </p>
           </div>
         </div>
+        <div class="reedu-floating-logo-red">
+          <img src="assets/img/logos/logo_orange.svg">
+        </div>
       </div>
-      <div class="content-tile tile is-vertical is-4 py-2 p-6 mx-2">
-        <h3 class="headline-underline"><span>Angebote</span></h3>
-        <div class="topic-block">
-          {{ "HARDWARE_ENTWICKLUNG" | translate }}
-        </div>
-        <div class="topic-block">
-          {{ "SOFTWARE_ENTWICKLUNG" | translate }}
-        </div>
-        <div class="topic-block">
-          {{ "SCHULUNGEN" | translate }},<br />
-          {{ "WORKSHOPS" | translate }},<br />
-          {{ "HACKATHONS" | translate }}
-        </div>
-        <div class="topic-block">
-          {{ "FORSCHUNG" | translate }}
-        </div>
-        <div class="topic-block">
-          {{ "BERATUNG" | translate }}
-        </div>
-        <div class="py-5">
-          <button class="re-button">
-            <span>mehr dazu</span>
-            <img src="/assets/img/logos/logo_black.svg" />
-          </button>
+      <div class="column is-5">
+        <div class="white-section p-6 height-100">
+          <h3 class="headline-underline"><span>Angebote</span></h3>
+          <div class="topic-block">
+            {{ "HARDWARE_ENTWICKLUNG" | translate }}
+          </div>
+          <div class="topic-block">
+            {{ "SOFTWARE_ENTWICKLUNG" | translate }}
+          </div>
+          <div class="topic-block">
+            {{ "SCHULUNGEN" | translate }},<br />
+            {{ "WORKSHOPS" | translate }},<br />
+            {{ "HACKATHONS" | translate }}
+          </div>
+          <div class="topic-block">
+            {{ "FORSCHUNG" | translate }}
+          </div>
+          <div class="topic-block">
+            {{ "BERATUNG" | translate }}
+          </div>
+          <div class="py-5">
+            <button class="re-button">
+              <span>mehr dazu</span>
+              <img src="/assets/img/logos/logo_black.svg" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +96,9 @@
               src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg"
             />
             <div class="sb-caption">
-              <h3>{{ "PORTFOLIO_ANSEHEN" | translate }}</h3>
+              <h3>
+                {{ "PORTFOLIO_ANSEHEN" | translate }}
+              </h3>
             </div>
           </div>
         </div>
@@ -107,7 +114,9 @@
               src="https://sensebox.de/images/index/Startseite-Karusel-3.jpg"
             />
             <div class="sb-caption">
-              <h3>{{ "FORSCHUNG_ANSEHEN" | translate }}</h3>
+              <h3>
+                {{ "FORSCHUNG_ANSEHEN" | translate }}
+              </h3>
             </div>
           </div>
         </div>
