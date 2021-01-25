@@ -33,3 +33,8 @@
 - fill in the json format in science.json
 - TODO: english file
 
+## Add/Edit Partner
+
+- go to assets/collections/partner
+- fill in the json format in partner.json
+- Add logo to /assets/img/partner

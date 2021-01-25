@@ -211,6 +211,18 @@
 
 
 
+//OVERWRITES OF BULMA
+
 .navbar-dropdown a.navbar-item:focus {
   color: white;
+}
+
+.navbar-burger span {
+  height: 2px;
+}
+
+.navbar-item.has-dropdown .navbar-link {
+  @media screen and (max-width: 1023px){
+    display: none;
+  }
 }
