@@ -1,0 +1,22 @@
+@import "../../../../styles/variables.scss";
+
+.re-top-space-holder {
+    padding: 200px 100px
+}
+
+.privacy-content {
+    p {
+        color: $black;
+    }
+
+    h1 {
+        padding-top: 2em;
+    }
+    h2 {
+        color: $primary;
+        padding-top: 1em;
+    }
+    h3 {
+        padding-top: 0.6em;
+    }
+}
