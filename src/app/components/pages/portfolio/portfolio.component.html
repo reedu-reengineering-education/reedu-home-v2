@@ -57,7 +57,12 @@
 
   <div class="white-section sb-red-text">
     <div class="container p-6">
-      <h1>{{'OUR_CUSTOMERS' | translate}}</h1>
+      <h1 class="py-5">{{'OUR_CUSTOMERS' | translate}}</h1>
+      <div class="re-partners">
+        <div *ngFor="let partner of partners" class="partner-item p-2">
+          <img src="{{partner.img}}" alt="{{partner.name}}"> 
+        </div>
+      </div>
     </div>
   </div>
 </div>

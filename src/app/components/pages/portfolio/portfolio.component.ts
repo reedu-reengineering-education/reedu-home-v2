@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import reProjectsDE from '../../../../assets/collections/projects/projects.json';
 import reProjectsEN from '../../../../assets/collections/projects/projects-en.json';
+import rePartner from '../../../../assets/collections/partner/partner.json';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';
 @Component({
@@ -18,6 +19,8 @@ export class PortfolioComponent implements OnInit {
   targets = [];
   years = [2018, 2019, 2020]
   filterOpen = false;
+
+  partners = rePartner;
 
   filter = {
     customer: null,

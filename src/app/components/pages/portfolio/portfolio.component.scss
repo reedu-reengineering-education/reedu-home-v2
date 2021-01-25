@@ -33,6 +33,24 @@
   }
 }
 
+.re-partners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  .partner-item {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    .partner-item {
+      width: 45%;
+    }
+  }
+}
+
 
 .modal {
   .re-select-button {
