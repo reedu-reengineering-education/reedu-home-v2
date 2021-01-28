@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 
 export interface Tab {
   title: string;
@@ -22,6 +22,17 @@ export class TabsComponent implements OnInit {
   activeTabIndex: number
 
   constructor() { }
+
+  @HostListener('window:keydown', ['$event'])
+  keyEvent(event: KeyboardEvent) {
+    if (event.code === "ArrowRight") {
+      this.nextTab();
+    }
+
+    if (event.code === "ArrowLeft") {
+      this.previousTab();
+    }
+  }
 
   ngOnInit(): void {
     this.activeTabIndex = 0;
