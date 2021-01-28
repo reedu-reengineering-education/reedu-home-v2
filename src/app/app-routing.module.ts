@@ -15,6 +15,7 @@ import { StartComponent } from './components/pages/start/start.component';
 const routes: Routes = [
   { path: '', component: StartComponent },
   { path: 'angebote', component: AngeboteComponent },
+  { path: 'angebote/:id', component: AngeboteComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'portfolio/:id', component: PortfolioItemComponent },
   { path: 'forschung', component: ForschungComponent },

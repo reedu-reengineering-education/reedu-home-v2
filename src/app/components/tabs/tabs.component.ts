@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 
 export interface Tab {
   title: string;
@@ -15,7 +15,7 @@ export interface Tab {
   templateUrl: './tabs.component.html',
   styleUrls: ['./tabs.component.scss']
 })
-export class TabsComponent implements OnInit {
+export class TabsComponent implements OnInit, OnChanges {
   @Input() tabs: Tab[]
 
   activeTab: Tab
@@ -26,6 +26,10 @@ export class TabsComponent implements OnInit {
   ngOnInit(): void {
     this.activeTabIndex = 0;
     this.activeTab = this.tabs[0]
+  }
+
+  ngOnChanges() {
+    this.activeTab = this.tabs[this.activeTabIndex]
   }
 
   changeTab(index: number) {
