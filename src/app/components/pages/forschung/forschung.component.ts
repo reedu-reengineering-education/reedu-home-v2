@@ -31,8 +31,6 @@ export class ForschungComponent implements OnInit {
       } else {
         this.scienceTabs = scienceEn as Tab[];
       }
-      console.log(this.scienceTabs)
     });
   }
-
 }

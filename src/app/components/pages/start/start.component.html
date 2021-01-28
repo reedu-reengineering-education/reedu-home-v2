@@ -49,21 +49,21 @@
       <div class="column is-5">
         <div class="white-section p-6 height-100">
           <h3 class="headline-underline"><span>Angebote</span></h3>
-          <div class="topic-block">
+          <div class="topic-block" [routerLink]="['angebote', 'hardware']">
             {{ "HARDWARE_ENTWICKLUNG" | translate }}
           </div>
-          <div class="topic-block">
+          <div class="topic-block" [routerLink]="['angebote', 'software']">
             {{ "SOFTWARE_ENTWICKLUNG" | translate }}
           </div>
-          <div class="topic-block">
+          <div class="topic-block"  [routerLink]="['angebote', 'veranstaltungen']">
             {{ "SCHULUNGEN" | translate }},<br />
             {{ "WORKSHOPS" | translate }},<br />
             {{ "HACKATHONS" | translate }}
           </div>
-          <div class="topic-block">
+          <div class="topic-block"  [routerLink]="['angebote', 'forschung']">
             {{ "FORSCHUNG" | translate }}
           </div>
-          <div class="topic-block">
+          <div class="topic-block"  [routerLink]="['angebote', 'beratung']">
             {{ "BERATUNG" | translate }}
           </div>
           <div class="py-5">

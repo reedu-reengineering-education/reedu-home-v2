@@ -65,6 +65,7 @@
     font-family: BrixSlab-Bold;
     font-size: 20px;
     position: relative;
+    cursor: pointer;
 
     &::before {
       content: url("/assets/img/logos/logo_white.svg");

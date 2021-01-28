@@ -33,11 +33,9 @@ export class AngeboteComponent implements OnInit {
         this.angeboteTabs = angeboteEn as Tab[]
       }
     });
-    
+
     this.route.params.subscribe((params) => {
-      console.log(params.id);
       this.selectedTab = params.id;
     });
   }
-
 }
