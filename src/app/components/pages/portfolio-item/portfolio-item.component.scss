@@ -1,27 +1,33 @@
-@import '../../../../styles/variables.scss';
+@import "../../../../styles/variables.scss";
 
 .site {
-  min-height: 100VH;
+  min-height: 100vh;
 
   .top-space-holder {
-      height: 300px;
+    height: 300px;
   }
   .stripes-container {
     background: $white;
     .stripes {
       padding: 1rem;
-      background: #EB5C3727 repeating-linear-gradient(-40deg, #EB5C3727,#EB5C3727 10px,#eb5c376e 0,#eb5c376e 12px);
-    
+      background: #eb5c3727
+        repeating-linear-gradient(
+          -40deg,
+          #eb5c3727,
+          #eb5c3727 10px,
+          #eb5c376e 0,
+          #eb5c376e 12px
+        );
+
       background-repeat: repeat;
-  
+
       .re-offset-container {
         transform: translateY(-150px);
       }
-  
     }
   }
   .link-section {
-    @media screen and (min-width: $breakpoint-mobile){
+    @media screen and (min-width: $breakpoint-mobile) {
       padding: 3em;
     }
 
@@ -36,7 +42,6 @@
       flex-grow: 0;
       display: inline-block;
       text-transform: uppercase;
-  
     }
     .re-values {
       width: calc(100% - 120px);
@@ -52,18 +57,15 @@
       cursor: pointer;
     }
   }
-
 }
 
 .image-desktop {
-  @media screen and (min-width: $breakpoint-mobile){
+  @media screen and (min-width: $breakpoint-mobile) {
     transform: translateX(20%);
   }
 }
 
-
 .project-description {
-
   .back-link {
     color: $black;
     position: relative;
@@ -80,8 +82,12 @@
 }
 
 .padding-6-resp {
-  @media screen and (min-width: $breakpoint-mobile){
+  @media screen and (min-width: $breakpoint-mobile) {
     padding: 3rem;
   }
   padding: 0.5rem;
+}
+
+.project-image {
+  border: solid 5px white;
 }
