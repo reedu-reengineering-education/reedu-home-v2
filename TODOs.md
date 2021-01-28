@@ -16,7 +16,7 @@
 
 
 
-## Texte
+## Content
 
 ### Startpage
 - Was wir machen texte (englisch und deutsch)
@@ -33,3 +33,29 @@
 ### Angebote
 
 - Englische Texte (angebot-en.json)
+
+
+### Portfolio
+
+- Projekte, Projekte, Projekte
+
+### Forschung
+
+- Texte+ Bilder zu Forschungsprojekten
+
+### About us
+
+- Englische Texte
+
+
+## Entwicklung
+
+- Animationen
+    - Menu (mobile)
+    - Scroll Down appear for elements
+    - Tabs change (?)
+    
+
+- Routing Angebote besser machen (route change on click)
+- Back button portfolio details
+- Same height boxes (Team)
