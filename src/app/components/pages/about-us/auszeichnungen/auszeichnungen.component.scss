@@ -34,21 +34,29 @@
 
   .stripes-zig-zag {
     padding: 1rem;
-  
+
     background: repeating-linear-gradient(
       -45deg,
-      #EB5C3727,
-      #EB5C3727 12px,
-      #38383A67 12px,
-      #38383A67 15px
+      #eb5c3727,
+      #eb5c3727 12px,
+      #38383a67 12px,
+      #38383a67 15px
     );
-  
+
     background-repeat: repeat;
   }
 }
 
 .card {
   color: $black !important;
+  @media screen and (max-width: $breakpoint-tablet) {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    margin: 1rem;
+    padding: 1rem;
+  }
   margin: 4rem;
   padding: 4rem;
 
@@ -56,6 +64,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    img {
+      max-width: 300px;
+      margin: auto;
+    }
 
     h1,
     h2,

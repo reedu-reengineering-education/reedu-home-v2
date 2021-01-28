@@ -22,7 +22,11 @@
             <div class="container">
               <div class="columns is-multiline">
                 <div class="column is-one-third">
-                  <img *ngIf="award.photo" src="{{ award.photo }}" alt="image" />
+                  <img
+                    *ngIf="award.photo"
+                    src="{{ award.photo }}"
+                    alt="image"
+                  />
                 </div>
                 <div class="column">
                   <h1 class="title">{{ award.title }}</h1>
