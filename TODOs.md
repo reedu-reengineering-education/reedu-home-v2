@@ -62,3 +62,4 @@
 - Routing Angebote besser machen (route change on click)
 - Back button portfolio details
 - Same height boxes (Team)
+- Mobile styles (vorallem abstände)
