@@ -1,5 +1,8 @@
 # TODOS
 
+## Generelle Fragen
+- Startseite Satz (Welcher Satz soll da stehen? Reicht 1 Satz?)
+
 ## Bilder
 
 ### Startpage
@@ -12,8 +15,8 @@
 ### Footer
 - Home of senseBox
 
-
-
+### Partner und Kunden
+- Logos
 
 
 ## Content
