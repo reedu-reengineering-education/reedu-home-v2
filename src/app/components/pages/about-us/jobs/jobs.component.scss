@@ -1,0 +1,59 @@
+@import "./../../../../../styles/variables.scss";
+
+.site {
+  background: $red;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.site-title-container {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-title {
+  font-size: 4rem;
+  color: white;
+}
+
+.container.content {
+  background-color: white;
+  p {
+    font-family: NunitoSans-Regular;
+  }
+
+  padding: 6rem;
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 1rem;
+  }
+
+  text-align: center;
+  * {
+    color: black;
+  }
+
+  .job-container {
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    max-width: 500px;
+  }
+}
+
+.stripes-container {
+  background: $primary;
+}
+.stripes {
+  padding: 1rem;
+  background: repeating-linear-gradient(
+    0deg,
+    $primary,
+    $primary 12px,
+    rgba($white, 0.17) 12px,
+    rgba($white, 0.17) 16px
+  );
+
+  background-repeat: repeat;
+}

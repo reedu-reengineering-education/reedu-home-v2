@@ -1,0 +1,20 @@
+<div class="site black-section" *ngIf="job">
+  <div class="re-top-space-holder"></div>
+  <div class="stripes-container">
+    <div class="stripes">
+      <div class="re-offset-container">
+        <div class="project-container">
+          <div class="container padding-6-resp">
+            <div class="white-section project-description padding-6-resp">
+              <a class="back-link" href="/jobs"
+                ><img src="./../../../../assets/img/logos/logo_black.svg" />
+                {{ "BACK" | translate }}
+              </a>
+              <markdown [src]="job" class="markdown-container"></markdown>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

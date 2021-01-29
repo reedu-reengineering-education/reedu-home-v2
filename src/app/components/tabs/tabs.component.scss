@@ -6,10 +6,7 @@
 }
 
 .tab-switcher {
-  max-width: 50%;
-  @media screen and (max-width: $breakpoint-desktop) {
-    max-width: 75%;
-  }
+  max-width: 75%;
   @media screen and (max-width: $breakpoint-mobile) {
     max-width: 100%;
   }
