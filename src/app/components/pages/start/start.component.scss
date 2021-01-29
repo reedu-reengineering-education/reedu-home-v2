@@ -1,5 +1,9 @@
 @import "../../../../styles/variables.scss";
 
+.nowrap {
+  white-space: nowrap;
+  min-height:70px;
+}
 .hero.has-background {
   position: relative;
   overflow: hidden;
