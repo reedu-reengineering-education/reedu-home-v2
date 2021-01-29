@@ -14,7 +14,7 @@ const de =
 const en = [
   "Digital Education",
   "Citizen Science",
-  "Educational Ressources",
+  "OER",
   "Science",
   "GIS",
   "Smart Cities",
