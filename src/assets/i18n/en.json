@@ -5,6 +5,7 @@
   "ABOUT_US": "About us",
   "PHILOSOPHIE": "Philosophie",
   "AUSZEICHNUNGEN": "Rewards",
+  "AUSZEICHNUNGEN_HTML": "Rewards",
   "TEAM": "Team",
 
   "STARTPAGE_HERO_HEADLINE": "We create solutions for digital education.",
@@ -23,6 +24,7 @@
   "EXPERIENCE": "Wir haben Erfahrung.",
   "PORTFOLIO_TEXT": "Projekte projekte projekte",
   "PORTFOLIO_ANSEHEN": "Portfolio ansehen",
+  "FORSCHUNG_TITLE": "Our Research Projects",
   "FORSCHUNG_TEXT": "Forschung Forschung Forschung",
   "FORSCHUNG_ANSEHEN": "Forschungsprojekte ansehen",
 
@@ -37,7 +39,6 @@
   "ANRUFEN": "CALL",
   "SCHREIBEN": "WRITE",
   "BESUCHEN": "VISIT",
-
 
   "UNSERE_PROJEKTE": "Our Projects",
   "FILTERN": "Filter",

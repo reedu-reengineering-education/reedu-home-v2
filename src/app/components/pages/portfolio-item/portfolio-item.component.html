@@ -1,8 +1,5 @@
 <div class="site black-section" *ngIf="project">
-
-  <div class="re-top-space-holder">
-
-  </div>
+  <div class="re-top-space-holder"></div>
   <div class="stripes-container">
     <div class="stripes">
       <div class="re-offset-container">
@@ -11,22 +8,22 @@
             <div class="white-section project-description padding-6-resp">
               <div class="columns is-tablet">
                 <div class="column is-6 description-tab">
-                  <a class="back-link" href="">{{'BACK' | translate}}</a>
-                  <h1 class="py-3">{{project.name}}</h1>
-                  <p class="py-3">{{project.desc}}</p>
+                  <a class="back-link" href="">{{ "BACK" | translate }}</a>
+                  <h1 class="py-3">{{ project.name }}</h1>
+                  <p class="py-3">{{ project.desc }}</p>
                   <div>
                     <button class="re-button">
-                      <span>{{'WEBSEITE' | translate}}</span>
+                      <span>{{ "WEBSEITE" | translate }}</span>
                       <span class="icon">
-                        <img src="assets/img/logos/logo_black.svg">
-                      </span>            
+                        <img src="assets/img/logos/logo_black.svg" />
+                      </span>
                     </button>
                   </div>
                 </div>
                 <div class="column is-6">
                   <div class="image-desktop">
                     <figure class="image is-3by2">
-                      <img src="{{project.img}}">
+                      <img class="project-image" src="{{ project.img }}" />
                     </figure>
                   </div>
                 </div>
@@ -36,66 +33,70 @@
               <div class="columns is-tablet">
                 <div class="column is-6 split-column">
                   <div class="field-title">
-                    <span>{{"KUNDE" | translate}}</span>
+                    <span>{{ "KUNDE" | translate }}</span>
                   </div>
                   <div class="re-values">
-                    <span class="">{{project.customer}}</span>
+                    <span class="">{{ project.customer }}</span>
                   </div>
-                </div>  
+                </div>
                 <div class="column is-6 split-column">
                   <div class="field-title">
-                    <span>{{"ZIELGRUPPE" | translate}}</span>
+                    <span>{{ "ZIELGRUPPE" | translate }}</span>
                   </div>
                   <div class="re-values">
-                    <span 
-                      *ngFor="let target of project.target" 
+                    <span
+                      *ngFor="let target of project.target"
                       class="field-value"
                       [routerLink]="['/portfolio']"
-                      [queryParams]="{target: target}"
-                    >{{target}}</span>
+                      [queryParams]="{ target: target }"
+                      >{{ target }}</span
+                    >
                   </div>
                 </div>
               </div>
               <div class="columns is-tablet">
                 <div class="column is-6 split-column">
                   <div class="field-title">
-                    <span>{{"ANGEBOTE" | translate}}</span>
+                    <span>{{ "ANGEBOTE" | translate }}</span>
                   </div>
                   <div class="re-values">
-                    <span 
-                      *ngFor="let angebot of project.angebote" 
+                    <span
+                      *ngFor="let angebot of project.angebote"
                       class="field-value"
                       [routerLink]="['/portfolio']"
-                      [queryParams]="{angebot: angebot}"
-                    >{{angebot}}</span>
+                      [queryParams]="{ angebot: angebot }"
+                      >{{ angebot }}</span
+                    >
                   </div>
                 </div>
                 <div class="column is-6 split-column">
                   <div class="field-title">
-                    <span>{{"JAHR" | translate}}</span>
+                    <span>{{ "JAHR" | translate }}</span>
                   </div>
                   <div class="re-values">
-                    <span 
-                      *ngFor="let year of project.year" 
+                    <span
+                      *ngFor="let year of project.year"
                       class="field-value"
                       [routerLink]="['/portfolio']"
-                      [queryParams]="{year: year}"
-                    >{{year}}</span>
+                      [queryParams]="{ year: year }"
+                      >{{ year }}</span
+                    >
                   </div>
                 </div>
               </div>
               <div class="columns is-tablet">
                 <div class="column is-6 split-column">
                   <div class="field-title">
-                    <span>{{"THEMEN" | translate}}</span>
+                    <span>{{ "THEMEN" | translate }}</span>
                   </div>
                   <div class="re-values">
-                    <span 
-                      *ngFor="let topic of project.topics" 
+                    <span
+                      *ngFor="let topic of project.topics"
                       class="field-value"
                       [routerLink]="['/portfolio']"
-                      [queryParams]="{topic: topic}"
-                    >#{{topic}}</span>
+                      [queryParams]="{ topic: topic }"
+                      >#{{ topic }}</span
+                    >
                   </div>
                 </div>
               </div>

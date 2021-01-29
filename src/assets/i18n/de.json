@@ -5,6 +5,7 @@
   "ABOUT_US": "Über uns",
   "PHILOSOPHIE": "Philosophie",
   "AUSZEICHNUNGEN": "Auszeichnungen",
+  "AUSZEICHNUNGEN_HTML": "Auszeich&shy;nungen",
   "TEAM": "Team",
 
   "STARTPAGE_HERO_HEADLINE": "Wir bieten Lösungen für digitale Bildung.",
@@ -23,6 +24,7 @@
   "EXPERIENCE": "Wir haben Erfahrung.",
   "PORTFOLIO_TEXT": "Projekte projekte projekte. Hier kann ungefehr so nen langer satz hin, mit nebensatz damit es passt und dann echt gut aussieht.",
   "PORTFOLIO_ANSEHEN": "Portfolio ansehen",
+  "FORSCHUNG_TITLE": "Unsere Forschungsprojekte",
   "FORSCHUNG_TEXT": "Forschung Forschung Forschung. Hier kann ungefehr so nen langer satz hin  mit nebensatz damit es passt und dann echt gut aussieht..",
   "FORSCHUNG_ANSEHEN": "Forschungsprojekte ansehen",
 
@@ -53,5 +55,4 @@
 
   "MEHR_DAZU": "mehr dazu",
   "OUR_CUSTOMERS": "Unsere Kunden und Partner in der Übersicht"
-
 }
