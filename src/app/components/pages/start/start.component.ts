@@ -12,13 +12,13 @@ const de =
 
 
 const en = [
-  "for Digital Education",
-   "for Citizen Science",
-   "for Educational Ressources",
-   "for Science",
-   "for GIS",
-   "for Smart Cities",
-   "for you"]
+  "Digital Education",
+  "Citizen Science",
+  "Educational Ressources",
+  "Science",
+  "GIS",
+  "Smart Cities",
+  "you"]
 
 
 @Component({
@@ -61,7 +61,6 @@ export class StartComponent implements OnInit {
       } else {
         typedDe.destroy();
         typedEn = new Typed('.typed-element', optionsEn);
-
       }
     });
 
