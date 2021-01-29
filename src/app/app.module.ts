@@ -29,6 +29,7 @@ import { PortfolioItemComponent } from './components/pages/portfolio-item/portfo
 import { JobsComponent } from './components/pages/about-us/jobs/jobs.component';
 import { JobItemComponent } from './components/pages/about-us/job-item/job-item.component';
 
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }

@@ -1,31 +1,17 @@
 <div class="tab-wrapper">
-  <div
-    class="tab-switcher is-flex is-flex-wrap-wrap"
-  >
-    <h3
-      *ngFor="let tab of tabs; let i = index"
-      [class.active]="tab == activeTab"
-      [class.underscore-dark]="tab.underscoreStyle == 'dark'"
-      [class.underscore-red]="tab.underscoreStyle == 'red'"
-      (click)="changeTab(i)"
-    >
-      {{ tab.title | translate}}
+  <div class="tab-switcher is-flex is-flex-wrap-wrap is-justify-content-space-between">
+    <h3 *ngFor="let tab of tabs; let i = index" [class.active]="tab == activeTab"
+      [class.underscore-dark]="tab.underscoreStyle == 'dark'" [class.underscore-red]="tab.underscoreStyle == 'red'"
+      (click)="changeTab(i)">
+      {{ tab.title }}
     </h3>
   </div>
   <div class="tab-content">
     <div class="card">
       <div class="card-content">
         <div class="card-tab-switcher">
-          <img
-            class="right"
-            (click)="nextTab()"
-            src="assets/img/logos/logo_outline_red.svg"
-          />
-          <img
-            class="left"
-            (click)="previousTab()"
-            src="assets/img/logos/logo_outline_red.svg"
-          />
+          <img class="right" (click)="nextTab()" src="assets/img/logos/logo_outline_red.svg" />
+          <img class="left" (click)="previousTab()" src="assets/img/logos/logo_outline_red.svg" />
         </div>
         <div class="columns">
           <div class="column is-two-thirds">
@@ -34,6 +20,21 @@
             </h2>
             <h2 *ngIf="!activeTab.title2">{{ activeTab.title }}</h2>
             <p>{{ activeTab.description }}</p>
+            <ul style="list-style: circle;margin-bottom:2rem;list-style-position: inside;color:#eb5c37" *ngIf="activeTab.title==='Veranstaltungen' || activeTab.title==='Events' ">
+              <li>{{activeTab.list1}}</li>
+              <li>{{activeTab.list2}}</li>
+              <li>{{activeTab.list3}}</li>
+              <li>{{activeTab.list4}}</li>
+              <li>{{activeTab.list5}}</li>
+              <li>{{activeTab.list6}}</li>
+            </ul>
+            <ul style="list-style: circle;margin-bottom:2rem;list-style-position: inside;color:#eb5c37" *ngIf="activeTab.title==='Forschung' || activeTab.title==='Science' ">
+              <li>{{activeTab.list1}}</li>
+              <li>{{activeTab.list2}}</li>
+              <li>{{activeTab.list3}}</li>
+              <li>{{activeTab.list4}}</li>
+              <li>{{activeTab.list5}}</li>
+            </ul>
             <a [href]="activeTab.link">
               <button class="re-button">
                 <span>{{ activeTab.linkText }}</span>
