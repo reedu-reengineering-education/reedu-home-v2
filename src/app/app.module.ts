@@ -27,6 +27,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { PortfolioItemComponent } from './components/pages/portfolio-item/portfolio-item.component';
 
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -49,8 +50,8 @@ export function createTranslateLoader(http: HttpClient) {
     ForschungComponent,
     TabsComponent,
     ProjectCardComponent,
-    PortfolioItemComponent,
-  ],
+    PortfolioItemComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
