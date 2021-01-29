@@ -1,22 +1,32 @@
 [
   {
+    "title": "CeBIT Innovation Award 2017 - Sonderpreis für Digitales Lehren und Lernen",
+    "description": "Luftdruck, Temperatur oder UV-Strahlung sind Umweltfaktoren, die unser Leben tagtäglich beeinflussen. Mit Wetter-Apps erfahren wir, was wir auch selbst messen könnten. Das Technik-Baukastensystem senseBox macht vor allem in Schulklassen Lust auf Citizen Science vor der eigenen Haustür. Indem sie aktiv zum Nachmessen und Weiterdenken anregen, wecken die senseBox-Entwickler Interesse an MINT-Fächern.",
+    "photo": "https://sensebox.de/images/awards/cebit-innovation-award-2017.jpg",
+    "link": "http://www.cebitaward.de/preistraeger/preistraeger-2017/sensebox.html"
+  },
+  {
     "title": "Forscherteam des Jahres 2016",
-    "description": "Wie ist das Entworgungsverhalten inder Stadt und auf dem Land? Welche Mülltonnen werden wie stark genutzt? Und wie lange dauert es bis Müll über die Flüsse ins offene Meer ...",
-    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg"
+    "description": "Wie ist das Entsorgungsverhalten in der Stadt und auf dem Land? Welche Mülltonnen werden wie stark genutzt? Und wie lange dauert es bis Müll über die Flüsse ins offene Meer transportiert wird? Im Kontext von Umweltschutz und Nachhaltigkeit werden Schülerinnen und Schüler der Anne-Frank-Gesamtschule Havixbeck diesen Fragen im Rahmen einer Projektwoche nachgehen. Um die entsprechenden Daten zu erheben, bauen sie mit Hilfe des Citizen Science-Toolkit sensebox:edu aus Mikrocontrollern und Sensoren entsprechende Messgeräte. Gemeinsam mit Wissenschaftlern des Instituts für Geoinformatik der Universität Münster werden die Daten ausgewertet und über eine Webkarte auch der Öffentlichkeit zur Verfügung gestellt. Das Projekt senseBox – Stadt. Land. Müll vermittelt den Schülerinnen und Schülern, wie man wissenschaftlich arbeitet und sensibilisiert für ein aktuelles Thema.",
+    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg",
+    "link": "http://www.buergerschaffenwissen.de/mitmachen/forscherteam2016"
   },
   {
     "title": "Code Week Award 2016",
-    "description": "Unter dem Motto \"Jede Wiche ist eine Code Week\" werden mit dem Code Week Award kreative Workshops-Formate dund um das Thema Coding in ganz Deutschland gefördert. Das...",
-    "photo": "https://award.codeweek.de/2016/wp-content/themes/cwa16/library/images/logo.svg"
+    "description": "Unter dem Motto „Jede Woche ist eine Code Week!“ werden mit dem Code Week Award kreative Workshop-Formate rund um das Thema Coding in ganz Deutschland gefördert. Das Konzept des senseBox Hackathon überzeugte die Jury und das Team erhält 5000 Euro zur Umsetzung des Formats.",
+    "photo": "https://award.codeweek.de/2016/wp-content/themes/cwa16/library/images/logo.svg",
+    "link": "http://award.codeweek.de/projects/sensebox-hackathon/"
   },
   {
-    "title": "Forscherteam des Jahres 2016",
-    "description": "Wie ist das Entworgungsverhalten inder Stadt und auf dem Land? Welche Mülltonnen werden wie stark genutzt? Und wie lange dauert es bis Müll über die Flüsse ins offene Meer ...",
-    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg"
+    "title": "Wettbewerb im Wissenschaftsjahr 2015 “Bürger schaffen die Zukunftsstadt”",
+    "description": "Im Rahmen des Wissenschaftsjahres 2015 wurden wissenschaftliche Projekte eingeladen, die mit Bürgerinnen und Bürgern gemeinsam nach Lösungen suchen und Fragen der Stadtraumgestaltung und –Nutzung nachgehen. Die senseBox gewinnt den mit 2000,- Euro dotierten Preis.",
+    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg",
+    "link": "http://www.buergerschaffenwissen.de/mitmachen/wj-wettbewerb"
   },
   {
-    "title": "Forscherteam des Jahres 2016",
-    "description": "Wie ist das Entworgungsverhalten inder Stadt und auf dem Land? Welche Mülltonnen werden wie stark genutzt? Und wie lange dauert es bis Müll über die Flüsse ins offene Meer ...",
-    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg"
+    "title": "Make Light Challenge 2014 – 3. Platz",
+    "description": "Mit der Make Light Challenge 2014 wurden unter dem Motto „Light(x)ing” DIY-Projekte gesucht, die sich die Vorteile der Vernetzung zunutze machen. Durch das Belegen des dritten Platzes erhielt die senseBox die Chance sich auf den Maker Faires 2015 in Berlin und Hannover zu präsentieren.",
+    "photo": "https://sensebox.de/images/awards/LogoPhotonic_campus.png",
+    "link": "https://www.photonikforschung.de/make-light/make-light-projekte.html"
   }
 ]

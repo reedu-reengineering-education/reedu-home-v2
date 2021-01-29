@@ -34,6 +34,12 @@
                 <div class="column">
                   <h1 class="title">{{ award.title }}</h1>
                   <h2 class="subtitle">{{ award.description }}</h2>
+                  <a href="{{ award.link }}">
+                    <button *ngIf="award.link" class="re-button">
+                      <span>{{ "MEHR_DAZU" | translate }}</span>
+                      <img src="/assets/img/logos/logo_black.svg" />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
