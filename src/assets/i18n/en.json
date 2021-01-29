@@ -11,14 +11,14 @@
   "STARTPAGE_HEADLINE": "",
   "WHAT_WE_DO": "",
   "WHAT_WE_DO_IMPORTANT": "",
-  "SPIN_OFF": "",
+  "SPIN_OFF": "re:edu is a Spin-off of the Institute for Geoinformatics at the University Münster.",
 
-  "HARDWARE_ENTWICKLUNG": "",
-  "SOFTWARE_ENTWICKLUNG": "",
-  "SCHULUNGEN": "",
-  "WORKSHOPS": "",
-  "HACKATHONS": "",
-  "BERATUNG": "",
+  "HARDWARE_ENTWICKLUNG": "Hardware development",
+  "SOFTWARE_ENTWICKLUNG": "Software development",
+  "SCHULUNGEN": "Training",
+  "WORKSHOPS": "Workshops",
+  "HACKATHONS": "Hackathons",
+  "BERATUNG": "Consulting",
 
   "EXPERIENCE": "Wir haben Erfahrung.",
   "PORTFOLIO_TEXT": "Projekte projekte projekte",
@@ -54,7 +54,4 @@
 
   "MEHR_DAZU": "more",
   "OUR_CUSTOMERS": "Customers and Partners"
-
-
-
 }
