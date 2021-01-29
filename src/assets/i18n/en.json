@@ -40,7 +40,7 @@
   "SCHREIBEN": "WRITE",
   "BESUCHEN": "VISIT",
 
-  "UNSERE_PROJEKTE": "Our Projects",
+  "UNSERE_PROJEKTE": "Our projects",
   "FILTERN": "Filter",
   "ACTIVE_FILTER": "Activ filters",
   "CUSTOMER": "Customer",
@@ -54,5 +54,13 @@
   "FILTER_ANWENDEN": "Filter projects",
 
   "MEHR_DAZU": "more",
-  "OUR_CUSTOMERS": "Customers and Partners"
+  "OUR_CUSTOMERS": "Customers and Partners",
+
+  "UNSER_ANGEBOT": "Our products",
+  "Lehrmaterial": "Educational resources",
+  "LEHRMATERIAL": "Educational resources",
+  "Veranstaltungen": "Events",
+  "Forschung": "Research",
+  "Beratung": "Consulting"
+
 }

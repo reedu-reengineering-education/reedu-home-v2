@@ -1,6 +1,6 @@
 <div class="tab-wrapper">
   <div
-    class="tab-switcher is-flex is-flex-wrap-wrap is-justify-content-space-between"
+    class="tab-switcher is-flex is-flex-wrap-wrap"
   >
     <h3
       *ngFor="let tab of tabs; let i = index"
@@ -9,7 +9,7 @@
       [class.underscore-red]="tab.underscoreStyle == 'red'"
       (click)="changeTab(i)"
     >
-      {{ tab.title }}
+      {{ tab.title | translate}}
     </h3>
   </div>
   <div class="tab-content">

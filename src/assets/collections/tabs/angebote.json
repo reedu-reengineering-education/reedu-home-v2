@@ -27,6 +27,14 @@
     "underscoreStyle": "dark"
   },
   {
+    "title": "Lehr- und Lernmaterial",
+    "description": "Lorem ipsum",
+    "link": "portfolio?angebot=Lehrmaterial",
+    "linkText": "Portfolio ansehen",
+    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "underscoreStyle": "dark"
+  },
+  {
     "title": "Forschung",
     "description": "Lorem ipsum",
     "link": "portfolio?angebot=Forschung",
