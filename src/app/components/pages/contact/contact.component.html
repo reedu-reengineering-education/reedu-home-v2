@@ -66,7 +66,9 @@
         </div>
       </div>
       <div class="column is-6 img-column">
-        <img src="assets/img/contact/anfahrt.png" />
+        <mgl-map [style]="style" [zoom]="[14]" [center]="[7.631741, 51.95431]">
+          <mgl-marker [lngLat]="[7.631741, 51.95431]"></mgl-marker>
+        </mgl-map>
       </div>
     </div>
   </div>
