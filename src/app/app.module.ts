@@ -7,7 +7,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
-
+import { MarkdownModule } from 'ngx-markdown';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -26,6 +26,8 @@ import { ForschungComponent } from './components/pages/forschung/forschung.compo
 import { TabsComponent } from './components/tabs/tabs.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { PortfolioItemComponent } from './components/pages/portfolio-item/portfolio-item.component';
+import { JobsComponent } from './components/pages/about-us/jobs/jobs.component';
+import { JobItemComponent } from './components/pages/about-us/job-item/job-item.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -50,6 +52,8 @@ export function createTranslateLoader(http: HttpClient) {
     TabsComponent,
     ProjectCardComponent,
     PortfolioItemComponent,
+    JobsComponent,
+    JobItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,7 +67,8 @@ export function createTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    NgxMapboxGLModule
+    NgxMapboxGLModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

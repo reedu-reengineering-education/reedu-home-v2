@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AuszeichnungenComponent } from './components/pages/about-us/auszeichnungen/auszeichnungen.component';
+import { JobItemComponent } from './components/pages/about-us/job-item/job-item.component';
+import { JobsComponent } from './components/pages/about-us/jobs/jobs.component';
 import { PhilosophieComponent } from './components/pages/about-us/philosophie/philosophie.component';
 import { TeamComponent } from './components/pages/about-us/team/team.component';
 import { AngeboteComponent } from './components/pages/angebote/angebote.component';
@@ -24,11 +26,13 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'philosophie', component: PhilosophieComponent },
   { path: 'auszeichnungen', component: AuszeichnungenComponent },
-  { path: 'team', component: TeamComponent }
+  { path: 'team', component: TeamComponent },
+  { path: 'jobs', component: JobsComponent },
+  { path: 'job/:filename', component: JobItemComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

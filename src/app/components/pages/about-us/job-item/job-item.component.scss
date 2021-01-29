@@ -1,0 +1,74 @@
+@import "./../../../../../styles/variables.scss";
+
+.site {
+  min-height: 100vh;
+
+  .top-space-holder {
+    height: 300px;
+  }
+  .stripes-container {
+    background: $white;
+    .stripes {
+      padding: 1rem;
+      background: #eb5c3727
+        repeating-linear-gradient(
+          -40deg,
+          #eb5c3727,
+          #eb5c3727 10px,
+          #eb5c376e 0,
+          #eb5c376e 12px
+        );
+
+      background-repeat: repeat;
+
+      .re-offset-container {
+        transform: translateY(-150px);
+      }
+    }
+  }
+}
+
+.project-description {
+  .back-link {
+    color: $black;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+
+    img {
+      width: 2rem;
+      transform: rotate(180deg);
+    }
+  }
+  .re-button {
+    color: $black;
+  }
+}
+
+.padding-6-resp {
+  padding: 1rem;
+  @media screen and (min-width: $breakpoint-mobile) {
+    padding: 6rem;
+  }
+}
+
+markdown::ng-deep {
+  h1 {
+    text-align: center;
+    word-break: break-word;
+  }
+  p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: disc !important;
+  }
+  a {
+    color: $primary;
+  }
+  img {
+    margin: auto;
+    display: block;
+  }
+}
