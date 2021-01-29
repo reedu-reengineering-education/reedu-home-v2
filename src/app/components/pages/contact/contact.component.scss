@@ -12,13 +12,15 @@
     img {
       height: 100%;
     }
+    @media screen and (max-width: $breakpoint-mobile) {
+      display: none;
+    }
   }
 
   .margin-left-container {
     padding: 3em;
-    padding-left: 200px;
     @media screen and (min-width: $breakpoint-mobile) {
-      margin-right: 50px;
+      padding-left: 200px;
     }
   }
   .contact-list {
@@ -64,4 +66,5 @@
 mgl-map {
   height: 320px;
   width: 500px;
+  max-width: 100%;
 }
