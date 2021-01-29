@@ -18,13 +18,21 @@
       "underscoreStyle": "dark"
     },
     {
-      "title": "Veranstaltungen",
+      "title": "Events",
       "title2": "Schulungen, Workshops und Hackathons",
       "description": "Wir veranstalten und organisieren regelmäßig Events für Erwachsene und Kinder, wie z.B. Workshops, Lehrerfortbildungen, Projektwochen oder Hackevents. Interessiert an einem Event? Kontaktieren Sie uns oder klicken Sie sich durch unsere bisherigen Veranstaltungen.",
       "link": "portfolio?angebot=Veranstaltungen",
       "linkText": "Portfolio ansehen",
       "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
       "underscoreStyle": "dark"
+    },
+    {
+        "title": "Educational Resources",
+        "description": "Lorem ipsum",
+        "link": "portfolio?angebot=lehrmaterial",
+        "linkText": "Portfolio ansehen",
+        "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+        "underscoreStyle": "dark"
     },
     {
       "title": "Forschung",
