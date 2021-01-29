@@ -1,55 +1,62 @@
 @import "../../../../styles/variables.scss";
 
 .site {
-    min-height: 95VH;
-    padding-top: 200px;
+  min-height: 95vh;
+  padding-top: 200px;
 
-    #left-logo {
-        height: 200px;
-        position: absolute;
-        left: 0;
-        top: 1em;
-        img {
-            height: 100%;
-        }
+  #left-logo {
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 1em;
+    img {
+      height: 100%;
     }
+  }
 
-    .margin-left-container {
-        padding: 3em;
-        padding-left: 200px;
-        @media screen and (min-width: $breakpoint-mobile) {
-            margin-right: 50px;
-        }
+  .margin-left-container {
+    padding: 3em;
+    padding-left: 200px;
+    @media screen and (min-width: $breakpoint-mobile) {
+      margin-right: 50px;
     }
-    .contact-list {
-        .icon-text {
-            display: flex;
-            align-items: center;
-        
-            > span {
-                width: 16px;
-            }
-        
-            > .title {
-                &.sb-red-text {
-                color: $primary;
-                }
-                margin-left: 1rem;
-            }
-        
-            + h6 {
-                margin-left: 2rem;
-            }
-        }
-    }
+  }
+  .contact-list {
+    .icon-text {
+      display: flex;
+      align-items: center;
 
-    .img-column {
-        img {
-            border: 2px solid $white;
-            transform: translateX(20%);
-            @media screen and (max-width: $breakpoint-mobile) {
-                transform: translateX(0%);
-            }
+      > span {
+        width: 16px;
+      }
+
+      > .title {
+        &.sb-red-text {
+          color: $primary;
         }
+        margin-left: 1rem;
+        font-family: BrixSlab-Regular;
+      }
+
+      + h6 {
+        margin-left: 2rem;
+        font-family: BrixSlab-Regular;
+
+        > a {
+          color: $black;
+          font-size: 1rem;
+        }
+      }
     }
+  }
+
+  .img-column {
+    img {
+      border: 2px solid $white;
+      transform: translateX(20%);
+      @media screen and (max-width: $breakpoint-mobile) {
+        transform: translateX(0%);
+      }
+    }
+  }
 }
