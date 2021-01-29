@@ -8,7 +8,10 @@
             <div class="white-section project-description padding-6-resp">
               <div class="columns is-tablet">
                 <div class="column is-6 description-tab">
-                  <a class="back-link" href="">{{ "BACK" | translate }}</a>
+                  <a class="back-link" href="javascript:history.go(-1)"
+                    ><img src="./../../../../assets/img/logos/logo_black.svg" />
+                    {{ "BACK" | translate }}</a
+                  >
                   <h1 class="py-3">{{ project.name }}</h1>
                   <p class="py-3">{{ project.desc }}</p>
                   <div>

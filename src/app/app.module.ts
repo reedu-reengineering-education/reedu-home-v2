@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
+import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
+
+
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { StartComponent } from './components/pages/start/start.component';
@@ -59,7 +62,9 @@ export function createTranslateLoader(http: HttpClient) {
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
       }
-    })],
+    }),
+    NgxMapboxGLModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
