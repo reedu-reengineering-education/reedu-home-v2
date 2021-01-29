@@ -22,9 +22,11 @@
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
+    "angular-typing-animation": "^0.5.4",
     "bulma": "^0.9.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typed.js": "^2.0.11",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
