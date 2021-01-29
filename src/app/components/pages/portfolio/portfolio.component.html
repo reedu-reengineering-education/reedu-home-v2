@@ -43,7 +43,7 @@
 
             <span class="tag" *ngIf="appliedFilter.angebot">
               {{ "ANGEBOT" | translate }}:
-              {{ appliedFilter.angebot }}
+              {{ appliedFilter.angebot | translate }}
               <button
                 class="delete is-small"
                 (click)="removeFilter('angebot')"
@@ -61,7 +61,7 @@
 
             <span class="tag" *ngIf="appliedFilter.target">
               {{ "TARGET" | translate }}:
-              {{ appliedFilter.target }}
+              {{ appliedFilter.target | translate }}
               <button
                 class="delete is-small"
                 (click)="removeFilter('target')"

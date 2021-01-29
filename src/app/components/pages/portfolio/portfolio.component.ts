@@ -14,7 +14,7 @@ export class PortfolioComponent implements OnInit {
   projects: any[];
   filteredProjects: any[];
   customers;
-  angebote = ["Software", "Hardware", "Veranstaltungen", "Forschung", "Beratung"];
+  angebote = ["Software", "Hardware", "Veranstaltungen", "Forschung", "Beratung", "Lehrmaterial"];
   topics = [];
   targets = [];
   years = [2018, 2019, 2020]
@@ -68,6 +68,7 @@ export class PortfolioComponent implements OnInit {
       }
       this.buildFilters();
       this.filteredProjects = this.projects;
+      this.applyFilters();
     });
     this.filteredProjects = this.projects;
     this.applyFilters();
@@ -75,6 +76,8 @@ export class PortfolioComponent implements OnInit {
   }
 
   buildFilters() {
+    this.topics = [];
+    this.targets = [];
     this.customers = [...new Set(this.projects.map(item => item.customer))]
     this.projects.forEach(item => {
       this.topics.push(...item.topics);

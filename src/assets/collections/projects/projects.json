@@ -6,7 +6,7 @@
     "link": "https://origami.ifgi.de",
     "topics": ["DigitaleBildung", "AppEntwicklung", "SpatialLearning", "Gamification", "Forschung"],
     "customer": "Westfälische Wilhelms Universität Münster",
-    "angebote": ["Software", "Forschung", "Beratung"],
+    "angebote": ["Software", "Forschung", "Beratung", "Lehrmaterial"],
     "year": [2019,2020],
     "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
   },

@@ -60,6 +60,9 @@
             {{ "WORKSHOPS" | translate }},<br />
             {{ "HACKATHONS" | translate }}
           </div>
+          <div class="topic-block"  [routerLink]="['angebote', 'lehrmaterial']">
+            {{ "LEHRMATERIAL" | translate }}
+          </div>
           <div class="topic-block"  [routerLink]="['angebote', 'forschung']">
             {{ "FORSCHUNG" | translate }}
           </div>
@@ -67,8 +70,8 @@
             {{ "BERATUNG" | translate }}
           </div>
           <div class="py-5">
-            <button class="re-button">
-              <span>mehr dazu</span>
+            <button class="re-button" [routerLink]="['angebote']">
+              <span>{{'MEHR_DAZU' | translate}}</span>
               <img src="/assets/img/logos/logo_black.svg" />
             </button>
           </div>
