@@ -89,13 +89,18 @@
   > img {
     float: right;
     width: $control-height;
+    transition: 200ms;
 
     &:hover {
       cursor: pointer;
+      transform: scale(1.2);
     }
   }
 
   .left {
     transform: rotate(180deg);
+    &:hover {
+      transform: rotate(180deg) scale(1.2);
+    }
   }
 }
