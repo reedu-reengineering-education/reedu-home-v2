@@ -54,6 +54,15 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
+    position: relative;
+
+    .height100flex {
+      flex-direction: column;
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+
+    }
   }
 
   .content-tile {
@@ -101,6 +110,7 @@
 #experience {
   .sb-item {
     flex-direction: column;
+    justify-content: space-between;
     padding: 3em;
     cursor: pointer;
     @media screen and (max-width: 768px) {

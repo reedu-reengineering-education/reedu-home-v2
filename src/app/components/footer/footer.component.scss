@@ -7,9 +7,30 @@
   color: $white;
 
   .footer-logos {
+    display: flex;
+    flex-wrap: wrap;
+
+    .logo {
+      padding-right: 2em;
+    }
     img {
       max-height: 150px;
       height: 100%;
+    }
+    .snsbx-logo {
+      display: flex;
+    }
+    .home-of-snsbx {
+      display: flex;
+      align-items: center;
+
+      h2 {
+        white-space: nowrap;
+      }
+      .sensebox-logo {
+        height: 100px;
+        padding-left: 0.3em;
+      }
     }
   }
   .footer-nav {
