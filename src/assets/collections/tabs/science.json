@@ -11,32 +11,22 @@
     "title": "SIMPORT",
     "description": "In einem Verbund mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster, der Fachhochschule Münster, der TU Berlin und here technologies werden Richtlinien und Softwaremodule für das souveräne Management der eigenen Ortsinformationen am mobilen Endgerät entwickelt. Es entstehen frei verfügbare Softwarekomponenten, die es erlauben, mögliche Rückschlüsse aus den eigenen Ortsinformationen verständlich zu visualisieren und die Vor- und Nachteile der Weitergabe von Ortsinformationen besser zu verstehen. So werden Nutzende über die Risiken genau dann aufgeklärt, wenn sie über die Weitergabe dieser Daten entscheiden müssen. Dazu werden innovative Interaktionsformen entwickelt: Nutzerinnen und Nutzer können hier detailliert festlegen, welche Standortdaten wann, mit wem, und in welcher Genauigkeit geteilt werden. ",
     "link": "https://simport.net/",
-    "linkText": "sensebox.de",
+    "linkText": "SIMPORT",
     "image": "/assets/img/forschung/simport.png",
     "underscoreStyle": "red"
   },
   {
     "title": "STEAM+",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
+    "description": "Mit 17 europäischen Hochschulen und Bildungsministerien forschen wir in \"Innovating STE(A)M in Higher Education with Transdisciplinary Talent Programs (STEAM+)\", einem groß angelegten, innovativen Projekt mit einem ganzheitlichen Ansatz, das darauf abzielt, bildungspolitischen Entscheidungsträgern Instrumente an die Hand zu geben, um neue Generationen auf den Umgang mit den Herausforderungen unserer Zeit vorzubereiten.Europa steht vor großen Herausforderungen, wie dem Klimawandel und der Energiewende, die im Kern durch MINT (STEM) -Fächer abgedeckt sind, aber transversale Fähigkeiten und Wissen aus allen anderen Fächern (das zusätzliche A) werden benötigt, um STEAM-Lösungen zu schaffen. Wir müssen die Köpfe, die Herzen und die Hände aller Talente nutzen, um diese Herausforderungen zu bewältigen.Das STEAM+ Projekt nutzt transdisziplinäre Talentprogramme als Laboratorien für Innovation in der Hochschulbildung (HE). Das Projekt wird von einem engagierten und qualifizierten Team von 18 Partnern aus 9 Ländern mitgestaltet, die Pädagogen, politische Entscheidungsträger und zukünftige Arbeitgeber zusammenbringen, vereint in ihrem Ziel, neue Generationen mit zukunftssicheren Fähigkeiten auszustatten.",
+    "link": "https://steamtalent.eu/",
+    "linkText": "STEAM+",
     "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
   {
     "title": "EXIST",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
+    "description": "Im Rahmen des Exist-Gründerstipendiums für Existenzgründungen aus der Wissenschaft wurden wir mit dem Arbeitstitel \"edusense\" 12 Monate lang gefördert.",
     "image": "/assets/img/forschung/eduSense_logo.jpg",
-    "underscoreStyle": "red"
-  },
-  {
-    "title": "iDROP",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
     "underscoreStyle": "red"
   }
 ]

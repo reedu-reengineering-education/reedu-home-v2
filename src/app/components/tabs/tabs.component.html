@@ -35,7 +35,7 @@
               <li>{{activeTab.list4}}</li>
               <li>{{activeTab.list5}}</li>
             </ul>
-            <a [href]="activeTab.link">
+            <a *ngIf="activeTab.link" [href]="activeTab.link">
               <button class="re-button">
                 <span>{{ activeTab.linkText }}</span>
                 <img src="/assets/img/logos/logo_black.svg" />

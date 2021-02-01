@@ -9,34 +9,24 @@
   },
   {
     "title": "SIMPORT",
-    "description": "In a joint project with the Institute for Geoinformatics at the Westfälische Wilhelms-Universität Münster, the Münster University of Applied Sciences, the TU Berlin and here technologies, guidelines and software modules for the sovereign management of one's own location information on mobile devices are being developed. Freely available software components are being developed that allow users to visualize possible conclusions from their own location information in a comprehensible way. Thus help users to better understand the advantages and disadvantages of sharing location information. In this way, users are informed about the risks precisely when they have to decide whether or not to share this data. Innovative forms of interaction are being developed for this purpose: Here, users can specify in detail which location data is shared, when, with whom, and to what degree of accuracy. ",
+    "description": "In a joint project with the Institute for Geoinformatics at the Westfälische Wilhelms-Universität Münster, the Münster University of Applied Sciences, the TU Berlin and here technologies, guidelines and software modules for the sovereign management of one's own location information on mobile devices are being developed. Freely available software components are being developed that allow users to visualize possible conclusions from their own location information in a comprehensible way. Thus help users to better understand the advantages and disadvantages of sharing location information. In this way, users are informed about the risks precisely when they have to decide whether or not to share this data. Innovative forms of interaction are being developed for this purpose: Here, users can specify in detail which location data is shared, when, with whom, and to what degree of accuracy.",
     "link": "https://simport.net/",
-    "linkText": "sensebox.de",
+    "linkText": "SIMPORT",
     "image": "/assets/img/forschung/simport.png",
     "underscoreStyle": "red"
   },
   {
     "title": "STEAM+",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
+    "description": "Innovating STE(A)M in Higher Education with Transdisciplinary Talent Programs (STEAM+) is a large-scale innovative project with a holistic approach, aiming to provide educational policy makers with instruments to prepare new generations for handling the challenges of our time. The project is coordinated by Hanze University of Applied Sciences in Groningen, the Netherlands. Europe faces grand challenges, such as climate change and energy transition, which have a STEM subject at their core, but need transversal skills and knowledge from All other subjects (the extra A) to create STEAM solutions. We need to use brains, hearts and hands of all talents to tackle these challenges.The STEAM+ project uses transdisciplinary talent programs as laboratories of innovation in higher education (HE). The project is co-created by a dedicated and qualified team of 18 partners from 9 countries, bringing together educators, policy makers and future employers, united in their aim to provide new generations with future-proof skills.",
+    "link": "https://steamtalent.eu/",
+    "linkText": "STEAM+",
     "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
   {
     "title": "EXIST",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
+    "description": "Within the framework of the Exist-Gründerstipendium for start-ups from science, we were funded for 12 months with the working title \"edusense\".",
     "image": "/assets/img/forschung/eduSense_logo.jpg",
-    "underscoreStyle": "red"
-  },
-  {
-    "title": "iDROP",
-    "description": "Lorem ipsum",
-    "link": "https://sensebox.de",
-    "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
     "underscoreStyle": "red"
   }
 ]
