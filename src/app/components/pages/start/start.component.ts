@@ -2,23 +2,23 @@ import { Component, enableProdMode, OnInit } from '@angular/core';
 import Typed from 'typed.js';
 import { TranslateService } from '@ngx-translate/core';
 const de = 
-[   "für Digitale Bildung",
-   "für Citizen Science",
-   "für Lernmaterialien",
-   "für Forschung",
-   "für GIS",
-   "für Smart Cities",
-   "für dich"]
+[   "für Digitale Bildung.",
+   "für Citizen Science.",
+   "für Lernmaterialien.",
+   "für Forschung.",
+   "für GIS.",
+   "für Smart Cities.",
+   "für Sie!"]
 
 
 const en = [
-  "Digital Education",
-  "Citizen Science",
-  "OER",
-  "Science",
-  "GIS",
-  "Smart Cities",
-  "you"]
+  "Digital Education.",
+  "Citizen Science.",
+  "OER.",
+  "Science.",
+  "GIS.",
+  "Smart Cities.",
+  "you!"]
 
 
 @Component({

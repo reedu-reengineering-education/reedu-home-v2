@@ -9,6 +9,9 @@
   max-width: 75%;
   @media screen and (max-width: $breakpoint-mobile) {
     max-width: 100%;
+    .tab-selector {
+      font-size: 16px;
+    }
   }
 
   > h3 {
