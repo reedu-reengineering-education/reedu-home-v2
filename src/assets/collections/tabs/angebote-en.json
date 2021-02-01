@@ -52,8 +52,10 @@
     "list4": "Geostatistical data analysis",
     "list5": "Communication and dissemination of research results",
     "end": "Take a look at our research portfolio and contact us.",
-    "link": "portfolio?angebot=Forschung",
-    "linkText": "Click to see Portfolio",
+    "link": "/forschung",
+    "linkText": "Our scientific projects",
+    "link2": "portfolio?angebot=Forschung",
+    "link2Text": "Click to see Portfolio",
     "image": "/assets/img/angebote/forschung.jpg",
     "underscoreStyle": "dark"
   },

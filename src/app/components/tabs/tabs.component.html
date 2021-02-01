@@ -76,6 +76,12 @@
                 <img src="/assets/img/logos/logo_black.svg" />
               </button>
             </a>
+            <a *ngIf="activeTab.link2" [href]="activeTab.link2">
+              <button class="re-button" [ngStyle]="{ 'margin-top': '1rem' }">
+                <span>{{ activeTab.link2Text }}</span>
+                <img src="/assets/img/logos/logo_black.svg" />
+              </button>
+            </a>
           </div>
           <div class="column is-full">
             <img class="is-tab-image" [src]="activeTab.image" />

@@ -52,8 +52,10 @@
     "list4": "Geostatistische Datenanalyse",
     "list5": "Kommunikation und Dissemination von Forschungsergebnissen",
     "end": "Schauen Sie sich unsere Forschungsprojekte an und sprechen Sie uns an.",
-    "link": "portfolio?angebot=Forschung",
-    "linkText": "Portfolio ansehen",
+    "link": "/forschung",
+    "linkText": "Unsere Forschungsprojekte",
+    "link2": "portfolio?angebot=Forschung",
+    "link2Text": "Portfolio ansehen",
     "image": "/assets/img/angebote/forschung.jpg",
     "underscoreStyle": "dark"
   },
