@@ -1,22 +1,18 @@
 [
-    {
-        "name": "WWU",
-        "img": "assets/img/partner/wwu.png"
-    },
-    {
-        "name": "Institut für Geoinformatik",
-        "img": "assets/img/partner/ifgi.png"
-    },
-    {
-        "name": "Futurium",
-        "img": "assets/img/partner/logo-futurium.svg"
-    },
-    {
-        "name": "Telekom Stiftung",
-        "img": "assets/img/partner/logo-tel.svg"
-    },
-    {
-        "name": "Institut für Geoinformatik",
-        "img": "assets/img/partner/ifgi.png"
-    }
+  {
+    "name": "WWU",
+    "img": "assets/img/partner/wwu.svg"
+  },
+  {
+    "name": "Institut für Geoinformatik",
+    "img": "assets/img/partner/Logo_ifgi_long_EN.svg"
+  },
+  {
+    "name": "Futurium",
+    "img": "assets/img/partner/logo-futurium.svg"
+  },
+  {
+    "name": "Telekom Stiftung",
+    "img": "assets/img/partner/logo-tel.svg"
+  }
 ]
