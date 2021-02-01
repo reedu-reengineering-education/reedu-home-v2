@@ -1,32 +1,29 @@
 [
   {
-    "title": "CeBIT Innovation Award 2017 - Special Award for Digital Teaching and Learning",
-    "description": "Air pressure, temperature or UV radiation are environmental factors that influence our lives every day. With weather apps, we learn what we could also measure ourselves. The senseBox technology construction kit system whets the appetite of school classes in particular for citizen science on their own doorstep. By actively encouraging students to measure and think ahead, the senseBox developers arouse interest in STEM subjects.",
-    "photo": "https://sensebox.de/images/awards/cebit-innovation-award-2017.jpg",
-    "link": "http://www.cebitaward.de/preistraeger/preistraeger-2017/sensebox.html"
+    "title": "Falling Walls Finalist 2020",
+    "image": "assets/img/awards/falling_walls_2020.jpg"
   },
   {
-    "title": "Research team of the year 2016",
-    "description": "What is the disposal behavior in the city and in the countryside? Which waste garbage cans are used to what extent? And how long does it take for waste to be transported via rivers into the open sea? In the context of environmental protection and sustainability, students at the Anne Frank Comprehensive School in Havixbeck will be investigating these questions as part of a project week. To collect the corresponding data, they will build appropriate measuring devices from microcontrollers and sensors with the help of the Citizen Science toolkit sensebox:edu. Together with scientists from the Institute for Geoinformatics at the University of Münster, the data will be analyzed and also made available to the public via a web map. The project senseBox - Stadt. Land. Müll teaches students how to work scientifically and raises awareness of a current issue.",
-    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg",
-    "link": "http://www.buergerschaffenwissen.de/mitmachen/forscherteam2016"
+    "title": "1. Platz in der Kategorie Deutschland des Start-ups Connected Awards der AHK Sao Paulo",
+    "image": "assets/img/awards/ahk-sao-paulo.svg"
   },
   {
-    "title": "Code Week Award 2016",
-    "description": "Under the motto \"Every week is a Code Week!\", the Code Week Award promotes creative workshop formats around the topic of coding throughout Germany. The concept of the senseBox Hackathon convinced the jury and the team receives 5000 euros to implement the format.",
-    "photo": "https://award.codeweek.de/2016/wp-content/themes/cwa16/library/images/logo.svg",
-    "link": "http://award.codeweek.de/projects/sensebox-hackathon/"
+    "title": "1. Platz beim Pecha Kucha Pitch auf der Learntec 2019",
+    "image": "assets/img/awards/learntec.png"
   },
   {
-    "title": "Competition in the Science Year 2015 \"Citizens Create the City of the Future\"",
-    "description": "Within the framework of the Year of Science 2015, scientific projects were invited that search for solutions together with citizens and investigate questions of urban space design and use. The senseBox wins the prize endowed with 2000 euros.",
-    "photo": "https://www.buergerschaffenwissen.de/themes/bur/logo.svg",
-    "link": "http://www.buergerschaffenwissen.de/mitmachen/wj-wettbewerb"
+    "title": "2. Platz beim delina2019 Innovationspreis für digitale Bildung",
+    "image": "assets/img/awards/delina2019.jpg"
   },
   {
-    "title": "Make Light Challenge 2014 – 3. Place",
-    "description": "With the Make Light Challenge 2014, DIY projects that take advantage of networking were sought under the motto \"Light(x)ing\". By taking third place, the senseBox was given the chance to present itself at the Maker Faires 2015 in Berlin and Hanover.",
-    "photo": "https://sensebox.de/images/awards/LogoPhotonic_campus.png",
-    "link": "https://www.photonikforschung.de/make-light/make-light-projekte.html"
+    "title": "Electronica 2019",
+    "image": "assets/img/awards/electronica.jpg"
+  },
+  {
+    "title": "Sybille-Hahne-Nachwuchsgründerpreis 2018 - Publikumspreis"
+  },
+  {
+    "title": "ERCIS Launch Pad 2017 - Bestes E-Commerce-Geschäftsmodell",
+    "image": "assets/img/awards/launchpad.png"
   }
 ]
