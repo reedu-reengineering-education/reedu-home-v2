@@ -2,7 +2,7 @@
 
 .nowrap {
   white-space: nowrap;
-  min-height:70px;
+  min-height: 70px;
 }
 .hero.has-background {
   position: relative;
@@ -96,7 +96,6 @@
       }
     }
   }
-
 }
 
 #experience {
@@ -135,4 +134,9 @@
       }
     }
   }
+}
+
+.sensebox-logo {
+  max-width: 210px;
+  margin-bottom: 5px;
 }
