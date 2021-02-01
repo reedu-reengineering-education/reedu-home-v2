@@ -28,10 +28,47 @@
         </div>
         <div class="columns">
           <div class="column is-two-thirds">
-            <h2 *ngIf="activeTab.title2">
-              <span>{{ activeTab.title }}: </span>{{ activeTab.title2 }}
-            </h2>
-            <h2 *ngIf="!activeTab.title2">{{ activeTab.title }}</h2>
+            <div
+              class="is-flex is-align-items-center is-justify-content-space-between"
+            >
+              <h2 *ngIf="activeTab.title2">
+                <span>{{ activeTab.title }}: </span>{{ activeTab.title2 }}
+              </h2>
+              <h2 *ngIf="!activeTab.title2">{{ activeTab.title }}</h2>
+
+              <img
+                *ngIf="activeTab.logo"
+                [src]="activeTab.logo"
+                class="tab-logo"
+              />
+            </div>
+            <div *ngIf="activeTab.forschungsverband">
+              <h3>{{ "FORSCHUNGSVERBAND" | translate }}:</h3>
+
+              <div
+                class="is-flex is-align-items-center is-justify-content-space-around"
+              >
+                <img
+                  *ngFor="let logo of activeTab.forschungsverband"
+                  [src]="logo"
+                  class="tab-logo"
+                />
+              </div>
+            </div>
+            <div *ngIf="activeTab.foerderung">
+              <h3>
+                {{ "FOERDERUNG" | translate }}: {{ activeTab.foerderungName }}
+              </h3>
+              <div
+                class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-space-around"
+              >
+                <img
+                  *ngFor="let logo of activeTab.foerderung"
+                  [src]="logo"
+                  class="tab-logo"
+                />
+              </div>
+            </div>
             <p>{{ activeTab.description }}</p>
             <ul
               style="
@@ -70,6 +107,7 @@
               <li>{{ activeTab.list5 }}</li>
             </ul>
             <p>{{ activeTab.end }}</p>
+            <img *ngIf="activeTab.logoBottom" [src]="activeTab.logoBottom" />
             <a *ngIf="activeTab.link" [href]="activeTab.link">
               <button class="re-button">
                 <span>{{ activeTab.linkText }}</span>

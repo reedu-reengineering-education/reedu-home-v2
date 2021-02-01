@@ -59,10 +59,18 @@
       }
     }
 
-    h2,
+    .tab-logo {
+      max-height: 4rem;
+      max-width: 6rem;
+    }
+
+    h2 {
+      color: $black;
+    }
+
+    h3,
     p {
       color: $red;
-      margin-bottom: 2rem;
 
       span {
         color: $black;
@@ -71,6 +79,7 @@
 
     p {
       font-family: NunitoSans-Bold;
+      margin-bottom: 2rem;
     }
 
     img.is-tab-image {
