@@ -62,5 +62,10 @@
   "LEHRMATERIAL": "Lehr- und Lernmaterialien",
   "Veranstaltungen": "Veranstaltungen",
   "Forschung": "Forschung",
-  "Beratung": "Beratung"
+  "Beratung": "Beratung",
+
+  "PHILOSOPHIE_TITLE": "Unsere Philosophie",
+  "PHILOSOPHIE_DESCRIPTION": "Unser Unternehmen ist eine Ausgründung des Instituts für Geoinformatik der Uni Münster. Insofern verstehen wir uns durch unseren Hintergrund im wissenschaftlichen Bereich auch der Forschung verpflichtet. Unsere langjährige Erfahrung mit der Entwicklung von geographischen Informationssystemen aber auch der Wissenschaftskommunikation, den Bereichen Citizen Science und all das dem Open Science und Open Innovation Ansatz folgend führt zu unserem Leitbild. Wir entwickeln Open Source Software und Hardware und unterstützen die Produktion von Open Educational Ressources und der Erfassung Offener Daten nach Crowdsourcing Prinzipien. Wir verfolgen ein partizipatives Modell des Lernens und Forschens und nutzen unsere Kreativität um Gutes zu tun.  Wir möchten zu faktenbasiertem Erkenntnisgewinn beitragen und mit unseren Produkten die Digitalisierung der Bildung sinnvoll voranbringen.",
+  "PHILOSOPHIE_WER_WIR_SIND": "Wer wir sind: Die Köpfe hinter re:edu auf einen Blick.",
+  "PHILOSOPHIE_WAS_WIR_MACHEN": "Was wir machen: Alle unsere Projekte in der Übersicht."
 }

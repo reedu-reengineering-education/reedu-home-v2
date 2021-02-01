@@ -63,5 +63,10 @@
   "LEHRMATERIAL": "Educational resources",
   "Veranstaltungen": "Events",
   "Forschung": "Research",
-  "Beratung": "Consulting"
+  "Beratung": "Consulting",
+
+  "PHILOSOPHIE_TITLE": "Our Philosophy",
+  "PHILOSOPHIE_DESCRIPTION": "Our company is a spin-off of the Institute for Geoinformatics at the University of Münster. Due to our background in the scientific field we are committed to research. Our many years of experience with the development of geographic information systems but also with science communication, the areas of Citizen Science and all this following the Open Science and Open Innovation approach leads to our mission statement. We develop Open Source Software and Hardware and support the production of Open Educational Resources and the collection of Open Data according to crowdsourcing principles. We follow a participatory model of learning and research and use our creativity to do good.  We want to contribute to fact-based knowledge gain and meaningfully advance the digitization of education with our products.",
+  "PHILOSOPHIE_WER_WIR_SIND": "Who we are: The minds behind re:edu at a glance.",
+  "PHILOSOPHIE_WAS_WIR_MACHEN": "What we do: All our projects at a glance."
 }

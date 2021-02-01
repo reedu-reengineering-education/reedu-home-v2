@@ -7,28 +7,16 @@
   <div class="container">
     <div class="columns is-multiline">
       <div class="column is-half">
-        <h1 class="site-title pb-6">Unsere Philosophie</h1>
+        <h1 class="site-title pb-6">{{ "PHILOSOPHIE_TITLE" | translate }}</h1>
         <p>
-          Wir befassen uns mit Themen rund um Open Source, Open Data, Open
-          Science, Citizen Science und Geoinformatik. Dabei setzen wir auf
-          soziales Engagement, Partizipation, Kreativität und Flexibilität.
+          {{ "PHILOSOPHIE_DESCRIPTION" | translate }}
         </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit.
-        </p>
-        <br />
-        <h2>Wir entwickeln Konzepte, Produkte und Workshops.</h2>
       </div>
       <div class="column">
         <div class="card">
           <div class="card-content">
             <p>
-              re:edu ist ein Spin-off des Institutes für Geoinformatik der
-              Universität Münster
+              {{ "SPIN_OFF" | translate }}
             </p>
             <br />
             <div class="is-flex is-align-items-center is-flex-wrap-wrap">
@@ -57,11 +45,11 @@
           <div class="card">
             <div class="card-content spacing">
               <h3 class="underscore">TEAM</h3>
-              <h2>Wer wir sind: Die Köpfe hinter re:edu auf einen Blick.</h2>
+              <h2>{{ "PHILOSOPHIE_WER_WIR_SIND" | translate }}</h2>
 
               <a [routerLink]="['/team']">
                 <button class="re-button">
-                  <span>mehr dazu</span>
+                  <span>{{ "MEHR_DAZU" | translate }}</span>
                   <img src="/assets/img/logos/logo_black.svg" />
                 </button>
               </a>
@@ -72,11 +60,10 @@
           <div class="card">
             <div class="card-content spacing">
               <h3 class="underscore">PORTFOLIO</h3>
-              <h2>Was wir machen: Alle unsere Projekte in der Übersicht.</h2>
-
+              <h2>{{ "PHILOSOPHIE_WAS_WIR_MACHEN" | translate }}</h2>
               <a [routerLink]="['/portfolio']">
                 <button class="re-button">
-                  <span>mehr dazu</span>
+                  <span>{{ "MEHR_DAZU" | translate }}</span>
                   <img src="/assets/img/logos/logo_black.svg" />
                 </button>
               </a>
