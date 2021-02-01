@@ -4,7 +4,7 @@
     "description": "Zusammen mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster  bilden wir den Forschungsverbund im Projekt 'senseBox:pro - Die senseBox und openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzern'. Im Projekt wird die senseBox Hardware hinsichtlich ihrer Autarkisierung und Miniaturisierung weiterentwickelt, auch forschen wir an dem Einsatz von Kameras und einer Robotik-Erweiterung für die senseBox:edu. Wir entwickeln ein Sensor-Wiki für die Standardisierung von Phänomenen und Sensoren und eine Erweiterung der openSenseMap um Social Network Funktionalitäten und neue Visualisierungsmöglichkeiten. Außerdem erforschen wir eine neue Lernumgebung, um mit der senseBox Innovationen schneller und nachhaltiger entwickeln zu können und dabei Programmieren und photonische Technologien kennen lernen. ",
     "link": "https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html",
     "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "image": "/assets/img/forschung/sensebox_pro.jpg",
     "underscoreStyle": "red"
   },
   {
@@ -12,7 +12,7 @@
     "description": "In einem Verbund mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster, der Fachhochschule Münster, der TU Berlin und here technologies werden Richtlinien und Softwaremodule für das souveräne Management der eigenen Ortsinformationen am mobilen Endgerät entwickelt. Es entstehen frei verfügbare Softwarekomponenten, die es erlauben, mögliche Rückschlüsse aus den eigenen Ortsinformationen verständlich zu visualisieren und die Vor- und Nachteile der Weitergabe von Ortsinformationen besser zu verstehen. So werden Nutzende über die Risiken genau dann aufgeklärt, wenn sie über die Weitergabe dieser Daten entscheiden müssen. Dazu werden innovative Interaktionsformen entwickelt: Nutzerinnen und Nutzer können hier detailliert festlegen, welche Standortdaten wann, mit wem, und in welcher Genauigkeit geteilt werden. ",
     "link": "https://simport.net/",
     "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "image": "/assets/img/forschung/simport.png",
     "underscoreStyle": "red"
   },
   {
@@ -20,7 +20,7 @@
     "description": "Lorem ipsum",
     "link": "https://sensebox.de",
     "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
   {
@@ -28,7 +28,7 @@
     "description": "Lorem ipsum",
     "link": "https://sensebox.de",
     "linkText": "sensebox.de",
-    "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
+    "image": "/assets/img/forschung/eduSense_logo.jpg",
     "underscoreStyle": "red"
   },
   {
