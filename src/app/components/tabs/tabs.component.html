@@ -42,33 +42,7 @@
                 class="tab-logo"
               />
             </div>
-            <div *ngIf="activeTab.forschungsverband">
-              <h3>{{ "FORSCHUNGSVERBAND" | translate }}:</h3>
-
-              <div
-                class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-space-around"
-              >
-                <img
-                  *ngFor="let logo of activeTab.forschungsverband"
-                  [src]="logo"
-                  class="tab-logo"
-                />
-              </div>
-            </div>
-            <div *ngIf="activeTab.foerderung">
-              <h3>
-                {{ "FOERDERUNG" | translate }}: {{ activeTab.foerderungName }}
-              </h3>
-              <div
-                class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-space-around"
-              >
-                <img
-                  *ngFor="let logo of activeTab.foerderung"
-                  [src]="logo"
-                  class="tab-logo"
-                />
-              </div>
-            </div>
+          
             <p>{{ activeTab.description }}</p>
             <ul
               style="
@@ -124,6 +98,35 @@
           </div>
           <div class="column is-full">
             <img class="is-tab-image" [src]="activeTab.image" />
+            <div class="forschungs-info">
+              <div *ngIf="activeTab.forschungsverband">
+                <h3>{{ "FORSCHUNGSVERBAND" | translate }}:</h3>
+  
+                <div
+                  class="is-flex is-flex-wrap-wrap"
+                >
+                  <img
+                    *ngFor="let logo of activeTab.forschungsverband"
+                    [src]="logo"
+                    class="tab-logo"
+                  />
+                </div>
+              </div>
+              <div *ngIf="activeTab.foerderung">
+                <h3>
+                  {{ "FOERDERUNG" | translate }}: {{ activeTab.foerderungName }}
+                </h3>
+                <div
+                  class="is-flex is-flex-wrap-wrap"
+                >
+                  <img
+                    *ngFor="let logo of activeTab.foerderung"
+                    [src]="logo"
+                    class="tab-logo"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

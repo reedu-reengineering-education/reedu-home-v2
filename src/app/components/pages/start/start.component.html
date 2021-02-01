@@ -27,7 +27,7 @@
     <div class="columns is-tablet is-3 my-2">
       <div class="column is-7 text-container">
         <div class="sb-flex-container-column white-section p-6">
-          <div>
+          <div class="height100flex">
             <h1 class="pb-4">{{ "STARTPAGE_HEADLINE" | translate }}</h1>
             <h3 class="headline-underline">
               <span>{{ "ABOUT_US" | translate }}</span>
@@ -38,19 +38,21 @@
             <p class="bold-text-1 line-height-small py-3">
               {{ "WHAT_WE_DO_IMPORTANT" | translate }}
             </p>
-            <a
-              href="https://sensebox.de"
-              class="is-flex is-align-items-center is-flex-wrap-wrap"
-            >
-              <h2>home of</h2>
-              <img
-                class="sensebox-logo"
-                src="./../../../../../assets/img/logos/sensebox/sensebox_wort_und_logo.svg"
-              />
-            </a>
-            <p class="bold-text-2 py-2">
-              {{ "WHAT_WE_DO_SENSEBOX_KIT" | translate }}
-            </p>
+            <div>
+              <a
+                href="https://sensebox.de"
+                class="is-flex is-align-items-center is-flex-wrap-wrap"
+              >
+                <h2>home of</h2>
+                <img
+                  class="sensebox-logo"
+                  src="./../../../../../assets/img/logos/sensebox/sensebox_wort_und_logo.svg"
+                />
+              </a>
+              <p class="bold-text-2 py-2">
+                {{ "WHAT_WE_DO_SENSEBOX_KIT" | translate }}
+              </p>
+            </div>
             <a href="https://sensebox.kaufen">
               <button class="re-button">
                 <span>{{ "MEHR_DAZU" | translate }}</span>

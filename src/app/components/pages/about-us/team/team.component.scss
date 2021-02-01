@@ -4,6 +4,7 @@
   background: $red;
 
   overflow-x: hidden;
+  padding: 0.4em;
 }
 
 .floating-reedu-logo {
@@ -46,4 +47,8 @@
 
 .orange {
   color: $red;
+}
+
+.card {
+  height: 100%;
 }
