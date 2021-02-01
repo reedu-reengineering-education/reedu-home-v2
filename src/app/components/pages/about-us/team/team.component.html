@@ -22,10 +22,16 @@
                   <div class="column">
                     <h1 class="title">{{ member.name }}</h1>
                     <h2 class="subtitle">{{ member.position }}</h2>
-                    <h6 class="title is-6 orange">
+                    <h6 *ngIf="member.tags" class="title is-6 orange">
                       {{ member.tags.join(", ") }}
                     </h6>
                     <h6 class="title is-6">{{ member.email }}</h6>
+                    <a *ngIf="member.link" [routerLink]="['/jobs']">
+                      <button class="re-button">
+                        <span>Jobs</span>
+                        <img src="/assets/img/logos/logo_black.svg" />
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

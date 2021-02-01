@@ -59,5 +59,29 @@
     "position": "Bildung",
     "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
     "photo": "/assets/img/team/Witte_Verena.png"
+  },
+  {
+    "name": "David Fehrenbach",
+    "position": "Co-Founder",
+    "tags": ["Business operations"],
+    "photo": "/assets/img/team/david.jpg"
+  },
+  {
+    "name": "Philip Weiger",
+    "position": "openSenseMap gGmbH",
+    "tags": ["Business development"],
+    "photo": "/assets/img/team/weigo.jpg"
+  },
+  {
+    "name": "Gina Buchwald-Chassée",
+    "position": "Kommunikation",
+    "tags": ["Unternehmenskommunikation", "Social Media"],
+    "photo": "/assets/img/team/gina.jpg"
+  },
+  {
+    "name": "Du?",
+    "position": "Werde Teil des re:edu Teams",
+    "link": "jobs",
+    "photo": "/assets/img/logos/logo_small_text_orange.svg"
   }
 ]
