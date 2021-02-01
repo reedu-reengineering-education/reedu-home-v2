@@ -2,12 +2,19 @@ import { Component, Input, HostListener, OnChanges, OnInit } from '@angular/core
 
 export interface Tab {
   title: string;
-  title2: string;
+  title2?: string;
   description: string;
   link: string;
   linkText: string;
+  link2?: string;
+  link2Text?: string;
+  logo?: string,
+  forschungsverband?: string[],
+  foerderung?: string,
+  foerderungName?: string,
+  logoBottom?: string,
   image: string,
-  underscoreStyle: "dark" | "red";
+  underscoreStyle?: "dark" | "red";
 }
 
 @Component({
@@ -18,7 +25,7 @@ export interface Tab {
 export class TabsComponent implements OnInit, OnChanges {
   @Input() tabs: Tab[];
 
-  @Input() set selectedTab(inputTab){
+  @Input() set selectedTab(inputTab) {
     this.activeTab = this.tabs.filter(tab => tab.title.toLowerCase() === inputTab.toLowerCase())[0]
     this.activeTabIndex = this.tabs.indexOf(this.activeTab);
   }
@@ -40,7 +47,7 @@ export class TabsComponent implements OnInit, OnChanges {
   }
 
   ngOnInit(): void {
-    if(!this.activeTab)
+    if (!this.activeTab)
       this.activeTab = this.tabs[0]
   }
 
