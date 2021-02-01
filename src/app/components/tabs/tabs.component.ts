@@ -4,6 +4,7 @@ export interface Tab {
   title: string;
   title2?: string;
   description: string;
+  end?: string;
   link: string;
   linkText: string;
   link2?: string;
