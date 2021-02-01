@@ -17,7 +17,7 @@ export class PortfolioComponent implements OnInit {
   angebote = ["Software", "Hardware", "Veranstaltungen", "Forschung", "Beratung", "Lehrmaterial"];
   topics = [];
   targets = [];
-  years = [2018, 2019, 2020]
+  years = [2018, 2019, 2020, 2021]
   filterOpen = false;
 
   partners = rePartner;

@@ -29,6 +29,7 @@
     "list6":"Online-Hackathon",
     "end":"Schauen Sie sich unsere bisherigen Veranstaltungen an und kontaktieren Sie uns.",
     "linkText": "Portfolio ansehen",
+    "link": "portfolio?angebot=Veranstaltung",
     "image": "https://sensebox.de/images/index/Startseite-Karusel-3.jpg",
     "underscoreStyle": "dark"
   },

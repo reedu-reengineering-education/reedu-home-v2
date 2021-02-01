@@ -1,6 +1,6 @@
 <div class="tab-wrapper">
-  <div class="tab-switcher is-flex is-flex-wrap-wrap is-justify-content-space-between">
-    <h3 *ngFor="let tab of tabs; let i = index" [class.active]="tab == activeTab"
+  <div class="tab-switcher is-flex is-flex-wrap-wrap">
+    <h3 *ngFor="let tab of tabs; let i = index" [class.active]="tab == activeTab" class="tab-selector"
       [class.underscore-dark]="tab.underscoreStyle == 'dark'" [class.underscore-red]="tab.underscoreStyle == 'red'"
       (click)="changeTab(i)">
       {{ tab.title }}
