@@ -2,8 +2,10 @@
   {
     "title": "senseBox:Pro",
     "description": "Zusammen mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster  bilden wir den Forschungsverbund im Projekt 'senseBox:pro - Die senseBox und openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzern'. Im Projekt wird die senseBox Hardware hinsichtlich ihrer Autarkisierung und Miniaturisierung weiterentwickelt, auch forschen wir an dem Einsatz von Kameras und einer Robotik-Erweiterung für die senseBox:edu. Wir entwickeln ein Sensor-Wiki für die Standardisierung von Phänomenen und Sensoren und eine Erweiterung der openSenseMap um Social Network Funktionalitäten und neue Visualisierungsmöglichkeiten. Außerdem erforschen wir eine neue Lernumgebung, um mit der senseBox Innovationen schneller und nachhaltiger entwickeln zu können und dabei Programmieren und photonische Technologien kennen lernen. ",
-    "link": "https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html",
+    "link": "https://sensebox.de",
     "linkText": "sensebox.de",
+    "link2": "https://www.photonikforschung.de/projekte/open-innovation/projekt/sensebox-pro.html",
+    "link2Text": "Photonikforschung",
     "image": "/assets/img/forschung/sensebox_pro.jpg",
     "underscoreStyle": "red"
   },
