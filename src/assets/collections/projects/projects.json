@@ -70,7 +70,7 @@
   {
     "name": "Biogas Datenbank",
     "desc": "Implementierung einer Web-App zur Analyse von Biogasanlagen.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["WebDevelopment", "DataScience", "SmartCity"],
     "customer": "FH Münster - University of Applied Sciences",
@@ -81,7 +81,7 @@
   {
     "name": "Ferienworkshops #DigitaleOstern #DigitalerHerbst",
     "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter*innen der Uni Münster im Alter von 6-10 Jahren zu Digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms Universität Münster",
@@ -92,7 +92,7 @@
   {
     "name": "Climate Hackathon",
     "desc": "Konzeption und Durchführung eines digitalen Hackathons zum Thema Klimawandel, Datenvisualisierung, Kunst am Goethe-Institut Glasgow. Ausstattung von Goethe Instituten mit senseBoxen.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/climate-hackathon.png",
     "link": "https://www.goethe.de/prj/one/en/gea/for/clc.html",
     "topics": ["DigitaleBildung", "CitizenScience", "Klimawandel"],
     "customer": "Junge Tüftler gGmbH, Goethe-Institut",
@@ -158,7 +158,7 @@
   {
     "name": "WetterWaterWaterkant Workshops",
     "desc": "Konzeption und Durchführung von senseBox Workshops im Rahmen von WetterWaterWaterkant Hamburg.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "Klimawandel"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
@@ -213,7 +213,7 @@
   {
     "name": "Städtisches Autarkes Sensornetzerk in Enschede",
     "desc": "Hardware für ein LoRa-Sensornetzwerk mit ca. 100 autarken senseBox Messstationen zur Klimabeobachtung in Enschede.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["Forschung", "SmartCity"],
     "customer": "Universität Twente",
@@ -224,7 +224,7 @@
   {
     "name": "senseBox Wettbewerb Hamburg",
     "desc": "Konzeption und Durchführung des senseBox Wettbewerbs Hamburg, bei dem 10 Schulen für die Umsetzung innovativer Projekte mit einer senseBox:edu Klassenkiste prämiert wurden. Die beteiligten Lehrer*innen erhielten in einem Workshop eine Einführung in die senseBox.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Körber Stiftung",
@@ -235,7 +235,7 @@
   {
     "name": "Klima findet Stadt",
     "desc": "Förderung von Umweltbildung und offener Jugendarbeit im MINT Bereich im Rhein-Sieg-Kreis mit der Kernregion Bonn. Workshops in Jugendhilfeeinrichtungen und weiterführende Schulen im Rhein-Sieg-Kreis mit der Kernregion Bonn.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
@@ -246,7 +246,7 @@
   {
     "name": "Mobiles Umweltlabor",
     "desc": "Entwicklung eines Bluetooth-Moduls für die senseBox:edu zur Anknüpfung an die phyphox-App. Anpassungen an der Blockly-Programmierumgebung, Entwicklung von Lehrmaterialien und Testworkshops in Schulen.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
@@ -257,7 +257,7 @@
   {
     "name": "Make Climate",
     "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open Source Elektronik, mit dem Ziel ein ein offenes Sensornetzwerk aufzubauen, welchen von Schulen und der Bürgerschaft betrieben wird.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
@@ -279,7 +279,7 @@
   {
     "name": "senseBox Online Video Tutorials",
     "desc": "Prodution von Online-Video Tutorials für YouTube für den Einstieg in die Arbeit mit der senseBox.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "https://unterrichtsmaterialien.hopp-foundation.de/videos?grades=&tag%5B50%5D=1&filtern=&q=",
     "topics": ["DigitaleBildung"],
     "customer": "HOPP Foundation",
@@ -301,7 +301,7 @@
   {
     "name": "LoRa-Netz Andernach",
     "desc": "Aufbau eines LoRa-Netzes für den Bereich Klimaschutzmanagement der Stadtverwaltung Andernach.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity"],
     "customer": "Stadtverwaltung Andernach",
@@ -323,7 +323,7 @@
   {
     "name": "LoRa WAN SensorKit",
     "desc": "Entwicklung der Firmware für ein customized LoRaWAN Device",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity", "LoRa"],
     "customer": "Smart City Solutions",
@@ -345,7 +345,7 @@
   {
     "name": "Story Map for international graduate students",
     "desc": "Entwicklung einer Story-Map-Webseite zur Orientierung neuer internationaler Doktoranden.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "WebDevelopment"],
     "customer": "Westfälische Wilhelms-Universität Münster, Graduate Center",
@@ -356,7 +356,7 @@
   {
     "name": "Auftakt zum Digitalen Klassenzimmer",
     "desc": "Hackathon am Annette-von-Droste-Hülshoff-Gymnasium Dülmen zum Auftakt des Digitalen Klassenzimmers",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung"],
     "customer": "DigitalCampus Nordkirchen",
