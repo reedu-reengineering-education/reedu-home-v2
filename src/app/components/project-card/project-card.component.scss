@@ -1,87 +1,83 @@
-@import '../../../styles/variables.scss';
-
+@import "../../../styles/variables.scss";
 
 .re-tags {
-    position: absolute;
-    top: 5px;
-    right: 0px;
-    display: flex;
-    flex-direction: column;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  z-index: 100;
+  .re-tag {
+    background: $primary;
+    color: white;
+    margin: 0.2em 0;
+    padding: 0.1em 0.2em;
     text-align: right;
-    z-index: 100;
-    .re-tag {
-        background: $primary;
-        color: white;
-        margin: 0.2em 0;
-        padding: 0.1em 0.2em;
-        text-align: right;
-        display: inline-block;
-        font-family: NunitoSans-Bold;
-        font-size: 16px;
-    }
+    display: inline-block;
+    font-family: NunitoSans-Bold;
+    font-size: 16px;
+  }
 }
 
 .card-container {
-    padding-bottom: 1em;
-    height: 100%;
+  padding-bottom: 1em;
+  height: 100%;
 }
 .card {
-    width: 300px;
-    color: $primary;
-    border: 3px solid $white;
-    margin: 1em;
+  width: 300px;
+  color: $primary;
+  border: 3px solid $white;
+  margin: 1em;
+  height: 100%;
+
+  flex-direction: column;
+  display: flex;
+
+  img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
-
-
-    flex-direction: column;
+  .red-title {
+    color: $primary;
+  }
+  .card-content {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-bottom: 0.3em;
+  }
+  .content {
+    font-family: NunitoSans-Bold;
+    flex-grow: 1;
+  }
+  .title {
+    font-family: BrixSlab-Bold;
+    padding-bottom: 0.2em;
+  }
+  .subtitle {
+    color: $black;
+    opacity: 0.5;
+    font-size: 0.9em;
+  }
 
-    
-
-    img {
-        // height: 150px;
+  .card-footer {
+    display: unset;
+    border-top: unset;
+    .footer-button {
+      text-align: right;
+      color: $black;
+      justify-content: flex-end;
+      padding: 0.2em 1.4em;
+      font-size: 0.9em;
+      border: none;
+      font-family: BrixSlab-Bold;
+      .icon {
+        opacity: 0.7;
+      }
     }
-
-    .red-title {
-        color: $primary;
-    }
-    .card-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-grow: 1;
-        padding-bottom: 0.3em;
-    
-    }
-    .content {
-        font-family: NunitoSans-Bold;
-        flex-grow: 1;
-    }
-    .title {
-        font-family: BrixSlab-Bold;
-        padding-bottom: 0.2em;
-    }
-    .subtitle {
-        color: $black;
-        opacity: 0.5;
-        font-size: 0.9em;
-    }
-
-    .card-footer {
-        display: unset;
-        border-top: unset;
-        .footer-button {
-            text-align: right;
-            color: $black;
-            justify-content: flex-end;
-            padding: 0.2em 1.4em;
-            font-size: 0.9em;
-            border: none;
-            font-family: BrixSlab-Bold;
-            .icon {
-                opacity: 0.7;
-            }
-        }
-    }
+  }
 }

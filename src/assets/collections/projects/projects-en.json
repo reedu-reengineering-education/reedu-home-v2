@@ -2,7 +2,7 @@
   {
     "name": "openSenseMap",
     "desc": "Development, maintenance, improvement of the openSenseMap platform",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/opensensemap.png",
     "link": "https://opensensemap.org",
     "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
     "customer": "Westfälische Wilhelms Universität Münster",
@@ -13,9 +13,15 @@
   {
     "name": "Origami",
     "desc": "Development of a mobile educational game to strengthen spatial awareness.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/origami.png",
     "link": "https://origami.ifgi.de",
-    "topics": ["DigitalEducation", "AppDevelopment", "SpatialLearning", "Gamification", "Science"],
+    "topics": [
+      "DigitalEducation",
+      "AppDevelopment",
+      "SpatialLearning",
+      "Gamification",
+      "Science"
+    ],
     "customer": "Westfälische Wilhelms Universität Münster",
     "angebote": ["Software", "Science", "Consulting"],
     "year": [2019, 2020, 2021],
@@ -24,18 +30,18 @@
   {
     "name": "senseBox goes Futurium",
     "desc": "Integration of the senseBox in the exhibitions and events of the Futurium in Berlin. Hackathons, educational resources, an interaktiv exhibit, artsy data visualization and citizen workshops.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/Futurium_senseBox-Exponat.jpg",
     "link": "https://futurium.de/de/sense-box",
     "topics": ["DigitalEducation", "CitizenScience", "Museum"],
     "customer": "Futurium gGmbH",
     "angebote": ["Software", "Hardware", "Beratung", "Event"],
-    "year": [2018,2019],
+    "year": [2018, 2019],
     "target": ["Students", "Citizens"]
   },
   {
     "name": "Landingpages for Bachelor and Master of Geoinformatics",
     "desc": "Design und Entwicklung von Wordpress basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
     "customer": "Westfälische Wilhelms Universität Münster",
@@ -46,12 +52,19 @@
   {
     "name": "Reflectories",
     "desc": "Development of the reflectories web application.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/reflectories.png",
     "link": "https://reflectories.de",
-    "topics": ["WebDevelopment", "Wordpress", "HigherEducation", "Gamification", "DigitalBildung", "SDGs"],
+    "topics": [
+      "WebDevelopment",
+      "Wordpress",
+      "HigherEducation",
+      "Gamification",
+      "DigitalBildung",
+      "SDGs"
+    ],
     "customer": "Westfälische Wilhelms Universität Münster",
     "angebote": ["Software"],
-    "year": [2020,2021],
+    "year": [2020, 2021],
     "target": ["Students", "Teachers", "University"]
   },
   {
@@ -73,7 +86,7 @@
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms Universität Münster",
     "angebote": ["Event"],
-    "year": [2019,2020],
+    "year": [2019, 2020],
     "target": ["Students"]
   },
   {
@@ -86,22 +99,22 @@
     "angebote": ["Event"],
     "year": [2020],
     "target": ["Citizens"]
-  }, 
+  },
   {
     "name": "Turing Bus Workshops",
     "desc": "Conception and realization of several mobile senseBox workshops with the turing bus.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/turing_bus.png",
     "link": "https://turing-bus.de/",
     "topics": ["DigitalEducation"],
     "customer": "Gesellschaft für Informatik",
     "angebote": ["Event"],
     "year": [2019],
     "target": ["Students"]
-  }, 
+  },
   {
     "name": "senseBox Space Hackathon",
     "desc": "Organization and realization of a two-day hackathon with tent camp for 50 children and teenagers (10-18) on the topic of \"Space\"",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/senseBox_Space_Hackathon.jpg",
     "link": "https://sensebox.de/2018/09/07/hackathon",
     "topics": ["DigitalEducation"],
     "customer": "KIMM e.V. Kindermuseum Münster",
@@ -112,7 +125,7 @@
   {
     "name": "Handel-O-Mat",
     "desc": "In the Good News advertising column, you can click on the individual lines to change sentence parts and combine funny & effective plot ideas.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/Handel-o-mat.png",
     "link": "https://germanwatch.org/de/handel-o-mat",
     "topics": ["GlobalLearning"],
     "customer": "Germanwatch e.V.",
@@ -123,7 +136,7 @@
   {
     "name": "CodeWeek Workshops Berlin",
     "desc": "Conception and realization of six senseBox workshops within the CodeWeek in Berlin.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/CodeWeek.jpg",
     "link": "",
     "topics": ["DigitalEducation"],
     "customer": "Junge Tüftler gGmbH",
@@ -134,7 +147,7 @@
   {
     "name": "CodeWeek Workshops Bonn",
     "desc": "Conception and realization of senseBox workshops within the CodeWeek in Bonn.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/CodeWeek.jpg",
     "link": "",
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
@@ -150,24 +163,24 @@
     "topics": ["DigitalEducation", "ClimateChange"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Event"],
-    "year": [2019,2020],
+    "year": [2019, 2020],
     "target": ["Students"]
-  }, 
+  },
   {
     "name": "Classroom of the Future",
     "desc": "senseBox workshops as part of the Classroom of the Future at the Frankfurt Book Fair.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/klassenzimmerderzukunft.jpg",
     "link": "",
     "topics": ["DigitalEducation"],
     "customer": "ELIG Foundation gGmbH",
     "angebote": ["Event"],
-    "year": [2019,2020],
+    "year": [2019, 2020],
     "target": ["Students"]
   },
   {
     "name": "openSenseMap Feature-Layer",
     "desc": "Creation of ArcGIS feature layers with openSenseMap data. Besides static datasets, two layers are regularly updated with live openSenseMap data.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/esri_interpolation.png",
     "link": "",
     "topics": ["DigitalEducation", "WebGIS", "Geoinformation"],
     "customer": "ESRI Deutschland",
@@ -178,18 +191,18 @@
   {
     "name": "Indoor localization of hospital beds",
     "desc": "Prototype implementation of a system for indoor localization of hospital beds using radio transmitters.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/stiegelmeyer.png",
     "link": "",
     "topics": ["Health"],
     "customer": "Stiegelmeyer",
     "angebote": ["Software"],
     "year": [2019],
     "target": ["Hospitals"]
-  }, 
+  },
   {
     "name": "TTN-Mapper for urban LoRa network",
     "desc": "Development of GPS LoRaWAN mappers to measure the reception strength of LoRaWAN signals.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/stadtwerke-ttn-mapper.jpg",
     "link": "",
     "topics": ["SmartCity"],
     "customer": "Stadtwerke Münster",
@@ -227,7 +240,7 @@
     "topics": ["DigitalEducation", "CitizenScience"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Events", "EducationalResource"],
-    "year": [2018,2019],
+    "year": [2018, 2019],
     "target": ["Students", "Teachers"]
   },
   {
@@ -238,18 +251,18 @@
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Software", "Events", "EducationalResource"],
-    "year": [2020,2021],
+    "year": [2020, 2021],
     "target": ["Students", "Teachers"]
   },
   {
     "name": "Hopp Events",
     "desc": "Conduct senseBox teacher training and events for computer science students.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
     "topics": ["DigitalEducation"],
     "customer": "HOPP Foundation",
     "angebote": ["Events"],
-    "year": [2019,2020],
+    "year": [2019, 2020],
     "target": ["Students", "Teachers"]
   },
   {
@@ -266,7 +279,7 @@
   {
     "name": "LoRa Sensornetwork",
     "desc": "Open sensor network with 50 LoRa field stations equipped with climate and ground sensors.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/lora_tuberlin.png",
     "link": "",
     "topics": ["Science", "SmartCity"],
     "customer": "TU Berlin - Institute of Ecology",
@@ -288,7 +301,7 @@
   {
     "name": "STEM-Congress Workshop",
     "desc": "Citizen workshops on open source environmental sensing and IoT at STEM Days.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
     "topics": ["DigitalEducation", "STEM", "IoT", "CitizenScience"],
     "customer": "Stadtbibliothek Köln",
@@ -310,7 +323,7 @@
   {
     "name": "Smart City Dashboard",
     "desc": "Development od a Smart City Dashboard.",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/smart-city-dashboard.png",
     "link": "",
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
@@ -343,7 +356,7 @@
   {
     "name": "webGIS.nrw",
     "desc": "",
-    "img": "https://origami.ifgi.de/pictures/photos/header3.png",
+    "img": "/assets/img/projekte/webgis-nrw.png",
     "link": "https://webgis.nrw",
     "topics": ["DigitalEducation", "WebDevelopment", "GIS"],
     "customer": "Westfälische Wilhelms-Universität Münster Institut für Geoinformatik",
