@@ -10,7 +10,7 @@ export interface Tab {
   link2?: string;
   link2Text?: string;
   logo?: string,
-  forschungsverband?: string[],
+  forschungsverbund?: string[],
   foerderung?: string,
   foerderungName?: string,
   logoBottom?: string,

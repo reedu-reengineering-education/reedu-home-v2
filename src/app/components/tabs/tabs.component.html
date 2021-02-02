@@ -42,7 +42,7 @@
                 class="tab-logo"
               />
             </div>
-          
+
             <p>{{ activeTab.description }}</p>
             <ul
               style="
@@ -99,14 +99,12 @@
           <div class="column is-full">
             <img class="is-tab-image" [src]="activeTab.image" />
             <div class="forschungs-info">
-              <div *ngIf="activeTab.forschungsverband">
-                <h3>{{ "FORSCHUNGSVERBAND" | translate }}:</h3>
-  
-                <div
-                  class="is-flex is-flex-wrap-wrap"
-                >
+              <div *ngIf="activeTab.forschungsverbund">
+                <h3>{{ "FORSCHUNGSVERBUND" | translate }}:</h3>
+
+                <div class="is-flex is-flex-wrap-wrap">
                   <img
-                    *ngFor="let logo of activeTab.forschungsverband"
+                    *ngFor="let logo of activeTab.forschungsverbund"
                     [src]="logo"
                     class="tab-logo"
                   />
@@ -116,9 +114,7 @@
                 <h3>
                   {{ "FOERDERUNG" | translate }}: {{ activeTab.foerderungName }}
                 </h3>
-                <div
-                  class="is-flex is-flex-wrap-wrap"
-                >
+                <div class="is-flex is-flex-wrap-wrap">
                   <img
                     *ngFor="let logo of activeTab.foerderung"
                     [src]="logo"
