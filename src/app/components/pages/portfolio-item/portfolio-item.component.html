@@ -14,8 +14,12 @@
                   >
                   <h1 class="py-3">{{ project.name }}</h1>
                   <p class="py-3">{{ project.desc }}</p>
-                  <div>
-                    <a class="re-button" href="{{project.link}}" target="_blank">
+                  <div *ngIf="project.link">
+                    <a
+                      class="re-button"
+                      href="{{ project.link }}"
+                      target="_blank"
+                    >
                       <span>{{ "WEBSEITE" | translate }}</span>
                       <span class="icon">
                         <img src="assets/img/logos/logo_black.svg" />
