@@ -338,7 +338,7 @@
     "link": "",
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
-    "angebote": ["Software"],
+    "angebote": ["Hardware", "Software"],
     "year": [2021],
     "target": ["Städte", "BürgerInnen"]
   },

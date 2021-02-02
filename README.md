@@ -1,5 +1,10 @@
 # ReeduHomeV2
 
+## EDIT TEXTS
+
+- go to assets/i18n/
+- change texts in de.json and en.json
+
 ## Add/Edit Projects
 
 - go to assets/collections/projects
@@ -18,20 +23,17 @@
 - go to assets/collections/
 - fill in the json format in awards.json
 - images can be put in assets/img/awards/
-- TODO: english file
 
 ## Add/Edit Angebote
 
 - go to assets/collections/tabs
-- fill in the json format in angebote.json
-- TODO: english file
+- fill in the json format in angebote.json and angebote-en.json
 
 
 ## Add/Edit Science
 
 - go to assets/collections/tabs
-- fill in the json format in science.json
-- TODO: english file
+- fill in the json format in science.json and science-en.json
 
 ## Add/Edit Partner
 
