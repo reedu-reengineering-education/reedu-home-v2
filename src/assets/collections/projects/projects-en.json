@@ -1,11 +1,11 @@
 [
   {
     "name": "openSenseMap",
-    "desc": "Development, maintenance, improvement of the openSenseMap platform",
+    "desc": "Development, maintenance, improvement of the openSenseMap platform.",
     "img": "/assets/img/projekte/opensensemap.png",
     "link": "https://opensensemap.org",
     "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2021],
     "target": ["Students", "Citizens", "Scientist"]
@@ -22,7 +22,7 @@
       "Gamification",
       "Science"
     ],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Science", "Consulting"],
     "year": [2019, 2020, 2021],
     "target": ["Students", "Teachers", "University"]
@@ -40,11 +40,11 @@
   },
   {
     "name": "Landingpages for Bachelor and Master of Geoinformatics",
-    "desc": "Design und Entwicklung von Wordpress basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics",
+    "desc": "Design and development of Wordpress based landing pages for the Bachelor of Science Geoinformatics and Master of Science Geoinformatics degree programs.",
     "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2020],
     "target": ["Students", "University"]
@@ -62,7 +62,7 @@
       "DigitalBildung",
       "SDGs"
     ],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software"],
     "year": [2020, 2021],
     "target": ["Students", "Teachers", "University"]
@@ -84,14 +84,14 @@
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Event"],
     "year": [2019, 2020],
     "target": ["Students"]
   },
   {
     "name": "Climate Hackathon",
-    "desc": "Conception and implementation of a digital hackathon on climate change, data visualization, art at the Goethe-Institut Glasgow. Equipping Goethe Institutes with senseBoxes",
+    "desc": "Conception and implementation of a digital hackathon on climate change, data visualization, art at the Goethe-Institut Glasgow. Equipping Goethe-Institutes with senseBoxes.",
     "img": "/assets/img/projekte/climate-hackathon.png",
     "link": "https://www.goethe.de/prj/one/en/gea/for/clc.html",
     "topics": ["DigitaleBildung", "CitizenScience", "ClimateChange"],
@@ -113,7 +113,7 @@
   },
   {
     "name": "senseBox Space Hackathon",
-    "desc": "Organization and realization of a two-day hackathon with tent camp for 50 children and teenagers (10-18) on the topic of \"Space\"",
+    "desc": "Organization and realization of a two-day hackathon with tent camp for 50 children and teenagers (10-18 years) on the topic of \"Space\".",
     "img": "/assets/img/projekte/senseBox_Space_Hackathon.jpg",
     "link": "https://sensebox.de/2018/09/07/hackathon",
     "topics": ["DigitalEducation"],
@@ -289,7 +289,7 @@
   },
   {
     "name": "LoRa-Netz Andernach",
-    "desc": "Aufbau eines LoRa-Netzes für den Bereich Klimaschutzmanagement der Stadtverwaltung Andernach.",
+    "desc": "Establishment of a LoRa network for the climate protection management department of the Andernach city administration.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity"],
@@ -311,7 +311,7 @@
   },
   {
     "name": "LoRa WAN SensorKit",
-    "desc": "Development of firmware for a customized LoRaWAN device",
+    "desc": "Development of firmware for a customized LoRaWAN device.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity", "LoRa"],
@@ -344,7 +344,7 @@
   },
   {
     "name": "Digital Classroom",
-    "desc": "Hackathon at the Annette-von-Droste-Hülshoff-Gymnasium Dülmen to mark the start of the \"Digital Classroom\"",
+    "desc": "Hackathon at the Annette-von-Droste-Hülshoff-Gymnasium Dülmen to mark the start of the \"Digital Classroom\".",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitalEducation"],
