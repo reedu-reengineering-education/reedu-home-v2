@@ -29,7 +29,7 @@
   },
   {
     "name": "Matthias Pfeil",
-    "position": "Entwickler, openSenseMap",
+    "position": "Co-Founder & Entwickler",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
     "photo": "/assets/img/team/Pfeil_Matthias.jpg"
@@ -51,7 +51,7 @@
   {
     "name": "Eric Thieme-Garmann",
     "position": "Entwickler",
-    "tags": ["IoT"],
+    "tags": ["IoT", "WebDevelopment"],
     "photo": "/assets/img/team/Eric.png"
   },
   {
@@ -68,7 +68,7 @@
   },
   {
     "name": "Philip Weiger",
-    "position": "openSenseMap gGmbH",
+    "position": "openSenseMap",
     "tags": ["Business development"],
     "photo": "/assets/img/team/weigo.jpg"
   },

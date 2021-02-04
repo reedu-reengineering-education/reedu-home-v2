@@ -8,7 +8,7 @@
   },
   {
     "name": "Jan Wirwahn",
-    "position": "CEP",
+    "position": "CEO",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
     "photo": "/assets/img/team/Wirwahn_Jan.jpg"
@@ -29,7 +29,7 @@
   },
   {
     "name": "Matthias Pfeil",
-    "position": "Developer, openSenseMap",
+    "position": "Co-Founder & Developer",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
     "photo": "/assets/img/team/Pfeil_Matthias.jpg"
@@ -51,7 +51,7 @@
   {
     "name": "Eric Thieme-Garmann",
     "position": "Developer",
-    "tags": ["IoT"],
+    "tags": ["IoT", "WebDevelopment"],
     "photo": "/assets/img/team/Eric.png"
   },
   {
@@ -68,7 +68,7 @@
   },
   {
     "name": "Philip Weiger",
-    "position": "openSenseMap gGmbH",
+    "position": "openSenseMap",
     "tags": ["Business development"],
     "photo": "/assets/img/team/weigo.jpg"
   },
