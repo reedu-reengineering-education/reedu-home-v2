@@ -1,11 +1,11 @@
 [
   {
     "name": "openSenseMap",
-    "desc": "Entwicklung, Umzug, Wartung und Anpassung der openSenseMap Infrastruktur",
+    "desc": "Entwicklung, Umzug, Wartung und Anpassung der Infrastruktur der openSenseMap.",
     "img": "/assets/img/projekte/opensensemap.png",
     "link": "https://opensensemap.org",
     "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2021],
     "target": ["SchülerInnen", "BürgerInnen", "Wissenschaft"]
@@ -22,7 +22,7 @@
       "Gamification",
       "Forschung"
     ],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Forschung", "Beratung", "Lehrmaterial"],
     "year": [2019, 2020, 2021],
     "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
@@ -39,12 +39,12 @@
     "target": ["SchülerInnen", "BürgerInnen"]
   },
   {
-    "name": "Landingpages für Studiengänge Bachelor und Master Geoinformatik",
-    "desc": "Design und Entwicklung von Wordpress basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics",
+    "name": "Landingpages für die Studiengänge Bachelor und Master Geoinformatik",
+    "desc": "Design und Entwicklung von Wordpress-basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics.",
     "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2020],
     "target": ["StudentInnen", "SchülerInnen", "Hochschule"]
@@ -62,7 +62,7 @@
       "DigitalBildung",
       "SDGs"
     ],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software"],
     "year": [2020, 2021],
     "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
@@ -80,18 +80,18 @@
   },
   {
     "name": "Ferienworkshops #DigitaleOstern #DigitalerHerbst",
-    "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter*innen der Uni Münster im Alter von 6-10 Jahren zu Digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
+    "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter*innen der Uni Münster im Alter von 6-10 Jahren zu digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
-    "customer": "Westfälische Wilhelms Universität Münster",
+    "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
     "target": ["SchülerInnen"]
   },
   {
     "name": "Climate Hackathon",
-    "desc": "Konzeption und Durchführung eines digitalen Hackathons zum Thema Klimawandel, Datenvisualisierung, Kunst am Goethe-Institut Glasgow. Ausstattung von Goethe Instituten mit senseBoxen.",
+    "desc": "Konzeption und Durchführung eines digitalen Hackathons zum Thema Klimawandel, Datenvisualisierung, Kunst am Goethe-Institut Glasgow. Ausstattung von Goethe-Instituten mit senseBoxen.",
     "img": "/assets/img/projekte/climate-hackathon.png",
     "link": "https://www.goethe.de/prj/one/en/gea/for/clc.html",
     "topics": ["DigitaleBildung", "CitizenScience", "Klimawandel"],
@@ -102,7 +102,7 @@
   },
   {
     "name": "Turing Bus Workshops",
-    "desc": "Konzeption und Durchführung von mehreren mobilen senseBox Workshops mit dem Turing Bus.",
+    "desc": "Konzeption und Durchführung von mehreren mobilen senseBox-Workshops mit dem Turing Bus.",
     "img": "/assets/img/projekte/turing_bus.png",
     "link": "https://turing-bus.de/",
     "topics": ["DigitaleBildung"],
@@ -113,7 +113,7 @@
   },
   {
     "name": "senseBox Space Hackathon",
-    "desc": "Organisation und Durchführung eines zweitägigen Hackathons mit Zeltcamp für 50 Kinder und Jugendliche (10-18) zum Thema “Space”",
+    "desc": "Organisation und Durchführung eines zweitägigen Hackathons mit Zeltcamp für 50 Kinder und Jugendliche (10-18 Jahre) zum Thema “Space”.",
     "img": "/assets/img/projekte/senseBox_Space_Hackathon.jpg",
     "link": "https://sensebox.de/2018/09/07/hackathon",
     "topics": ["DigitaleBildung"],
@@ -135,9 +135,9 @@
   },
   {
     "name": "CodeWeek Workshops Berlin",
-    "desc": "Konzeption und Durchführung von sechs senseBox Workshops im Rahmen der CodeWeek in Berlin.",
+    "desc": "Konzeption und Durchführung von sechs senseBox-Workshops im Rahmen der CodeWeek in Berlin.",
     "img": "/assets/img/projekte/CodeWeek.jpg",
-    "link": "",
+    "link": "https://junge-tueftler.de/angebot/codeweek-berlin",
     "topics": ["DigitaleBildung"],
     "customer": "Junge Tüftler gGmbH",
     "angebote": ["Veranstaltung"],
@@ -148,7 +148,7 @@
     "name": "CodeWeek Workshops Bonn",
     "desc": "Konzeption und Durchführung von senseBox Workshops im Rahmen der CodeWeek in Bonn.",
     "img": "/assets/img/projekte/CodeWeek.jpg",
-    "link": "",
+    "link": "https://bonn.codeweek.de/das-programm-2020/veranstaltung/26-gutes-klima",
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
     "angebote": ["Veranstaltung"],
@@ -157,9 +157,9 @@
   },
   {
     "name": "WetterWaterWaterkant Workshops",
-    "desc": "Konzeption und Durchführung von senseBox Workshops im Rahmen von WetterWaterWaterkant Hamburg.",
+    "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von WetterWaterWaterkant Hamburg.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
-    "link": "",
+    "link": "http://www2020.de/wetter-wasser-waterkant-rueckblick-2020/",
     "topics": ["DigitaleBildung", "Klimawandel"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Veranstaltung"],
@@ -168,7 +168,7 @@
   },
   {
     "name": "Klassenzimmer der Zukunft",
-    "desc": "senseBox Workshops im Rahmen des Klassenzimmer der Zukunft auf der Frankfurter Buchmesse.",
+    "desc": "senseBox-Workshops im Rahmen des Klassenzimmers der Zukunft auf der Frankfurter Buchmesse.",
     "img": "/assets/img/projekte/klassenzimmerderzukunft.jpg",
     "link": "",
     "topics": ["DigitaleBildung"],
@@ -179,7 +179,7 @@
   },
   {
     "name": "openSenseMap Feature-Layer",
-    "desc": "Erstellung von ArcGIS Feature Layern mit openSenseMap Daten. Neben statischen Datensätzen werden zwei Layer regelmäßig mit Live-Daten der openSenseMap aktualisiert.",
+    "desc": "Erstellung von ArcGIS Feature Layern mit Daten der openSenseMap. Neben statischen Datensätzen werden zwei Layer regelmäßig mit Live-Daten der openSenseMap aktualisiert.",
     "img": "/assets/img/projekte/esri_interpolation.png",
     "link": "",
     "topics": ["DigitaleBildung", "WebGIS", "Geoinformation"],
@@ -190,7 +190,7 @@
   },
   {
     "name": "Indoor Lokalisation von Krankenhausbetten",
-    "desc": "Prototypische Implementierung eines Systems zur Indoor Lokalisation von Krankenhausbetten mittels Funksendern.",
+    "desc": "Prototypische Implementierung eines Systems zur Indoor-Lokalisation von Krankenhausbetten mittels Funksendern.",
     "img": "/assets/img/projekte/stiegelmeyer.png",
     "link": "",
     "topics": ["Gesundheit", "Pflege"],
@@ -200,8 +200,8 @@
     "target": ["Krankenhäuser"]
   },
   {
-    "name": "TTN-Mapper für städtisches LoRa Netz",
-    "desc": "Entwicklung von GPS-LoRaWAN-Mappern zur Messung der Empfangsstärke von LoRaWAN Signalen.",
+    "name": "TTN-Mapper für städtisches LoRa-Netz",
+    "desc": "Entwicklung von GPS-LoRaWAN-Mappern zur Messung der Empfangsstärke von LoRaWAN-Signalen.",
     "img": "/assets/img/projekte/stadtwerke-ttn-mapper.jpg",
     "link": "",
     "topics": ["SmartCity"],
@@ -211,8 +211,8 @@
     "target": ["Professionals"]
   },
   {
-    "name": "Städtisches Autarkes Sensornetzerk in Enschede",
-    "desc": "Hardware für ein LoRa-Sensornetzwerk mit ca. 100 autarken senseBox Messstationen zur Klimabeobachtung in Enschede.",
+    "name": "Städtisches autarkes Sensornetzerk in Enschede",
+    "desc": "Hardware für ein LoRa-Sensornetzwerk mit ca. 100 autarken senseBox-Messstationen zur Klimabeobachtung in Enschede.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["Forschung", "SmartCity"],
@@ -222,7 +222,7 @@
     "target": ["Professionals", "Wissenschaft"]
   },
   {
-    "name": "senseBox Wettbewerb Hamburg",
+    "name": "senseBox-Wettbewerb Hamburg",
     "desc": "Konzeption und Durchführung des senseBox Wettbewerbs Hamburg, bei dem 10 Schulen für die Umsetzung innovativer Projekte mit einer senseBox:edu Klassenkiste prämiert wurden. Die beteiligten Lehrer*innen erhielten in einem Workshop eine Einführung in die senseBox.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
@@ -234,7 +234,7 @@
   },
   {
     "name": "Klima findet Stadt",
-    "desc": "Förderung von Umweltbildung und offener Jugendarbeit im MINT Bereich im Rhein-Sieg-Kreis mit der Kernregion Bonn. Workshops in Jugendhilfeeinrichtungen und weiterführende Schulen im Rhein-Sieg-Kreis mit der Kernregion Bonn.",
+    "desc": "Förderung von Umweltbildung und offener Jugendarbeit im MINT-Bereich im Rhein-Sieg-Kreis mit der Kernregion Bonn. Workshops in Jugendhilfeeinrichtungen und weiterführende Schulen im Rhein-Sieg-Kreis mit der Kernregion Bonn.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
@@ -256,7 +256,7 @@
   },
   {
     "name": "Make Climate",
-    "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open Source Elektronik, mit dem Ziel ein ein offenes Sensornetzwerk aufzubauen, welchen von Schulen und der Bürgerschaft betrieben wird.",
+    "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open Source Elektronik, mit dem Ziel ein ein offenes Sensornetzwerk aufzubauen, welches von Schulen und der Bürgerschaft betrieben wird.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
@@ -266,7 +266,7 @@
     "target": ["SchülerInnen", "LehrerInnen"]
   },
   {
-    "name": "Hopp Veranstaltungen",
+    "name": "Hopp-Veranstaltungen",
     "desc": "Durchführung von senseBox Lehrerfortbildungen und Veranstaltungen für Informatik-Lehramtsstudierende.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
@@ -278,7 +278,7 @@
   },
   {
     "name": "senseBox Online Video Tutorials",
-    "desc": "Prodution von Online-Video Tutorials für YouTube für den Einstieg in die Arbeit mit der senseBox.",
+    "desc": "Produktion von Online-Video-Tutorials für YouTube für den Einstieg in die Arbeit mit der senseBox.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "https://unterrichtsmaterialien.hopp-foundation.de/videos?grades=&tag%5B50%5D=1&filtern=&q=",
     "topics": ["DigitaleBildung"],
@@ -288,7 +288,7 @@
     "target": ["StudentInnen", "LehrerInnen"]
   },
   {
-    "name": "Aufbau LoRa Sensornetzwerk",
+    "name": "Aufbau LoRa-Sensornetzwerk",
     "desc": "Offenes Sensornetzwerk mit 50 LoRa-Feldstationen, ausgerüstet mit Klima- und Bodensensoren.",
     "img": "/assets/img/projekte/lora_tuberlin.png",
     "link": "",
@@ -311,7 +311,7 @@
   },
   {
     "name": "MINT-Kongress Workshop",
-    "desc": "Bürgerworkshops zu Open Source Umweltsensorik und IoT bei den MINT Tagen.",
+    "desc": "Bürgerworkshops zu Open Source Umweltsensorik und IoT bei den MINT-Tagen.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "MINT", "IoT", "CitizenScience"],
@@ -321,8 +321,8 @@
     "target": ["BürgerInnen"]
   },
   {
-    "name": "LoRa WAN SensorKit",
-    "desc": "Entwicklung der Firmware für ein customized LoRaWAN Device",
+    "name": "LoRaWAN SensorKit",
+    "desc": "Entwicklung der Firmware für ein customized LoRaWAN Device.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity", "LoRa"],
@@ -333,7 +333,7 @@
   },
   {
     "name": "Smart City Dashboard",
-    "desc": "Entwicklung eines Smart City Dashboards",
+    "desc": "Entwicklung eines Smart City Dashboards.",
     "img": "/assets/img/projekte/smart-city-dashboard.png",
     "link": "",
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
@@ -355,7 +355,7 @@
   },
   {
     "name": "Auftakt zum Digitalen Klassenzimmer",
-    "desc": "Hackathon am Annette-von-Droste-Hülshoff-Gymnasium Dülmen zum Auftakt des Digitalen Klassenzimmers",
+    "desc": "Hackathon am Annette-von-Droste-Hülshoff-Gymnasium Dülmen zum Auftakt des Digitalen Klassenzimmers.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung"],

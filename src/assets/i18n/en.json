@@ -3,7 +3,7 @@
   "PORTFOLIO": "Portfolio",
   "FORSCHUNG": "Research",
   "ABOUT_US": "About us",
-  "PHILOSOPHIE": "Philosophie",
+  "PHILOSOPHIE": "Philosophy",
   "AUSZEICHNUNGEN": "Rewards",
   "AUSZEICHNUNGEN_HTML": "Rewards",
   "AUSZEICHNUNGEN_DESCRIPTION": "Here you can find an overview of the awards we or our products have received.",
@@ -12,9 +12,9 @@
   "STARTPAGE_HERO_HEADLINE": "We create solutions for",
   "STARTPAGE_HEADLINE": "We design tailor-made projects and implement them with you!",
   "WHAT_WE_DO": "re:edu is a young start-up (spin-off of the Institute for Geoinformatics at the University of Münster) that offers solutions for education, research, sustainability and participation - digital and open - for all people.",
-  "WHAT_WE_DO_IMPORTANT": "Start with us into a smart and sustainable future🚀",
+  "WHAT_WE_DO_IMPORTANT": "Start with us into a smart and sustainable future 🚀",
   "WHAT_WE_DO_SENSEBOX_KIT": "re:edu develops the popular senseBox kits",
-  "SPIN_OFF": "re:edu is a Spin-off of the Institute for Geoinformatics at the University Münster.",
+  "SPIN_OFF": "re:edu is a spin-off of the Institute for Geoinformatics at the University Münster.",
 
   "HARDWARE_ENTWICKLUNG": "Hardware development",
   "SOFTWARE_ENTWICKLUNG": "Software development",
@@ -25,11 +25,11 @@
 
   "EXPERIENCE": "Our Projects.",
   "PORTFOLIO_TEXT": "Be inspired by our current and completed projects, which we implement with a variety of partners along our offerings.",
-  "PORTFOLIO_ANSEHEN": "Portfolio ansehen",
+  "PORTFOLIO_ANSEHEN": "View Portfolio",
   "FORSCHUNG_TITLE": "Our Research Projects",
-  "FORSCHUNG_SUBTITLE": "We are a partner in several research consortia and take on various tasks and subcontracts in research projects of various funding agencies, such as the Federal Ministry of Education and Research, the EU or the Federal Ministry of Economics and Innovation.",
-  "FORSCHUNG_TEXT": "Wir beteiligen uns aktiv an Forschungsprojekten und arbeiten mit Universitäten und anderen Forschungseinrichtungen zusammen.",
-  "FORSCHUNG_ANSEHEN": "Forschungsprojekte ansehen",
+  "FORSCHUNG_SUBTITLE": "We are a partner in several research consortia and take on various tasks and subcontracts in research projects of different funding organizations, such as the Federal Ministry of Education and Research, the EU or the Federal Ministry of Economics and Innovation.",
+  "FORSCHUNG_TEXT": "We actively participate in research projects and cooperate with universities and other research institutions.",
+  "FORSCHUNG_ANSEHEN": "View research projects",
   "FORSCHUNGSVERBUND": "Research Alliance",
   "FOERDERUNG": "Funding scheme",
 
@@ -70,7 +70,7 @@
   "Beratung": "Consulting",
 
   "PHILOSOPHIE_TITLE": "Our Philosophy",
-  "PHILOSOPHIE_DESCRIPTION": "Our company is a spin-off of the Institute for Geoinformatics at the University of Münster. Due to our background in the scientific field we are committed to research. Our many years of experience with the development of geographic information systems but also with science communication, the areas of Citizen Science and all this following the Open Science and Open Innovation approach leads to our mission statement. We develop Open Source Software and Hardware and support the production of Open Educational Resources and the collection of Open Data according to crowdsourcing principles. We follow a participatory model of learning and research and use our creativity to do good.  We want to contribute to fact-based knowledge gain and meaningfully advance the digitization of education with our products.",
+  "PHILOSOPHIE_DESCRIPTION": "Our company is a spin-off of the Institute for Geoinformatics at the University of Münster. Due to our background in the scientific field we are committed to research. Our many years of experience with the development of geographic information systems but also with science communication, the areas of Citizen Science and all this following the Open Science and Open Innovation approach leads to our mission statement. We develop Open Source Software and Hardware and support the production of Open Educational Resources and the collection of Open Data according to crowdsourcing principles. We follow a participatory model of learning and research and use our creativity to do good. We want to contribute to fact-based knowledge gain and meaningfully advance the digitization of education with our products.",
   "PHILOSOPHIE_WER_WIR_SIND": "Who we are: The minds behind re:edu at a glance.",
   "PHILOSOPHIE_WAS_WIR_MACHEN": "What we do: All our projects at a glance."
 }

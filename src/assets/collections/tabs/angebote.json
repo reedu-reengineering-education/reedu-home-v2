@@ -2,7 +2,7 @@
   {
     "title": "Hardware",
     "title2": "senseBox",
-    "description": "Die Cititzen Science Umweltmessstation zum selber bauen – für den Einsatz zuhause, in Schulen Hochschulen udn anderen Bildungs- und Forschungseinrichtungen, Unternehmen, Städten oder Gemeinden. Konfiguriere die Station mit Sensorik nach deinen Wünschen und übertrage die Umweltdaten mit Lora, Wifi oder Lan ins Internet. Wir entwickeln passgenaue Lösungen für Ihre Fragestellung rund um Sensoren und das Internet of Things. Entdecken Sie unsere Projektpallete zum Thema Hardware.",
+    "description": "Die Cititzen Science Umweltmessstation zum Selberbauen – für den Einsatz zuhause, in Schulen, Hochschulen und anderen Bildungs- und Forschungseinrichtungen, sowie in Unternehmen, Städten oder Gemeinden. Konfigurieren Sie die Station mit Sensorik nach Ihren Wünschen und übertragen Sie die Umweltdaten mit LoRa, Wifi oder Lan ins Internet. Wir entwickeln passgenaue Lösungen für Ihre Fragestellung rund um Sensoren und das Internet of Things. Entdecken Sie unsere Projektpallete zum Thema Hardware.",
     "link": "portfolio?angebot=Hardware",
     "linkText": "Portfolio ansehen",
     "image": "/assets/img/angebote/hardware.jpg",
@@ -36,7 +36,7 @@
   {
     "title": "Lern- und Lehrmaterialien",
     "title2": "Videos, Tutorials, didaktische Konzepte",
-    "description": "Für verschiedene Zielgruppen entwickeln wir (wenn möglich unter offenen Lizenzen stehende) Lehr- und Lernmaterialien, sog. Open Educational Ressources. Das können statische oder interaktive Dokumente und Tutorials im Sinne von 'Arbeitsblättern' sein, YouTube Video-Tutorials, Lehrbücher, Lernkarten oder Content für andere Anwendungen. Unsere Materialien sind in Schulen, Museeen und in Projekten diverser Stiftungen im Einsatz. Schauen Sie selbst und entwickeln Sie Ihr Material gemeinsam mit uns.",
+    "description": "Für verschiedene Zielgruppen entwickeln wir (wenn möglich unter offenen Lizenzen stehende) Lehr- und Lernmaterialien, sog. Open Educational Resources. Das können statische oder interaktive Dokumente und Tutorials im Sinne von 'Arbeitsblättern' sein, YouTube Video-Tutorials, Lehrbücher, Lernkarten oder Content für andere Anwendungen. Unsere Materialien sind in Schulen, Museeen und in Projekten diverser Stiftungen im Einsatz. Schauen Sie selbst und entwickeln Sie Ihr Material gemeinsam mit uns.",
     "link": "portfolio?angebot=Lehrmaterial",
     "linkText": "Portfolio ansehen",
     "image": "/assets/img/angebote/lernmaterial.jpeg",
@@ -45,10 +45,10 @@
   {
     "title": "Forschung",
     "title2": "Unser Beitrag zur Wissenschaft",
-    "description": "Als Start-Up Unternehmen (KMU) sind wir Partner in mehreren Forschugnskonsortien und übernehmen vielfältige Aufgaben und Unteraufträge in Forschungsprojekten unterschliedlicher Fördergeldgeber, wie dem Bundesministerium für Bildung- und Forschung, der EU oder dem Bundesministerium füt Wirtschaft und Innovation.Unsere Forschugnsmethoden umfassen:",
+    "description": "Als Start-Up Unternehmen (KMU) sind wir Partner in mehreren Forschugnskonsortien und übernehmen vielfältige Aufgaben und Unteraufträge in Forschungsprojekten unterschliedlicher Fördergeldgeber, wie dem Bundesministerium für Bildung- und Forschung, der EU oder dem Bundesministerium füt Wirtschaft und Innovation. Unsere Forschugnsmethoden umfassen:",
     "list1": "Design und Durchführung von Nutzer*innen-Studien (z.B. Usability-Studien)",
     "list2": "Entwicklung von Forschungssoftware, cloudbasierten Forschungsdateninfragstrukturen und -banken.",
-    "list3": "Entwicklung udn Evaluation von Umweltsensorik-Systemen",
+    "list3": "Entwicklung und Evaluation von Umweltsensorik-Systemen",
     "list4": "Geostatistische Datenanalyse",
     "list5": "Kommunikation und Dissemination von Forschungsergebnissen",
     "end": "Schauen Sie sich unsere Forschungsprojekte an und sprechen Sie uns an.",
