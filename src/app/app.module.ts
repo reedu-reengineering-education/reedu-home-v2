@@ -28,6 +28,7 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { PortfolioItemComponent } from './components/pages/portfolio-item/portfolio-item.component';
 import { JobsComponent } from './components/pages/about-us/jobs/jobs.component';
 import { JobItemComponent } from './components/pages/about-us/job-item/job-item.component';
+import { TrimPipe } from './trim-pipe.pipe';
 
 
 export function createTranslateLoader(http: HttpClient) {
@@ -55,6 +56,7 @@ export function createTranslateLoader(http: HttpClient) {
     PortfolioItemComponent,
     JobsComponent,
     JobItemComponent,
+    TrimPipe,
   ],
   imports: [
     BrowserModule,
