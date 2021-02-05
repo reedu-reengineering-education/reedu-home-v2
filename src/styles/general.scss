@@ -182,3 +182,25 @@ select {
 .height-100 {
   height: 100%;
 }
+
+.site-title-container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+}
+
+.site-title {
+  // font-size: 4rem;
+  // line-height: 4rem;
+  padding-top: 200px;
+  color: white;
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding-top: 80px;
+  }
+}
