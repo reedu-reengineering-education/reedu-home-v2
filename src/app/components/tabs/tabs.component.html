@@ -97,7 +97,9 @@
             </a>
           </div>
           <div class="column is-full">
-            <img class="is-tab-image" [src]="activeTab.image" />
+            <figure class="image is-3by2">
+              <img class="is-tab-image" [src]="activeTab.image" />
+            </figure>
             <div class="forschungs-info">
               <div *ngIf="activeTab.forschungsverbund">
                 <h3>{{ "FORSCHUNGSVERBUND" | translate }}:</h3>
