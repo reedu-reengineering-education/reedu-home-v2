@@ -43,10 +43,9 @@
                 href="https://sensebox.de"
                 class="is-flex is-align-items-center is-flex-wrap-wrap"
               >
-                <h2>home of</h2>
                 <img
                   class="sensebox-logo"
-                  src="./../../../../../assets/img/logos/sensebox/sensebox_wort_und_logo.svg"
+                  src="assets/img/logos/sensebox/Logo_home-of-sensebox_long.svg"
                 />
               </a>
               <p class="bold-text-2">
@@ -68,11 +67,20 @@
       <div class="column is-5">
         <div class="white-section p-6 height-100">
           <h3 class="headline-underline"><span>Angebote</span></h3>
-          <div class="topic-block" [routerLink]="['angebote', 'hardware']">
-            {{ "HARDWARE_ENTWICKLUNG" | translate }}
+          <div 
+            class="topic-block" 
+            [routerLink]="['angebote', 'hardware']">
+            <span
+              [innerHTML]='"HARDWARE_ENTWICKLUNG" | translate '>
+            </span>
           </div>
-          <div class="topic-block" [routerLink]="['angebote', 'software']">
+          <div 
+            class="topic-block" 
+            [routerLink]="['angebote', 'software']">
+            <span
+            [innerHTML]='"SOFTWARE_ENTWICKLUNG" | translate '>
             {{ "SOFTWARE_ENTWICKLUNG" | translate }}
+            </span>
           </div>
           <div
             class="topic-block"

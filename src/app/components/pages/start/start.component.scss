@@ -80,7 +80,10 @@
     position: relative;
     cursor: pointer;
     display: flex;
+    width: 100%;
     align-items: center;
+    // word-break: break-all;
+    hyphens: auto;
 
     &::before {
       content: url("/assets/img/logos/logo_white.svg");
@@ -150,6 +153,6 @@
 }
 
 .sensebox-logo {
-  max-width: 210px;
+  max-width: 280px;
   margin-bottom: 5px;
 }
