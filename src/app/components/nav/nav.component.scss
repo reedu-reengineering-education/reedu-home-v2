@@ -55,7 +55,7 @@
       display: flex;
       align-items: center;
       &:hover, &:focus, &:focus-within {
-        background: $black;
+        color: $black;
       }
       
     }
@@ -64,7 +64,7 @@
     }
     .navbar-item {
       &:hover {
-        background: $black;
+        color: $black;
       }
       &.active {
         &::after {
@@ -72,17 +72,20 @@
         }
       }
       &:focus, &:hover {
-        background-color: $black;
+        color: $black;
+        background-color: $primary;
       }     
       .navbar-link {
         &:focus, &:hover {
-          background-color: $black;
+          color: $black;
+          background-color: $primary;
         }
       }
     }
     .navbar-menu {
       background: $primary;
       color: white;
+      min-height: calc(100vh - 3.25rem);
     }
 
     .navbar-dropdown {
@@ -127,7 +130,9 @@
   }
 
   > .navbar-item:hover {
-    color: #eeeeee !important;
+    @media screen and (min-width: 1023px){
+      color: #eee !important;
+    }
   }
 }
 .navbar-item,
@@ -225,4 +230,8 @@
   @media screen and (max-width: 1023px){
     display: none;
   }
+}
+
+.re-navbar-item {
+  background-color: unset !important;
 }
