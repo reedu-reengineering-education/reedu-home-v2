@@ -117,10 +117,10 @@
   .sb-item {
     flex-direction: column;
     justify-content: space-between;
-    padding: 3em;
+    display: flex;
     cursor: pointer;
     @media screen and (max-width: 768px) {
-      padding: 0;
+      // padding: 0;
       padding-top: 2em;
     }
 

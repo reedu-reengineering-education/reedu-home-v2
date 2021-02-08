@@ -17,7 +17,7 @@
       <!-- <h1 class="nowrap hast-text-centered">Geografische Informationssysteme</h1>   -->
     </div>
   </div>
-  <div class="scroller-arrow">
+  <div class="scroller-arrow bounce">
     <img src="assets/img/logos/logo_outline.svg" (click)="onScrollClick()" />
   </div>
 </div>
@@ -113,11 +113,11 @@
 
 <section id="experience" class="black-section sb-white-text">
   <div class="container px-3 py-5">
-    <div class="container p-6">
-      <h1>{{ "EXPERIENCE" | translate }}</h1>
+    <div class="container">
+      <h1 class="py-4">{{ "EXPERIENCE" | translate }}</h1>
 
-      <div class="tile is-ancestor mx-3 my-2">
-        <div class="tile is-6 sb-item" [routerLink]="['portfolio']">
+      <div class="columns">
+        <div class="column is-6 sb-item" [routerLink]="['portfolio']">
           <h3 class="headline-underline">
             <span>{{ "PORTFOLIO" | translate }}</span>
           </h3>
@@ -133,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div class="tile is-6 sb-item" [routerLink]="['forschung']">
+        <div class="column is-6 sb-item" [routerLink]="['forschung']">
           <h3 class="headline-underline">
             <span>{{ "FORSCHUNG" | translate }}</span>
           </h3>
