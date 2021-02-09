@@ -8,7 +8,7 @@
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2021],
-    "target": ["SchülerInnen", "BürgerInnen", "Wissenschaft"]
+    "target": ["Schüler:innen", "Bürger:innen", "Wissenschaft"]
   },
   {
     "name": "Origami",
@@ -25,7 +25,7 @@
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Forschung", "Beratung", "Lehrmaterial"],
     "year": [2019, 2020, 2021],
-    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+    "target": ["Schüler:innen", "Lehrer:innen", "Hochschulen"]
   },
   {
     "name": "senseBox im Futurium",
@@ -36,7 +36,7 @@
     "customer": "Futurium gGmbH",
     "angebote": ["Software", "Hardware", "Beratung", "Veranstaltung"],
     "year": [2018, 2019],
-    "target": ["SchülerInnen", "BürgerInnen"]
+    "target": ["Schüler:innen", "Bürger:innen"]
   },
   {
     "name": "Landingpages für die Studiengänge Bachelor und Master Geoinformatik",
@@ -47,7 +47,7 @@
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2020],
-    "target": ["StudentInnen", "SchülerInnen", "Hochschule"]
+    "target": ["Student:innen", "Schüler:innen", "Hochschule"]
   },
   {
     "name": "Reflectories",
@@ -65,7 +65,7 @@
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software"],
     "year": [2020, 2021],
-    "target": ["SchülerInnen", "LehrerInnen", "Hochschulen"]
+    "target": ["Schüler:innen", "Lehrer:innen", "Hochschulen"]
   },
   {
     "name": "Biogas Datenbank",
@@ -80,25 +80,25 @@
   },
   {
     "name": "Ferienworkshops #DigitaleOstern #DigitalerHerbst",
-    "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter*innen der Uni Münster im Alter von 6-10 Jahren zu digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
+    "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter:innen der Uni Münster im Alter von 6-10 Jahren zu digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "Climate Hackathon",
-    "desc": "Konzeption und Durchführung eines digitalen Hackathons zum Thema Klimawandel, Datenvisualisierung, Kunst am Goethe-Institut Glasgow. Ausstattung von Goethe-Instituten mit senseBoxen.",
+    "desc": "Konzeption und Durchführung eines digitalen Hackathons zum Thema Klimawandel, Datenvisualisierung und Kunst am Goethe-Institut Glasgow. Ausstattung von Goethe-Instituten mit senseBoxen.",
     "img": "/assets/img/projekte/climate-hackathon.png",
     "link": "https://www.goethe.de/prj/one/en/gea/for/clc.html",
     "topics": ["DigitaleBildung", "CitizenScience", "Klimawandel"],
     "customer": "Junge Tüftler gGmbH, Goethe-Institut",
     "angebote": ["Veranstaltung"],
     "year": [2020],
-    "target": ["BürgerInnen"]
+    "target": ["Bürger:innen"]
   },
   {
     "name": "Turing Bus Workshops",
@@ -109,7 +109,7 @@
     "customer": "Gesellschaft für Informatik",
     "angebote": ["Veranstaltung"],
     "year": [2019],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "senseBox Space Hackathon",
@@ -120,21 +120,21 @@
     "customer": "KIMM e.V. Kindermuseum Münster",
     "angebote": ["Veranstaltung"],
     "year": [2018],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "Handel-O-Mat",
-    "desc": "In der Good News-Litfaßsäule kannst Du durch Klicken auf die einzelnen Zeilen Satzteile verändern und so witzige & wirkungsvolle Handlungsideen kombinieren.",
+    "desc": "In der Good News-Litfaßsäule können durch Klicken auf die einzelnen Zeilen Satzteile verändert und so witzige und wirkungsvolle Handlungsideen kombiniert werden.",
     "img": "/assets/img/projekte/Handel-o-mat.png",
     "link": "https://germanwatch.org/de/handel-o-mat",
     "topics": ["GlobalesLernen"],
     "customer": "Germanwatch e.V.",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["SchülerInnen", "Gesellschaft"]
+    "target": ["Schüler:innen", "Gesellschaft"]
   },
   {
-    "name": "CodeWeek Workshops Berlin",
+    "name": "CodeWeek-Workshops Berlin",
     "desc": "Konzeption und Durchführung von sechs senseBox-Workshops im Rahmen der CodeWeek in Berlin.",
     "img": "/assets/img/projekte/CodeWeek.jpg",
     "link": "https://junge-tueftler.de/angebot/codeweek-berlin",
@@ -142,10 +142,10 @@
     "customer": "Junge Tüftler gGmbH",
     "angebote": ["Veranstaltung"],
     "year": [2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
-    "name": "CodeWeek Workshops Bonn",
+    "name": "CodeWeek-Workshops Bonn",
     "desc": "Konzeption und Durchführung von senseBox Workshops im Rahmen der CodeWeek in Bonn.",
     "img": "/assets/img/projekte/CodeWeek.jpg",
     "link": "https://bonn.codeweek.de/das-programm-2020/veranstaltung/26-gutes-klima",
@@ -153,18 +153,18 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Veranstaltung"],
     "year": [2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
-    "name": "WetterWaterWaterkant Workshops",
-    "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von WetterWaterWaterkant Hamburg.",
+    "name": "WetterWaterWaterkant-Workshops",
+    "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von WetterWaterWaterkant in Hamburg.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "http://www2020.de/wetter-wasser-waterkant-rueckblick-2020/",
     "topics": ["DigitaleBildung", "Klimawandel"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "Klassenzimmer der Zukunft",
@@ -175,7 +175,7 @@
     "customer": "ELIG Foundation gGmbH",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "openSenseMap Feature-Layer",
@@ -186,7 +186,7 @@
     "customer": "ESRI Deutschland",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "Indoor Lokalisation von Krankenhausbetten",
@@ -223,14 +223,14 @@
   },
   {
     "name": "senseBox-Wettbewerb Hamburg",
-    "desc": "Konzeption und Durchführung des senseBox Wettbewerbs Hamburg, bei dem 10 Schulen für die Umsetzung innovativer Projekte mit einer senseBox:edu Klassenkiste prämiert wurden. Die beteiligten Lehrer*innen erhielten in einem Workshop eine Einführung in die senseBox.",
+    "desc": "Konzeption und Durchführung des senseBox-Wettbewerbs Hamburg, bei dem 10 Schulen für die Umsetzung innovativer Projekte mit einer senseBox:edu Klassenkiste prämiert wurden. Die beteiligten Lehrer:innen erhielten in einem Workshop eine Einführung in die senseBox.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Körber Stiftung",
     "angebote": ["Hardware", "Veranstaltung", "Beratung"],
     "year": [2019],
-    "target": ["SchülerInnen", "LehrerInnen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "Klima findet Stadt",
@@ -241,7 +241,7 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Veranstaltung", "Lehrmaterial"],
     "year": [2018, 2019],
-    "target": ["SchülerInnen", "LehrerInnen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "Mobiles Umweltlabor",
@@ -252,18 +252,18 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Software", "Veranstaltung", "Lehrmaterial"],
     "year": [2020, 2021],
-    "target": ["SchülerInnen", "LehrerInnen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "Make Climate",
-    "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open Source Elektronik, mit dem Ziel ein ein offenes Sensornetzwerk aufzubauen, welches von Schulen und der Bürgerschaft betrieben wird.",
+    "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open-Source-Elektronik, mit dem Ziel ein offenes Sensornetzwerk aufzubauen, welches von Schulen und der Bürgerschaft betrieben wird.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
-    "target": ["SchülerInnen", "LehrerInnen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "Hopp-Veranstaltungen",
@@ -285,7 +285,7 @@
     "customer": "HOPP Foundation",
     "angebote": ["Lehrmaterial"],
     "year": [2020],
-    "target": ["StudentInnen", "LehrerInnen"]
+    "target": ["Student:innen", "Lehrer:innen"]
   },
   {
     "name": "Aufbau LoRa-Sensornetzwerk",
@@ -296,7 +296,7 @@
     "customer": "TU Berlin - Institut für Ökologie",
     "angebote": ["Hardware"],
     "year": [2019, 2020],
-    "target": ["WissenschaftlerInnen"]
+    "target": ["Wissenschaftler:innen"]
   },
   {
     "name": "LoRa-Netz Andernach",
@@ -307,22 +307,22 @@
     "customer": "Stadtverwaltung Andernach",
     "angebote": ["Hardware"],
     "year": [2020],
-    "target": ["WissenschaftlerInnen", "BürgerInnen"]
+    "target": ["Wissenschaftler:innen", "Bürger:innen"]
   },
   {
     "name": "MINT-Kongress Workshop",
-    "desc": "Bürgerworkshops zu Open Source Umweltsensorik und IoT bei den MINT-Tagen.",
+    "desc": "Bürgerworkshops zu Open-Source-Umweltsensorik und IoT bei den MINT-Tagen.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "MINT", "IoT", "CitizenScience"],
     "customer": "Stadtbibliothek Köln",
     "angebote": ["Veranstaltung"],
     "year": [2019, 2020],
-    "target": ["BürgerInnen"]
+    "target": ["Bürger:innen"]
   },
   {
-    "name": "LoRaWAN SensorKit",
-    "desc": "Entwicklung der Firmware für ein customized LoRaWAN Device.",
+    "name": "LoRaWAN-SensorKit",
+    "desc": "Entwicklung der Firmware für ein customized LoRaWAN-Device.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
     "topics": ["SmartCity", "LoRa"],
@@ -340,7 +340,7 @@
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Hardware", "Software"],
     "year": [2021],
-    "target": ["Städte", "BürgerInnen"]
+    "target": ["Städte", "Bürger:innen"]
   },
   {
     "name": "Story Map for international graduate students",
@@ -351,7 +351,7 @@
     "customer": "Westfälische Wilhelms-Universität Münster, Graduate Center",
     "angebote": ["Software", "Lehrmaterial"],
     "year": [2021],
-    "target": ["StudentInnen"]
+    "target": ["Student:innen"]
   },
   {
     "name": "Auftakt zum Digitalen Klassenzimmer",
@@ -362,7 +362,7 @@
     "customer": "DigitalCampus Nordkirchen",
     "angebote": ["Event"],
     "year": [2019],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   },
   {
     "name": "webGIS.nrw",
@@ -370,9 +370,9 @@
     "img": "/assets/img/projekte/webgis-nrw.png",
     "link": "https://webgis.nrw",
     "topics": ["DigitaleBildung", "WebDevelopment", "GIS"],
-    "customer": "Westfälische Wilhelms-Universität Münster Institut für Geoinformatik",
+    "customer": "Westfälische Wilhelms-Universität Münster, Institut für Geoinformatik",
     "angebote": ["Software"],
     "year": [2021],
-    "target": ["SchülerInnen"]
+    "target": ["Schüler:innen"]
   }
 ]
