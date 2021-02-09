@@ -81,7 +81,7 @@
   {
     "name": "Holiday-Workshops #DigitaleOstern #DigitalerHerbst",
     "desc": "Conception and implementation of holidy workshops for children of employees of the University of Münster aged 6-10 years on digital topics such as programming, Scratch, senseBox, Lego.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/digitaleostern.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms-Universität Münster",
@@ -224,7 +224,7 @@
   {
     "name": "senseBox Competition Hamburg",
     "desc": "Conception and implementation of the senseBox competition Hamburg, in which 10 schools were awarded for the implementation of innovative projects with a senseBox:edu class box. The participating teachers received an introduction to the senseBox in a workshop.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/senseboxwettbewerb.png",
     "link": "",
     "topics": ["DigitalEducation", "CitizenScience"],
     "customer": "Körber Stiftung",
@@ -235,7 +235,7 @@
   {
     "name": "Klima findet Stadt",
     "desc": "Promotion of environmental education and open youth work in the STEM field in the Rhine-Sieg district with the core region of Bonn. Workshops in youth welfare institutions and secondary schools in the Rhine-Sieg district with the core region of Bonn.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/klimafindetstadt.jpg",
     "link": "",
     "topics": ["DigitalEducation", "CitizenScience"],
     "customer": "Telekom Stiftung",
@@ -246,7 +246,7 @@
   {
     "name": "Mobile environmental laboratory",
     "desc": "Development of a Bluetooth module for the senseBox:edu to connect to the phyphox app. Adaptations to the Blockly programming environment, development of teaching materials and test workshops in schools.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/mobilesumweltlabor.png",
     "link": "",
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
@@ -268,7 +268,7 @@
   {
     "name": "senseBox Online Video Tutorials",
     "desc": "Production of online youtube video tutorials for the introduction to working with the senseBox.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/senseboxonlinevideotutorials.png",
     "link": "https://unterrichtsmaterialien.hopp-foundation.de/videos?grades=&tag%5B50%5D=1&filtern=&q=",
     "topics": ["DigitalEducation"],
     "customer": "HOPP Foundation",
