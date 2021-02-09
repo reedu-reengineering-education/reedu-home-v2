@@ -131,7 +131,7 @@ export class PortfolioComponent implements OnInit {
     .padding(5)
     // .rotate(function() { return ~~(Math.random() * 2) * 90; })
     .rotate(function() { return 0; })
-    .font("Impact")
+    .font("Brixslab-Regular")
     .fontSize(function(d) { return d.size; })
     .on("end", draw);
 
@@ -147,7 +147,7 @@ export class PortfolioComponent implements OnInit {
           .data(words)
         .enter().append("text")
           .style("font-size", function(d) { return d.size + "px"; })
-          .style("font-family", "Impact")
+          .style("font-family", "Brixslab-Regular")
           .attr("text-anchor", "middle")
           .attr("transform", function(d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
