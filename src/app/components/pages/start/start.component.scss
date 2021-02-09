@@ -115,10 +115,14 @@
 
 #experience {
   .sb-item {
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
     cursor: pointer;
+    .sb-item-inner {
+      flex-direction: column;
+      justify-content: space-between;
+      display: flex;
+      max-width: 500px;
+      height: 100%;
+    }
     @media screen and (max-width: 768px) {
       // padding: 0;
       padding-top: 2em;

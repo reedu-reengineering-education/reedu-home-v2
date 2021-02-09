@@ -45,13 +45,6 @@
   }
 }
 
-.padding-6-resp {
-  padding: 1rem;
-  @media screen and (min-width: $breakpoint-mobile) {
-    padding: 6rem;
-  }
-}
-
 markdown::ng-deep {
   h1 {
     text-align: center;

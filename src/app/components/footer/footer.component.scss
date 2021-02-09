@@ -36,6 +36,7 @@
   .footer-nav {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     .footer-nav-item {
       padding: 1em;
     }
