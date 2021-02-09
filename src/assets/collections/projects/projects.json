@@ -70,7 +70,7 @@
   {
     "name": "Biogas Datenbank",
     "desc": "Implementierung einer Web-App zur Analyse von Biogasanlagen.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/biogas.jpg",
     "link": "",
     "topics": ["WebDevelopment", "DataScience", "SmartCity"],
     "customer": "FH Münster - University of Applied Sciences",
