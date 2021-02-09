@@ -123,12 +123,14 @@ export class PortfolioComponent implements OnInit {
     d3.select("#wordCloud").select('g').remove();
 
     var layout = cloud()
-    .size([500, 500])
+    .size([1000, 500])
     .words(finalWords.map(function(d) {
-      return {text: d.text, size: d.count*7, test: "haha"};
+      console.log(Math.log(d.count))
+      return {text: d.text, size: Math.log(d.count+1)*20, test: "haha"};
     }))
     .padding(5)
-    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+    // .rotate(function() { return ~~(Math.random() * 2) * 90; })
+    .rotate(function() { return 0; })
     .font("Impact")
     .fontSize(function(d) { return d.size; })
     .on("end", draw);
