@@ -4,6 +4,15 @@ import reProjectsEN from '../../../../assets/collections/projects/projects-en.js
 import rePartner from '../../../../assets/collections/partner/partner.json';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';
+
+
+import * as d3 from 'd3';
+import * as d3Scale from 'd3';
+import * as d3Shape from 'd3';
+import * as d3Array from 'd3';
+import * as d3Axis from 'd3';
+import * as cloud from '../../../../assets/js/d3.layout.cloud.js';
+
 @Component({
   selector: 're-portfolio',
   templateUrl: './portfolio.component.html',
@@ -21,6 +30,8 @@ export class PortfolioComponent implements OnInit {
   filterOpen = false;
 
   partners = rePartner;
+
+  cloud;
 
   filter = {
     customer: null,
@@ -43,6 +54,8 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit(): void {
 
+    let that = this;
+    
     this.route.queryParamMap.subscribe((queryParams:any) => {
       let params =  queryParams.params;
       for( let param in params){
@@ -85,6 +98,61 @@ export class PortfolioComponent implements OnInit {
     })
     this.topics = [...new Set(this.topics)]
     this.targets = [...new Set(this.targets)]
+
+  }
+
+  drawWordCloud(words){
+    words = words.flat()
+    console.log(words);
+    
+    var countedWords = {};
+    words.forEach(function(word){
+      if(countedWords[word]){
+        countedWords[word]++;
+      } else {
+        countedWords[word]= 1;
+      }
+    })
+    console.log(countedWords)
+    var finalWords = [];
+    for (var word in countedWords){
+      finalWords.push({text: word, count: countedWords[word]})
+    }
+    console.log(finalWords)
+
+    d3.select("#wordCloud").select('g').remove();
+
+    var layout = cloud()
+    .size([500, 500])
+    .words(finalWords.map(function(d) {
+      return {text: d.text, size: d.count*7, test: "haha"};
+    }))
+    .padding(5)
+    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+    .font("Impact")
+    .fontSize(function(d) { return d.size; })
+    .on("end", draw);
+
+    layout.start();
+
+    function draw(words) {
+      d3.select("#wordCloud")
+          .attr("width", layout.size()[0])
+          .attr("height", layout.size()[1])
+        .append("g")
+          .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+        .selectAll("text")
+          .data(words)
+        .enter().append("text")
+          .style("font-size", function(d) { return d.size + "px"; })
+          .style("font-family", "Impact")
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) {
+            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+          })
+          .text(function(d) { return d.text; });
+      }
+
   }
 
   changeCustomer(event){
@@ -155,6 +223,7 @@ export class PortfolioComponent implements OnInit {
 
     })
     this.filterOpen = false;
+    this.drawWordCloud(this.filteredProjects.map(item => item.topics));
   }
 
   removeFilter(key){
