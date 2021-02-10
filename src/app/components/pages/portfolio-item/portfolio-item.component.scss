@@ -69,10 +69,16 @@
   .back-link {
     color: $black;
     position: relative;
-    top: -1.5em;
-    left: -1.5em;
+   
     display: flex;
     align-items: flex-end;
+
+    @media screen and (min-width: $breakpoint-mobile) {
+      top: -1.5em;
+      left: -1.5em;
+    }
+
+
 
     img {
       width: 2rem;
