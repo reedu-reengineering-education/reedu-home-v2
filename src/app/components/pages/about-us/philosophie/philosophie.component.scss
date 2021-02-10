@@ -8,6 +8,7 @@
   height: 40rem;
   overflow: hidden;
   display: flex;
+  padding: 0;
 
   > img {
     width: 100%;
@@ -25,7 +26,6 @@
 }
 
 .site-title {
-  font-size: 5rem;
   word-break: break-word;
 }
 

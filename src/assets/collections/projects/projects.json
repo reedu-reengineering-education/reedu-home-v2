@@ -39,7 +39,7 @@
     "target": ["Schüler:innen", "Bürger:innen"]
   },
   {
-    "name": "Landingpages für die Studiengänge Bachelor und Master Geoinformatik",
+    "name": "Landingpages für Bachelor und Master Geoinformatik",
     "desc": "Design und Entwicklung von Wordpress-basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics.",
     "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
@@ -70,7 +70,7 @@
   {
     "name": "Biogas Datenbank",
     "desc": "Implementierung einer Web-App zur Analyse von Biogasanlagen.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/biogas.jpg",
     "link": "",
     "topics": ["WebDevelopment", "DataScience", "SmartCity"],
     "customer": "FH Münster - University of Applied Sciences",
@@ -81,7 +81,7 @@
   {
     "name": "Ferienworkshops #DigitaleOstern #DigitalerHerbst",
     "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter:innen der Uni Münster im Alter von 6-10 Jahren zu digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/digitaleostern.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms-Universität Münster",
@@ -224,7 +224,7 @@
   {
     "name": "senseBox-Wettbewerb Hamburg",
     "desc": "Konzeption und Durchführung des senseBox-Wettbewerbs Hamburg, bei dem 10 Schulen für die Umsetzung innovativer Projekte mit einer senseBox:edu Klassenkiste prämiert wurden. Die beteiligten Lehrer:innen erhielten in einem Workshop eine Einführung in die senseBox.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/senseboxwettbewerb.png",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Körber Stiftung",
@@ -235,7 +235,7 @@
   {
     "name": "Klima findet Stadt",
     "desc": "Förderung von Umweltbildung und offener Jugendarbeit im MINT-Bereich im Rhein-Sieg-Kreis mit der Kernregion Bonn. Workshops in Jugendhilfeeinrichtungen und weiterführende Schulen im Rhein-Sieg-Kreis mit der Kernregion Bonn.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/klimafindetstadt.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
@@ -246,7 +246,7 @@
   {
     "name": "Mobiles Umweltlabor",
     "desc": "Entwicklung eines Bluetooth-Moduls für die senseBox:edu zur Anknüpfung an die phyphox-App. Anpassungen an der Blockly-Programmierumgebung, Entwicklung von Lehrmaterialien und Testworkshops in Schulen.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/mobilesumweltlabor.png",
     "link": "",
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
@@ -279,7 +279,7 @@
   {
     "name": "senseBox Online Video Tutorials",
     "desc": "Produktion von Online-Video-Tutorials für YouTube für den Einstieg in die Arbeit mit der senseBox.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/senseboxonlinevideotutorials.png",
     "link": "https://unterrichtsmaterialien.hopp-foundation.de/videos?grades=&tag%5B50%5D=1&filtern=&q=",
     "topics": ["DigitaleBildung"],
     "customer": "HOPP Foundation",

@@ -17,7 +17,7 @@
       <!-- <h1 class="nowrap hast-text-centered">Geografische Informationssysteme</h1>   -->
     </div>
   </div>
-  <div class="scroller-arrow">
+  <div class="scroller-arrow bounce">
     <img src="assets/img/logos/logo_outline.svg" (click)="onScrollClick()" />
   </div>
 </div>
@@ -26,7 +26,7 @@
   <div class="container px-3 py-5">
     <div class="columns is-tablet is-3 my-2">
       <div class="column is-7 text-container">
-        <div class="sb-flex-container-column white-section p-6">
+        <div class="sb-flex-container-column white-section padding-6-resp">
           <div class="height100flex">
             <h1 class="pb-4">{{ "STARTPAGE_HEADLINE" | translate }}</h1>
             <h3 class="headline-underline">
@@ -43,10 +43,9 @@
                 href="https://sensebox.de"
                 class="is-flex is-align-items-center is-flex-wrap-wrap"
               >
-                <h2>home of</h2>
                 <img
                   class="sensebox-logo"
-                  src="./../../../../../assets/img/logos/sensebox/sensebox_wort_und_logo.svg"
+                  src="assets/img/logos/sensebox/Logo_home-of-sensebox_long.svg"
                 />
               </a>
               <p class="bold-text-2">
@@ -66,13 +65,22 @@
         </div>
       </div>
       <div class="column is-5">
-        <div class="white-section p-6 height-100">
+        <div class="white-section padding-6-resp height-100">
           <h3 class="headline-underline"><span>Angebote</span></h3>
-          <div class="topic-block" [routerLink]="['angebote', 'hardware']">
-            {{ "HARDWARE_ENTWICKLUNG" | translate }}
+          <div 
+            class="topic-block" 
+            [routerLink]="['angebote', 'hardware']">
+            <span
+              [innerHTML]='"HARDWARE_ENTWICKLUNG" | translate '>
+            </span>
           </div>
-          <div class="topic-block" [routerLink]="['angebote', 'software']">
+          <div 
+            class="topic-block" 
+            [routerLink]="['angebote', 'software']">
+            <span
+            [innerHTML]='"SOFTWARE_ENTWICKLUNG" | translate '>
             {{ "SOFTWARE_ENTWICKLUNG" | translate }}
+            </span>
           </div>
           <div
             class="topic-block"
@@ -105,41 +113,45 @@
 
 <section id="experience" class="black-section sb-white-text">
   <div class="container px-3 py-5">
-    <div class="container p-6">
-      <h1>{{ "EXPERIENCE" | translate }}</h1>
+    <div class="container">
+      <h1 class="py-6">{{ "EXPERIENCE" | translate }}</h1>
 
-      <div class="tile is-ancestor mx-3 my-2">
-        <div class="tile is-6 sb-item" [routerLink]="['portfolio']">
-          <h3 class="headline-underline">
-            <span>{{ "PORTFOLIO" | translate }}</span>
-          </h3>
-          <p>
-            {{ "PORTFOLIO_TEXT" | translate }}
-          </p>
-          <div class="sb-image-caption">
-            <img src="/assets/img/start/startseite_projekte.jpg" />
-            <div class="sb-caption">
-              <h3>
-                {{ "PORTFOLIO_ANSEHEN" | translate }}
-              </h3>
+      <div class="columns">
+        <div class="column is-6 sb-item" [routerLink]="['portfolio']">
+          <div class="sb-item-inner">
+            <h3 class="headline-underline">
+              <span>{{ "PORTFOLIO" | translate }}</span>
+            </h3>
+            <p>
+              {{ "PORTFOLIO_TEXT" | translate }}
+            </p>
+            <div class="sb-image-caption">
+              <img src="/assets/img/start/startseite_projekte.jpg" />
+              <div class="sb-caption">
+                <h3>
+                  {{ "PORTFOLIO_ANSEHEN" | translate }}
+                </h3>
+              </div>
             </div>
           </div>
         </div>
-        <div class="tile is-6 sb-item" [routerLink]="['forschung']">
-          <h3 class="headline-underline">
-            <span>{{ "FORSCHUNG" | translate }}</span>
-          </h3>
-          <p>
-            {{ "FORSCHUNG_TEXT" | translate }}
-          </p>
-          <div class="sb-image-caption">
-            <img src="/assets/img/start/startseite_forschung.jpg" />
-            <div class="sb-caption">
-              <h3>
-                {{ "FORSCHUNG_ANSEHEN" | translate }}
-              </h3>
+        <div class="column is-6 sb-item" [routerLink]="['forschung']">
+          <div class="sb-item-inner">
+            <h3 class="headline-underline">
+              <span>{{ "FORSCHUNG" | translate }}</span>
+            </h3>
+            <p>
+              {{ "FORSCHUNG_TEXT" | translate }}
+            </p>
+            <div class="sb-image-caption">
+              <img src="/assets/img/start/startseite_forschung.jpg" />
+              <div class="sb-caption">
+                <h3>
+                  {{ "FORSCHUNG_ANSEHEN" | translate }}
+                </h3>
+              </div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     </div>

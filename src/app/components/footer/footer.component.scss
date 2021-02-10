@@ -28,7 +28,7 @@
         white-space: nowrap;
       }
       .sensebox-logo {
-        height: 100px;
+        height: 50px;
         padding-left: 0.3em;
       }
     }
@@ -36,6 +36,7 @@
   .footer-nav {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     .footer-nav-item {
       padding: 1em;
     }
