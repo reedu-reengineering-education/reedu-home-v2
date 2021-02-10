@@ -24,3 +24,13 @@ pages:
       - dist/reedu-home-v2/
   only:
     - master
+pages:
+  stage: deploy
+  script:
+    - yarn build --prod=true
+    - npx -p netlify-cli netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --alias dev --dir dist/reedu-home-v2/
+  artifacts:
+    paths:
+      - dist/reedu-home-v2/
+  only:
+    - development
