@@ -1,8 +1,20 @@
 [
   {
-    "title": "Werkstudierende*r für mobile Apps gesucht!",
+    "title": "Werkstudierende*r Entwickler für mobile Apps gesucht!",
     "description": "Komme ins re:edu Team! Wir suchen ab sofort eine*n Werkstudent*in für mobile Apps",
     "date": "02.02.2021",
     "filename": "werkstudent-mobile-app.md"
+  },
+  {
+    "title": "Werkstudierende*r für Design",
+    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine*n Designer*in für verschiedenste Aufgaben.",
+    "date": "07.02.2021",
+    "filename": "werkstudent-design.md"
+  },
+  {
+    "title": "External Semester Praktikanten",
+    "description": "Du brauchst ein längeres Praktikum für dein Studium? Egal ob Programmieren, Kommunikation, Design, etc... ",
+    "date": "07.02.2021",
+    "filename": "external-semester.md"
   }
 ]
