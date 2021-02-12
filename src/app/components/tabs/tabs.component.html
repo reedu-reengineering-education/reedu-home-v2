@@ -51,17 +51,14 @@
                 list-style-position: inside;
                 color: #eb5c37;
               "
-              *ngIf="
-                activeTab.title === 'Veranstaltungen' ||
-                activeTab.title === 'Events'
-              "
+              *ngIf="activeTab.list1"
             >
-              <li>{{ activeTab.list1 }}</li>
-              <li>{{ activeTab.list2 }}</li>
-              <li>{{ activeTab.list3 }}</li>
-              <li>{{ activeTab.list4 }}</li>
-              <li>{{ activeTab.list5 }}</li>
-              <li>{{ activeTab.list6 }}</li>
+              <li *ngIf="activeTab.list1">{{ activeTab.list1 }}</li>
+              <li *ngIf="activeTab.list2">{{ activeTab.list2 }}</li>
+              <li *ngIf="activeTab.list3">{{ activeTab.list3 }}</li>
+              <li *ngIf="activeTab.list4">{{ activeTab.list4 }}</li>
+              <li *ngIf="activeTab.list5">{{ activeTab.list5 }}</li>
+              <li *ngIf="activeTab.list6">{{ activeTab.list6 }}</li>
             </ul>
             <ul
               style="
