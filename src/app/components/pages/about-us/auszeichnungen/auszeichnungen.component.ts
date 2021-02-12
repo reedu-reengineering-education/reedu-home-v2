@@ -12,12 +12,19 @@ import { TranslateService } from '@ngx-translate/core';
 export class AuszeichnungenComponent implements OnInit {
 
   awards: any[]
+  openPanel = -1;
 
 
   constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
     this.awards = awardsDe;
+
+    if(this.translate.currentLang === 'de' || this.translate.currentLang === undefined){
+      this.awards = awardsDe;
+    } else {
+      this.awards = awardsEn;
+    }
 
     this.translate.onLangChange.subscribe((event) => {
       if (event.lang === 'de') {
@@ -26,6 +33,14 @@ export class AuszeichnungenComponent implements OnInit {
         this.awards = awardsEn;
       }
     });
+  }
+
+  togglePanel(i){
+    if( i === this.openPanel) {
+      this.openPanel = -1;
+    } else {
+      this.openPanel = i;
+    }
   }
 
 }

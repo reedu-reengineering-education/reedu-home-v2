@@ -1,7 +1,7 @@
-<div class="site sb-white-text">
+<div class="site ">
   <div class="container site-title-container">
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-half sb-white-text">
         <h1
           class="site-title"
           [innerHTML]="'AUSZEICHNUNGEN_HTML' | translate"
@@ -16,27 +16,29 @@
   <div class="stripes-container">
     <div class="stripes-zig-zag">
       <div class="container">
-        <div class="card" *ngFor="let award of awards">
+        <div class="card" *ngFor="let award of awards; let i = index">
           <div class="card-content">
             <div class="container">
-              <div class="columns is-multiline">
-                <div class="column is-one-third">
+              <div class="is-multiline awards-container sb-red-text">
+                <div class="image-container">
                   <img
                     *ngIf="award.image"
                     src="{{ award.image }}"
                     alt="image"
                   />
                 </div>
-                <div class="column">
+                <div class="desc">
                   <h1 class="title">{{ award.title }}</h1>
-                  <h2 class="subtitle">{{ award.description }}</h2>
-                  <a href="{{ award.link }}">
-                    <button *ngIf="award.link" class="re-button">
-                      <span>{{ "MEHR_DAZU" | translate }}</span>
-                      <img src="/assets/img/logos/logo_black.svg" />
-                    </button>
-                  </a>
+                  <!-- <h2 class="subtitle">{{ award.description }}</h2> -->
                 </div>
+                <div class="button-column">
+                  <button class="down-button" (click)="togglePanel(i)">
+                    <img src="/assets/img/logos/logo_black.svg" />
+                  </button>
+                </div>
+              </div>
+              <div class="descripton-panel" *ngIf="openPanel === i">
+                <p>{{award.desc}}</p>
               </div>
             </div>
           </div>
