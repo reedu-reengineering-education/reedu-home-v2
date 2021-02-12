@@ -1,18 +1,20 @@
-# Werkstudierende\*r für die Entwicklung einer mobilen Lernapp gesucht!
+# Werkstudierende\*r für Design und UX gesucht!
 
-re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps.
+re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps. 
 
-**Für verschiedene Projekte suchen wir ab sofort eine\*n engagierten Designer\*in auf Basis eines Werkstudentenvertrages (ca. 10 Stunden-Basis).**
+**Für verschiedene Projekte suchen wir ab sofort eine\*n engagierte\*n Designer\*in auf Basis eines Werkstudentenvertrages (ca. 10 Stunden-Basis).**
 
 **Zu deinen Aufgaben zählen:**
 
-- Design von Webseiten
+- Design/UX von Webseiten
+- Design/UX von mobilen Apps (im Kontext Bildung und Citizen Science)
 - Design von Flyern oder anderem Informationsmaterial
-- ...
+- Unterstützung unserer Entwickler\*innen
 
 **Das bringst du mit:**
 
-- Grundfähigkeiten im Umgang mit Design-Software deiner Wahl
+- Erfahrung mit Design/UX aus Deinem Studium oder Ausbildung
+- Sicherer Umgang mit Design-Software deiner Wahl
 - Gute Laune
 - Motivation und eigenständiges Arbeiten
 
