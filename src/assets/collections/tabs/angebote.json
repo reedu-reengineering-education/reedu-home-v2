@@ -1,8 +1,8 @@
 [
   {
     "title": "Hardware",
-    "title2": "senseBox",
-    "description": "Die Cititzen Science Umweltmessstation zum Selberbauen – für den Einsatz zuhause, in Schulen, Hochschulen und anderen Bildungs- und Forschungseinrichtungen, sowie in Unternehmen, Städten oder Gemeinden. Konfigurieren Sie die Station mit Sensorik nach Ihren Wünschen und übertragen Sie die Umweltdaten mit LoRa, Wifi oder Lan ins Internet. Wir entwickeln passgenaue Lösungen für Ihre Fragestellung rund um Sensoren und das Internet of Things:." ,
+    "title2": "senseBox und Rapid Prototyping für IoT und Sensorik",
+    "description": "Die Cititzen Science Umweltmessstation zum Selberbauen – für den Einsatz zuhause, in Schulen, Hochschulen und anderen Bildungs- und Forschungseinrichtungen, sowie in Unternehmen, Städten oder Gemeinden. Konfigurieren Sie die Station mit Sensorik nach Ihren Wünschen und übertragen Sie die Umweltdaten mit LoRa, Wifi oder Lan ins Internet. Wir entwickeln passgenaue Lösungen für Ihre Fragestellung rund um Sensoren und das Internet of Things:" ,
     "list1": "individuelle Anpassung der senseBox nach Ihrer Fragestellung",
     "list2": "Entwicklung alternativer Datenübertragungsmethoden",
     "list3": "Rapid Prototyping",

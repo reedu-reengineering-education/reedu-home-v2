@@ -15,6 +15,11 @@ export interface Tab {
   foerderungName?: string,
   logoBottom?: string,
   image: string,
+  list1?: string,
+  list2?: string,
+  list3?: string,
+  list4?: string,
+  list5?: string,
   underscoreStyle?: "dark" | "red";
 }
 
