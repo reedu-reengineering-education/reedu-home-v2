@@ -1,6 +1,6 @@
-# Werkstudierende\*r Entwickler für die Entwicklung einer mobilen Lernapp gesucht!
+# Student developer for mobile learning app OriGami
 
-re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps.
+re:edu is a young start-up (spin-off of the Institute for Geoinformatics at the University of Münster) that offers solutions for education, research, sustainability and participation - digital and open - for all people. We develop web-based geogrpahic information sytems (GIS), learning management systems (LMS), environmental data analysis tools, scientific data infrastructures, mobile apps for learning and citizen science.
 
 **For the mobile learning app OriGami we are looking for a dedicated software developer on a working student contract (approx. 10 hours per week).
 
@@ -20,8 +20,9 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 
 **What we offer:***
 
-- Flexible working hours and personal responsibility, also in the home office
-- Positive involvement in shaping a topic that is shaping society
+- Flexible working hours and autonomy, also in the home office
+- Positive involvement in shaping a topic that is relevant for society
+- Time to learn and develop your own skills
 - A responsible task with meaning and creative freedom
 - A great collegial environment, an appreciative and motivated team
 
