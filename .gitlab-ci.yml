@@ -24,6 +24,7 @@ pages:
       - dist/reedu-home-v2/
   only:
     - master
+    
 pages:
   stage: deploy
   script:
