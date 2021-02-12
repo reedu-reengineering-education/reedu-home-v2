@@ -1,4 +1,4 @@
-# Werkstudierende\*r für die Entwicklung einer mobilen Lernapp gesucht!
+# Werkstudierende\*r Entwickler für die Entwicklung einer mobilen Lernapp gesucht!
 
 re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps.
 
@@ -28,4 +28,4 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: f.erdmann@reedu.de (Ansprechpartner: Felix Erdmann)
 
 Büroadresse:
-re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48155 Münster
+re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster

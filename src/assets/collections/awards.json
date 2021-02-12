@@ -1,29 +1,41 @@
 [
   {
     "title": "Falling Walls Finalist 2020",
-    "image": "assets/img/awards/falling_walls_2020.jpg"
+    "image": "assets/img/awards/falling_walls_2020.jpg",
+    "desc": "Unser Geschäftsführer Dr. Thomas Bartoschek wurde 2020 zum Finalisten des Falling Walls / Berlin Science Week Festivals bei den Science Breakthroughs of the Year in der Kategorie \"Digital Education\" ausgewählt. https://falling-walls.com/remote2020/finalists/filters/digital-education"
   },
   {
     "title": "1. Platz in der Kategorie Deutschland des Start-ups Connected Awards der AHK Sao Paulo",
-    "image": "assets/img/awards/ahk-sao-paulo.svg"
+    "image": "assets/img/awards/ahk-sao-paulo.svg",
+    "desc": "re:edu hat beim Wettbewerb \"Startups Connected\" der Außenhandelskammer São Paulo 2020 den 1. Platz in der Kategorie \"Deutschland\" gewonnen - als Science Start-Up mit dem größten Potenzial für den brasilianischen Markt. Unser Head of Education Björn Guntermann hat den Preis in São Paulo entgegengenommen und konnte die senseBox auf einer Tour durch Brasilien an vielen Hochschulen vorstellen. https://www.linkedin.com/posts/dwih-sp_inovaaexaeto-cbai-startupconnected-activity-6585270172653768704-61yO/"
   },
   {
     "title": "1. Platz beim Pecha Kucha Pitch auf der Learntec 2019",
-    "image": "assets/img/awards/learntec.png"
+    "image": "assets/img/awards/learntec.png",
+    "desc": "Auf der Learntec, einer internationalen Fachmesse rund um die Digitalisierung der Lern- und Arbeitswelt in Schule, Hochschule und Beruf, überzeugten wir im Jahr 2019 die Jury mit unserem Beitrag zum Pecha Kucha-Pitch für EdTech Start-Ups und holten den ersten Platz. http://www.lukas-forscherland.de/service/nachrichten/detailansicht/learntec-2019-virtual-reality-ki-und-frischer-start-up-wind.html"
   },
   {
     "title": "2. Platz beim delina2019 Innovationspreis für digitale Bildung",
-    "image": "assets/img/awards/delina2019.jpg"
+    "image": "assets/img/awards/delina2019.jpg",
+    "desc": "Beim delina Innovationspreis für Digitale Bildung erreichten wir mit unserer Bewerbung den zweiten Platz in der Kategorie Hochschule. https://www.learntec.de/de/programm/rahmen-und-ausstellerprogramm/preisverleihungen/"
   },
   {
     "title": "Electronica 2019",
-    "image": "assets/img/awards/electronica.jpg"
+    "image": "assets/img/awards/electronica.jpg",
+    "desc": "Beim Start-Up Pitch auf der Electronica, Messe und Konferenz der Elektronik, 2018 in München waren wir im Finale vertreten. https://www.elektormagazine.com/news/electronica-fast-forward-2018-the-startup-platform-pitch-schedule"
   },
   {
-    "title": "Sybille-Hahne-Nachwuchsgründerpreis 2018 - Publikumspreis"
+    "title": "Sybille-Hahne-Nachwuchsgründerpreis 2018 - Publikumspreis",
+    "desc": "Beim Sybille-Hahne-Nachwuchsgründerpreis gewannen wir den Publikumspreis mit unserem Konzept für re:edu - damaliger Projekttitel: senseBox/eduSense. https://www.uni-muenster.de/Ausgruendungen/preise/gp2017.html#anchor112"
   },
   {
     "title": "ERCIS Launch Pad 2017 - Bestes E-Commerce-Geschäftsmodell",
-    "image": "assets/img/awards/launchpad.png"
+    "image": "assets/img/awards/launchpad.png",
+    "desc": "Mit unserem in Gründung befindlichen Vorhaben mit dem Projekttitel \"eduSense\" (jetzt re:edu) und ganz unter unserem Motto \"Full Stack Digital Education\" gewannen wir beim ERCIS Launchpad 2017 den PayPal Sonderpreis für das beste E-Commerce Geschäftsmodell und eine Unterstützung von PayPal bei unserer Shop-Integration. http://2017.ercis-launchpad.de/winners"
+  },
+  {
+    "title": "CeBIT Innovation Award 2017",
+    "image": "assets/img/awards/cebit-innovation-award-2017.jpg",
+    "desc": "Der Sonderpreis für \"Digitales Lehren und Lernen\" beim CeBIT Innovation Award 2017 ging an die senseBox - noch bevor wir mit der Planung für re:edu begonnen haben. https://www.uni-muenster.de/news/view.php?cmdid=8805"
   }
 ]

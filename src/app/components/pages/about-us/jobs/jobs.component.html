@@ -3,23 +3,18 @@
     <div class="stripes">
       <div class="container site-title-container">
         <h1 class="site-title">Jobs</h1>
-        <!-- <h3>Werde Teil des re:edu Teams</h3> -->
-        <h3>Coming soon... </h3>
+        <h3>{{'REEDU_JOBS_HEADLINE' | translate}}</h3>
+        <!-- <h3>Coming soon... </h3> -->
       </div>
-      <!-- <div class="container content">
-        <p>
-          Hier schreiben wir warum re:edu ein super Laden ist. Hier schreiben
-          wir warum re:edu ein super Laden ist. Hier schreiben wir warum re:edu
-          ein super Laden ist. Hier schreiben wir warum re:edu ein super Laden
-          ist. Hier schreiben wir warum re:edu ein super Laden ist. Hier
-          schreiben wir warum re:edu ein super Laden ist. Hier schreiben wir
-          warum re:edu ein super Laden ist.
+      <div class="container content">
+        <p class="reedu-desc" [innerHTML]="'REEDU_BEST_JOB_WO_GIBT' | translate">
+          
         </p>
 
         <div *ngFor="let job of jobs" class="job-container">
           <p>{{ job.date }}</p>
           <h1>{{ job.title }}</h1>
-          <h3>{{ job.description }}</h3>
+          <h4>{{ job.description }}</h4>
           <a href="/job/{{ job.filename }}">
             <button class="re-button">
               <span>{{ "MEHR_DAZU" | translate }}</span>
@@ -28,7 +23,7 @@
           </a>
           <hr />
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </div>
