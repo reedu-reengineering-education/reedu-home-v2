@@ -158,7 +158,7 @@
   {
     "name": "WetterWaterWaterkant Workshops",
     "desc": "Conception and realization of senseBox workshops in the context of WetterWaterWaterkant Hamburg.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/wetterwasserwaterkant.png",
     "link": "",
     "topics": ["DigitalEducation", "ClimateChange"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
@@ -213,7 +213,7 @@
   {
     "name": "Self-sufficient sensor network in Enschede",
     "desc": "Hardware for a LoRa sensor network with approx. 100 autonomous senseBox measuring stations for climate monitoring in Enschede.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/enschede.png",
     "link": "",
     "topics": ["Forschung", "SmartCity"],
     "customer": "Universität Twente",

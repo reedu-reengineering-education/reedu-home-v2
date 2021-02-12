@@ -158,7 +158,7 @@
   {
     "name": "WetterWaterWaterkant-Workshops",
     "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von WetterWaterWaterkant in Hamburg.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/wetterwasserwaterkant.png",
     "link": "http://www2020.de/wetter-wasser-waterkant-rueckblick-2020/",
     "topics": ["DigitaleBildung", "Klimawandel"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
@@ -213,7 +213,7 @@
   {
     "name": "Städtisches autarkes Sensornetzerk in Enschede",
     "desc": "Hardware für ein LoRa-Sensornetzwerk mit ca. 100 autarken senseBox-Messstationen zur Klimabeobachtung in Enschede.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/enschede.png",
     "link": "",
     "topics": ["Forschung", "SmartCity"],
     "customer": "Universität Twente",
@@ -257,7 +257,7 @@
   {
     "name": "Make Climate",
     "desc": "Hackathons, Workshops und Schulprojekte zum Thema Umweltsensorik mit Open-Source-Elektronik, mit dem Ziel ein offenes Sensornetzwerk aufzubauen, welches von Schulen und der Bürgerschaft betrieben wird.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/MakeClimate.jpg",
     "link": "",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
