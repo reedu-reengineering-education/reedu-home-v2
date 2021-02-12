@@ -23,7 +23,7 @@ pages:
     paths:
       - dist/reedu-home-v2/
   only:
-    - master    
+    - master
 pages:
   stage: deploy
   script:
