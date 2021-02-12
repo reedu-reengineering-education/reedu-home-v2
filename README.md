@@ -21,7 +21,8 @@
 ## Add/Edit Awards
 
 - go to assets/collections/
-- fill in the json format in awards.json
+- fill in the json format in awards.json and awards-en.json
+- .md files have to be created in same directory
 - images can be put in assets/img/awards/
 
 ## Add/Edit Angebote
