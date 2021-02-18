@@ -4,10 +4,10 @@
     "desc": "Entwicklung, Umzug, Wartung und Anpassung der Infrastruktur der openSenseMap.",
     "img": "/assets/img/projekte/opensensemap.png",
     "link": "https://opensensemap.org",
-    "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
+    "topics": ["CitizenScience", "ProfessionalService", "OpenData", "Maps", "Sensors", "Geoinformation"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
-    "year": [2021],
+    "year": [2021, 2020],
     "target": ["Schüler:innen", "Bürger:innen", "Wissenschaft"]
   },
   {
@@ -24,7 +24,7 @@
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Forschung", "Beratung", "Lehrmaterial"],
-    "year": [2019, 2020, 2021],
+    "year": [2021, 2020, 2019],
     "target": ["Schüler:innen", "Lehrer:innen", "Hochschulen"]
   },
   {
@@ -32,10 +32,10 @@
     "desc": "Integration der senseBox in die Ausstellung und die Veranstaltungsformate des Futuriums. Hackathons, Lehrmaterialien, ein interaktives lebendiges Exponat, künstlerische Datenvisualisierung und Bürgerworskhops.",
     "img": "/assets/img/projekte/Futurium_senseBox-Exponat.jpg",
     "link": "https://futurium.de/de/sense-box",
-    "topics": ["DigitaleBildung", "CitizenScience", "Museum", "Exponat"],
+    "topics": ["DigitaleBildung", "CitizenScience", "Museum", "Exponat", "Bürgerbeteiligung"],
     "customer": "Futurium gGmbH",
     "angebote": ["Software", "Hardware", "Beratung", "Veranstaltung"],
-    "year": [2018, 2019],
+    "year": [2019, 2018],
     "target": ["Schüler:innen", "Bürger:innen"]
   },
   {
@@ -43,11 +43,11 @@
     "desc": "Design und Entwicklung von Wordpress-basierten Landingspages für die Studiengänge Bachelor of Science Geoinformatik und Master of Science Geoinformatics.",
     "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
-    "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
+    "topics": ["WebDevelopment", "Wordpress", "HigherEducation", "WebDesign"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Beratung"],
     "year": [2020],
-    "target": ["Student:innen", "Schüler:innen", "Hochschule"]
+    "target": ["Student:innen", "Schüler:innen", "Hochschulen"]
   },
   {
     "name": "Reflectories",
@@ -61,10 +61,11 @@
       "Gamification",
       "DigitalBildung",
       "SDGs"
+      "GlobalesLernen"
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software"],
-    "year": [2020, 2021],
+    "year": [2021, 2020],
     "target": ["Schüler:innen", "Lehrer:innen", "Hochschulen"]
   },
   {
@@ -76,18 +77,18 @@
     "customer": "FH Münster - University of Applied Sciences",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["Hochschulen"]
+    "target": ["Hochschulen", "Städte", "Energiewirtschaft"]
   },
   {
     "name": "Ferienworkshops #DigitaleOstern #DigitalerHerbst",
     "desc": "Konzeption und Durchführung von Ferienworkshops für Kinder von Mitarbeiter:innen der Uni Münster im Alter von 6-10 Jahren zu digitalen Themen wie Programmierung, Scratch, senseBox, Lego.",
     "img": "/assets/img/projekte/digitaleostern.jpg",
     "link": "",
-    "topics": ["DigitaleBildung", "Forschung"],
+    "topics": ["DigitaleBildung", "Ferienworkshops"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
-    "target": ["Schüler:innen"]
+    "year": [2020, 2019],
+    "target": ["Schüler:innen", "Hochschulen"]
   },
   {
     "name": "Climate Hackathon",
@@ -98,7 +99,7 @@
     "customer": "Junge Tüftler gGmbH, Goethe-Institut",
     "angebote": ["Veranstaltung"],
     "year": [2020],
-    "target": ["Bürger:innen"]
+    "target": ["Bürger:innen", "Student:innen"]
   },
   {
     "name": "Turing Bus Workshops",
@@ -116,7 +117,7 @@
     "desc": "Organisation und Durchführung eines zweitägigen Hackathons mit Zeltcamp für 50 Kinder und Jugendliche (10-18 Jahre) zum Thema “Space”.",
     "img": "/assets/img/projekte/senseBox_Space_Hackathon.jpg",
     "link": "https://sensebox.de/2018/09/07/hackathon",
-    "topics": ["DigitaleBildung"],
+    "topics": ["DigitaleBildung", "Hackathon"],
     "customer": "KIMM e.V. Kindermuseum Münster",
     "angebote": ["Veranstaltung"],
     "year": [2018],
@@ -127,7 +128,7 @@
     "desc": "In der Good News-Litfaßsäule können durch Klicken auf die einzelnen Zeilen Satzteile verändert und so witzige und wirkungsvolle Handlungsideen kombiniert werden.",
     "img": "/assets/img/projekte/Handel-o-mat.png",
     "link": "https://germanwatch.org/de/handel-o-mat",
-    "topics": ["GlobalesLernen"],
+    "topics": ["GlobalesLernen", "WebDevelopment"],
     "customer": "Germanwatch e.V.",
     "angebote": ["Software"],
     "year": [2020],
@@ -163,8 +164,8 @@
     "topics": ["DigitaleBildung", "Klimawandel"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
-    "target": ["Schüler:innen"]
+    "year": [2020, 2019],
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "Klassenzimmer der Zukunft",
@@ -174,8 +175,8 @@
     "topics": ["DigitaleBildung"],
     "customer": "ELIG Foundation gGmbH",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
-    "target": ["Schüler:innen"]
+    "year": [2019],
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "openSenseMap Feature-Layer",
@@ -193,22 +194,22 @@
     "desc": "Prototypische Implementierung eines Systems zur Indoor-Lokalisation von Krankenhausbetten mittels Funksendern.",
     "img": "/assets/img/projekte/stiegelmeyer.png",
     "link": "",
-    "topics": ["Gesundheit", "Pflege"],
+    "topics": ["Gesundheit", "Pflege", "Sensors"],
     "customer": "Stiegelmeyer",
     "angebote": ["Software"],
     "year": [2019],
-    "target": ["Krankenhäuser"]
+    "target": ["Krankenhäuser", "Pflege"]
   },
   {
     "name": "TTN-Mapper für städtisches LoRa-Netz",
     "desc": "Entwicklung von GPS-LoRaWAN-Mappern zur Messung der Empfangsstärke von LoRaWAN-Signalen.",
     "img": "/assets/img/projekte/stadtwerke-ttn-mapper.jpg",
     "link": "",
-    "topics": ["SmartCity"],
+    "topics": ["SmartCity", "LoRa"],
     "customer": "Stadtwerke Münster",
     "angebote": ["Software", "Hardware"],
     "year": [2020],
-    "target": ["Professionals"]
+    "target": ["Professionals", "Städte"]
   },
   {
     "name": "Städtisches autarkes Sensornetzerk in Enschede",
@@ -219,7 +220,7 @@
     "customer": "Universität Twente",
     "angebote": ["Hardware"],
     "year": [2020],
-    "target": ["Professionals", "Wissenschaft"]
+    "target": ["Professionals", "Wissenschaft", "Hochschulen"]
   },
   {
     "name": "senseBox-Wettbewerb Hamburg",
@@ -240,7 +241,7 @@
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Veranstaltung", "Lehrmaterial"],
-    "year": [2018, 2019],
+    "year": [2019, 2018],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
@@ -251,7 +252,7 @@
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Software", "Veranstaltung", "Lehrmaterial"],
-    "year": [2020, 2021],
+    "year": [2021, 2020],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
@@ -262,19 +263,19 @@
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
-    "name": "Hopp-Veranstaltungen",
-    "desc": "Durchführung von senseBox Lehrerfortbildungen und Veranstaltungen für Informatik-Lehramtsstudierende.",
+    "name": "senseBox Fortbildugnen",
+    "desc": "Durchführung von senseBox Lehrerfortbildungen und Veranstaltungen für Informatik-Lehramtsstudierende aus Baden-Würtemberg.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
     "topics": ["DigitaleBildung"],
     "customer": "HOPP Foundation",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
-    "target": ["StudentInnen", "LehrerInnen"]
+    "year": [2020, 2010],
+    "target": ["Student:innen", "Lehrer:innen"]
   },
   {
     "name": "senseBox Online Video Tutorials",
@@ -285,14 +286,14 @@
     "customer": "HOPP Foundation",
     "angebote": ["Lehrmaterial"],
     "year": [2020],
-    "target": ["Student:innen", "Lehrer:innen"]
+    "target": ["Student:innen", "Lehrer:innen", "Schüler:innen"]
   },
   {
     "name": "Aufbau LoRa-Sensornetzwerk",
     "desc": "Offenes Sensornetzwerk mit 50 LoRa-Feldstationen, ausgerüstet mit Klima- und Bodensensoren.",
     "img": "/assets/img/projekte/lora_tuberlin.png",
     "link": "",
-    "topics": ["Forschung", "SmartCity"],
+    "topics": ["Forschung", "SmartCity", "Klimawandel"],
     "customer": "TU Berlin - Institut für Ökologie",
     "angebote": ["Hardware"],
     "year": [2019, 2020],
@@ -303,7 +304,7 @@
     "desc": "Aufbau eines LoRa-Netzes für den Bereich Klimaschutzmanagement der Stadtverwaltung Andernach.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
-    "topics": ["SmartCity"],
+    "topics": ["SmartCity", "Klimawandel"],
     "customer": "Stadtverwaltung Andernach",
     "angebote": ["Hardware"],
     "year": [2020],
@@ -317,7 +318,7 @@
     "topics": ["DigitaleBildung", "MINT", "IoT", "CitizenScience"],
     "customer": "Stadtbibliothek Köln",
     "angebote": ["Veranstaltung"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Bürger:innen"]
   },
   {
@@ -351,28 +352,61 @@
     "customer": "Westfälische Wilhelms-Universität Münster, Graduate Center",
     "angebote": ["Software", "Lehrmaterial"],
     "year": [2021],
-    "target": ["Student:innen"]
+    "target": ["Student:innen", "Hochschulen"]
   },
   {
-    "name": "Auftakt zum Digitalen Klassenzimmer",
+    "name": "Hackathon zum Digitalen Klassenzimmer",
     "desc": "Hackathon am Annette-von-Droste-Hülshoff-Gymnasium Dülmen zum Auftakt des Digitalen Klassenzimmers.",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
     "link": "",
-    "topics": ["DigitaleBildung"],
+    "topics": ["DigitaleBildung", "Hackathon"],
     "customer": "DigitalCampus Nordkirchen",
-    "angebote": ["Event"],
+    "angebote": ["Veranstaltung"],
     "year": [2019],
-    "target": ["Schüler:innen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
     "name": "webGIS.nrw",
-    "desc": "",
+    "desc": "Weiterentwicklung eines webbasierten Geographischen Informationssystems für den Bildungsbereich",
     "img": "/assets/img/projekte/webgis-nrw.png",
     "link": "https://webgis.nrw",
     "topics": ["DigitaleBildung", "WebDevelopment", "GIS"],
     "customer": "Westfälische Wilhelms-Universität Münster, Institut für Geoinformatik",
     "angebote": ["Software"],
     "year": [2021],
-    "target": ["Schüler:innen"]
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  }
+  {
+    "name": "Digitale Messe JurStart",
+    "desc": "Entwicklung und Durchführung einer digitalen Karrierestartmesse für Jura-Absolvent:innen",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "https://jurstart.de",
+    "topics": ["DigitaleBildung", "WebDevelopment", "WebDesign"],
+    "customer": "JurStart GmbH",
+    "angebote": ["Software", "Veranstaltung"],
+    "year": [2021],
+    "target": ["Student:innen","Kanzleien"]
+  }
+  {
+    "name": "welt.weit.virtuell - Globales Lernen mit digitalen Medien",
+    "desc": "Entwicklung der kartenbasierten Storytelling-Plattform mapstories und Einsatz in Reallaboren",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "https://mapstories.de",
+    "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
+    "customer": "Vamos e.V.",
+    "angebote": ["Software", "Veranstaltung"],
+    "year": [2021],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  }
+   {
+    "name": "senseBox:bike - Futurium",
+    "desc": "Entwicklung einer mobilen senseBox für Fahrräder, Videotutorials, Makeathons und Veranstaltungen und eines Exponats",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "",
+    "topics": ["DigitaleBildung", "CitizenScience"],
+    "customer": "Futurium gGmbH",
+    "angebote": ["Hardware", "Software", "Veranstaltung", "Lehrmaterial"],
+    "year": [2021],
+    "target": ["Bürger:innen"]
   }
 ]
