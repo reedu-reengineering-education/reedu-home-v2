@@ -45,6 +45,10 @@
 .tab-content {
   margin-top: 4rem;
 
+  .tab-title {
+    line-height: 1.2em;
+  }
+
   .card {
     max-width: 75%;
     @media screen and (max-width: $breakpoint-mobile) {
