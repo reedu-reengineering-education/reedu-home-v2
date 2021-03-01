@@ -60,7 +60,7 @@
       "HigherEducation",
       "Gamification",
       "DigitalBildung",
-      "SDGs"
+      "SDGs",
       "GlobalesLernen"
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
@@ -375,7 +375,7 @@
     "angebote": ["Software"],
     "year": [2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
-  }
+  },
   {
     "name": "Digitale Messe JurStart",
     "desc": "Entwicklung und Durchführung einer digitalen Karrierestartmesse für Jura-Absolvent:innen",
@@ -386,7 +386,7 @@
     "angebote": ["Software", "Veranstaltung"],
     "year": [2021],
     "target": ["Student:innen","Kanzleien"]
-  }
+  },
   {
     "name": "welt.weit.virtuell - Globales Lernen mit digitalen Medien",
     "desc": "Entwicklung der kartenbasierten Storytelling-Plattform mapstories und Einsatz in Reallaboren",
@@ -397,8 +397,8 @@
     "angebote": ["Software", "Veranstaltung"],
     "year": [2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
-  }
-   {
+  },
+  {
     "name": "senseBox:bike - Futurium",
     "desc": "Entwicklung einer mobilen senseBox für Fahrräder, Videotutorials, Makeathons und Veranstaltungen und eines Exponats",
     "img": "/assets/img/logos/logo_small_text_orange.svg",
