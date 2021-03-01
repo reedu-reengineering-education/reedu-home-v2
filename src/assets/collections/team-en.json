@@ -4,14 +4,14 @@
     "position": "CEO",
     "tags": ["Science", "Education", "Speaking", "Sales", "UX", "Vision"],
     "email": "t.bartoschek@reedu.de",
-    "photo": "/assets/img/team/Bartoschek_Thomas.jpg"
+    "photo": "/assets/img/team/Bartoschek_Thomas.png"
   },
   {
     "name": "Jan Wirwahn",
     "position": "CEO",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
-    "photo": "/assets/img/team/Wirwahn_Jan.jpg"
+    "photo": "/assets/img/team/Wirwahn_Jan.png"
   },
   {
     "name": "Umut Taş",
@@ -32,14 +32,14 @@
     "position": "Co-Founder & Developer",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
-    "photo": "/assets/img/team/Pfeil_Matthias.jpg"
+    "photo": "/assets/img/team/Pfeil_Matthias.png"
   },
   {
     "name": "Sergey Mukhametov",
     "position": "Special Operations",
     "tags": ["Science", "Museums & Exhibitions"],
     "email": "s.mukhametov@reedu.de",
-    "photo": "/assets/img/team/sergey.jpg"
+    "photo": "/assets/img/team/sergey.png"
   },
   {
     "name": "Felix Erdmann",
@@ -64,19 +64,19 @@
     "name": "David Fehrenbach",
     "position": "Co-Founder",
     "tags": ["Business operations"],
-    "photo": "/assets/img/team/david.jpg"
+    "photo": "/assets/img/team/david.png"
   },
   {
     "name": "Philip Weiger",
     "position": "openSenseMap",
     "tags": ["Business development"],
-    "photo": "/assets/img/team/weigo.jpg"
+    "photo": "/assets/img/team/weigo.png"
   },
   {
     "name": "Gina Buchwald-Chassée",
     "position": "Communication",
     "tags": ["Corporate Communications", "Social Media"],
-    "photo": "/assets/img/team/gina.jpg"
+    "photo": "/assets/img/team/gina.png"
   },
   {
     "name": "You?",

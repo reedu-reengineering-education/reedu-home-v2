@@ -7,7 +7,7 @@
     "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Consulting"],
-    "year": [2021],
+    "year": [2021, 2020],
     "target": ["Students", "Citizens", "Scientist"]
   },
   {
@@ -24,7 +24,7 @@
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Science", "Consulting"],
-    "year": [2019, 2020, 2021],
+    "year": [2021, 2020, 2019],
     "target": ["Students", "Teachers", "University"]
   },
   {
@@ -64,7 +64,7 @@
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software"],
-    "year": [2020, 2021],
+    "year": [2021, 2020],
     "target": ["Students", "Teachers", "University"]
   },
   {
@@ -86,7 +86,7 @@
     "topics": ["DigitaleBildung", "Forschung"],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Event"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Students"]
   },
   {
@@ -163,7 +163,7 @@
     "topics": ["DigitalEducation", "ClimateChange"],
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Event"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Students"]
   },
   {
@@ -174,7 +174,7 @@
     "topics": ["DigitalEducation"],
     "customer": "ELIG Foundation gGmbH",
     "angebote": ["Event"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Students"]
   },
   {
@@ -251,7 +251,7 @@
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Software", "Events", "EducationalResource"],
-    "year": [2020, 2021],
+    "year": [2021, 2020],
     "target": ["Students", "Teachers"]
   },
   {
@@ -262,7 +262,7 @@
     "topics": ["DigitalEducation"],
     "customer": "HOPP Foundation",
     "angebote": ["Events"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Students", "Teachers"]
   },
   {
@@ -284,7 +284,7 @@
     "topics": ["Science", "SmartCity"],
     "customer": "TU Berlin - Institute of Ecology",
     "angebote": ["Hardware"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Scientists"]
   },
   {
@@ -306,7 +306,7 @@
     "topics": ["DigitalEducation", "STEM", "IoT", "CitizenScience"],
     "customer": "Stadtbibliothek Köln",
     "angebote": ["Event"],
-    "year": [2019, 2020],
+    "year": [2020, 2019],
     "target": ["Citizens"]
   },
   {
@@ -355,13 +355,46 @@
   },
   {
     "name": "webGIS.nrw",
-    "desc": "",
+    "desc": "Further development of a web-based geographic information system for the education sector",
     "img": "/assets/img/projekte/webgis-nrw.png",
     "link": "https://webgis.nrw",
     "topics": ["DigitalEducation", "WebDevelopment", "GIS"],
     "customer": "Westfälische Wilhelms-Universität Münster Institut für Geoinformatik",
     "angebote": ["Software"],
     "year": [2021],
-    "target": ["SchülerInnen"]
+    "target": ["Students"]
+  },
+  {
+    "name": "Digital fair JurStart",
+    "desc": "Development and implementation of a digital fair for law graduates",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "https://jurstart.de",
+    "topics": ["DigitalEducation", "WebDevelopment", "WebDesign"],
+    "customer": "JurStart GmbH",
+    "angebote": ["Software", "Event"],
+    "year": [2021],
+    "target": ["Students","Law firms"]
+  },
+  {
+    "name": "welt.weit.virtuell - Global learning with digital media",
+    "desc": "Development of the map-based storytelling platform mapstories and use in real labs",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "https://mapstories.de",
+    "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
+    "customer": "Vamos e.V.",
+    "angebote": ["Software", "Event"],
+    "year": [2021],
+    "target": ["Students", "Teachers"]
+  },
+  {
+    "name": "senseBox:bike - Futurium",
+    "desc": "Development of a mobile senseBox for bicycles, video tutorials, makeathons and events and an exhibit.",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "",
+    "topics": ["DigitalEducation", "CitizenScience"],
+    "customer": "Futurium gGmbH",
+    "angebote": ["Hardware", "Software", "Event", "Learning"],
+    "year": [2021],
+    "target": ["Citizens"]
   }
 ]
