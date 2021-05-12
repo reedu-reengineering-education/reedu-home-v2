@@ -367,7 +367,7 @@
   {
     "name": "Digital fair JurStart",
     "desc": "Development and implementation of a digital fair for law graduates",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/JurStart_Logo_Hintergrund-blau_4c",
     "link": "https://jurstart.de",
     "topics": ["DigitalEducation", "WebDevelopment", "WebDesign"],
     "customer": "JurStart GmbH",
@@ -378,7 +378,7 @@
   {
     "name": "welt.weit.virtuell - Global learning with digital media",
     "desc": "Development of the map-based storytelling platform mapstories and use in real labs",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/vamos logo 4c.jpg",
     "link": "https://mapstories.de",
     "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
     "customer": "Vamos e.V.",
