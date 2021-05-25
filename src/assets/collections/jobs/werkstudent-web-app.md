@@ -1,8 +1,8 @@
-# Werkstudierende\*r Entwickler für die Entwicklung einer mobilen Lernapp gesucht!
+# Werkstudierende\*r Entwickler für die Entwicklung von Web-Apps gesucht!
 
 re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps.
 
-**Für die Lernapp OriGami suchen wir ab sofort eine\*n engagierten Softwareentwickler\*in auf Basis eines Werkstudentenvertrages (ca. 10 Stunden-Basis).**
+**Für verschiedene Web-Apps suchen wir ab sofort eine\*n engagierten Softwareentwickler\*in auf Basis eines Werkstudentenvertrages (ca. 10 Stunden-Basis).**
 
 **Zu deinen Aufgaben zählen:**
 
@@ -12,10 +12,10 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 
 **Das bringst du mit:**
 
-- Interesse an mobilen (hybriden) Apps
+- Interesse an Webapps
 - Fundierte Kenntnisse in der Softwareentwicklung
 - Commits und Pull Requests sind für dich keine Fremdwörter
-- Erfahrungen mit `Angular` sowie `RxJS` von Vorteil
+- Erfahrungen mit `Angular` oder `React` von Vorteil
 - Motivation und eigenständiges Arbeiten
 
 **Wir bieten dir:**
@@ -25,7 +25,7 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 - Eine verantwortungsvolle Aufgabe mit Sinn und Gestaltungsspielraum
 - Ein tolles kollegiales Umfeld, ein wertschätzendes und motiviertes Team
 
-Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: f.erdmann@reedu.de (Ansprechpartner: Felix Erdmann)
+Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: kontakt@reedu.de
 
 Büroadresse:
 re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster
