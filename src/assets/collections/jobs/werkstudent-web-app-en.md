@@ -15,7 +15,7 @@ re:edu is a young start-up (spin-off of the Institute for Geoinformatics at the 
 - Interest in webapps
 - Sound knowledge of software development
 - "Commits" and "pull requests" are not foreign words to you
-- Experience with `Angular` or `React` is advantageous
+- Experience with `Angular`, `React`, `Node.js` and / or `Pyhton` is advantageous
 - Motivation and independent work
 
 **What we offer:**

@@ -6,16 +6,17 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 
 **Zu deinen Aufgaben zählen:**
 
-- Unterstützung bei der Appentwicklung
+- Unterstützung bei der App Entwicklung
 - Implementierung verschiedener Features
 - Entwicklung und Erprobung von UX/UI-Konzepten
+- Planung & Umsetzung spannender Projekte
 
 **Das bringst du mit:**
 
 - Interesse an Webapps
 - Fundierte Kenntnisse in der Softwareentwicklung
 - Commits und Pull Requests sind für dich keine Fremdwörter
-- Erfahrungen mit `Angular` oder `React` von Vorteil
+- Erfahrungen mit `Angular`, `React`, `Node.js` und / oder `Python` von Vorteil
 - Motivation und eigenständiges Arbeiten
 
 **Wir bieten dir:**
