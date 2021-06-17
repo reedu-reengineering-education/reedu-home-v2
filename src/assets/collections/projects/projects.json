@@ -379,7 +379,7 @@
   {
     "name": "Digitale Messe JurStart",
     "desc": "Entwicklung und Durchführung einer digitalen Karrierestartmesse für Jura-Absolvent:innen",
-    "img": "/assets/img/projekte/JurStart_Logo_Hintergrund-blau_4c_Kopie.jpg",
+    "img": "/assets/img/projekte/jurstart.jpg",
     "link": "https://jurstart.de",
     "topics": ["DigitaleBildung", "WebDevelopment", "WebDesign"],
     "customer": "JurStart GmbH",
@@ -401,7 +401,7 @@
     {
     "name": "KlimaDatenSchule",
     "desc": "Entwicklung einer Web App und Beratung von BildungsCent e.V. und mediale pfade – Verein für Medienbildung e.V.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "img": "/assets/img/projekte/KlimaDatenSchule.png",
     "link": "https://klimadatenschule.de",
     "topics": ["DigitaleBildung", "WebDevelopment", "Klimawandel"],
     "customer": "BildungsCent e.V., mediale pfade – Verein für Medienbildung e.V.",
