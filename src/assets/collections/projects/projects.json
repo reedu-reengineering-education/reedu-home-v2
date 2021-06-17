@@ -390,11 +390,22 @@
   {
     "name": "welt.weit.virtuell - Globales Lernen mit digitalen Medien",
     "desc": "Entwicklung der kartenbasierten Storytelling-Plattform mapstories und Einsatz in Reallaboren",
-    "img": "/assets/img/projekte/vamos logo 4c.jpg",
+    "img": "/assets/img/projekte/vamos_logo_4c.jpg",
     "link": "https://mapstories.de",
     "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Veranstaltung"],
+    "year": [2021],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  },
+    {
+    "name": "KlimaDatenSchule",
+    "desc": "Entwicklung einer Web App und Beratung von BildungsCent e.V. und mediale pfade – Verein für Medienbildung e.V.",
+    "img": "/assets/img/logos/logo_small_text_orange.svg",
+    "link": "https://klimadatenschule.de",
+    "topics": ["DigitaleBildung", "WebDevelopment", "Klimawandel"],
+    "customer": "BildungsCent e.V., mediale pfade – Verein für Medienbildung e.V.",
+    "angebote": ["Software", "Beratung"],
     "year": [2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
