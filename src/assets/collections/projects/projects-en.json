@@ -367,7 +367,7 @@
   {
     "name": "Digital fair JurStart",
     "desc": "Development and implementation of a digital fair for law graduates",
-    "img": "/assets/img/projekte/JurStart_Logo_Hintergrund-blau_4c",
+    "img": "/assets/img/projekte/jurstart.jpg",
     "link": "https://jurstart.de",
     "topics": ["DigitalEducation", "WebDevelopment", "WebDesign"],
     "customer": "JurStart GmbH",
@@ -378,11 +378,22 @@
   {
     "name": "welt.weit.virtuell - Global learning with digital media",
     "desc": "Development of the map-based storytelling platform mapstories and use in real labs",
-    "img": "/assets/img/projekte/vamos logo 4c.jpg",
+    "img": "/assets/img/projekte/vamos_logo_4c.jpg",
     "link": "https://mapstories.de",
     "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Event"],
+    "year": [2021],
+    "target": ["Students", "Teachers"]
+  },
+      {
+    "name": "KlimaDatenSchule",
+    "desc": "Development of a web app and consulting for BildungsCent e.V. and mediale pfade - Verein für Medienbildung e.V.",
+    "img": "/assets/img/projekte/KlimaDatenSchule.png",
+    "link": "https://klimadatenschule.de",
+    "topics": ["DigitaleBildung", "WebDevelopment", "ClimateChange"],
+    "customer": "BildungsCent e.V., mediale pfade – Verein für Medienbildung e.V.",
+    "angebote": ["Software", "Consulting"],
     "year": [2021],
     "target": ["Students", "Teachers"]
   },
