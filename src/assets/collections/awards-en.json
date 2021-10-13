@@ -1,41 +1,55 @@
 [
   {
+    "title":"Out-of-the-Box NRW Finalist",
+    "image":"assets/img/awards/ootb.svg",
+    "desc":"Our start-up re:edu was in the final of the OUT OF THE BOX.NRW 2021 competition organised by the Ministry of Economic Affairs, Innovation, Digitalisation and Energy and NRW.Bank together with 10 other start-ups to become the best digital start-up in North Rhine-Westphalia.",
+    "link":"https://www.youtube.com/watch?v=6nYdi4bdfzo&t=4s"
+  },
+  {
     "title": "Falling Walls Finalist 2020",
     "image": "assets/img/awards/falling_walls_2020.jpg",
-    "desc": "Our CEO Dr. Thomas Bartoschek was selected as a 2020 Falling Walls / Berlin Science Week Festival finalist in the Science Breakthroughs of the Year in the \"Digital Education\" category. https://falling-walls.com/remote2020/finalists/filters/digital-education"
+    "desc": "Our CEO Dr. Thomas Bartoschek was selected as a 2020 Falling Walls / Berlin Science Week Festival finalist in the Science Breakthroughs of the Year in the \"Digital Education\" category.", 
+    "link": "https://falling-walls.com/people/thomas-bartoschek/"
   },
   {
     "title": "1st place in the \"Germany\" category of the São Paulo Chamber of Foreign Trade",
     "image": "assets/img/awards/ahk-sao-paulo.svg",
-    "desc": "re:edu won the 1st place in the \"Germany\" category of the São Paulo Chamber of Foreign Trade 2020 \"Startups Connected\" competition - as the science start-up with the greatest potential for the Brazilian market. Our Head of Education Björn Guntermann received the award in São Paulo and presented the senseBox on a tour through Brazil at many universities. https://www.linkedin.com/posts/dwih-sp_inovaaexaeto-cbai-startupconnected-activity-6585270172653768704-61yO/"
+    "desc": "re:edu won the 1st place in the \"Germany\" category of the São Paulo Chamber of Foreign Trade 2020 \"Startups Connected\" competition - as the science start-up with the greatest potential for the Brazilian market. Our Head of Education Björn Guntermann received the award in São Paulo and presented the senseBox on a tour through Brazil at many universities.", 
+    "link": "https://www.myscience.de/news/wire/auszeichnung_fuer_start_up_der_universitaet_muenster_re-2019-uni-muenster"
   },
   {
     "title": "1st place at the Learntec Pecha Kucha Pitch",
     "image": "assets/img/awards/learntec.png",
-    "desc": "At Learntec, an international trade fair about the digitalisation of the learning and working in schools, universities and professions, we convinced the jury in 2019 with our contribution to the Pecha Kucha pitch for EdTech start-ups and won the first place. http://www.lukas-forscherland.de/service/nachrichten/detailansicht/learntec-2019-virtual-reality-ki-und-frischer-start-up-wind.html"
+    "desc": "At Learntec, an international trade fair about the digitalisation of the learning and working in schools, universities and professions, we convinced the jury in 2019 with our contribution to the Pecha Kucha pitch for EdTech start-ups and won the first place.", 
+    "link": "http://www.lukas-forscherland.de/service/nachrichten/detailansicht/learntec-2019-virtual-reality-ki-und-frischer-start-up-wind.html"
   },
   {
     "title": "2. place at the delina2019 Innovationaward for digital education",
     "image": "assets/img/awards/delina2019.jpg",
-    "desc": "At the delina Innovation Award for Digital Education, we achieved second place in the university category with our application. https://www.learntec.de/de/programm/rahmen-und-ausstellerprogramm/preisverleihungen/"
+    "desc": "At the delina Innovation Award for Digital Education, we achieved second place in the university category with our application.", 
+    "link": "https://www.learntec.de/de/programm/rahmen-und-ausstellerprogramm/preisverleihungen/"
   },
   {
     "title": "Electronica 2019",
     "image": "assets/img/awards/electronica.jpg",
-    "desc": "We were represented in the final of the Start-Up Pitch at Electronica, Electronics Fair and Conference, 2018 in Munich. https://www.elektormagazine.com/news/electronica-fast-forward-2018-the-startup-platform-pitch-schedule"
+    "desc": "We were represented in the final of the Start-Up Pitch at Electronica, Electronics Fair and Conference, 2018 in Munich.", 
+    "link": "https://www.elektormagazine.com/news/electronica-fast-forward-2018-the-startup-platform-pitch-schedule"
   },
   {
     "title": "Sybille Hahne Young Founder Award 2017",
-    "desc": "At the Sybille Hahne Young Founder Award, we won the audience award with our concept for re:edu - project title at the time: senseBox/eduSense. https://www.uni-muenster.de/Ausgruendungen/preise/gp2017.html#anchor112"
+    "desc": "At the Sybille Hahne Young Founder Award, we won the audience award with our concept for re:edu - project title at the time: senseBox/eduSense.", 
+    "link": "https://www.uni-muenster.de/Ausgruendungen/preise/gp2017.html#anchor112"
   },
   {
     "title": "ERCIS Launch Pad 2017 - Bestes E-Commerce-Geschäftsmodell",
     "image": "assets/img/awards/launchpad.png",
-    "desc": "With our start-up project \"eduSense\" (now re:edu) and our motto \"Full Stack Digital Education\", we won the PayPal special prize for the best e-commerce business model and support from PayPal for our shop integration at the ERCIS Launchpad 2017. http://2017.ercis-launchpad.de/winners"
+    "desc": "With our start-up project \"eduSense\" (now re:edu) and our motto \"Full Stack Digital Education\", we won the PayPal special prize for the best e-commerce business model and support from PayPal for our shop integration at the ERCIS Launchpad 2017.", 
+    "link": "http://2017.ercis-launchpad.de/winners"
   },
   {
     "title": "CeBIT Innovation Award 2017",
     "image": "assets/img/awards/cebit-innovation-award-2017.jpg",
-    "desc": "With our start-up project \"eduSense\" (now re:edu) and our motto \"Full Stack Digital Education\", we won the PayPal special prize for the best e-commerce business model and support from PayPal for our shop integration at the ERCIS Launchpad 2017. http://2017.ercis-launchpad.de/winners"
+    "desc": "With our start-up project \"eduSense\" (now re:edu) and our motto \"Full Stack Digital Education\", we won the PayPal special prize for the best e-commerce business model and support from PayPal for our shop integration at the ERCIS Launchpad 2017.", 
+    "link": "http://2017.ercis-launchpad.de/winners"
   }
 ]
