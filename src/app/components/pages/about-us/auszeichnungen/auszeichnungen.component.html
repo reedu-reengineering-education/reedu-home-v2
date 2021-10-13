@@ -39,6 +39,9 @@
               </div>
               <div class="descripton-panel" *ngIf="openPanel === i">
                 <p>{{award.desc}}</p>
+                <div class="pt-2">
+                  <a class="red-link" *ngIf="award.link" [href]="award.link" target="_blank">{{'MEHR_DAZU' | translate}}</a>
+                </div>
               </div>
             </div>
           </div>
