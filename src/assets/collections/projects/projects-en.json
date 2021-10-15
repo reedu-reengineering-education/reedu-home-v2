@@ -1,4 +1,26 @@
 [
+      {
+    "name": "App Development: Invasive species in Europe",
+    "desc": "Further development of the app \"Invasive species in Europe\" to obtain and share information on invasive species in Europe.",
+    "img": "/assets/img/projekte/App-Invasive-Fremdarten-Europa.png",
+    "link": "https://play.google.com/store/apps/details?id=eu.europa.publications.mygeossias&hl=de&gl=US",
+    "topics": ["CitizenScience", "AppDevelopment", "Environment"],
+    "customer": "European Union",
+    "angebote": ["Software"],
+    "year": [2021],
+    "target": ["Citizens", "Scientist"]
+  },
+  {
+    "name": "Humboldt Explorers",
+    "desc": "Development of a map-based web platform for the presentation and analysis of environmental data. Development of an individual senseBox for environmental data recording of the mobile student laboratory \"Humboldt Explorers\" of the Humboldt University Berlin.",
+    "img": "/assets/img/projekte/Humboldt-Explorers.png",
+    "link": "https://www.humboldt-bayer-mobil.de/de",
+    "topics": ["CitizenScience", "WebDevelopment", "DataLiteracy", "DigitalEducation", "Environment", "STEAM"],
+    "customer": "Humboldt University Berlin",
+    "angebote": ["Software", "Hardware"],
+    "year": [2021],
+    "target": ["Students", "Teachers"]
+  },
   {
     "name": "openSenseMap",
     "desc": "Development, maintenance, improvement of the openSenseMap platform.",
