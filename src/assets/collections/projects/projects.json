@@ -179,8 +179,8 @@
     "target": ["Schüler:innen"]
   },
   {
-    "name": "WetterWaterWaterkant-Workshops",
-    "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von WetterWaterWaterkant in Hamburg.",
+    "name": "Wetter.Wasser.Waterkant-Workshops",
+    "desc": "Konzeption und Durchführung von senseBox-Workshops im Rahmen von Wetter.Wasser.Waterkant in Hamburg.",
     "img": "/assets/img/projekte/wetterwasserwaterkant.png",
     "link": "http://www2020.de/wetter-wasser-waterkant-rueckblick-2020/",
     "topics": ["DigitaleBildung", "Klimawandel"],
