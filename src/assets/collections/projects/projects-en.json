@@ -178,8 +178,8 @@
     "target": ["Students"]
   },
   {
-    "name": "WetterWaterWaterkant Workshops",
-    "desc": "Conception and realization of senseBox workshops in the context of WetterWaterWaterkant Hamburg.",
+    "name": "Wetter.Wasser.Waterkant Workshops",
+    "desc": "Conception and realization of senseBox workshops in the context of Wetter.Wasser.Waterkant Hamburg.",
     "img": "/assets/img/projekte/wetterwasserwaterkant.png",
     "link": "",
     "topics": ["DigitalEducation", "ClimateChange"],
