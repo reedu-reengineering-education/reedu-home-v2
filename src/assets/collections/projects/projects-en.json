@@ -1,4 +1,15 @@
 [
+       {
+    "name": "Digtial-AG in the primary school",
+    "desc": "In the open all-day programme of the Annette-von-Droste-Hülshoff Primary School Münster-Nienberge, we offer a weekly digital workshop for all children who enjoy using digital media and would like to take a look behind the scenes of their functions.",
+    "img": "/assets/img/projekte/Amt_fuer_Kinder_Stadt_Muenster.jpg",
+    "link": "",
+    "topics": ["DigitalEducation"],
+    "customer": "Amt für Kinder, Jugendliche und Familien der Stadt Münster",
+    "angebote": ["Event"],
+    "year": [2021],
+    "target": ["Students"]
+  },
       {
     "name": "App Development: Invasive species in Europe",
     "desc": "Further development of the app \"Invasive species in Europe\" to obtain and share information on invasive species in Europe.",
@@ -81,7 +92,7 @@
       "Wordpress",
       "HigherEducation",
       "Gamification",
-      "DigitalBildung",
+      "DigitalEducation",
       "SDGs"
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
@@ -238,7 +249,7 @@
     "img": "/assets/img/projekte/enschede.png",
     "link": "",
     "topics": ["Forschung", "SmartCity"],
-    "customer": "Universität Twente",
+    "customer": "University of Twente",
     "angebote": ["Hardware"],
     "year": [2020],
     "target": ["Professionals", "Scientists"]
