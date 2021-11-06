@@ -1,4 +1,15 @@
 [
+     {
+    "name": "Digtial-AG in der Grundschule",
+    "desc": "Im offenen Ganztag der Annette-von-Droste-Hülshoff Grundschule Münster-Nienberge bieten wir wöchentlich für alle Kinder, die Freude am Umgang mit digitalen Medien haben und gerne einmal einen Blick hinter die Funktionsweisen dieser werfen möchten, die Digital-AG an.",
+    "img": "/assets/img/projekte/Amt_fuer_Kinder_Stadt_Muenster.jpg",
+    "link": "",
+    "topics": ["DigitaleBildung"],
+    "customer": "Amt für Kinder, Jugendliche und Familien der Stadt Münster",
+    "angebote": ["Veranstaltung"],
+    "year": [2021],
+    "target": ["Schüler:innen"]
+  },
     {
     "name": "App-Entwicklung: Invasive Fremdarten in Europa",
     "desc": "Weiterentwicklung der App \"Invasive Fremdarten in Europa\", um Informationen über invasive gebietsfremde Arten in Europa zu erhalten und mit anderen zu teilen.",
