@@ -4,14 +4,14 @@
     "position": "Geschäftsführer",
     "tags": ["Science", "Education", "Speaking", "Sales", "UX", "Vision"],
     "email": "t.bartoschek@reedu.de",
-    "photo": "/assets/img/team/Bartoschek_Thomas.png"
+    "photo": "/assets/img/team/barto_new.jpg"
   },
   {
     "name": "Jan Wirwahn",
     "position": "Geschäftsführer",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
-    "photo": "/assets/img/team/Wirwahn_Jan.png"
+    "photo": "/assets/img/team/jan_new.jpg"
   },
   {
     "name": "Umut Taş",
@@ -25,28 +25,40 @@
       "Mongo"
     ],
     "email": "u.tas@reedu.de",
-    "photo": "/assets/img/team/Tas_Umut.png"
+    "photo": "/assets/img/team/umut_new.jpg"
   },
   {
     "name": "Matthias Pfeil",
     "position": "Co-Founder & Entwickler",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
-    "photo": "/assets/img/team/Pfeil_Matthias.png"
-  },
-  {
-    "name": "Sergey Mukhametov",
-    "position": "Special Operations",
-    "tags": ["Science", "Museen & Ausstellungen"],
-    "email": "s.mukhametov@reedu.de",
-    "photo": "/assets/img/team/sergey.png"
+    "photo": "/assets/img/team/matze_new.jpg"
   },
   {
     "name": "Felix Erdmann",
     "position": "Entwickler",
     "tags": ["Maps", "React", "Node", "Mongo", "IoT", "GIS"],
     "email": "f.erdmann@reedu.de",
-    "photo": "/assets/img/team/Erdmann_Felix.png"
+    "photo": "/assets/img/team/felix_new.jpg"
+  },
+  {
+    "name": "Verena Witte",
+    "position": "Bildung",
+    "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
+    "photo": "/assets/img/team/verena_new.jpg"
+  },
+  {
+    "name": "Gina Buchwald-Chassée",
+    "position": "Kommunikation",
+    "tags": ["Unternehmenskommunikation", "Social Media"],
+    "photo": "/assets/img/team/gina_new.jpg"
+  },
+  {
+    "name": "Sergey Mukhametov",
+    "position": "Special Operations",
+    "tags": ["Science", "Museen & Ausstellungen"],
+    "email": "s.mukhametov@reedu.de",
+    "photo": "/assets/img/team/sergey_new.jpg"
   },
   {
     "name": "Eric Thieme-Garmann",
@@ -55,39 +67,33 @@
     "photo": "/assets/img/team/Eric.png"
   },
   {
-    "name": "Verena Witte",
-    "position": "Bildung",
-    "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
-    "photo": "/assets/img/team/Witte_Verena.png"
-  },
-  {
     "name": "David Fehrenbach",
     "position": "Co-Founder",
     "tags": ["Business operations"],
-    "photo": "/assets/img/team/david.png"
-  },
-  {
-    "name": "Gina Buchwald-Chassée",
-    "position": "Kommunikation",
-    "tags": ["Unternehmenskommunikation", "Social Media"],
-    "photo": "/assets/img/team/gina.png"
+    "photo": "/assets/img/team/david_new.jpg"
   },
   {
     "name": "Philip Weiger",
     "position": "openSenseMap",
     "tags": ["Business development"],
-    "photo": "/assets/img/team/weigo.png"
+    "photo": "/assets/img/team/weiger_new.jpg"
   },
   {
     "name": "Frederick Bruch",
     "position": "Developer",
     "tags": ["SensorWiki", "senseBox","Basketball"],
-    "photo": "/assets/img/team/fred2.png"
+    "photo": "/assets/img/team/fred_new.jpg"
+  },
+  {
+    "name": "Paul Reichmuth",
+    "position": "Schüler",
+    "tags": ["IoT", "Arduino"],
+    "photo": "/assets/img/team/paul_new.png"
   },
   {
     "name": "Du?",
     "position": "Werde Teil des re:edu Teams",
     "link": "jobs",
-    "photo": "/assets/img/logos/logo_small_text_orange.svg"
+    "photo": "/assets/img/team/team_reedu.jpg"
   }
 ]
