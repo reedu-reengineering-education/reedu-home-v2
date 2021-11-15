@@ -73,6 +73,18 @@
     "photo": "/assets/img/team/gina.png"
   },
   {
+    "name": "Philip Weiger",
+    "position": "openSenseMap",
+    "tags": ["Business development"],
+    "photo": "/assets/img/team/weigo.png"
+  },
+  {
+    "name": "Frederick Bruch",
+    "position": "Developer",
+    "tags": ["SensorWiki", "senseBox","Basketball"],
+    "photo": "/assets/img/team/fred2.png"
+  },
+  {
     "name": "You?",
     "position": "Become part of the re:edu Teams",
     "link": "jobs",
