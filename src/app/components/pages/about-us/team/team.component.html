@@ -22,6 +22,7 @@
                   <div class="column">
                     <h1 class="title">{{ member.name }}</h1>
                     <h2 class="subtitle">{{ member.position }}</h2>
+                    <h3 class="subtitle">{{ member.title }}</h3>
                     <h6 *ngIf="member.tags" class="title is-6 orange">
                       {{ member.tags.join(", ") }}
                     </h6>

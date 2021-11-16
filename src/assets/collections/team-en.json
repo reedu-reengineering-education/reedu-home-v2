@@ -2,6 +2,7 @@
   {
     "name": "Dr. Thomas Bartoschek",
     "position": "CEO",
+    "title": "Ph.D. Geoinformatics",
     "tags": ["Science", "Education", "Speaking", "Sales", "UX", "Vision"],
     "email": "t.bartoschek@reedu.de",
     "photo": "/assets/img/team/barto_new.jpg"
@@ -9,6 +10,7 @@
   {
     "name": "Jan Wirwahn",
     "position": "CEO",
+    "title": "M.Sc. Geoinformatics",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
     "photo": "/assets/img/team/jan_new.jpg"
@@ -16,6 +18,7 @@
   {
     "name": "Umut Taş",
     "position": "CEO & Developer",
+    "title": "M.Sc. Geoinformatics",
     "tags": [
       "Data Visualization",
       "Maps",
@@ -30,6 +33,7 @@
   {
     "name": "Matthias Pfeil",
     "position": "Co-Founder & Developer",
+    "title": "B.Sc. Geoinformatics",
     "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
     "email": "m.pfeil@reedu.de",
     "photo": "/assets/img/team/matze_new.jpg"
@@ -37,6 +41,7 @@
   {
     "name": "Felix Erdmann",
     "position": "Developer",
+    "title": "M.Sc. Geoinformatics",
     "tags": ["Maps", "React", "Node", "Mongo", "IoT", "GIS"],
     "email": "f.erdmann@reedu.de",
     "photo": "/assets/img/team/felix_new.jpg"
@@ -44,18 +49,22 @@
   {
     "name": "Verena Witte",
     "position": "Education",
+    "title": "M.Ed. Mathematics & Geographie",
     "tags": ["Mathematics", "Geography", "Education", "DLRG", "Music"],
+    "email": "v.witte@reedu.de",
     "photo": "/assets/img/team/verena_new.jpg"
   },
   {
     "name": "Gina Buchwald-Chassée",
     "position": "Communication",
+    "title": "M.Sc. Communication Science",
     "tags": ["Corporate Communications", "Social Media"],
     "photo": "/assets/img/team/gina_new.jpg"
   },
   {
     "name": "Sergey Mukhametov",
     "position": "Special Operations",
+    "title": "B.Sc. Geoinformatics",
     "tags": ["Science", "Museums & Exhibitions"],
     "email": "s.mukhametov@reedu.de",
     "photo": "/assets/img/team/sergey_new.jpg"
@@ -63,30 +72,35 @@
   {
     "name": "Eric Thieme-Garmann",
     "position": "Developer",
+    "title": "B.Sc. Geoinformatics",
     "tags": ["IoT", "WebDevelopment"],
     "photo": "/assets/img/team/Eric.png"
   },
   {
     "name": "David Fehrenbach",
     "position": "Co-Founder",
+    "title": "M.Sc. Business Management",
     "tags": ["Business operations"],
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
     "name": "Philip Weiger",
     "position": "openSenseMap",
+    "title": "B.A. Political Science and Sociolgy",
     "tags": ["Business development"],
     "photo": "/assets/img/team/weiger_new.jpg"
   },
   {
     "name": "Frederick Bruch",
     "position": "Developer",
+    "title": "Student",
     "tags": ["SensorWiki", "senseBox","Basketball"],
     "photo": "/assets/img/team/fred_new.jpg"
   },
   {
     "name": "Paul Reichmuth",
-    "position": "Student",
+    "position": "Developer",
+    "title": "Student",
     "tags": ["IoT", "Arduino"],
     "photo": "/assets/img/team/paul_new.png"
   },
