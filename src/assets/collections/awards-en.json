@@ -1,14 +1,16 @@
 [
-     "title":"2nd place at the productronica fast forward Award 2021",
-   "image":"assets/img/awards/productronica2021.jpg",
-   "desc":"At productronica fast forward 2021, the start-up platform powered by Elektor, start-ups have the opportunity to present themselves and their technologies. With our submitted contribution, we were able to convince the jury and take 2nd place.",
-   "link":"https://www.productronica.com/de/programm/accelerating-talents/productronica-fast-forward/"
+  {
+    "title":"2nd place at the productronica fast forward Award 2021",
+    "image":"assets/img/awards/productronica2021.jpg",
+    "desc":"At productronica fast forward 2021, the start-up platform powered by Elektor, start-ups have the opportunity to present themselves and their technologies. With our submitted contribution, we were able to convince the jury and take 2nd place.",
+    "link":"https://www.productronica.com/de/programm/accelerating-talents/productronica-fast-forward/"
   },
-    {
-   "title":"3rd place at the NRW Media Award for Development Policy Engagement",
-   "image":"assets/img/awards/NRW-Medienpreis.png",
-   "desc":"The innovative module `Der Stoff, dem die Träume sind´ (The stuff dreams are made of) created by Vamos e.V. Münster together with pupils of the Mathilde-Anneke Gesamtschule Münster (MAG) on the Mapstories platform (https://mapstories.de/) developed by us won third place at the NRW Media Award.",
-   "link":"https://filmfestival.cologne/nrw-medienpreis-f%C3%BCr-entwicklungspolitisches-engagement"
+  {
+    "title":"3rd place at the NRW Media Award for Development Policy Engagement",
+    "image":"assets/img/awards/NRW-Medienpreis.png",
+    "desc":"The innovative module `Der Stoff, dem die Träume sind´ (The stuff dreams are made of) created by Vamos e.V. Münster together with pupils of the Mathilde-Anneke Gesamtschule Münster (MAG) on the Mapstories platform (https://mapstories.de/) developed by us won third place at the NRW Media Award.",
+    "link":"https://filmfestival.cologne/nrw-medienpreis-f%C3%BCr-entwicklungspolitisches-engagement"
+  },
   {
     "title":"Out-of-the-Box NRW Finalist",
     "image":"assets/img/awards/ootb.svg",
