@@ -33,8 +33,16 @@
     "foerderungName": "Digital Sovereignty",
     "image": "/assets/img/forschung/simport.png",
     "underscoreStyle": "red"
-  },
-  {
+  }, {
+    "title": "CS:iDrop",
+    "description": "We support the CS:iDrop research project of the Ruhr University Bochum to investigate drinking water quality. For this purpose, citizens of Bochum receive a measuring kit to analyse their water samples taken at home with simple chemical methods at home and together with scientists in the laboratory and to publish them as open data on the openSenseMap (a platform for open sensor data) with the help of the CD:iDrop app developed by us. The data is thus made available to the public and exchanged and discussed in joint events.",
+    "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
+    "linkText": "CS:iDrop",
+    "foerderung": ["/assets/img/forschung/erasmus.png"],
+    "foerderungName": "Guideline for the Funding of Citizen Science Projects of the Federal Ministry of Education and Research (BMBF)",
+    "image": "/assets/img/forschung/idrop_screen.png",
+    "underscoreStyle": "red"
+  }, {
     "title": "STEAM+",
     "description": "Innovating STE(A)M in Higher Education with Transdisciplinary Talent Programs (STEAM+) is a large-scale innovative project with a holistic approach, aiming to provide educational policy makers with instruments to prepare new generations for handling the challenges of our time. The project is coordinated by Hanze University of Applied Sciences in Groningen, the Netherlands. Europe faces grand challenges, such as climate change and energy transition, which have a STEM subject at their core, but need transversal skills and knowledge from All other subjects (the extra A) to create STEAM solutions. We need to use brains, hearts and hands of all talents to tackle these challenges.The STEAM+ project uses transdisciplinary talent programs as laboratories of innovation in higher education (HE). The project is co-created by a dedicated and qualified team of 18 partners from 9 countries, bringing together educators, policy makers and future employers, united in their aim to provide new generations with future-proof skills.",
     "link": "https://steamtalent.eu/",

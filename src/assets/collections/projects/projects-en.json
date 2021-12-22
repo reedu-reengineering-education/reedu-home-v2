@@ -1,4 +1,15 @@
 [
+        {
+    "name": "mybadges",
+    "desc": "myBadges is a system based on the Open Badge standard that can be used in school and non-school contexts. Badges are contextualised through an e-portfolio, documenting learning achievements, competence acquisition, successes and participation. As part of the #WirFürSchule 2020 hackathon, the project idea was further developed with an interdisciplinary team and a first prototype was implemented, which won first place. In the senseBox Pro project, this prototype will be docked onto the senseBox learning environment and the openSenseMap and, with the support of the Telekom Foundation, expanded and used in a pilot project in various educational institutions in Bonn.",
+    "img": "/assets/img/projekte/myBadges.svg",
+    "link": "https://mybadges.org",
+    "topics": ["DigitalEducation"],
+    "customer": "Telekom Stiftung",
+    "angebote": ["Software"],
+    "year": [2021],
+    "target": ["Students", "Teachers"]
+  },
        {
     "name": "Digtial-AG in the primary school",
     "desc": "In the open all-day programme of the Annette-von-Droste-Hülshoff Primary School Münster-Nienberge, we offer a weekly digital workshop for all children who enjoy using digital media and would like to take a look behind the scenes of their functions.",
