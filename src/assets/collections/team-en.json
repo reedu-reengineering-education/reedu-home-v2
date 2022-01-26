@@ -62,12 +62,11 @@
     "photo": "/assets/img/team/gina_new.jpg"
   },
   {
-    "name": "Sergey Mukhametov",
-    "position": "Special Operations",
-    "title": "B.Sc. Geoinformatics",
-    "tags": ["Science", "Museums & Exhibitions"],
-    "email": "s.mukhametov@reedu.de",
-    "photo": "/assets/img/team/sergey_new.jpg"
+    "name": "Artur Kim Shum",
+    "position": "Innovation Designer",
+    "title": "B.A. Architektur und Stadtplanung",
+    "tags": ["UX", "Prototyping", "Data Visualization", "Open Data"],
+    "photo": "/assets/img/team/KIM.png"
   },
   {
     "name": "Eric Thieme-Garmann",
@@ -75,6 +74,14 @@
     "title": "B.Sc. Geoinformatics",
     "tags": ["IoT", "WebDevelopment"],
     "photo": "/assets/img/team/Eric.png"
+  },
+  {
+    "name": "Sergey Mukhametov",
+    "position": "Special Operations",
+    "title": "B.Sc. Geoinformatics",
+    "tags": ["Science", "Museums & Exhibitions"],
+    "email": "s.mukhametov@reedu.de",
+    "photo": "/assets/img/team/sergey_new.jpg"
   },
   {
     "name": "David Fehrenbach",
