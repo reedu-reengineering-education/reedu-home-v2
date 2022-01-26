@@ -60,6 +60,20 @@
     "title": "M.A. Kommunikationswissenschaft",
     "tags": ["Unternehmenskommunikation", "Social Media"],
     "photo": "/assets/img/team/gina_new.jpg"
+  },  
+  {
+    "name": "Artur Kim Shum",
+    "position": "Innovation Designer",
+    "title": "B.A. Architektur und Stadtplanung",
+    "tags": ["UX", "Prototyping", "Data Visualization", "Open Data"],
+    "photo": "/assets/img/team/KIMSHUM.png"
+  },
+  {
+    "name": "Eric Thieme-Garmann",
+    "position": "Entwickler",
+    "title": "B.Sc. Geoinformatik",
+    "tags": ["IoT", "WebDevelopment"],
+    "photo": "/assets/img/team/Eric.png"
   },
   {
     "name": "Sergey Mukhametov",
@@ -68,13 +82,6 @@
     "tags": ["Science", "Museen & Ausstellungen"],
     "email": "s.mukhametov@reedu.de",
     "photo": "/assets/img/team/sergey_new.jpg"
-  },
-  {
-    "name": "Eric Thieme-Garmann",
-    "position": "Entwickler",
-    "title": "B.Sc. Geoinformatik",
-    "tags": ["IoT", "WebDevelopment"],
-    "photo": "/assets/img/team/Eric.png"
   },
   {
     "name": "David Fehrenbach",
