@@ -66,7 +66,7 @@
     "position": "Innovation Designer",
     "title": "B.A. Architektur und Stadtplanung",
     "tags": ["UX", "Prototyping", "Data Visualization", "Open Data"],
-    "photo": "/assets/img/team/KIM.png"
+    "photo": "/assets/img/team/KIMSHUM.png"
   },
   {
     "name": "Eric Thieme-Garmann",
@@ -89,20 +89,6 @@
     "title": "M.Sc. Business Management",
     "tags": ["Business operations"],
     "photo": "/assets/img/team/david_new.jpg"
-  },
-  {
-    "name": "Philip Weiger",
-    "position": "openSenseMap",
-    "title": "B.A. Political Science and Sociolgy",
-    "tags": ["Business development"],
-    "photo": "/assets/img/team/weiger_new.jpg"
-  },
-  {
-    "name": "Frederick Bruch",
-    "position": "Developer",
-    "title": "Student",
-    "tags": ["SensorWiki", "senseBox","Basketball"],
-    "photo": "/assets/img/team/fred_new.jpg"
   },
   {
     "name": "Paul Reichmuth",

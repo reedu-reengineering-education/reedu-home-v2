@@ -91,20 +91,6 @@
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
-    "name": "Philip Weiger",
-    "position": "openSenseMap",
-    "title": "B.A. Politikwissenschaften und Soziologie",
-    "tags": ["Business development"],
-    "photo": "/assets/img/team/weiger_new.jpg"
-  },
-  {
-    "name": "Frederick Bruch",
-    "position": "Entwickler",
-    "title": "Student",
-    "tags": ["SensorWiki", "senseBox","Basketball"],
-    "photo": "/assets/img/team/fred_new.jpg"
-  },
-  {
     "name": "Paul Reichmuth",
     "position": "Entwickler",
     "title": "Schüler",
