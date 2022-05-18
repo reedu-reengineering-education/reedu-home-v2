@@ -1,4 +1,59 @@
 [
+  {
+    "name": "Website for the Spatial Intelligence Lab(SIL) of the WWU Münster",
+    "desc": "Design and development of Wordpress based landing pages for Spatial Intelligence Lab(SIL) at the Institute for Geoinformatics.",
+    "img": "/assets/img/projekte/logo_silhomepage.png",
+    "link": "http://bachelor-geoinformatik.de",
+    "topics": ["WebDevelopment", "Wordpress", "HigherEducation", "WebDesign"],
+    "customer": "Westfälische Wilhelms-Universität Münster",
+    "angebote": ["Software", "Consulting"],
+    "year": [2022],
+    "target": ["Students", "Universities"]
+  },
+  {
+    "name": "PVP-Map",
+    "desc": "Web map-based visualization of the distribution system of trainee teachers in NRW.",
+    "img": "/assets/img/projekte/logo_321heiss.png",
+    "link": "https://www.catta.ch/321heiss",
+    "topics": ["Citizen Science"],
+    "customer": "catta GmbH",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Citizens","Science"]
+  },
+  {
+    "name": "3-2-1 heiss!",
+    "desc": "Citizen Science project to detect heat islands in the canton of Aargau using a mobile senseBox in an individual housing with active ventilation.",
+    "img": "/assets/img/projekte/logo_321heiss.png",
+    "link": "https://www.catta.ch/321heiss",
+    "topics": ["Citizen Science"],
+    "customer": "catta GmbH",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Citizens","Science"]
+  },
+  {
+    "name": "CS:iDrop",
+    "desc": "Lorem Ipsum Larum Löffelstiel.",
+    "img": "/assets/img/projekte/logo_request.jpeg",
+    "link": "https://request.reedu.de/",
+    "topics": ["DigitaleBildung"],
+    "customer": "RuhrUni Bochum",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Students", "Teachers"]
+  },
+  {
+    "name": "re:quest",
+    "desc": "Text by felix.",
+    "img": "/assets/img/projekte/logo_request.jpeg",
+    "link": "https://request.reedu.de/",
+    "topics": ["DigitaleBildung"],
+    "customer": "Stifterverband, AWS",
+    "angebote": ["Software"],
+    "year": [2022],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  },
         {
     "name": "mybadges",
     "desc": "myBadges is a system based on the Open Badge standard that can be used in school and non-school contexts. Badges are contextualised through an e-portfolio, documenting learning achievements, competence acquisition, successes and participation. As part of the #WirFürSchule 2020 hackathon, the project idea was further developed with an interdisciplinary team and a first prototype was implemented, which won first place. In the senseBox Pro project, this prototype will be docked onto the senseBox learning environment and the openSenseMap and, with the support of the Telekom Foundation, expanded and used in a pilot project in various educational institutions in Bonn.",
@@ -7,7 +62,7 @@
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
     "angebote": ["Software"],
-    "year": [2021],
+    "year": [2023,2022,2021],
     "target": ["Students", "Teachers"]
   },
        {
@@ -18,7 +73,7 @@
     "topics": ["DigitalEducation"],
     "customer": "Amt für Kinder, Jugendliche und Familien der Stadt Münster",
     "angebote": ["Event"],
-    "year": [2021],
+    "year": [2022,2021],
     "target": ["Students"]
   },
       {
@@ -40,7 +95,7 @@
     "topics": ["CitizenScience", "WebDevelopment", "DataLiteracy", "DigitalEducation", "Environment", "STEAM"],
     "customer": "Humboldt University Berlin",
     "angebote": ["Software", "Hardware"],
-    "year": [2021],
+    "year": [2022,2021],
     "target": ["Students", "Teachers"]
   },
   {
@@ -55,10 +110,10 @@
     "target": ["Students", "Citizens", "Scientist"]
   },
   {
-    "name": "Origami",
+    "name": "GeoGami",
     "desc": "Development of a mobile educational game to strengthen spatial awareness.",
     "img": "/assets/img/projekte/origami.png",
-    "link": "https://origami.ifgi.de",
+    "link": "https://geogami.ifgi.de/",
     "topics": [
       "DigitalEducation",
       "AppDevelopment",
@@ -78,7 +133,7 @@
     "link": "https://futurium.de/de/sense-box",
     "topics": ["DigitalEducation", "CitizenScience", "Museum"],
     "customer": "Futurium gGmbH",
-    "angebote": ["Software", "Hardware", "Beratung", "Event"],
+    "angebote": ["Software", "Hardware", "Consulting", "Event"],
     "year": [2018, 2019],
     "target": ["Students", "Citizens"]
   },
@@ -89,7 +144,7 @@
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
     "customer": "Westfälische Wilhelms-Universität Münster",
-    "angebote": ["Software", "Beratung"],
+    "angebote": ["Software", "Consulting"],
     "year": [2020],
     "target": ["Students", "University"]
   },

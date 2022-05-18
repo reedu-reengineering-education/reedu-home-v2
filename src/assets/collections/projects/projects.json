@@ -1,4 +1,59 @@
 [
+  {
+    "name": "Homepage für das Spatial Intelligence Lab(SIL) der WWU Münster",
+    "desc": "Design und Entwicklung von Wordpress-basierten Homepages für das Spatial Intelligence Lab(SIL) des Institut für Geoinformatik an der WWU Münster.",
+    "img": "/assets/img/projekte/logo_silhomepage.png",
+    "link": "http://bachelor-geoinformatik.de",
+    "topics": ["WebDevelopment", "Wordpress", "HigherEducation", "WebDesign"],
+    "customer": "Westfälische Wilhelms-Universität Münster",
+    "angebote": ["Software", "Beratung"],
+    "year": [2022],
+    "target": ["Student:innen", "Schüler:innen", "Hochschulen"]
+  },
+  {
+    "name": "PVP-Map",
+    "desc": "Webkartenbasierte Visualisierung des Verteilsystems von Lehramtspraktikanten in NRW.",
+    "img": "/assets/img/projekte/logo_321heiss.png",
+    "link": "https://www.catta.ch/321heiss",
+    "topics": ["Citizen Science"],
+    "customer": "catta GmbH",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Bürger:innen","Wissenschaft"]
+  },
+  {
+    "name": "3-2-1 heiss!",
+    "desc": "Citizen Science Projekt zur Erkennung von Hitzeinseln im Kanton Aargau mit Hilfe einer mobilen senseBox in einem indivuellen Gehäuse mit Aktivlüftung.",
+    "img": "/assets/img/projekte/logo_321heiss.png",
+    "link": "https://www.catta.ch/321heiss",
+    "topics": ["Citizen Science"],
+    "customer": "catta GmbH",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Bürger:innen","Wissenschaft"]
+  },
+  {
+    "name": "CS:iDrop",
+    "desc": "Lorem Ipsum Larum Löffelstiel.",
+    "img": "/assets/img/projekte/logo_request.jpeg",
+    "link": "https://request.reedu.de/",
+    "topics": ["DigitaleBildung"],
+    "customer": "RuhrUni Bochum",
+    "angebote": ["Software","Hardware"],
+    "year": [2022],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  },
+  {
+    "name": "re:quest",
+    "desc": "Text by felix.",
+    "img": "/assets/img/projekte/logo_request.jpeg",
+    "link": "https://request.reedu.de/",
+    "topics": ["DigitaleBildung"],
+    "customer": "Stifterverband, AWS",
+    "angebote": ["Software"],
+    "year": [2022],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  },
       {
     "name": "mybadges",
     "desc": "myBadges ist ein auf dem Open Badge-Standard basierendes System, das im schulischen wie außerschulischen Kontext Einsatz finden kann. Durch ein E-Portfolio werden Badges kontextualisiert und so Lernleistungen, Kompetenzerwerb, Erfolge und Teilnahmen dokumentiert. Im Rahmen des Hackathons #WirFürSchule 2020 wurde mit einem interdisziplinären Team die Projektidee weiterentwickelt und ein erster Prototyp umgesetzt, der den 1.Platz gewonnen hat. Dieser Prototyp wird im senseBox Pro Projekt an die senseBox Lernumgebung und die openSenseMap angedockt und mit Unterstützung der Telekom Stiftung ausgebaut und in einem Pilotprojekt in verschiedenen Bonner Bildungseinrichtungen eingesetzt.",
@@ -7,7 +62,7 @@
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
     "angebote": ["Software"],
-    "year": [2021],
+    "year": [2023,2022,2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
      {
@@ -18,7 +73,7 @@
     "topics": ["DigitaleBildung"],
     "customer": "Amt für Kinder, Jugendliche und Familien der Stadt Münster",
     "angebote": ["Veranstaltung"],
-    "year": [2021],
+    "year": [2022,2021],
     "target": ["Schüler:innen"]
   },
     {
@@ -40,7 +95,7 @@
     "topics": ["CitizenScience", "WebDevelopment", "DataLiteracy", "DigitaleBildung", "Umwelt", "MINT"],
     "customer": "Humboldt-Universität Berlin",
     "angebote": ["Software", "Hardware"],
-    "year": [2021],
+    "year": [2022,2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
@@ -55,10 +110,10 @@
     "target": ["Schüler:innen", "Bürger:innen", "Wissenschaft"]
   },
   {
-    "name": "Origami",
+    "name": "GeoGami",
     "desc": "Entwicklung einer spielbasierten App zum räumlichen Lernen und als Forschungswerkzeug im Bereich Spatial Cognition.",
     "img": "/assets/img/projekte/origami.png",
-    "link": "https://origami.ifgi.de",
+    "link": "https://geogami.ifgi.de/",
     "topics": [
       "DigitaleBildung",
       "AppEntwicklung",
@@ -68,7 +123,7 @@
     ],
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Software", "Forschung", "Beratung", "Lehrmaterial"],
-    "year": [2021, 2020, 2019],
+    "year": [2022,2021, 2020, 2019],
     "target": ["Schüler:innen", "Lehrer:innen", "Hochschulen"]
   },
   {

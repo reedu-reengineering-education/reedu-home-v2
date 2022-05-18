@@ -98,6 +98,28 @@
     "photo": "/assets/img/team/paul_new.png"
   },
   {
+    "name": "Georgi Semov",
+    "position": "Entwickler",
+    "title": "Studentische Hilfskraft",
+    "tags": ["IoT", "Arduino"],
+    "photo": "/assets/img/team/team_reedu.jpg"
+  },
+  {
+    "name": "Jonas",
+    "position": "Entwickler",
+    "title": "Studentische Hilfskraft",
+    "tags": ["IoT", "Arduino"],
+    "photo": "/assets/img/team/team_reedu.jpg"
+  },
+  {
+    "name": "Timo Lietmeyer",
+    "position": "Entwickler",
+    "title": "Studentische Hilfskraft",
+    "tags": ["IoT", "Arduino"],
+    "photo": "/assets/img/team/team_reedu.jpg"
+  },
+  
+  {
     "name": "Du?",
     "position": "Werde Teil des re:edu Teams",
     "link": "jobs",
