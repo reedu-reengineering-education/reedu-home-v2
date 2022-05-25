@@ -12,14 +12,14 @@
   },
   {
     "name": "PVP-Map",
-    "desc": "Web map-based visualization of the distribution system of trainee teachers in NRW.",
-    "img": "/assets/img/projekte/logo_321heiss.png",
-    "link": "https://www.catta.ch/321heiss",
+    "desc": "Development of a web-based platform for the presentation of interactive maps for the planning, evaluation and development of the practical semester of student teachers at NRW universities.",
+    "img": "/assets/img/projekte/webgis-nrw.png",
+    "link": "",
     "topics": ["Citizen Science"],
-    "customer": "catta GmbH",
-    "angebote": ["Software","Hardware"],
+    "customer": "Ministry for School and Education of the State of NRW and 52°north ",
+    "angebote": ["Software"],
     "year": [2022],
-    "target": ["Citizens","Science"]
+    "target": ["Universities","Schools"]
   },
   {
     "name": "3-2-1 heiss!",
@@ -34,14 +34,14 @@
   },
   {
     "name": "CS:iDrop",
-    "desc": "Lorem Ipsum Larum Löffelstiel.",
-    "img": "/assets/img/projekte/logo_request.jpeg",
-    "link": "https://request.reedu.de/",
-    "topics": ["DigitaleBildung"],
+    "desc": "What happens to our tap water on its way from the house transfer station to the water tap? Do pipes and fittings influence individual water quality parameters? And if so, how great is the extent of this influence? These and other questions concerning the 'last meter' of our drinking water are investigated by citizens of the pilot region Bochum and scientists of the Ruhr-University Bochum in the project 'CS:iDrop - Citizen Science: investigation of Drinking-water of and by the public'. Reedu accompanies this project by developing the necessary smartphone application.",
+    "img": "/assets/img/projekte/logo2_csidrop.png",
+    "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
+    "topics": ["Citizen Science"],
     "customer": "RuhrUni Bochum",
-    "angebote": ["Software","Hardware"],
+    "angebote": ["Software","App Development"],
     "year": [2022],
-    "target": ["Students", "Teachers"]
+    "target": ["Citizens"]
   },
   {
     "name": "re:quest",

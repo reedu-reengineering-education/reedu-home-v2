@@ -12,14 +12,14 @@
   },
   {
     "name": "PVP-Map",
-    "desc": "Webkartenbasierte Visualisierung des Verteilsystems von Lehramtspraktikanten in NRW.",
-    "img": "/assets/img/projekte/logo_321heiss.png",
-    "link": "https://www.catta.ch/321heiss",
-    "topics": ["Citizen Science"],
-    "customer": "catta GmbH",
-    "angebote": ["Software","Hardware"],
+    "desc": "Entwicklung einer webbasierten Plattform zur Darstellung von interaktiven Karten zur Planung, Evaluation und Entwicklung des Praxissemesters von Lehramtsstudierenden an den NRW-Hochschulen.",
+    "img": "/assets/img/projekte/webgis-nrw.png",
+    "link": "",
+    "topics": ["Lehramt","Praktikum","Web","Maps","GIS"],
+    "customer": "Ministerium für Schule und Bildung des Landes NRW über WWU Münster, und 52°north",
+    "angebote": ["Software"],
     "year": [2022],
-    "target": ["Bürger:innen","Wissenschaft"]
+    "target": ["Universities","Schulen"]
   },
   {
     "name": "3-2-1 heiss!",
@@ -34,18 +34,18 @@
   },
   {
     "name": "CS:iDrop",
-    "desc": "Lorem Ipsum Larum Löffelstiel.",
-    "img": "/assets/img/projekte/logo_request.jpeg",
+    "desc": "Was passiert mit unserem Leitungswasser auf dem Weg von der Hausübergabestation zum Wasserhahn? Beeinflussen Leitungen und Armaturen einzelne Parameter der Wasserqualität? Und wenn ja, wie groß ist das Ausmaß dieser Beeinflussung? Diesen und weiteren Fragen rund um den „letzten Meter“ unseres Trinkwassers gehen Bürger:innen der Pilotregion Bochum und Wissenschaftler:innen der Ruhr-Universität Bochum im Projekt „CS:iDrop – Citizen Science: investigation of Drinking-water of and by the public“ nach. Reedu begleitet dieses Projekt durch die Entwicklung der benötigen Smartphone Applikation",
+    "img": "/assets/img/projekte/logo2_csidrop.png",
     "link": "https://request.reedu.de/",
-    "topics": ["DigitaleBildung"],
+    "topics": ["Citizen Science"],
     "customer": "RuhrUni Bochum",
-    "angebote": ["Software","Hardware"],
+    "angebote": ["Software","App Development"],
     "year": [2022],
-    "target": ["Schüler:innen", "Lehrer:innen"]
+    "target": ["Bürger:innen"]
   },
   {
     "name": "re:quest",
-    "desc": "Text by felix.",
+    "desc": "Im Projekt re:quest findet die Vermittlung von Programmier- und Datenkompetenzen über digitale Escape Games statt. Kinder, Jugendliche und junge Erwachsene lösen die Rätsel und Aufgaben des Escape Games, indem sie programmieren und Daten explorieren und analysieren.",
     "img": "/assets/img/projekte/logo_request.jpeg",
     "link": "https://request.reedu.de/",
     "topics": ["DigitaleBildung"],

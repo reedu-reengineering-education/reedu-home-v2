@@ -72,7 +72,8 @@
     "name": "Eric Thieme-Garmann",
     "position": "Entwickler",
     "title": "B.Sc. Geoinformatik",
-    "tags": ["IoT", "WebDevelopment"],
+    "tags": ["IoT", "Angular","Node","React","Citizen Science"],
+    "email":"e.thieme@reedu.de",
     "photo": "/assets/img/team/Eric.png"
   },
   {
@@ -102,7 +103,7 @@
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
     "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/team_reedu.jpg"
+    "photo": "/assets/img/team/Georgi.png"
   },
   {
     "name": "Jonas",
@@ -115,8 +116,8 @@
     "name": "Timo Lietmeyer",
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
-    "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/team_reedu.jpg"
+    "tags": ["WebDevelopment", "Mongo","Javascript"],
+    "photo": "/assets/img/team/Jonas.png"
   },
   
   {

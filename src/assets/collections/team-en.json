@@ -102,7 +102,7 @@
     "position": "Developer",
     "title": "Student Assistant",
     "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/team_reedu.jpg"
+    "photo": "/assets/img/team/Georgi.png"
   },
   {
     "name": "Jonas",
@@ -115,8 +115,8 @@
     "name": "Timo Lietmeyer",
     "position": "Developer",
     "title": "Student Assistant",
-    "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/team_reedu.jpg"
+    "tags": ["WebDevelopment", "Mongo","Javascript"],
+    "photo": "/assets/img/team/Jonas.png"
   },
   {
     "name": "You?",
