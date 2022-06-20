@@ -20,7 +20,13 @@ export class PortfolioItemComponent implements OnInit {
     private translate: TranslateService) { }
 
   ngOnInit(): void {
-    this.projects = reProjectsDE;
+    
+    if(this.translate.currentLang === 'de'){
+      this.projects = reProjectsDE;
+    } else {
+      this.projects = reProjectsEN;
+    }
+
     this.translate.onLangChange.subscribe((event) => {
       if (event.lang === 'de') {
         this.projects = reProjectsDE;
@@ -29,7 +35,7 @@ export class PortfolioItemComponent implements OnInit {
       }
     });
 
-    this.routeParamSub = this.route.params.subscribe((params: Params) => {
+    this.routeParamSub = this.route.params.subscribe((params: Params) => { 
       this.project = this.projects.filter(pro => pro.name == params.id)[0];
     });
   }
