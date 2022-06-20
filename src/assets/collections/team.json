@@ -109,14 +109,14 @@
     "name": "Jonas Raabe",
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
-    "tags": ["Web Development"],
+    "tags": ["Web development"],
     "photo": "/assets/img/team/Jonas.jpg"
   },
   {
     "name": "Timo Lietmeyer",
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
-    "tags": ["WebDevelopment", "Mongo","Javascript"],
+    "tags": ["Web development", "Mongo","Javascript"],
     "photo": "/assets/img/team/Timo.png"
   },
   
