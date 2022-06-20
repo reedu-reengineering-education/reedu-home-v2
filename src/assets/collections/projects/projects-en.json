@@ -46,13 +46,13 @@
   {
     "name": "re:quest",
     "desc": "In the re:quest project, the teaching of programming and data skills takes place via digital Escape Games. Children, teenagers and young adults solve  puzzles and tasks of an Escape Game by programming and exploring and analyzing data.",
-    "img": "/assets/img/projekte/logo_request.jpeg",
+    "img": "/assets/img/projekte/logo_request.jpg",
     "link": "https://request.reedu.de/",
     "topics": ["DigitaleBildung"],
     "customer": "Stifterverband, AWS",
     "angebote": ["Software"],
     "year": [2022],
-    "target": ["Schüler:innen", "Lehrer:innen"]
+    "target": ["Students", "Teachers"]
   },
         {
     "name": "mybadges",

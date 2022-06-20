@@ -46,7 +46,7 @@
   {
     "name": "re:quest",
     "desc": "Im Projekt re:quest findet die Vermittlung von Programmier- und Datenkompetenzen über digitale Escape Games statt. Kinder, Jugendliche und junge Erwachsene lösen die Rätsel und Aufgaben des Escape Games, indem sie programmieren und Daten explorieren und analysieren.",
-    "img": "/assets/img/projekte/logo_request.jpeg",
+    "img": "/assets/img/projekte/logo_request.jpg",
     "link": "https://request.reedu.de/",
     "topics": ["DigitaleBildung"],
     "customer": "Stifterverband, AWS",
