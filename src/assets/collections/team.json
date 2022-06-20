@@ -106,18 +106,18 @@
     "photo": "/assets/img/team/Georgi.png"
   },
   {
-    "name": "Jonas",
+    "name": "Jonas Raabe",
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
-    "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/team_reedu.jpg"
+    "tags": ["Web Development"],
+    "photo": "/assets/img/team/Jonas.jpg"
   },
   {
     "name": "Timo Lietmeyer",
     "position": "Entwickler",
     "title": "Studentische Hilfskraft",
     "tags": ["WebDevelopment", "Mongo","Javascript"],
-    "photo": "/assets/img/team/Jonas.png"
+    "photo": "/assets/img/team/Timo.png"
   },
   
   {
