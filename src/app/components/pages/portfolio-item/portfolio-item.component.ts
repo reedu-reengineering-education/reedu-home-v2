@@ -21,7 +21,6 @@ export class PortfolioItemComponent implements OnInit {
 
   ngOnInit(): void {    
     if(this.translate.currentLang === 'de'){
-      console.log('de')
       this.projects = reProjectsDE;
     } else {
       this.projects = reProjectsEN;
