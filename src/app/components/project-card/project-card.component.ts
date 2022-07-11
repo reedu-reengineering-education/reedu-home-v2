@@ -12,15 +12,12 @@ export class ProjectCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
     this.slug();
   }
 
   slug():void {
     this.url = this.slugify(this.project.name);
-
   }
-
 
   private slugify(str)
   {

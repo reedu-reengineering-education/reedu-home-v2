@@ -19,9 +19,7 @@ export class PortfolioItemComponent implements OnInit {
     private router: Router,
     private translate: TranslateService) { }
 
-  ngOnInit(): void {
-    console.log(this.translate.currentLang);
-    
+  ngOnInit(): void {    
     if(this.translate.currentLang === 'de'){
       console.log('de')
       this.projects = reProjectsDE;
