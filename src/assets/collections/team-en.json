@@ -55,12 +55,26 @@
     "photo": "/assets/img/team/verena_new.jpg"
   },
   {
+    "name": "Sandra Sebelin",
+    "position": "Education",
+    "title": "B.Sc. Forest Sciences",
+    "tags": ["Environmental Education", "Experiential Education"],
+    "photo": "/assets/img/team/sandra.jpg"
+  },
+  {
     "name": "Gina Buchwald-Chassée",
     "position": "Communication",
     "title": "M.Sc. Communication Science",
     "tags": ["Corporate Communications", "Social Media"],
     "photo": "/assets/img/team/gina_new.jpg"
   },
+    {
+    "name": "Verena Putzer",
+    "position": "Sales Managerin",
+    "title": "M.Sc. Business Management",
+    "tags": ["Marketing", "Sales"],
+    "photo": "/assets/img/team/Verena_Putzer_Foto.jpg"
+  }, 
   {
     "name": "Artur Kim Shum",
     "position": "Innovation Designer",
@@ -100,23 +114,23 @@
   {
     "name": "Georgi Semov",
     "position": "Developer",
-    "title": "Student Assistant",
+    "title": "Apprentice",
     "tags": ["IoT", "Arduino"],
     "photo": "/assets/img/team/Georgi.png"
   },
   {
-    "name": "Jonas",
+    "name": "Jonas Raabe",
     "position": "Developer",
-    "title": "Student Assistant",
+    "title": "B.Sc. Geoinformatics",
     "tags": ["Web development"],
     "photo": "/assets/img/team/Jonas.jpg"
   },
   {
-    "name": "Timo Lietmeyer",
-    "position": "Developer",
-    "title": "Student Assistant",
-    "tags": ["Web development", "Mongo","Javascript"],
-    "photo": "/assets/img/team/Timo.png"
+    "name": "Paula Scharf",
+    "position": "Web Developer",
+    "title": "B.Sc. Geoinformatics",
+    "tags": ["Web development"],
+    "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   },
   {
     "name": "You?",
