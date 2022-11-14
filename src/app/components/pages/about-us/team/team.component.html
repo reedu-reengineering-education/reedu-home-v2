@@ -1,7 +1,13 @@
 <div class="site">
   <div class="container column site-title-container">
-    <h1 class="site-title">{{ "WER_WIR_SIND" | translate }}</h1>
+    <h1 class="site-title" >{{ "WER_WIR_SIND" | translate }}</h1>
     <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
+    <div class="floating-action-btn">
+      <button class="re-button" button (click)="shuffle(team)">
+        <img src="/assets/img/logos/logo_black.svg" />
+        <span>Misch uns auf</span>
+      </button>
+    </div>
   </div>
   <div class="stripes-vertical">
     <div class="container">
@@ -17,7 +23,7 @@
                       class="profile-img"
                       src="{{ member.photo }}"
                       alt="image"
-                    />
+                    />  
                   </div>
                   <div class="column">
                     <h1 class="title">{{ member.name }}</h1>

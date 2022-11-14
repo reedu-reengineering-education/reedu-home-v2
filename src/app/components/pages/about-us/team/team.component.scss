@@ -19,6 +19,12 @@
   }
 }
 
+.floating-action-btn {
+  @media screen and (max-width: $breakpoint-mobile) {
+    transform: translateY(-6rem);
+  }
+}
+
 .site-title {
 
   color: white;

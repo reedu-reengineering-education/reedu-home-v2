@@ -17,16 +17,24 @@ export class TeamComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.team = reTeamDE;
+    //this.team = reTeamDE;
+    this.team = this.shuffle(reTeamDE);
 
     this.translate.onLangChange.subscribe((event) => {
       if (event.lang === 'de') {
-        this.team = reTeamDE;
+        this.team = this.shuffle(reTeamDE);
       } else {
-        this.team = reTeamEN;
+        this.team = this.shuffle(reTeamEN);
       }
     });
 
   }
 
+   shuffle(team: any[]): any[] {
+    return this.team = Array(team.length).fill(null)
+       .map((_, i) => [Math.random(), i])
+       .sort(([a], [b]) => a - b)
+       .map(([, i]) => team[i]);
+}
+  
 }
