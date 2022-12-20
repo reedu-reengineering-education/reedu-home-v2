@@ -20,6 +20,23 @@ const en = [
   "Smart Cities.",
   "you!"]
 
+  let typed:Typed
+  let optionsEn = {
+    strings:en,
+    typeSpeed: 100,
+    backSpeed: 50,
+    showCursor: false,
+    cursorChar: '|',
+    loop: true
+  };
+  let optionsDe = {
+    strings:de,
+    typeSpeed: 100,
+    backSpeed: 50,
+    showCursor: false,
+    cursorChar: '|',
+    loop: true
+  };
 
 @Component({
   selector: 're-start',
@@ -28,39 +45,33 @@ const en = [
 })
 
 export class StartComponent implements OnInit {
+  
 
-  constructor(private translate:TranslateService) { }
+  constructor(private translate:TranslateService) {
+    translate.onLangChange.subscribe(event=>{
+      typed.destroy();
+      if (event.lang === 'de') {
+        typed = new Typed('.typed-element', optionsDe);
+      } else {
+        typed = new Typed('.typed-element', optionsEn);
+      }
+    })
+
+  }
 
   ngOnInit(): void {
-    let typedDe,typedEn;
-    let optionsEn = {
-      strings:en,
-      typeSpeed: 100,
-      backSpeed: 50,
-      showCursor: false,
-      cursorChar: '|',
-      loop: true
-    };
-    let optionsDe = {
-      strings:de,
-      typeSpeed: 100,
-      backSpeed: 50,
-      showCursor: false,
-      cursorChar: '|',
-      loop: true
-    };
+    
     if(this.translate.currentLang === 'de' || this.translate.currentLang === undefined){
-      typedDe = new Typed('.typed-element', optionsDe);
+      typed = new Typed('.typed-element', optionsDe);
     } else {
-      typedEn = new Typed('.typed-element', optionsEn);
+      typed = new Typed('.typed-element', optionsEn);
     }
     this.translate.onLangChange.subscribe((event) => {
+      typed.destroy();
       if (event.lang === 'de') {
-        typedEn.destroy();
-        typedDe = new Typed('.typed-element', optionsDe);
+        typed = new Typed('.typed-element', optionsDe);
       } else {
-        typedDe.destroy();
-        typedEn = new Typed('.typed-element', optionsEn);
+        typed = new Typed('.typed-element', optionsEn);
       }
     });
 

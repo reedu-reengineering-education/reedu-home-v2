@@ -1,7 +1,13 @@
 <div class="site">
   <div class="container column site-title-container">
-    <h1 class="site-title">{{ "WER_WIR_SIND" | translate }}</h1>
+    <h1 class="site-title" >{{ "WER_WIR_SIND" | translate }}</h1>
     <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
+    <div class="floating-action-btn">
+      <button class="re-button" button (click)="shuffle(team)">
+        <img src="/assets/img/logos/logo_black.svg" />
+        <span>{{ "MISCH_UNS_AUF" | translate }}</span>
+      </button>
+    </div>
   </div>
   <div class="stripes-vertical">
     <div class="container">
@@ -17,7 +23,7 @@
                       class="profile-img"
                       src="{{ member.photo }}"
                       alt="image"
-                    />
+                    />  
                   </div>
                   <div class="column">
                     <h1 class="title">{{ member.name }}</h1>
@@ -28,6 +34,33 @@
                     </h6>
                     <h6 class="title is-6">{{ member.email }}</h6>
                     <a *ngIf="member.link" [routerLink]="['/jobs']">
+                      <button class="re-button">
+                        <span>Jobs</span>
+                        <img src="/assets/img/logos/logo_black.svg" />
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card">
+            <div class="card-content">
+              <div class="container">
+                <div class="columns is-multiline">
+                  <div class="column is-one-third">
+                    <img
+                      class="profile-img"
+                      src="/assets/img/team/team_reedu.jpg"
+                      alt="image"
+                    />  
+                  </div>
+                  <div class="column">
+                    <h1 class="title">{{ "DU" | translate }}</h1>
+                    <h2 class="subtitle">{{ "WERDE_TEIL_DES_TEAMS" | translate }}</h2>
+                    <a [routerLink]="['/jobs']">
                       <button class="re-button">
                         <span>Jobs</span>
                         <img src="/assets/img/logos/logo_black.svg" />
