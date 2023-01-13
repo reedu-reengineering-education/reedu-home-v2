@@ -56,6 +56,31 @@
     "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
+    {
+    "title": "Essen auf Rädern",
+    "description": "Ziel des Projekts ist es, Jugendliche stärker mit ihren Perspektiven und Wünschen in den Diskurs über die nachhaltigkeitsorientierte Verkehrswende einzubinden. Dazu sollen Jugendliche von fünf Essener Schulen mit unterschiedlichem sozial-räumlichem Umfeld im Rahmen eines Projekts kooperativ mittels digitaler Geomedien raumbezogene Daten zur Radverkehrsinfrastruktur in ihrem jeweiligen Schulviertel selber erheben, in Bezug auf ihre Perspektiven digital analysieren, der Politik/Öffentlichkeit präsentieren und so aktiv im gesellschaftlichen Diskurs partizipieren („citizen science“ und “Spatial-Citizenship-Ansatz”). Die technische Basis bildet die für die Befestigung am Fahrrad und den mobilen Einsatz angepasste senseBox (www.sensebox.de), mit deren Hilfe die Jugendlichen wichtige Parameter, wie den Abstand zum PKW-Verkehr, die Radwegqualität, Gefahrenstellen und Umweltdaten messen können. Gemeinsam mit Expert*innen der Universität Münster (Institut für Geoinformatik, Institut für Didaktik der Geographie, der Bürgerinitiative RadEntscheid Essen, dem Fachgeschäft für Stadtwandel und re:edu) werden die Daten und die daraus abgeleiteten Maßnahmen für die Öffentlichkeit und die Lokalpolitik (z.B. mittels der Plattform openSenseMap (www.opensensemap.org) digital aufbereitet und intensiv diskutiert. Im zweiten Teil des beantragten Entwicklungsprojekts sollen die Materialien und evaluationsbasierten Erfahrungen des Essener Projekts umfassend aufgearbeitet, gebündelt und dokumentiert werden. Dies bildet die Basis, um danach in verschiedenen Ruhrgebietsstädten Lehrkräftefortbildungen durchzuführen, auf denen Interessierte lernen, wie sie selbst ein analoges Projekt in kleinerem zeitlichem Maßstab (auf ein bis zwei Tage gestrafft) in ihrem Schulviertel durchführen können und Stadtverwaltungen diese auf Jugendliche zugeschnittenen Partizipationsformate zu Verkehrswende als innovative Produkte anzubieten.",
+     "forschungsverbund": [
+      "/assets/img/forschung/logo.jpg",
+      "/assets/img/forschung/2021-logo-ifgi-text-de.png",
+      "/assets/img/forschung/GHE_Logo_de.png",
+      "/assets/img/logos/logo_small_text_orange.svg"
+    ],
+    "image": "/assets/img/projekte/senseBox-bike.png",
+    "underscoreStyle": "red",
+    "logoBottom": "/assets/img/forschung/300617022004d3sq.png"
+  },
+  {
+    "title": "TinyAIoT",
+    "description": "Das Projekt hat zum Ziel, KI-Verfahren an die Bedürfnisse moderner IoT-Anwendungen anzupassen. Diese basieren heutzutage oft auf Mikrocontrollern, wie der senseBox, welche über spezielle Netzwerkprotokolle (z.B. LoRa WAN) Daten versenden und empfangen können. Die Forschungsrichtung TinyAI zielt auf die signifikante Reduktion des Ressourcenbedarfs von KI-Verfahren ab. Gelingt eine hinreichend starke Reduktion, so können KI-Verfahren ggf. sogar „auf“ den Mikrocontrollern ausgeführt werden. Das Ziel des TinyAIoTProjekts besteht in der weiteren Reduktion des Ressourcenbedarfs bestehender KI-Verfahren sowie der entsprechenden Anpassung weiterer Modelle. Zudem sollen die Ergebnisse in die Anpassung der senseBox einfließen, diese um Kamerasensorik ergänzt werden und so intelligente Mikrocontroller ermöglichen, die längere Zeit autark betrieben werden können.",
+     "forschungsverbund": [
+      "/assets/img/forschung/2021-logo-ifgi-text-de.png",
+      "/assets/img/forschung/wi-muenster-logo.PNG",
+      "/assets/img/logos/logo_small_text_orange.svg"
+    ],
+    "image": "/assets/img/projekte/senseBox-bike.png",
+    "underscoreStyle": "red",
+    "logoBottom": "/assets/img/forschung/artificial-intelligence-g203dfe5f7_1920.jpg"
+  },
   {
     "title": "EXIST",
     "description": "Im Rahmen des Exist-Gründerstipendiums für Existenzgründungen aus der Wissenschaft wurden wir mit dem Arbeitstitel \"edusense\" 12 Monate lang gefördert.",
