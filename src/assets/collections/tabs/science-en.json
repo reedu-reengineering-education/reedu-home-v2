@@ -50,6 +50,31 @@
     "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
+      {
+    "title": "Essen auf Rädern",
+    "description": "The aim of the project is to involve young people more strongly with their perspectives and wishes in the discourse on the sustainability-oriented traffic turnaround. For this purpose, young people from five schools in Essen with different socio-spatial environments are to collect spatial data on the cycling infrastructure in their respective school districts themselves using digital geomedia, digitally analyse it in relation to their perspectives, present it to politicians/public and thus actively participate in the social discourse (\"citizen science\" and \"spatial citizenship approach\"). The technical basis is the senseBox (www.sensebox.de), which has been adapted for attachment to bicycles and mobile use, and with the help of which the young people can measure important parameters such as distance to car traffic, cycle path quality, danger spots and environmental data. Together with experts from the University of Münster (Institute for Geoinformatics, Institute for Didactics of Geography, the citizens' initiative RadEntscheid Essen, the specialist shop for urban change and re:edu), the data and the measures derived from it will be digitally processed and intensively discussed for the public and local politics (e.g. using the platform openSenseMap (www.opensensemap.org). In the second part of the proposed development project, the materials and evaluation-based experiences of the Essen project will be comprehensively processed, bundled and documented. This will form the basis for conducting further training for teachers in various cities in the Ruhr region, where interested parties will learn how they can carry out an analogue project on a smaller time scale (streamlined to one or two days) in their school district and offer city administrations these participation formats tailored to young people as innovative products.",
+     "forschungsverbund": [
+      "/assets/img/forschung/logo.jpg",
+      "/assets/img/forschung/2021-logo-ifgi-text-de.png",
+      "/assets/img/forschung/GHE_Logo_de.png",
+      "/assets/img/logos/logo_small_text_orange.svg"
+    ],
+    "image": "/assets/img/projekte/senseBox-bike.png",
+    "underscoreStyle": "red",
+    "logoBottom": "/assets/img/forschung/300617022004d3sq.png"
+  },
+  {
+    "title": "TinyAIoT",
+    "description": "The project aims to adapt AI methods to the needs of modern IoT applications. Nowadays, these are often based on microcontrollers, such as the senseBox, which can send and receive data via special network protocols (e.g. LoRa WAN). The research direction TinyAI aims to significantly reduce the resource requirements of AI processes. If a sufficiently strong reduction succeeds, AI procedures can possibly even be executed on the microcontrollers. The goal of the TinyAIoT project is to further reduce the resource requirements of existing AI procedures and to adapt further models accordingly. In addition, the results are to be incorporated into the adaptation of the senseBox, which will be supplemented with camera sensors and thus enable intelligent microcontrollers that can be operated autonomously for longer periods of time.",
+     "forschungsverbund": [
+      "/assets/img/forschung/2021-logo-ifgi-text-de.png",
+      "/assets/img/forschung/wi-muenster-logo.PNG",
+      "/assets/img/logos/logo_small_text_orange.svg"
+    ],
+    "image": "/assets/img/forschung/artificial-intelligence-g203dfe5f7_1920.jpg",
+    "underscoreStyle": "red",
+    "logoBottom": "/assets/img/forschung/BMU-Logo_en_2022.jpg"
+  },
   {
     "title": "EXIST",
     "description": "Within the framework of the Exist-Gründerstipendium for start-ups from science, we were funded for 12 months with the working title \"edusense\".",
