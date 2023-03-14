@@ -9,7 +9,7 @@
   },
   {
     "name": "Jan Wirwahn",
-    "position": "CEO",
+    "position": "Developer & Co-Founder",
     "title": "M.Sc. Geoinformatics",
     "tags": ["Open Source Hardware", "IoT", "Education", "Camping & Kayaking"],
     "email": "j.wirwahn@reedu.de",
@@ -25,7 +25,7 @@
       "Open Data",
       "Angular",
       "Node",
-      "Mongo"
+      "React"
     ],
     "email": "u.tas@reedu.de",
     "photo": "/assets/img/team/umut_new.jpg"
