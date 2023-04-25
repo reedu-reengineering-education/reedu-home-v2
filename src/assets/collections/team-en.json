@@ -68,13 +68,13 @@
     "tags": ["Corporate Communications", "Social Media"],
     "photo": "/assets/img/team/gina_new.jpg"
   },
-    {
+  {
     "name": "Verena Putzer",
     "position": "Sales Managerin",
     "title": "M.Sc. Business Management",
     "tags": ["Marketing", "Sales"],
     "photo": "/assets/img/team/Verena_Putzer_Foto.jpg"
-  }, 
+  },
   {
     "name": "Artur Kim Shum",
     "position": "Innovation Designer",
@@ -85,7 +85,7 @@
   {
     "name": "Eric Thieme-Garmann",
     "position": "Developer",
-    "title": "B.Sc. Geoinformatics",
+    "title": "M.Sc. Geoinformatics",
     "tags": ["IoT", "WebDevelopment"],
     "photo": "/assets/img/team/Eric.png"
   },
