@@ -54,7 +54,7 @@
     "email": "v.witte@reedu.de",
     "photo": "/assets/img/team/verena_new.jpg"
   },
-    {
+  {
     "name": "Sandra Sebelin",
     "position": "Bildung",
     "title": "B.Sc. Forstwissenschaften",
@@ -67,14 +67,14 @@
     "title": "M.A. Kommunikationswissenschaft",
     "tags": ["Unternehmenskommunikation", "Social Media"],
     "photo": "/assets/img/team/gina_new.jpg"
-  },  
-   {
+  },
+  {
     "name": "Verena Putzer",
     "position": "Sales Managerin",
     "title": "M.Sc. BWL",
     "tags": ["Marketing", "Vertrieb"],
     "photo": "/assets/img/team/Verena_Putzer_Foto.jpg"
-  }, 
+  },
   {
     "name": "Artur Kim Shum",
     "position": "Innovation Designer",
@@ -85,9 +85,9 @@
   {
     "name": "Eric Thieme-Garmann",
     "position": "Entwickler",
-    "title": "B.Sc. Geoinformatik",
-    "tags": ["IoT", "Angular","Node","React","Citizen Science"],
-    "email":"e.thieme@reedu.de",
+    "title": "M.Sc. Geoinformatik",
+    "tags": ["IoT", "Angular", "Node", "React", "Citizen Science"],
+    "email": "e.thieme@reedu.de",
     "photo": "/assets/img/team/Eric.png"
   },
   {
