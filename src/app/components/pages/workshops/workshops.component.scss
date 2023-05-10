@@ -1,0 +1,146 @@
+@import "../../../../styles/variables.scss";
+
+.site {
+  background: $black;
+  min-height: 100vh;
+  padding: 2em 0;
+
+  .site-title {
+    // margin-bottom: 300px;
+  }
+}
+
+.workshop-type {
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  color: $black;
+  h2 {
+    padding-bottom: 1.5em;
+  }
+  h3, h2 {
+    color: $red;
+  }
+  p {
+    padding-top: 0.5em;
+    color: $black;
+  }
+  ul {
+    padding-top: 1em;
+    list-style: circle;
+    padding-left: 1em;
+  }
+}
+.profile-img {
+  max-height: 230px;
+  width: auto;
+}
+
+.orange {
+  color: $red;
+}
+
+.black {
+  color: $black;
+}
+
+.card {
+  box-shadow: none;
+}
+.stripes-container {
+  background: $white;
+  .stripes {
+    padding: 1rem;
+    background: #eb5c3727
+      repeating-linear-gradient(
+        -40deg,
+        #eb5c3727,
+        #eb5c3727 10px,
+        #eb5c376e 0,
+        #eb5c376e 12px
+      );
+
+    background-repeat: repeat;
+
+    .re-offset-container {
+      transform: translateY(-200px);
+    }
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.re-logo-offset {
+  width: 400px;
+  position: absolute;
+  top: -10rem;
+  right: 0;
+}
+
+.re-partners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .partner-item {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    .partner-item {
+      width: 45%;
+    }
+  }
+}
+
+.modal {
+  .re-select-button {
+    color: $primary;
+    border-color: $primary;
+    margin: 0.2em;
+    height: auto;
+    font-size: 15px;
+
+    &.active {
+      background: $primary;
+      color: $white;
+    }
+  }
+
+  .re-modal {
+    border: 5px solid $black;
+
+    .re-select-button {
+      padding: 0.3em 1.5em;
+      font-family: BrixSlab-Bold;
+    }
+
+    label {
+      padding-top: 1em;
+      opacity: 0.8;
+    }
+  }
+}
+
+.workshop-interest {
+  margin-top: 3em;
+}
+
+.company-link {
+  a {
+    color: $red;
+  }
+  padding-top: 1em;
+}
+
+
+a {
+  color: $red;
+  text-decoration: underline;
+}
