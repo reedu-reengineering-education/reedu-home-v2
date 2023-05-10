@@ -78,5 +78,62 @@
   "PHILOSOPHIE_WAS_WIR_MACHEN": "What we do: All our projects at a glance.",
 
   "REEDU_JOBS_HEADLINE": "Why should you work at re:edu? In addition to a great team with a collegial atmosphere and flat hierarchies, you can expect appropriate payment and flexible working hours. We are open to new ideas and offer you the opportunity to fully contribute and develop your know-how and skills. In addition, you can expect a variety of exciting projects - so it's never boring with us.<br><br> Become part of the re:edu team, we are looking forward to you!",
-  "REEDU_BEST_JOB_WO_GIBT": "We are always on the lookout for new employees to enrich our team and who are enthusiastic about the topics we work on. If you are interested and would like to contribute new ideas, then contact <a class='red-link' href='mailto:kontakt@reedu.de'>kontakt@reedu.de</a>."
+  "REEDU_BEST_JOB_WO_GIBT": "We are always on the lookout for new employees to enrich our team and who are enthusiastic about the topics we work on. If you are interested and would like to contribute new ideas, then contact <a class='red-link' href='mailto:kontakt@reedu.de'>kontakt@reedu.de</a>.",
+ 
+  "UNSERE_WORKSHOP_ANGEBOTE": "Our workshop offers",
+  "WORKSHOPS_DIFFERENT_FORMATS": "In different formats we train teachers, companies, organizations, pupils and students as well as citizens in the use of digital technologies.",
+  "FOR_TEACHERS": "For teachers",
+  "TEACHERS_TEXT": "Use of open source technologies in STEM education:",
+  "TEACHERS1": "project-based and interdisciplinary work with senseBox:edu",
+  "TEACHERS2": "providing sensor values on the openSenseMap",
+  "TEACHERS3": "visual programming with the web-based application Blockly for senseBox",
+  "TEACHERS4": "use of open educational resources",
+  "TEACHERS5": "data visualization with geoiformation systems and spreadsheets",
+
+  "FOR_STUDENTS": "For Students",
+  "STUDENTS_TEXT": "Modular and flexible sensor platforms based on open source hardware:",
+  "STUDENTS1": "connecting sensors as physical devices in the Internet of Things.",
+  "STUDENTS2": "dandling and use of low-cost sensor technology, e.g. for scientific work",
+  "STUDENTS3": "LoRaWAN to build ad-hoc network infrastructure",
+  "STUDENTS4": "analysis of geodata with geoinformation systems",
+  "STUDENTS5": "use of open source microcontrollers in STEM education",
+
+  "FOR_PUPILS": "For Pupils",
+  "PUPILS_TEXT": "Computer science and environmental education with the open senseBox ecosystem:",
+  "PUPILS1": "project-based work based on senseBox:edu",
+  "PUPILS2": "build measuring devices yourself and program them using the block-based programming language",
+  "PUPILS3": "conducting measurement campaigns as well as their analysis (data literacy)",
+  "PUPILS4": "scientific elaboration of local problems",
+  "PUPILS5": "dealing with Open Data, Citizen Science and open web interfaces",
+
+  "FOR_CITIZENS": "For citizens",
+  "CITIZENS_TEXT": "Citizen Science Projects with senseBox:",
+  "CITIZENS1": "fundamentals of block or text based programming",
+  "CITIZENS2": "independent environmental data collection",
+  "CITIZENS3": "regsitration of the senseBox on the openSenseMap",
+  "CITIZENS4": "building a global citizen science project",
+
+  "FOR_COMPANIES": "For companies",
+  "COMPANIES_TEXT": "The vacation program around environment, technology and computer science for school-aged children:",
+  "COMPANIES1": "building and programming robots",
+  "COMPANIES2": "configuration of digital environmental measuring stations",
+  "COMPANIES3": "playful insights into the world of computer science",
+  "COMPANIES4": "...and much more!",
+  "COMPANIES_PDF": "learn more here!",
+
+  "FOR_EXAMPLE": "Workshop Examples:",
+  "EXAMPLE1": "senseBox Basic Workshop: Physical Computing in STEM Education (120 minutes or more)",
+  "EXAMPLE2": "Citizen Science with senseBox - bridging the gap between science, environment and education (90 minutes or more)",
+  "EXAMPLE3": "Smart City & Smart Home - building and programming smart meters (120 minutes or more)",
+  "EXAMPLE4": "Collecting and analyzing data with the senseBox as an IoT measuring device (from 180 minutes)",
+  "EXAMPLE_TEXT": "We are happy to adapt the workshop content to the respective target group and their respective interest!",
+  
+  "WORKSHOP_INTEREST": "Interested in a workshop or advanced training?",
+  "WORKSHOP_INTEREST_TEXT": "Then please send us an email with the following information to: ",
+  "WORKSHOP_INFO1": "Workshop Topic",
+  "WORKSHOP_INFO2": "Estimated number of participants",
+  "WORKSHOP_INFO3": "Age of Participants",
+  "WORKSHOP_INFO4": "Desired Date and timeframe",
+  "WORKSHOP_INFO5": "Location"
+
 }

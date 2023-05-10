@@ -29,6 +29,7 @@ import { PortfolioItemComponent } from './components/pages/portfolio-item/portfo
 import { JobsComponent } from './components/pages/about-us/jobs/jobs.component';
 import { JobItemComponent } from './components/pages/about-us/job-item/job-item.component';
 import { TrimPipe } from './trim-pipe.pipe';
+import { WorkshopsComponent } from './components/pages/workshops/workshops.component';
 
 
 export function createTranslateLoader(http: HttpClient) {
@@ -57,6 +58,7 @@ export function createTranslateLoader(http: HttpClient) {
     JobsComponent,
     JobItemComponent,
     TrimPipe,
+    WorkshopsComponent
   ],
   imports: [
     BrowserModule,

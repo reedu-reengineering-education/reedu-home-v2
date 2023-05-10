@@ -13,6 +13,7 @@ import { PortfolioItemComponent } from './components/pages/portfolio-item/portfo
 import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
 import { PrivacyComponent } from './components/pages/privacy/privacy.component';
 import { StartComponent } from './components/pages/start/start.component';
+import { WorkshopsComponent } from './components/pages/workshops/workshops.component';
 
 const routes: Routes = [
   { path: '', component: StartComponent },
@@ -28,7 +29,9 @@ const routes: Routes = [
   { path: 'auszeichnungen', component: AuszeichnungenComponent },
   { path: 'team', component: TeamComponent },
   { path: 'jobs', component: JobsComponent },
-  { path: 'job/:filename', component: JobItemComponent }
+  { path: 'job/:filename', component: JobItemComponent },
+  { path: 'workshops', component: WorkshopsComponent },
+
 ];
 
 @NgModule({

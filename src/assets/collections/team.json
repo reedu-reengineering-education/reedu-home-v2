@@ -25,7 +25,7 @@
       "Open Data",
       "Angular",
       "Node",
-      "Mongo"
+      "React"
     ],
     "email": "u.tas@reedu.de",
     "photo": "/assets/img/team/umut_new.jpg"
@@ -50,7 +50,7 @@
     "name": "Verena Witte",
     "position": "Bildung",
     "title": "M.Ed. Mathematik & Geographie",
-    "tags": ["Mathematik", "Geographie", "Bildung", "DLRG", "Musik"],
+    "tags": ["Bildung", "Workshops", "Projekttage", "Bildungsmaterial"],
     "email": "v.witte@reedu.de",
     "photo": "/assets/img/team/verena_new.jpg"
   },

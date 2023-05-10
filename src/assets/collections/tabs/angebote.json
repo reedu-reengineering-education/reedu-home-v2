@@ -38,6 +38,8 @@
     "end": "Schauen Sie sich unsere bisherigen Veranstaltungen an und kontaktieren Sie uns.",
     "linkText": "Portfolio ansehen",
     "link": "portfolio?angebot=Veranstaltung",
+    "link2": "workshops",
+    "link2Text": "Mehr Informationen und Kontakt",
     "image": "/assets/img/angebote/veranstaltungen.jpg",
     "underscoreStyle": "dark"
   },

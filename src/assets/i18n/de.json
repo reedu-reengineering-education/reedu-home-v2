@@ -77,5 +77,61 @@
   "PHILOSOPHIE_WAS_WIR_MACHEN": "Was wir machen: Alle unsere Projekte in der Übersicht.",
 
   "REEDU_JOBS_HEADLINE": "Warum Du bei re:edu arbeiten solltest? Neben einem tollen Team mit einem kollegialen Miteinander und flachen Hierarchien erwarten Dich eine angemessene Vergütung und flexible Arbeitszeiten. Wir sind offen für neue Anregungen und bieten Dir die Möglichkeit, Dein Know-how und Deine Fähigkeiten voll einzubringen und weiterzuentwickeln. Außerdem erwarten Dich vielfältige, spannende Projekte – es wird bei uns also nie langweilig.<br><br> Werde Teil des re:edu-Teams, wir freuen uns auf Dich!",
-  "REEDU_BEST_JOB_WO_GIBT": "Wir sind immer auf der Suche nach neuen Mitarbeiter:innen, die unser Team bereichern und sich für die Themen begeistern, an denen wir arbeiten. Wenn Du Interesse hast und Dich mit neuen Ideen einbringen möchtest, dann melde Dich einfach bei <a class='red-link' href='mailto:kontakt@reedu.de'>kontakt@reedu.de</a> <br><br>."
+  "REEDU_BEST_JOB_WO_GIBT": "Wir sind immer auf der Suche nach neuen Mitarbeiter:innen, die unser Team bereichern und sich für die Themen begeistern, an denen wir arbeiten. Wenn Du Interesse hast und Dich mit neuen Ideen einbringen möchtest, dann melde Dich einfach bei <a class='red-link' href='mailto:kontakt@reedu.de'>kontakt@reedu.de</a> <br><br>.",
+
+  "UNSERE_WORKSHOP_ANGEBOTE": "Unsere Workshop Angebote",
+  "WORKSHOPS_DIFFERENT_FORMATS": "In verschiedenen Formaten bilden wir Lehrkräfte, Unternehmen, Organisationen, Schüler:innen und Studierende sowie Bürger:innen im Umgang mit digitalen Technologien fort.",
+  "FOR_TEACHERS": "Für Lehrkräfte",
+  "TEACHERS_TEXT": "Einsatz von Open Source Technologien im MINT-Unterricht:",
+  "TEACHERS1": "projektbasiertes und interdisziplinäres Arbeiten mit der senseBox:edu",
+  "TEACHERS2": "Bereitstellung von Messwerten auf der openSenseMap",
+  "TEACHERS3": "visuelles Programmieren mit der webbasierten Anwendung Blockly für senseBox",
+  "TEACHERS4": "Nutzung von Open Educational Ressources",
+  "TEACHERS5": "Datenvisualisierung mit Geoiformationssystemen und Tabellenkalkulationsprogrammen",
+
+  "FOR_STUDENTS": "Für Studierende",
+  "STUDENTS_TEXT": "Modulare und flexible Sensorplattformen basierend auf Open Source Hardware:",
+  "STUDENTS1": "Anbindung von Sensoren als physisches Gerät im Internet of Things",
+  "STUDENTS2": "Umgang und Einsatz von Low-Cost Sensorik, z.B. für wissenschaftliche Arbeiten",
+  "STUDENTS3": "LoRaWAN zum Aufbau einer ad-hoc Netzwerkinfrastruktur",
+  "STUDENTS4": "Auswertung von Geodaten mit Geoinformationssystemen",
+  "STUDENTS5": "Einsatz von Open Source Mikrocontrollern im MINT Unterricht (Lehramtsstudierende)",
+
+  "FOR_PUPILS": "Für Schülerinnen und Schüler",
+  "PUPILS_TEXT": "Informatik- und Umweltbildung mit dem offenen senseBox-Ökosystem:",
+  "PUPILS1": "projektbasiertes Arbeiten auf Basis der senseBox:edu",
+  "PUPILS2": "Messgeräte selbst bauen und mithilfe der blockbasierten Programmiersprache programmieren",
+  "PUPILS3": "Durchführung von Messkampagnen sowie deren Analyse (Data Literacy)",
+  "PUPILS4": "wissenschaftliche Ausarbeitung von lokalen Problemstellungen",
+  "PUPILS5": "Umgang mit Open Data, Citizen Science und offenen Web-Schnittstellen",
+
+  "FOR_CITIZENS": "Für Bürgerinnen und Büger",
+  "CITIZENS_TEXT": "Citizen Science Projekte mit der senseBox:",
+  "CITIZENS1": "Grundlagen der block- oder textbasierten Programmierung",
+  "CITIZENS2": "eigenständige Erhebung von Umweltdaten",
+  "CITIZENS3": "Regsitrierung der senseBox auf der openSenseMap",
+  "CITIZENS4": "Aufbau eines weltweiten bürgerwissenschaftlichen Projektes",
+
+  "FOR_COMPANIES": "Für Unternehmen",
+  "COMPANIES_TEXT": "Das Ferienprogramm rund um Umwelt, Technologie und Informatik für schulpflichtige Kinder:",
+  "COMPANIES1": "Bau und Programmierung von Robotern",
+  "COMPANIES2": "Konfiguration von digitale Umweltmessstationen",
+  "COMPANIES3": "spielerische Einblicke in die Welt der Informatik",
+  "COMPANIES4": "…und vieles mehr!",
+  "COMPANIES_PDF": "Hier kannst Du mehr erfahren!",
+
+  "FOR_EXAMPLE": "Workshop-Beispiele:",
+  "EXAMPLE1": "senseBox Grundlagenworkshop: Physical Computing im MINT-Unterricht (ab 120 Minuten)",
+  "EXAMPLE2": "Citizen Science mit der senseBox - die Brücke zwischen Wissenschaft, Umwelt und Bildung (ab 90 Minuten)",
+  "EXAMPLE3": "Smart City & Smart Home - Bau und Programmierung intelligenter Messgeräte (ab 120 Minuten)",
+  "EXAMPLE4": "Erhebung und Analyse von Daten mit der senseBox als IoT-Messgerät (ab 180 Minuten)",
+  "EXAMPLE_TEXT": "Wir passen die Workshopinhalte gerne auf die jeweilige Zielgruppe und ihr jeweiliges Interesse an!",
+  
+  "WORKSHOP_INTEREST": "Interesse an einem Workshop oder an einer Fortbildung?",
+  "WORKSHOP_INTEREST_TEXT": "Dann schicke uns bitte eine E-Mail mit den folgenden Informationen an: ",
+  "WORKSHOP_INFO1": "Thema des Workshops",
+  "WORKSHOP_INFO2": "Geschätzte Teilnehmerzahl",
+  "WORKSHOP_INFO3": "Alter der Teilnehmenden",
+  "WORKSHOP_INFO4": "Gewünschter Termin und Zeitumfang",
+  "WORKSHOP_INFO5": "Veranstaltungsort"
 }
