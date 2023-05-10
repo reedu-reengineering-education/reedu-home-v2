@@ -133,7 +133,7 @@
   "WORKSHOP_INFO1": "Workshop Topic",
   "WORKSHOP_INFO2": "Estimated number of participants",
   "WORKSHOP_INFO3": "Age of Participants",
-  "WORKSHOP_INFO4": "Desired Time Frame",
-  "WORKSHOP_INFO5": "Location and Time"
+  "WORKSHOP_INFO4": "Desired Date and timeframe",
+  "WORKSHOP_INFO5": "Location"
 
 }

@@ -132,6 +132,6 @@
   "WORKSHOP_INFO1": "Thema des Workshops",
   "WORKSHOP_INFO2": "Geschätzte Teilnehmerzahl",
   "WORKSHOP_INFO3": "Alter der Teilnehmenden",
-  "WORKSHOP_INFO4": "Gewünschter Zeitumfang",
-  "WORKSHOP_INFO5": "Ort und Uhrzeit"
+  "WORKSHOP_INFO4": "Gewünschter Termin und Zeitumfang",
+  "WORKSHOP_INFO5": "Veranstaltungsort"
 }
