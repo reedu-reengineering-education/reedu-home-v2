@@ -36,7 +36,7 @@
     "name": "CS:iDrop",
     "desc": "Was passiert mit unserem Leitungswasser auf dem Weg von der Hausübergabestation zum Wasserhahn? Beeinflussen Leitungen und Armaturen einzelne Parameter der Wasserqualität? Und wenn ja, wie groß ist das Ausmaß dieser Beeinflussung? Diesen und weiteren Fragen rund um den „letzten Meter“ unseres Trinkwassers gehen Bürger:innen der Pilotregion Bochum und Wissenschaftler:innen der Ruhr-Universität Bochum im Projekt „CS:iDrop – Citizen Science: investigation of Drinking-water of and by the public“ nach. Reedu begleitet dieses Projekt durch die Entwicklung der benötigen Smartphone Applikation",
     "img": "/assets/img/projekte/logo2_csidrop.png",
-    "link": "https://request.reedu.de/",
+    "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
     "topics": ["Citizen Science"],
     "customer": "RuhrUni Bochum",
     "angebote": ["Software","App Development"],
@@ -336,7 +336,7 @@
     "name": "Klima findet Stadt",
     "desc": "Förderung von Umweltbildung und offener Jugendarbeit im MINT-Bereich im Rhein-Sieg-Kreis mit der Kernregion Bonn. Workshops in Jugendhilfeeinrichtungen und weiterführende Schulen im Rhein-Sieg-Kreis mit der Kernregion Bonn.",
     "img": "/assets/img/projekte/klimafindetstadt.jpg",
-    "link": "",
+    "link": "https://www.telekom-stiftung.de/klima-findet-stadt",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Veranstaltung", "Lehrmaterial"],
@@ -366,7 +366,7 @@
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
-    "name": "senseBox Fortbildugnen",
+    "name": "senseBox Fortbildungen",
     "desc": "Durchführung von senseBox Lehrerfortbildungen und Veranstaltungen für Informatik-Lehramtsstudierende aus Baden-Würtemberg.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
     "link": "",
@@ -399,17 +399,6 @@
     "target": ["Wissenschaftler:innen"]
   },
   {
-    "name": "LoRa-Netz Andernach",
-    "desc": "Aufbau eines LoRa-Netzes für den Bereich Klimaschutzmanagement der Stadtverwaltung Andernach.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
-    "link": "",
-    "topics": ["SmartCity", "Klimawandel"],
-    "customer": "Stadtverwaltung Andernach",
-    "angebote": ["Hardware"],
-    "year": [2020],
-    "target": ["Wissenschaftler:innen", "Bürger:innen"]
-  },
-  {
     "name": "MINT-Kongress Workshop",
     "desc": "Bürgerworkshops zu Open-Source-Umweltsensorik und IoT bei den MINT-Tagen.",
     "img": "/assets/img/projekte/MINT-Kongress.jpg",
@@ -435,7 +424,7 @@
     "name": "Smart City Dashboard",
     "desc": "Entwicklung eines Smart City Dashboards.",
     "img": "/assets/img/projekte/smart-city-dashboard.png",
-    "link": "",
+    "link": "https://dashboard.smartcity.ms/",
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Hardware", "Software"],
@@ -445,8 +434,8 @@
   {
     "name": "Story Map for international graduate students",
     "desc": "Entwicklung einer Story-Map-Webseite zur Orientierung neuer internationaler Doktoranden.",
-    "img": "/assets/img/logos/logo_small_text_orange.svg",
-    "link": "",
+    "img": "/assets/img/projekte/StoryMap WWU Graduate Centre.PNG",
+    "link": "https://go.wwu.de/gcstorymap",
     "topics": ["DigitaleBildung", "WebDevelopment"],
     "customer": "Westfälische Wilhelms-Universität Münster, Graduate Center",
     "angebote": ["Software", "Lehrmaterial"],
@@ -512,7 +501,7 @@
     "name": "senseBox:bike - Futurium",
     "desc": "Entwicklung einer mobilen senseBox für Fahrräder, Videotutorials, Makeathons und Veranstaltungen und eines Exponats",
     "img": "/assets/img/projekte/senseBox-bike.png",
-    "link": "",
+    "link": "https://futurium.de/de/senseboxbike",
     "topics": ["DigitaleBildung", "CitizenScience"],
     "customer": "Futurium gGmbH",
     "angebote": ["Hardware", "Software", "Veranstaltung", "Lehrmaterial"],
