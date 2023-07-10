@@ -55,13 +55,6 @@
     "photo": "/assets/img/team/verena_new.jpg"
   },
   {
-    "name": "Sandra Sebelin",
-    "position": "Education",
-    "title": "B.Sc. Forest Sciences",
-    "tags": ["Environmental Education", "Experiential Education"],
-    "photo": "/assets/img/team/sandra.jpg"
-  },
-  {
     "name": "Gina Buchwald-Chassée",
     "position": "Communication",
     "title": "M.Sc. Communication Science",
@@ -128,7 +121,7 @@
   {
     "name": "Paula Scharf",
     "position": "Web Developer",
-    "title": "B.Sc. Geoinformatics",
+    "title": "M.Sc. Geoinformatics",
     "tags": ["Web development"],
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   }
