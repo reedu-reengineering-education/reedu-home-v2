@@ -1,5 +1,27 @@
 [
   {
+    "name": "Mapstories 2.0",
+    "desc": "Mit Mapstories werden Geschichten rund um die Welt erzählt. Das Tool bietet vielfältige Optionen, um globale Zusammenhänge mithilfe von Orten als Stationen auf einem Globus zu veranschaulichen. Mapstories ist im Jahr 2021 im Rahmen einer Zusammenarbeit zwischen re:edu und Vamos e.V. entstanden. Der Ausgangspunkt des Projektes “welt.weit.virtuell” war die Durchführung eines ko-kreativen Labs zur globalen Bekleidungsindustrie. Nachdem viele positive Rückmeldungen zum Tool und zahlreiche Anpassungswünsche geäußert wurden, wurde Mapstories im Juni 2023 in einer neuen Version veröffentlicht. Diese Version bringt eine Fülle von Verbesserungen und neuen Funktionen mit sich, wie z.B. ein Story Lab.",
+    "img": "/assets/img/projekte/Mapstories 2.0.png",
+    "link": "https://mapstories.de/de",
+    "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
+    "customer": "Vamos e.V.",
+    "angebote": ["Software", "Veranstaltung"],
+    "year": [2023],
+    "target": ["Schüler:innen", "Lehrer:innen"]
+  },
+  {
+    "name": "Klimadashboard",
+    "desc": "Wo steht Münster auf dem Weg zur Klimaneutralität? Dafür haben wir ein Klimadashboard für die Stabsstelle Smart City und die Stabsstelle Klima der Stadt Münster mit Unterstützung von den Stadtwerken Münster und der Wirtschaftsförderung Münster entwickelt. Es wird im Rahmen des Förderprogramms „Modellprojekte Smart Cities“ aus Mitteln des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen (BMWSB) gefördert. Das Klimadashboard zeigt aktuelle Daten zu Klima, Energie, Mobilität und Gebäuden als wichtige Indikatoren von Klimaschutz und ermöglicht so Anpassungen an die Folgen des Klimawandels und schafft mehr Transparenz in der gesamtstädtischen Klimaarbeit.",
+    "img": "/assets/img/projekte/Klimadashboard_MS.png",
+    "link": "https://klimadashboard.ms/",
+    "topics": ["SmartCity", "WebDevelopment", "OpenData"],
+    "customer": "Stadt Münster, Stabsstelle Smart City",
+    "angebote": ["Software"],
+    "year": [2023],
+    "target": ["Städte", "Bürger:innen"]
+  },
+  {
     "name": "OER4SDI",
     "desc": "Das Projekt OER4SDI – Open Educational Resources for Spatial Information Infrastractures - verfolgt das Ziel, offenes Unterrichtsmaterial zu Themen der Geoinformationsverarbeitung für Studierende zu konzipieren und auf der OER-Plattform ORCA.NRW zu veröffentlichen. Während sich das Institut für Geoinformatik der Universität Münster sowie die Ruhr-Universität und Hochschule Bochum auf die Erstellung der Materialien fokussieren, durfte re:edu seine Expertise im Bereich des Designs einbringen. Zu den Aufgaben gehörten folglich die Erstellung von grundlegenden Designelementen, wie ein Logo, aber auch die Gestaltung der H5P Interactive Books zur Integration der konzipierten Materialien.",
     "img": "/assets/img/projekte/OER4SDI.png",
@@ -31,28 +53,6 @@
     "angebote": ["Software", "Veranstaltung"],
     "year": [2023],
     "target": ["Schüler:innen", "Lehrer:innen"]
-  },
-  {
-    "name": "Mapstories 2.0",
-    "desc": "Mit Mapstories werden Geschichten rund um die Welt erzählt. Das Tool bietet vielfältige Optionen, um globale Zusammenhänge mithilfe von Orten als Stationen auf einem Globus zu veranschaulichen. Mapstories ist im Jahr 2021 im Rahmen einer Zusammenarbeit zwischen re:edu und Vamos e.V. entstanden. Der Ausgangspunkt des Projektes “welt.weit.virtuell” (Link zu anderem Projekt) war die Durchführung eines ko-kreativen Labs zur globalen Bekleidungsindustrie. Nachdem viele positive Rückmeldungen zum Tool und zahlreiche Anpassungswünsche geäußert wurden, wurde Mapstories im Juni 2023 in einer neuen Version veröffentlicht. Diese Version bringt eine Fülle von Verbesserungen und neuen Funktionen mit sich, wie z.B. ein Story Lab.",
-    "img": "/assets/img/projekte/Mapstories 2.0.png",
-    "link": "https://mapstories.de/de",
-    "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
-    "customer": "Vamos e.V.",
-    "angebote": ["Software", "Veranstaltung"],
-    "year": [2023],
-    "target": ["Schüler:innen", "Lehrer:innen"]
-  },
-  {
-    "name": "Klimadashboard",
-    "desc": "Wo steht Münster auf dem Weg zur Klimaneutralität? Dafür haben wir ein Klimadashboard für die Stabsstelle Smart City und die Stabsstelle Klima der Stadt Münster mit Unterstützung von den Stadtwerken Münster und der Wirtschaftsförderung Münster entwickelt. Es wird im Rahmen des Förderprogramms „Modellprojekte Smart Cities“ aus Mitteln des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen (BMWSB) gefördert. Das Klimadashboard zeigt aktuelle Daten zu Klima, Energie, Mobilität und Gebäuden als wichtige Indikatoren von Klimaschutz und ermöglicht so Anpassungen an die Folgen des Klimawandels und schafft mehr Transparenz in der gesamtstädtischen Klimaarbeit.",
-    "img": "/assets/img/projekte/Klimadashboard_MS.png",
-    "link": "https://klimadashboard.ms/",
-    "topics": ["SmartCity", "WebDevelopment", "OpenData"],
-    "customer": "Stadt Münster, Stabsstelle Smart City",
-    "angebote": ["Software"],
-    "year": [2023],
-    "target": ["Städte", "Bürger:innen"]
   },
   {
     "name": "Homepage für das Spatial Intelligence Lab der WWU Münster",
