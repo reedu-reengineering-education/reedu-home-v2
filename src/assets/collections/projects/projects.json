@@ -35,7 +35,7 @@
   {
     "name": "CENOGRID-Megasplice",
     "desc": "Die Webseite cenogrid.org bietet Zugang zu veröffentlichten benthischen δ13C- und δ18O-Daten, die in mehr als 50 Jahren Tiefseebohrungen im Rahmen des IODP und seiner Vorgängerprogramme gesammelt wurden. Es können eigene CENOGRID-Megasplice konstruiert werden, einschließlich eigener Daten, um den Klimawandel und den Kohlenstoffkreislauf der letzten 66 Millionen Jahre zu visualisieren. Die Daten können selbst hochgeladen und mit den Referenzdaten verglichen werden.",
-    "img": "/assets/img/projekte/Megasplice.png",
+    "img": "/assets/img/projekte//megasplice.jpg",
     "link": "https://cenogrid.org/",
     "topics": ["WebDevelopment", "OpenData"],
     "customer": "Universität Münster",
