@@ -35,7 +35,7 @@
   {
     "name": "CENOGRID-Megasplice",
     "desc": "The cenogrid.org website provides access to published benthic δ13C and δ18O data collected in more than 50 years of deep-sea drilling under the IODP and its predecessor programmes. Custom CENOGRID megasplices can be constructed, including custom data, to visualise climate change and the carbon cycle over the last 66 million years. The data can be uploaded by the user and compared with the reference data.",
-    "img": "/assets/img/projekte/Megasplice.png",
+    "img": "/assets/img/projekte/megasplice.jpg",
     "link": "https://cenogrid.org/",
     "topics": ["WebDevelopment", "OpenData"],
     "customer": "University of Münster",
