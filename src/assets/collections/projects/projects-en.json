@@ -1,5 +1,60 @@
 [
   {
+    "name": "OER4SDI",
+    "desc": "The OER4SDI project - Open Educational Resources for Spatial Information Infrastructures - aims to design open teaching materials on topics of geoinformation processing for students and publish them on the OER platform ORCA.NRW. While the Institute for Geoinformatics at the University of Münster as well as the Ruhr University and Bochum University of Applied Sciences focus on the creation of the materials, re:edu was allowed to contribute its expertise in the area of design. The tasks consequently included the creation of basic design elements, such as a logo, but also the design of the H5P Interactive books to integrate the conceived materials.",
+    "img": "/assets/img/projekte/OER4SDI.png",
+    "link": "https://www.hochschule-bochum.de/fbg/forschung-und-entwicklung/oer4sdi/",
+    "topics": ["OER", "DigitalEducation"],
+    "customer": "Bochum University of Applied Sciences",
+    "angebote": ["Software"],
+    "year": [2023],
+    "target": ["Students"]
+  },
+  {
+    "name": "CENOGRID-Megasplice",
+    "desc": "The cenogrid.org website provides access to published benthic δ13C and δ18O data collected in more than 50 years of deep-sea drilling under the IODP and its predecessor programmes. Custom CENOGRID megasplices can be constructed, including custom data, to visualise climate change and the carbon cycle over the last 66 million years. The data can be uploaded by the user and compared with the reference data.",
+    "img": "/assets/img/projekte/Megasplice.png",
+    "link": "https://cenogrid.org/",
+    "topics": ["WebDevelopment", "OpenData"],
+    "customer": "University of Münster",
+    "angebote": ["Software"],
+    "year": [2023],
+    "target": ["Science"]
+  },
+  {
+    "name": "Mapstories – zeitgeisty",
+    "desc": "With the implementation of zeitgeisty in the StoryLab of Mapstories.de, it is now possible to set timestamps and thus link places and points in time. This adds a temporal component to the global stories and contexts and makes it possible to historically track when an event took place at a certain location. With zeitgeisty, for example, a map story on the history of the 20th century is created.",
+    "img": "/assets/img/projekte/zeitgeisty.png",
+    "link": "https://bunker-ulmenwall.org/archiv/zeitgeisty_archiv22/",
+    "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
+    "customer": "Vamos e.V.",
+    "angebote": ["Software", "Events"],
+    "year": [2023],
+    "target": ["Pupils", "Teachers"]
+  },
+  {
+    "name": "Mapstories 2.0",
+    "desc": "Mapstories tells stories around the world. The tool offers a variety of options to illustrate global connections with the help of places as stations on a globe. Mapstories was created in 2021 as part of a cooperation between re:edu and Vamos e.V.. The starting point of the project "welt.weit.virtuell" (link to other project) was the implementation of a co-creative lab on the global garment industry. After a lot of positive feedback on the tool and numerous requests for adaptations, Mapstories was released in a new version in June 2023. This version brings a wealth of improvements and new features, such as a Story Lab.",
+    "img": "/assets/img/projekte/Mapstories 2.0.png",
+    "link": "https://mapstories.de/de",
+    "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
+    "customer": "Vamos e.V.",
+    "angebote": ["Software", "Events"],
+    "year": [2023],
+    "target": ["Pupils", "Teachers"]
+  },
+  {
+    "name": "Climate Dashboard",
+    "desc": "Where does Münster stand on the way to climate neutrality? For this purpose, we have developed a climate dashboard for the Smart City Unit and the Climate Unit of the City of Münster with the support of Stadtwerke Münster and Wirtschaftsförderung Münster. It is funded by the Federal Ministry of Housing, Urban Development and Building (BMWSB) as part of the "Smart Cities Model Projects" funding programme. The climate dashboard shows current data on climate, energy, mobility and buildings as important indicators of climate protection and thus enables adjustments to the consequences of climate change and creates more transparency in the city-wide climate work.",
+    "img": "/assets/img/projekte/Klimadashboard_MS.png",
+    "link": "https://klimadashboard.ms/",
+    "topics": ["SmartCity", "WebDevelopment", "OpenData"],
+    "customer": "Stadt Münster, Stabsstelle Smart City",
+    "angebote": ["Software"],
+    "year": [2023],
+    "target": ["Cities", "Citizens"]
+  },
+  {
     "name": "Website for the Spatial Intelligence Lab of the WWU Münster",
     "desc": "Design and development of Wordpress based landing pages for Spatial Intelligence Lab(SIL) at the Institute for Geoinformatics.",
     "img": "/assets/img/projekte/logo_silhomepage.png",
