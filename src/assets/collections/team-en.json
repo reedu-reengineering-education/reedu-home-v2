@@ -100,8 +100,8 @@
   {
     "name": "Paul Reichmuth",
     "position": "Developer",
-    "title": "Student",
-    "tags": ["IoT", "Arduino"],
+    "title": "University Student (Electrical engineering)",
+    "tags": ["IoT", "Arduino", "LoRaWAN", "Support"],
     "photo": "/assets/img/team/paul_new.png"
   },
   {
@@ -120,9 +120,9 @@
   },
   {
     "name": "Paula Scharf",
-    "position": "Web Developer",
+    "position": "Developer",
     "title": "M.Sc. Geoinformatics",
-    "tags": ["Web development"],
+    "tags": ["Web development","IoT", "AI"],
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   }
 ]
