@@ -1,3 +1,7 @@
+<div class="container is-flex is-flex-direction-column is-justify-content-center is-align-items-center"><a class="re-button" href="/assets/collections/jobs/werkstudent-bildung.pdf" target="_blank"><i class="fas fa-download"></i>&nbsp; Stellenausschreibung als PDF herunterladen</a></div>
+
+<h1>&nbsp;</h1>
+
 # SHK-Stelle in der Bildungsabteilung
 
 re:edu ist ein Start-Up aus Münster, das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Ein Fokus liegt dabei insbesondere auf der Vermittlung von zukunftsweisenden Kompetenzen im Bildungsbereich, bspw. durch die Konzeption und Durchführung von Workshops und Projekttagen an Schulen. Thematisch liegt der Schwerpunkt dabei auf einer transdisziplinären Vermittlung von grundlegenden Fähigkeiten und Denkweisen der Informatik.
