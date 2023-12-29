@@ -1,9 +1,15 @@
 [
-  {
+    {
     "title": "Werkstudierende:r Entwickler:in für Web-Apps",
     "description": "Komme ins re:edu Team! Wir suchen ab sofort eine:n Werkstudent:in für Web-Apps",
     "date": "",
     "filename": "werkstudent-web-app.md"
+  },
+  {
+    "title": "Studentische Hilfskraft für die Bildungsabteilung",
+    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine studentische Hilfskraft für unseren Bildungsbereich",
+    "date": "",
+    "filename": "werkstudent-bildung.md"
   },
   {
     "title": "Werkstudierende:r Entwickler:in für eingebettete Systeme",
