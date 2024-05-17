@@ -81,16 +81,16 @@
     "image": "/assets/img/forschung/eduSense_logo.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/exist/ESF-Logos-Reihe.jpg"
-  }
-    {
+  },
+  {
     "title": "QOOOL Sensing",
     "description": "The aim of the QOOOL Sensing project is to develop a compact and cost-effective NV quantum magnetometer in the form of a sensor kit (QOOOL Kit) for the first time, with which broad sections of the population can be sensitised to and inspired by quantum technologies. To this end, the senseBox (https://sensebox.de/en) is to be used and expanded as a microcontroller and didactic material is to be developed, particularly for use in STEM subjects. Interactive learning software will be used to clearly explain the functionality and structure of an NV magnetometer as a quantum sensor and the interaction of its individual components. The project will run until the end of October 2026.",
      "link": "https://qoool-sensing.org/en",
      "forschungsverbund": [
-      "/assets/img/forschung/Hahn-Schickard Logo mit Claim sRGB.jpg",
-      "/assets/img/forschung/IIS_Logo_blue-mit-Box.png",
-      "/assets/img/logos/PuD_Logo_quadratisch.JPG"
-    ],
+        "/assets/img/forschung/Hahn-Schickard Logo mit Claim sRGB.jpg",
+        "/assets/img/forschung/IIS_Logo_blue-mit-Box.png",
+        "/assets/img/forschung/PuD_Logo_quadratisch.JPG"
+      ],
     "image": "/assets/img/forschung/QOOOL-Logo.png",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/BMBF_CMYK_Gef_L.png"
