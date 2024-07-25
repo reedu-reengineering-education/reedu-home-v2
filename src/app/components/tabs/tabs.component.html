@@ -60,23 +60,6 @@
               <li *ngIf="activeTab.list5">{{ activeTab.list5 }}</li>
               <li *ngIf="activeTab.list6">{{ activeTab.list6 }}</li>
             </ul>
-            <ul
-              style="
-                list-style: circle;
-                margin-bottom: 2rem;
-                list-style-position: inside;
-                color: #eb5c37;
-              "
-              *ngIf="
-                activeTab.title === 'Forschung' || activeTab.title === 'Science'
-              "
-            >
-              <li>{{ activeTab.list1 }}</li>
-              <li>{{ activeTab.list2 }}</li>
-              <li>{{ activeTab.list3 }}</li>
-              <li>{{ activeTab.list4 }}</li>
-              <li>{{ activeTab.list5 }}</li>
-            </ul>
             <p>{{ activeTab.end }}</p>
             <img *ngIf="activeTab.logoBottom" [src]="activeTab.logoBottom" />
             <a *ngIf="activeTab.link" [href]="activeTab.link">
