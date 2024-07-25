@@ -62,6 +62,13 @@
     "photo": "/assets/img/team/gina_new.jpg"
   },
   {
+    "name": "Eduardo Candeias Schneider",
+    "position": "Werkstudent im Bildungsbereich",
+    "title": "B.A. Erziehungswissenschaft & Informationsverarbeitung",
+    "tags": ["Bildung", "Workshops", "Bildungsmaterial"],
+    "photo": "/assets/img/team/Eduardo.jpg"
+  },
+  {
     "name": "Artur Kim Shum",
     "position": "Innovation Designer",
     "title": "B.A. Architektur und Stadtplanung",
@@ -104,13 +111,6 @@
     "title": "Auszubildender",
     "tags": ["IoT", "Arduino"],
     "photo": "/assets/img/team/Georgi.png"
-  },
-  {
-    "name": "Jonas Raabe",
-    "position": "Entwickler",
-    "title": "B.Sc. Geoinformatik",
-    "tags": ["Web development"],
-    "photo": "/assets/img/team/Jonas.jpg"
   },
   {
     "name": "Paula Scharf",
