@@ -62,11 +62,11 @@
     "photo": "/assets/img/team/gina_new.jpg"
   },
   {
-    "name": "Verena Putzer",
-    "position": "Sales Managerin",
-    "title": "M.Sc. Business Management",
-    "tags": ["Marketing", "Sales"],
-    "photo": "/assets/img/team/Verena_Putzer_Foto.jpg"
+    "name": "Eduardo Candeias Schneider",
+    "position": "Student assistant in education",
+    "title": "B.A. Education science & information processing",
+    "tags": ["Education", "Workshops", "OER"],
+    "photo": "/assets/img/team/Eduardo.jpg"
   },
   {
     "name": "Artur Kim Shum",
@@ -110,13 +110,6 @@
     "title": "Apprentice",
     "tags": ["IoT", "Arduino"],
     "photo": "/assets/img/team/Georgi.png"
-  },
-  {
-    "name": "Jonas Raabe",
-    "position": "Developer",
-    "title": "B.Sc. Geoinformatics",
-    "tags": ["Web development"],
-    "photo": "/assets/img/team/Jonas.jpg"
   },
   {
     "name": "Paula Scharf",
