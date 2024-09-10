@@ -118,6 +118,13 @@
     "tags": ["Web development","IoT", "AI"],
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   },
+   {
+    "name": "Björn Luig",
+    "position": "Developer",
+    "title": "B.Sc. Mathematics & Physics ",
+    "tags": ["Physics", "Mathematics"],
+    "photo": "/assets/img/team/Björn.JPG"
+  },
   {
     "name": "Ronja Federer",
     "position": "Office Management",
