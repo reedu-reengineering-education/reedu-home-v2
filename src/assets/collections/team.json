@@ -127,6 +127,13 @@
     "photo": "/assets/img/team/Björn.JPG"
   },
   {
+    "name": "Kieran Galbraith",
+    "position": "Werkstudent, Softwareentwickler",
+    "title": "",
+    "tags": ["Python", "Java Script"],
+    "photo": "/assets/img/team/Kieran.jpg"
+  },
+  {
     "name": "Ronja Federer",
     "position": "Office Management",
     "title": "&#8203;",
