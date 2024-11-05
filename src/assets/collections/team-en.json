@@ -125,6 +125,13 @@
     "tags": ["Physics", "Mathematics"],
     "photo": "/assets/img/team/Björn.JPG"
   },
+     {
+    "name": "Kieran Galbraith",
+    "position": "Student assistant, Software Developer",
+    "title": "",
+    "tags": ["Python", "Java Script"],
+    "photo": "/assets/img/team/Kieran.jpg"
+  },
   {
     "name": "Ronja Federer",
     "position": "Office Management",
