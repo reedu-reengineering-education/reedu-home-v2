@@ -7,7 +7,7 @@
     "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Veranstaltung"],
-    "year": [2023],
+    "year": [2023,2024],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
@@ -18,7 +18,7 @@
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Software"],
-    "year": [2023],
+    "year": [2023,2024],
     "target": ["Städte", "Bürger:innen"]
   },
   {
@@ -51,7 +51,7 @@
     "topics": ["DigitaleBildung", "WebDevelopment", "GlobalesLernen"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Veranstaltung"],
-    "year": [2023],
+    "year": [2023,2024],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
   {
@@ -117,7 +117,7 @@
     "topics": ["DigitaleBildung"],
     "customer": "Telekom Stiftung",
     "angebote": ["Software"],
-    "year": [2023,2022,2021],
+    "year": [2024,2023,2022,2021],
     "target": ["Schüler:innen", "Lehrer:innen"]
   },
      {
@@ -483,7 +483,7 @@
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Hardware", "Software"],
-    "year": [2021],
+    "year": [2021,2022,2023,2024],
     "target": ["Städte", "Bürger:innen"]
   },
   {
