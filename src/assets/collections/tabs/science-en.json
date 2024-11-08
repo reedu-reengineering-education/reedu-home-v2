@@ -16,18 +16,19 @@
     "image": "/assets/img/forschung/sensebox_pro.jpg",
     "underscoreStyle": "red"
   },
-      {
+  {
     "title": "Atrai Bikes",
     "description": "Das Atrai Bike-Projekt steht als wegweisende Forschungsinitiative zur Transformation der Stadtplanung, indem Bürger, Unternehmen und lokale Regierungen in die systematische Erfassung und Analyse von Fahrradinfrastrukturdaten einbezogen werden. Dieses zweijährige Vorhaben, finanziert vom Bundesministerium für Bildung und Forschung Deutschlands und von FAPESP in Brasilien, ist eine gemeinsame Anstrengung von drei Organisationen: re:edu und 52°North in Münster/Deutschland sowie dem Cordial Institute in São Paulo/Brasilien. Das Projekt, das im Januar 2024 beginnen soll, zielt darauf ab, innovative Lösungen für den städtischen Radverkehr zu schaffen.",
     "link": "https://atrai.bike/de",
     "linkText": "Atrai Bikes",
-    "logo": "/assets/img/forschung/simport/Atrai Bike Logo.png",
+    "logo": "/assets/img/forschung/AtraiBikeLogo.png",
     "forschungsverbund": [
       "/assets/img/partner/Logo_52North_invers_v1.png",
-      "/assets/img/partner/cordial_logo.png",
+      "/assets/img/partner/cordial_logo.png"
     ],
-    "foerderung": ["/assets/img/partner/BMBF_Logo.svg"], ["/assets/img/partner/fapesp.png"]
-    "underscoreStyle": "red"
+    "foerderung": ["/assets/img/partner/BMBF_Logo.svg", "/assets/img/partner/fapesp.png"],
+    "underscoreStyle": "red",
+    "image": "/assets/img/forschung/AtraiBikes.jpg"
   },
   {
     "title": "SIMPORT",
@@ -63,7 +64,7 @@
     "image": "/assets/img/forschung/logo_steam_sw.jpg",
     "underscoreStyle": "red"
   },
-      {
+  {
     "title": "Essen auf Rädern",
     "description": "The aim of the project is to involve young people more strongly with their perspectives and wishes in the discourse on the sustainability-oriented traffic turnaround. For this purpose, young people from five schools in Essen with different socio-spatial environments are to collect spatial data on the cycling infrastructure in their respective school districts themselves using digital geomedia, digitally analyse it in relation to their perspectives, present it to politicians/public and thus actively participate in the social discourse (\"citizen science\" and \"spatial citizenship approach\"). The technical basis is the senseBox (www.sensebox.de), which has been adapted for attachment to bicycles and mobile use, and with the help of which the young people can measure important parameters such as distance to car traffic, cycle path quality, danger spots and environmental data. Together with experts from the University of Münster (Institute for Geoinformatics, Institute for Didactics of Geography, the citizens' initiative RadEntscheid Essen, the specialist shop for urban change and re:edu), the data and the measures derived from it will be digitally processed and intensively discussed for the public and local politics (e.g. using the platform openSenseMap (www.opensensemap.org). In the second part of the proposed development project, the materials and evaluation-based experiences of the Essen project will be comprehensively processed, bundled and documented. This will form the basis for conducting further training for teachers in various cities in the Ruhr region, where interested parties will learn how they can carry out an analogue project on a smaller time scale (streamlined to one or two days) in their school district and offer city administrations these participation formats tailored to young people as innovative products.",
      "forschungsverbund": [

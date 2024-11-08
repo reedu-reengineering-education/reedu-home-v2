@@ -1,5 +1,6 @@
 [
-      "name": "senseBox:bike",
+  {
+    "name": "senseBox:bike",
     "desc": "Die senseBox:bike ist eine KI-basierte Open Source-Sensortechnologie zur mobilen Erhebung von Umwelt- und Verkehrsdaten mit dem Fahrrad (z.B. enge Überholungen, Wegbeschaffenheit, Feinstaubbelastung, Temperatur etc.), die zur Verbesserung der Fahrradinfrastruktur im urbanen Raum beitragen können.",
     "img": "/assets/img/projekte/senseBox-bike-logo.png",
     "link": "https://sensebox.de/de/products-bike",
@@ -12,7 +13,7 @@
     {
     "name": "iCODE_MS",
     "desc": "Informatische Grundbildung und Bildung für nachhaltige Entwicklung (BNE) – zwei Kompetenzbereiche, die für eine nachhaltige und digitalisierte Welt unerlässlich sind. Daher verfolgt das Projekt iCODE_MS ein Ziel: Die außerschulische Vermittlung von logischen und algorithmischen Denkweisen anhand von anwendungsbezogenen Aspekten der Umweltbildung.",
-    "img": "/assets/img/projekte/Icode_MS_final-logo_extended.png",
+    "img": "/assets/img/projekte/icodems.jpg",
     "link": "https://icode.ms/",
     "topics": ["DigitaleBildung", "BNE", "Informatische Grundbildung"],
     "customer": "Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen, Kofinanziert von der Europäischen Union",
