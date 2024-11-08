@@ -16,6 +16,19 @@
     "image": "/assets/img/forschung/sensebox_pro.jpg",
     "underscoreStyle": "red"
   },
+      {
+    "title": "Atrai Bikes",
+    "description": "Das Atrai Bike-Projekt steht als wegweisende Forschungsinitiative zur Transformation der Stadtplanung, indem Bürger, Unternehmen und lokale Regierungen in die systematische Erfassung und Analyse von Fahrradinfrastrukturdaten einbezogen werden. Dieses zweijährige Vorhaben, finanziert vom Bundesministerium für Bildung und Forschung Deutschlands und von FAPESP in Brasilien, ist eine gemeinsame Anstrengung von drei Organisationen: re:edu und 52°North in Münster/Deutschland sowie dem Cordial Institute in São Paulo/Brasilien. Das Projekt, das im Januar 2024 beginnen soll, zielt darauf ab, innovative Lösungen für den städtischen Radverkehr zu schaffen.",
+    "link": "https://atrai.bike/de",
+    "linkText": "Atrai Bikes",
+    "logo": "/assets/img/forschung/simport/Atrai Bike Logo.png",
+    "forschungsverbund": [
+      "/assets/img/partner/Logo_52North_invers_v1.png",
+      "/assets/img/partner/cordial_logo.png",
+    ],
+    "foerderung": ["/assets/img/partner/BMBF_Logo.svg"], ["/assets/img/partner/fapesp.png"]
+    "underscoreStyle": "red"
+  },
   {
     "title": "SIMPORT",
     "description": "In a joint project with the Institute for Geoinformatics at the Westfälische Wilhelms-Universität Münster, the Münster University of Applied Sciences, the TU Berlin and here technologies, guidelines and software modules for the sovereign management of one's own location information on mobile devices are being developed. Freely available software components are being developed that allow users to visualize possible conclusions from their own location information in a comprehensible way. Thus help users to better understand the advantages and disadvantages of sharing location information. In this way, users are informed about the risks precisely when they have to decide whether or not to share this data. Innovative forms of interaction are being developed for this purpose: Here, users can specify in detail which location data is shared, when, with whom, and to what degree of accuracy.",
