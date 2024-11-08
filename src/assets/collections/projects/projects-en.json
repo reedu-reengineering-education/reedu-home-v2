@@ -1,4 +1,26 @@
 [
+        {
+    "name": "senseBox:bike",
+    "desc": "The senseBox:bike is an AI-based open source sensor technology for the mobile collection of environmental and traffic data by bicycle (e.g. close overtaking, road conditions, particulate matter pollution, temperature, etc.), which can contribute to the improvement of cycling infrastructure in urban areas.",
+    "img": "/assets/img/projekte/senseBox-bike-logo.png",
+    "link": "https://sensebox.de/en/products-bike",
+    "topics": ["AI", "Hardware", "Mobility"],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2024],
+    "target": ["Citizens","Science", "Cities"]
+  },
+      {
+    "name": "iCODE_MS",
+    "desc": "Basic computer literacy and education for sustainable development (ESD) - two areas of expertise that are essential for a sustainable and digitalised world. The iCODE_MS project therefore pursues one goal: the extracurricular teaching of logical and algorithmic ways of thinking based on application-related aspects of environmental education.",
+    "img": "/assets/img/projekte/icodems.jpg",
+    "link": "https://icode.ms/",
+    "topics": ["DigitaleBildung", "ESD", "ComputerLiteracy"],
+    "customer": "Ministry of Economic Affairs, Industry, Climate Protection and Energy of the State of North Rhine-Westphalia, co-financed by the European Union",
+    "angebote": ["Hackathon", "Event"],
+    "year": [2025,2024],
+    "target": ["Pupils"]
+  },
   {
     "name": "Mapstories 2.0",
     "desc": "Mapstories tells stories around the world. The tool offers a variety of options to illustrate global connections with the help of places as stations on a globe. Mapstories was created in 2021 as part of a cooperation between re:edu and Vamos e.V.. The starting point of the project \"welt.weit.virtuell\" was the implementation of a co-creative lab on the global garment industry. After a lot of positive feedback on the tool and numerous requests for adaptations, Mapstories was released in a new version in June 2023. This version brings a wealth of improvements and new features, such as a Story Lab.",
@@ -55,12 +77,12 @@
     "target": ["Pupils", "Teachers"]
   },
   {
-    "name": "Website for the Spatial Intelligence Lab of the WWU Münster",
+    "name": "Website for the Spatial Intelligence Lab of the University of Münster",
     "desc": "Design and development of Wordpress based landing pages for Spatial Intelligence Lab(SIL) at the Institute for Geoinformatics.",
     "img": "/assets/img/projekte/logo_silhomepage.png",
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation", "WebDesign"],
-    "customer": "Westfälische Wilhelms-Universität Münster",
+    "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2022],
     "target": ["Students", "Universities"]
@@ -93,7 +115,7 @@
     "img": "/assets/img/projekte/logo2_csidrop.png",
     "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
     "topics": ["Citizen Science"],
-    "customer": "RuhrUni Bochum",
+    "customer": "Ruhr-University Bochum",
     "angebote": ["Software","App Development"],
     "year": [2022],
     "target": ["Citizens"]
@@ -159,7 +181,7 @@
     "img": "/assets/img/projekte/opensensemap.png",
     "link": "https://opensensemap.org",
     "topics": ["CitizenScience", "ProfessionalService", "OpenData"],
-    "customer": "Westfälische Wilhelms-Universität Münster",
+    "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2021, 2020],
     "target": ["Students", "Citizens", "Scientist"]
@@ -176,7 +198,7 @@
       "Gamification",
       "Science"
     ],
-    "customer": "Westfälische Wilhelms-Universität Münster",
+    "customer": "University of Münster",
     "angebote": ["Software", "Science", "Consulting"],
     "year": [2021, 2020, 2019],
     "target": ["Students", "Teachers", "University"]
@@ -198,7 +220,7 @@
     "img": "/assets/img/projekte/landingpages_ifgi.png",
     "link": "http://bachelor-geoinformatik.de",
     "topics": ["WebDevelopment", "Wordpress", "HigherEducation"],
-    "customer": "Westfälische Wilhelms-Universität Münster",
+    "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2020],
     "target": ["Students", "University"]
@@ -216,7 +238,7 @@
       "DigitalEducation",
       "SDGs"
     ],
-    "customer": "Westfälische Wilhelms-Universität Münster",
+    "customer": "University of Münster",
     "angebote": ["Software"],
     "year": [2021, 2020],
     "target": ["Students", "Teachers", "University"]
@@ -480,7 +502,7 @@
     "img": "/assets/img/projekte/StoryMap WWU Graduate Centre.PNG",
     "link": "https://go.wwu.de/gcstorymap",
     "topics": ["DigitalEducation", "WebDevelopment"],
-    "customer": "Westfälische Wilhelms-Universität Münster, Graduate Center",
+    "customer": "University of Münster, Graduate Center",
     "angebote": ["Software", "Lehrmaterial"],
     "year": [2021],
     "target": ["Students"]
@@ -502,7 +524,7 @@
     "img": "/assets/img/projekte/webgis-nrw.png",
     "link": "https://webgis.nrw",
     "topics": ["DigitalEducation", "WebDevelopment", "GIS"],
-    "customer": "Westfälische Wilhelms-Universität Münster Institut für Geoinformatik",
+    "customer": "University of Münster, Institute for Geoinformatics",
     "angebote": ["Software"],
     "year": [2021],
     "target": ["Students"]
