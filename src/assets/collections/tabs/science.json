@@ -37,6 +37,19 @@
     "underscoreStyle": "red"
   },
     {
+    "title": "Atrai Bikes",
+    "description": "The Atrai Bikes Project stands as a pioneering research initiative aimed at transforming urban planning by involving citizens, companies, and local governments in the systematic collection and analysis of bicycle infrastructure data. This two-year endeavor, funded by the Ministry of Research and Education and FAPESP in Brazil, is a collaborative effort between three organizations: re:edu and 52°North in Münster/Germany, and the Cordial Institute in São Paulo/Brazil. Set to commence in January 2024, the project seeks to spark innovative urban cycling solutions.",
+    "link": "https://atrai.bike/en",
+    "linkText": "Atrai Bikes",
+    "logo": "/assets/img/forschung/simport/Atrai Bike Logo.png",
+    "forschungsverbund": [
+      "/assets/img/partner/Logo_52North_invers_v1.png",
+      "/assets/img/partner/cordial_logo.png",
+    ],
+    "foerderung": ["/assets/img/partner/BMBF_Logo.svg"], ["/assets/img/partner/fapesp.png"]
+    "underscoreStyle": "red"
+  },
+    {
     "title": "CS:iDrop",
     "description": "Zur Untersuchung der Trinkwasserqualität unterstützen wir das Forschungsprojekt CS:iDrop der Ruhr-Universität Bochum. Dazu erhalten Bürger:innen aus Bochum einen Messkoffer, um ihre daheim entnommenen Wasserproben mit einfachen chemischen Methoden zu Hause und gemeinsam mit Wissenschaftler:innen im Labor zu analysieren und mit Hilfe der von uns entwickelten CD:iDrop App auf der openSenseMap (eine Plattform für offene Sensordaten) als Open Data zu veröffentlichen. Die Daten werden so der Öffentlichkeit zur Verfügung gestellt und in gemeinsamen Veranstaltungen miteinander ausgetauscht und diskutiert.",
     "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
