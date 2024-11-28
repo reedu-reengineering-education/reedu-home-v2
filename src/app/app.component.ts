@@ -15,8 +15,9 @@ export class AppComponent implements OnInit {
 
   }
   ngOnInit():void{
+    const defaultLange=localStorage.getItem('lang');
     const browserLange = this.translate.getBrowserLang();
-    this.translate.use(browserLange);
+    this.translate.use(defaultLange || browserLange || 'de');
   }
-  
+
 }
