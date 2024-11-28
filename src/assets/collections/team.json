@@ -102,7 +102,7 @@
     "name": "Paul Reichmuth",
     "position": "Entwickler",
     "title": "Student (Elektrotechnik)",
-    "tags": ["IoT", "Arduino","LoRaWAN","Support"],
+    "tags": ["IoT", "Arduino", "LoRaWAN", "Support"],
     "photo": "/assets/img/team/paul_new.png"
   },
   {
@@ -119,7 +119,7 @@
     "tags": ["Web development", "IoT", "AI"],
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   },
- {
+  {
     "name": "Björn Luig",
     "position": "Entwickler",
     "title": "B.Sc. Mathematik & Physik ",
@@ -140,5 +140,12 @@
     "tags": ["Ordnung", "Yoga"],
     "email": "r.federer@reedu.de",
     "photo": "/assets/img/team/ronja.jpg"
+  },
+  {
+    "name": "Ammar Yousaf",
+    "position": "Entwickler",
+    "title": "B.Sc. Geoinformatik",
+    "tags": ["Maps", "Node", "React", "GIS"],
+    "photo": "/assets/img/team/ammar.jpg"
   }
 ]
