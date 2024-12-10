@@ -126,12 +126,14 @@
   "EXAMPLE3": "Smart City & Smart Home - Bau und Programmierung intelligenter Messgeräte (ab 120 Minuten)",
   "EXAMPLE4": "Erhebung und Analyse von Daten mit der senseBox als IoT-Messgerät (ab 180 Minuten)",
   "EXAMPLE_TEXT": "Wir passen die Workshopinhalte gerne auf die jeweilige Zielgruppe und ihr jeweiliges Interesse an!",
-  
+
   "WORKSHOP_INTEREST": "Interesse an einem Workshop oder an einer Fortbildung?",
   "WORKSHOP_INTEREST_TEXT": "Dann schicke uns bitte eine E-Mail mit den folgenden Informationen an: ",
   "WORKSHOP_INFO1": "Thema des Workshops",
   "WORKSHOP_INFO2": "Geschätzte Teilnehmerzahl",
   "WORKSHOP_INFO3": "Alter der Teilnehmenden",
   "WORKSHOP_INFO4": "Gewünschter Termin und Zeitumfang",
-  "WORKSHOP_INFO5": "Veranstaltungsort"
+  "WORKSHOP_INFO5": "Veranstaltungsort",
+
+  "Vorteile": "Vorteile"
 }

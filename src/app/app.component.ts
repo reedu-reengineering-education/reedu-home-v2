@@ -4,20 +4,15 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 're-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
   title = 'reedu-home-v2';
 
-  constructor(
-    private translate: TranslateService
-  ){
-
-  }
-  ngOnInit():void{
-    const defaultLange=localStorage.getItem('lang');
+  constructor(private translate: TranslateService) {}
+  ngOnInit(): void {
+    const defaultLange = localStorage.getItem('lang');
     const browserLange = this.translate.getBrowserLang();
     this.translate.use(defaultLange || browserLange || 'de');
   }
-
 }

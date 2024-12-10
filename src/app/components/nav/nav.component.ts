@@ -8,7 +8,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./nav.component.scss'],
 })
 export class NavComponent implements OnInit {
-  currentLang = localStorage.getItem('lang')||this.translate.getBrowserLang()||'de';
+  currentLang =
+    localStorage.getItem('lang') || this.translate.getBrowserLang() || 'de';
   scroll = 0;
   mobileOpen = false;
 
@@ -17,7 +18,6 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {}
 
   selectLang(lang) {
-
     this.currentLang = lang;
     this.translate.use(lang);
     localStorage.setItem('lang', lang);

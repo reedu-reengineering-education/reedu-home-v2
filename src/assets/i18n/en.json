@@ -79,7 +79,7 @@
 
   "REEDU_JOBS_HEADLINE": "Why should you work at re:edu? In addition to a great team with a collegial atmosphere and flat hierarchies, you can expect appropriate payment and flexible working hours. We are open to new ideas and offer you the opportunity to fully contribute and develop your know-how and skills. In addition, you can expect a variety of exciting projects - so it's never boring with us.<br><br> Become part of the re:edu team, we are looking forward to you!",
   "REEDU_BEST_JOB_WO_GIBT": "We are always on the lookout for new employees to enrich our team and who are enthusiastic about the topics we work on. If you are interested and would like to contribute new ideas, then contact <a class='red-link' href='mailto:kontakt@reedu.de'>kontakt@reedu.de</a>.",
- 
+
   "UNSERE_WORKSHOP_ANGEBOTE": "Our workshop offers",
   "WORKSHOPS_DIFFERENT_FORMATS": "In different formats we train teachers, companies, organizations, pupils and students as well as citizens in the use of digital technologies.",
   "FOR_TEACHERS": "For teachers",
@@ -127,13 +127,15 @@
   "EXAMPLE3": "Smart City & Smart Home - building and programming smart meters (120 minutes or more)",
   "EXAMPLE4": "Collecting and analyzing data with the senseBox as an IoT measuring device (from 180 minutes)",
   "EXAMPLE_TEXT": "We are happy to adapt the workshop content to the respective target group and their respective interest!",
-  
+
   "WORKSHOP_INTEREST": "Interested in a workshop or advanced training?",
   "WORKSHOP_INTEREST_TEXT": "Then please send us an email with the following information to: ",
   "WORKSHOP_INFO1": "Workshop Topic",
   "WORKSHOP_INFO2": "Estimated number of participants",
   "WORKSHOP_INFO3": "Age of Participants",
   "WORKSHOP_INFO4": "Desired Date and timeframe",
-  "WORKSHOP_INFO5": "Location"
+  "WORKSHOP_INFO5": "Location",
+
+  "Vorteile": "Benefits"
 
 }

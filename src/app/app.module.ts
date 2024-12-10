@@ -32,6 +32,7 @@ import { TrimPipe } from './trim-pipe.pipe';
 import { WorkshopsComponent } from './components/pages/workshops/workshops.component';
 
 
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -58,7 +59,8 @@ export function createTranslateLoader(http: HttpClient) {
     JobsComponent,
     JobItemComponent,
     TrimPipe,
-    WorkshopsComponent
+    WorkshopsComponent,
+
   ],
   imports: [
     BrowserModule,

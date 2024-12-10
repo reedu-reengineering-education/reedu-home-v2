@@ -1,18 +1,73 @@
 <div class="site sb-white-text red-section">
   <div class="stripes-container">
     <div class="stripes">
-      <div class="container site-title-container">
+
+      <div class="header-info">
+        <p style="font-size: 24px; letter-spacing:3px">WE ARE HIRING</p>
+        <h2 style="color:black;letter-spacing:2px">{{jobsHead['head']}}</h2>
+        <p> {{jobsHead['info']}}</p>
+      </div>
+
+      <!-- <div class="image-container">
+        <img src="./../../../../assets/img/Jobs/1.jpeg" alt="Image 1">
+        <img src="./../../../../assets/img/Jobs/2.png" alt="Image 2">
+        <img src="./../../../../assets/img/Jobs/3.jpeg" alt="Image 3">
+      </div> -->
+
+
+      <div class="columns is-multiline job p-6">
+        <div style="background-color: #eb5c37;" class="column is-one-third">
+          <div>
+            <h1 class="mb-6" style="text-align: center !important;">Wanted</h1>
+            <div *ngFor="let job of jobs" class="job-icons">
+              <div *ngIf="job['icon-title']">
+                <img src="./../../../../assets/img/Jobs/{{ job.icon }}" alt="{{ job.imgname }}" style="width: 70px; height: 70px; margin-bottom: 1rem !important;">
+                <h3>{{ job['icon-title'] }}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column is-two-thirds job-info">
+          <div>
+            <div *ngFor="let job of jobs" class="mb-6">
+              <h2 *ngIf="job.title" style="margin-bottom:15px;color:black"><a style="color: black;" href="/job/{{ job.filename }}">{{ job.title }}</a></h2>
+              <p *ngIf="job.description" style="color: black;font-style:normal">{{ job.description }}</p>
+            </div>
+
+            <div class="benefits-section mt-6">
+              <h1 class="has-text-centered mb-6" style="color:#eb5c37">{{ 'Vorteile' | translate }}</h1>
+              <div class="columns is-multiline is-centered">
+                <div class="column is-12-mobile is-6-tablet is-3-desktop" *ngFor="let benefit of benefits">
+                  <div class="has-text-centered">
+                    <img src="./../../../../assets/img/benefits/{{ benefit.imgUrl }}" alt="{{ benefit.title }}" style="width: 70px; height: 70px; margin-bottom: 1rem; ">
+                    <h3 class="is-5">
+                      <a style="color:#eb5c37" href="https://pad.sensebox.de/os7HMcU6QGOBGuC4u-KPeg">{{ benefit.title }}</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      <!-- <div class="container site-title-container">
         <h1 class="site-title">Jobs</h1>
         <h3 class="reedu-job-headline" [innerHTML]="'REEDU_JOBS_HEADLINE' | translate"></h3>
-        <!-- <h3>Coming soon... </h3> -->
+
       </div>
       <div class="container content">
         <p class="reedu-desc" [innerHTML]="'REEDU_BEST_JOB_WO_GIBT' | translate">
-          
+
         </p>
 
         <div *ngFor="let job of jobs" class="job-container">
           <p>{{ job.date }}</p>
+
           <h1>{{ job.title }}</h1>
           <h4>{{ job.description }}</h4>
           <a href="/job/{{ job.filename }}">
@@ -23,7 +78,7 @@
           </a>
           <hr />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
