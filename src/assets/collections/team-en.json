@@ -146,5 +146,12 @@
     "title": "B.Sc. Geoinformatics",
     "tags": ["Maps", "Node", "React","GIS"],
     "photo": "/assets/img/team/ammar.jpg"
+  },
+  {
+    "name": "Mostafa Kandel",
+    "position": "Developer",
+    "title": "M.Sc. Electrical Engineering",
+    "tags": ["Python", "Node", "React","JavaScript"],
+    "photo": "/assets/img/team/mostafa.jpg"
   }
 ]
