@@ -1,4 +1,24 @@
+[
 {
-  "head": "Join the re:edu Team",
-  "info": "re:edu is a startup and spin-off of the Institute for Geoinformatics at the University of Münster and offers solutions for education, research, sustainability, and participation - digital and open - for everyone. We develop, among other things, web-based geoinformation and individual learning management systems, data analysis software and infrastructures, learning or citizen science apps."
+  "mainTitle":"We are Hiring!", 
+   "subTitle":"Join the re:edu Team",
+  "description": "re:edu is a startup and spin-off of the Institute for Geoinformatics at the University of Münster and offers solutions for education, research, sustainability, and participation - digital and open - for everyone. We develop, among other things, web-based geoinformation and individual learning management systems, data analysis software and infrastructures, learning or citizen science apps."
+},
+{
+  "item":"Flexible working hours and personal responsibilty in the home office",
+  "logUrl":"flexible-working.png"
+},
+{
+  "item":"Positive co-design of a topic that is relevant to society",
+  "logUrl":"society.png"
+},
+{
+  "item":" A responsible task with meaning and room for manoeuvre",
+  "logUrl":"responsiable.png"
+},
+{
+  "item":"A great collegial environment, an appreciative and motivated team",
+  "logUrl":"team.png"
 }
+ 
+]

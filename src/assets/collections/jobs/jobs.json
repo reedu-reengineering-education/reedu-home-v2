@@ -1,47 +1,27 @@
-
 [
   {
-    "title": "External Semester Interns (Vollzeit)",
-    "description": "Du hast Interesse an Open-Source-Technologien und bereits Erfahrung Im Bereich Web-Entwicklung oder Physical Computing? Dann mach dein externes Semester bei uns und sammle Erfahrung in der selbstständigen Umsetzung von Projekten je nach Interesse oder Vorkenntnissen mit Bezug zu Geoinforamtik und arbeite in spannenden Forschungs- und Entwicklungsprojekten von re:edu mit!",
-    "imgname": "External-Semster.png",
+    "title": "Externe Semesterpraktikanten (Vollzeit)",
+    "description": "Interessieren Sie sich für Open-Source-Technologien und haben bereits Erfahrung in der Webentwicklung oder im Physical Computing? Dann absolvieren Sie Ihr externes Semester bei uns und sammeln Sie Erfahrungen in der eigenständigen Umsetzung von Projekten nach Ihren Interessen oder Vorkenntnissen im Bereich Geoinformatik und arbeiten Sie an spannenden Forschungs- und Entwicklungsprojekten von re:edu!",
+    "imgname": "education.png",
     "filename": "external-semester-en.md"
-
   },
   {
-    "title": "Student Assistant Education (5-10 h/Woche)",
-    "description": "Du hast Erfahrung in der didaktischen Vermittlung von Inhalten und Arbeit mit Jugendlichen oder möchtest diese sammeln? Dann freuen wir uns, wenn du unseren Bildungsbereich unterstützt. Wünschenswert wären grundlegende Kenntnisse der Informatik oder anderer MINT-Bereiche und ein Studium mit Lehramtsausrichtung.",
-    "imgname": "Book.png",
-    "filename": "werkstudent-web-app-en.md"
-
-  },
-  {
-    "title": "Student Assistant WebDev (5-10 h/Woche)",
-    "description": "Du interessierst dich für Web-Apps und hast bereits erste Erfahrungen in der Software-Entwicklung? Dann unterstütze uns bei der Entwicklung, Implementierung und Erprobung von Apps, verschiedenen Features und von UX/UI-Konzepten anhand spannender Projekte.",
-    "imgname": "Book.png",
+    "title": "Studentische Hilfskraft Bildung (5-10 Stunden/Woche)",
+    "description": "Haben Sie Erfahrung in der didaktischen Vermittlung von Inhalten und der Arbeit mit Jugendlichen oder möchten Sie diese sammeln? Dann würden wir uns freuen, wenn Sie unser Bildungsressort unterstützen. Grundkenntnisse in Informatik oder anderen MINT-Fächern und ein lehramtsbezogenes Studium wären wünschenswert.",
+    "imgname": "education.png",
     "filename": "werkstudent-web-app-en.md"
   },
   {
-    "title": "Student Assistant Hardware-Prototyping (5-10 h/Woche)",
-    "description": "Du tüftelst gerne an IoT, Mikrocontrollern und Sensoren und hast bereits erste Kenntnisse im Elektronik- und Hardware-Prototyping? Dann unterstütze unser Team beim Testen und Evaluieren von Mikrocontrollern und Sensoren sowie bei der Konzeption neuer Hardware-Produkte.",
+    "title": "Studentische Hilfskraft WebEntwicklung (5-10 Stunden/Woche)",
+    "description": "Interessieren Sie sich für Web-Apps und haben bereits Erfahrung in der Softwareentwicklung? Dann unterstützen Sie uns bei der Entwicklung, Implementierung und dem Testen von Apps, verschiedenen Funktionen und UX/UI-Konzepten durch spannende Projekte.",
+    "imgname": "soft-ware.png",
+    "filename": "werkstudent-web-app-en.md"
+  },
+  {
+    "title": "Studentische Hilfskraft Hardware-Prototyping (5-10 Stunden/Woche)",
+    "description": "Basteln Sie gerne an IoT, Mikrocontrollern und Sensoren und haben bereits Kenntnisse in Elektronik und Hardware-Prototyping? Dann unterstützen Sie unser Team beim Testen und Bewerten von Mikrocontrollern und Sensoren sowie beim Entwerfen neuer Hardwareprodukte.",
     "imgname": "Hardware.png",
     "filename": "werkstudent-web-app-en.md"
-  },
-  {
-    "icon-title":"Externes Semester",
-    "icon":"External-Semster.png"
-  },
-  {
-    "icon-title":"Studentische Hilfskraft im Bildungsbereich",
-    "icon":"External-Semster.png"
-  },
-  {
-    "icon-title":"Studentische Hilfskraft in der Webentwicklung",
-    "icon":"Studentische Hilfskraft.png"
-  },
-  {
-    "icon-title":"Studentische Hilfskraft im Hardware-Prototyping",
-    "icon":"Hardware.png"
   }
-
-
 ]
+

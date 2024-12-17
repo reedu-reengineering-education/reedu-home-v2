@@ -21,31 +21,50 @@
   color: white;
 }
 
-.job{
+ 
+.main-container{
+  padding-inline: 40px;
+  background-color: $primary;
+}
+.header-info-container{
+  
   margin-top: 100px;
+  padding-top: 30px;
 }
-.job-icons {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  // align-items: center;
-
-}
-.job-icons > div {
-  margin-bottom: 2rem;
-
+  
+.black-color{
+  color: black;
 }
 
-.job-info{
- background-color: white !important;
+.rotate-img{
+  margin-top: 10px;
+  transform: rotate(5deg);
 }
-.header-info{
-  margin-top: 100px;
-  text-align: center;
-  width:40%;
-  margin-left: auto;
-  margin-right: auto;
+  
+.mobile-only {
+  display: none;
+}
+.display-change{
+  display: block;
+}
 
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+  .display-change{
+    display: none;
+  }
+}
+
+
+
+
+
+.benefit-info{
+  padding: 30px 0;
+  background-color: $primary;
 }
 
 .container.content {
@@ -95,26 +114,68 @@
   background-repeat: repeat;
 }
 
-.reedu-desc {
 
+
+.job-info{
+  background-color: white;
+  padding: 20px;
 }
 
-.reedu-job-headline {
-  padding-top: 1.6em;
+.jobs-title{
+  color: $primary;
 }
 
-.image-container {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: space-around; /* Space out images evenly */
+// .job-title {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   margin-bottom: 60px;
+//   text-align: center !important;
+//   color: $primary !important;
+// }
+
+// .job-title-image {
+//   width: 100px;
+//   height: 100px;
+//   margin-right: 15px;
+//   color: #EB5C37 !important;
+// }
+
+// .job-item {
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   gap: 0.5rem;
+//   align-items: center;
+// }
+
+
+.job-desc{
+  padding: 12px;
+}
+ .job-img{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+} 
+
+  
+ 
+
+
+.job-title-bold {
+  color: black !important;
+  font-weight: 900 !important;
+  font-size: 2em; /* Adjust size as needed */
 }
 
-.image-container img {
-  transition: transform 0.3s ease-in-out;
-  width: 100%;
-
+.job-title-link {
+  color: black !important;
 }
 
-.image-container img:hover {
-  transform: scale(1.1); /* Scale out the image on hover */
+.job-description {
+  color: rgba(0, 0, 0, 0.687) !important;
+  margin-bottom: 10px;
 }
-
