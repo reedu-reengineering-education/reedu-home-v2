@@ -31,14 +31,6 @@
     "photo": "/assets/img/team/umut_new.jpg"
   },
   {
-    "name": "Matthias Pfeil",
-    "position": "Co-Founder & Developer",
-    "title": "B.Sc. Geoinformatics",
-    "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
-    "email": "m.pfeil@reedu.de",
-    "photo": "/assets/img/team/matze_new.jpg"
-  },
-  {
     "name": "Felix Erdmann",
     "position": "Developer",
     "title": "M.Sc. Geoinformatics",
