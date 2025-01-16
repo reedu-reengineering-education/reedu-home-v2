@@ -6,6 +6,13 @@
     "filename": "external-semester-en.md"
   },
   {
+    "title": "Developer for Open-Source Hardware Applications (Full-Time)",
+    "description": "Do you enjoy tinkering with IoT, microcontrollers, and sensors, and already have knowledge in electronics and hardware prototyping? Then join our team to test and evaluate microcontrollers and sensors and design new hardware products.",
+    "imgname": "Hardware.png",
+    "filename": "hardware-developer-en.md"
+  },
+  
+  {
     "title": "Student Assistant Education (5-10 hours/week)",
     "description": "Do you have experience in didactic content delivery and working with young people, or would you like to gain it? Then we would be happy if you support our education department. Basic knowledge of computer science or other STEM fields and a teaching-related degree would be desirable.",
     "imgname": "education.png",
