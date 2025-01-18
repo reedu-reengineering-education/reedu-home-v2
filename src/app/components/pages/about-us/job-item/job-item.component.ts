@@ -1,27 +1,4 @@
-// import { Component, OnInit } from '@angular/core';
-// import { ActivatedRoute, Params } from '@angular/router';
-
-// @Component({
-//   selector: 're-job-item',
-//   templateUrl: './job-item.component.html',
-//   styleUrls: ['./job-item.component.scss']
-// })
-// export class JobItemComponent implements OnInit {
-
-//   job;
-//   routeParamSub;
-
-//   constructor(private route: ActivatedRoute) { }
-
-//   ngOnInit(): void {
-//     this.routeParamSub = this.route.params.subscribe((params: Params) => {
-//       this.job = `./../../../../../assets/collections/jobs/${params.filename}`
-//       console.log(params.filename)
-//     });
-//   }
-
-// }
-
+ 
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
@@ -35,31 +12,48 @@ import benefitsDe from './../../../../../assets/collections/benefits/benefits-de
 })
 export class JobItemComponent implements OnInit, OnDestroy {
 
-  job;
+  job: string;
   benefits: any[];
-  routeParamSub;
-  langChangeSub;
+  private routeParamSub;
+  private langChangeSub;
 
   constructor(private route: ActivatedRoute, private translate: TranslateService) { }
 
   ngOnInit(): void {
     this.routeParamSub = this.route.params.subscribe((params: Params) => {
       this.job = `./../../../../../assets/collections/jobs/${params.filename}`;
-      console.log(params.filename);
+      
     });
 
     this.loadBenefits();
 
     this.langChangeSub = this.translate.onLangChange.subscribe(() => {
       this.loadBenefits();
+      this.adjustJobFilePath();
     });
   }
 
   loadBenefits(): void {
     if (this.translate.currentLang === 'de' || this.translate.currentLang === undefined) {
+     
       this.benefits = benefitsDe;
     } else {
+  
       this.benefits = benefitsEn;
+    }
+  }
+
+  adjustJobFilePath(): void {
+    if (this.translate.currentLang === 'de' || this.translate.currentLang === undefined) {
+      if (this.job.includes('-en')) {
+        this.job = this.job.replace('-en', '');
+        
+      }
+    } else {
+      if (!this.job.includes('-en')) {
+        this.job = this.job.replace('.md', '-en.md');
+       
+      }
     }
   }
 
@@ -72,4 +66,3 @@ export class JobItemComponent implements OnInit, OnDestroy {
     }
   }
 }
-
