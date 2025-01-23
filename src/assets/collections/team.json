@@ -99,13 +99,6 @@
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
-    "name": "Paul Reichmuth",
-    "position": "Entwickler",
-    "title": "Student (Elektrotechnik)",
-    "tags": ["IoT", "Arduino", "LoRaWAN", "Support"],
-    "photo": "/assets/img/team/paul_new.png"
-  },
-  {
     "name": "Georgi Semov",
     "position": "Entwickler",
     "title": "Auszubildender",
