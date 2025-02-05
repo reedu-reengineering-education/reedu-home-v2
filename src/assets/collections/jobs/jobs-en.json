@@ -1,35 +1,32 @@
 [
   {
+    "title": "Developer for Open-Source Hardware Applications (Full-Time)",
+    "description": "Do you enjoy tinkering with IoT, microcontrollers, and sensors, and already have knowledge in electronics and hardware prototyping? Then join our team to test and evaluate microcontrollers and sensors and design new hardware products.",
+    "imgname": "Hardware.png",
+    "filename": "hardware-developer-en.md"
+  },
+  {
     "title": "External Semester Interns (Full-time)",
     "description": "Are you interested in open-source technologies and already have experience in web development or physical computing? Then do your external semester with us and gain experience in independently implementing projects according to your interests or prior knowledge related to geoinformatics and work on exciting research and development projects from re:edu!",
     "imgname": "education.png",
     "filename": "external-semester-en.md"
   },
   {
-    "title": "Developer for Open-Source Hardware Applications (Full-Time)",
-    "description": "Do you enjoy tinkering with IoT, microcontrollers, and sensors, and already have knowledge in electronics and hardware prototyping? Then join our team to test and evaluate microcontrollers and sensors and design new hardware products.",
-    "imgname": "Hardware.png",
-    "filename": "hardware-developer-en.md"
-  },
-  
-  {
     "title": "Student Assistant Education (5-10 hours/week)",
     "description": "Do you have experience in didactic content delivery and working with young people, or would you like to gain it? Then we would be happy if you support our education department. Basic knowledge of computer science or other STEM fields and a teaching-related degree would be desirable.",
     "imgname": "education.png",
-    "filename": "werkstudent-web-app-en.md"
+    "filename": "werkstudent-en.md"
   },
   {
     "title": "Student Assistant WebDev (5-10 hours/week)",
     "description": "Are you interested in web apps and already have some experience in software development? Then support us in developing, implementing, and testing apps, various features, and UX/UI concepts through exciting projects.",
     "imgname": "soft-ware.png",
-    "filename": "werkstudent-web-app-en.md"
+    "filename": "werkstudent-en.md"
   },
   {
     "title": "Student Assistant Hardware Prototyping (5-10 hours/week)",
     "description": "Do you enjoy tinkering with IoT, microcontrollers, and sensors and already have some knowledge in electronics and hardware prototyping? Then support our team in testing and evaluating microcontrollers and sensors as well as in designing new hardware products.",
     "imgname": "Hardware.png",
-    "filename": "werkstudent-web-app-en.md"
+    "filename": "werkstudent-en.md"
   }
-  
 ]
-
