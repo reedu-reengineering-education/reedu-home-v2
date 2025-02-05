@@ -1,27 +1,112 @@
 <div class="site sb-white-text red-section">
   <div class="stripes-container">
     <div class="stripes">
-      <div class="container site-title-container">
-        <h1 class="site-title">Jobs</h1>
-        <h3 class="reedu-job-headline" [innerHTML]="'REEDU_JOBS_HEADLINE' | translate"></h3>
-        <!-- <h3>Coming soon... </h3> -->
-      </div>
-      <div class="container content">
-        <p class="reedu-desc" [innerHTML]="'REEDU_BEST_JOB_WO_GIBT' | translate">
-          
-        </p>
+      <div class="main-container container">
+        <div class="header-tile">
+          <div class="header-images">
+            <div class="img-div">
+              <img src="./../../../../assets/img/team/team_reedu.jpg" alt="" />
+            </div>
+            <div class="img-div">
+              <img src="./../../../../assets/img/Jobs/2.png" alt="" />
+            </div>
+          </div>
+          <div class="header-benefits">
+            <div class="header-info">
+              <p style="font-size: 24px; font-weight: 700; text-align: center">
+                {{ jobsHead[0]["mainTitle"] }}
+              </p>
+              <h2 style="letter-spacing: 2px; text-align: center">
+                {{ jobsHead[0]["subTitle"] }}
+              </h2>
+              <p style="color: black; margin-top: 20px">
+                {{ jobsHead[0]["description"] }}
+              </p>
+            </div>
+            <div class="benefit-info">
+              <p class="mb-1 black-color">{{ "Wir bieten" | translate }}:</p>
+              <ul>
+                <li
+                  *ngFor="let job of jobsHead.slice(1)"
+                  style="display: flex; align-items: center; gap: 10px"
+                >
+                  <img
+                    style="width: 50px; height: 50px"
+                    src="./../../../../assets/img/Jobs/{{ job.logUrl }}"
+                    alt=""
+                  />
+                  <p class="black-color">{{ job.item }}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        <div *ngFor="let job of jobs" class="job-container">
-          <p>{{ job.date }}</p>
-          <h1>{{ job.title }}</h1>
-          <h4>{{ job.description }}</h4>
-          <a href="/job/{{ job.filename }}">
-            <button class="re-button">
-              <span>{{ "MEHR_DAZU" | translate }}</span>
-              <img src="/assets/img/logos/logo_black.svg" />
-            </button>
-          </a>
-          <hr />
+        <div class="job-info">
+          <p
+            class="black-color mx-4"
+            [innerHTML]="'REEDU_BEST_JOB_WO_GIBT' | translate"
+          ></p>
+          <h1 class="jobs-title mt-4 mb-6 has-text-centered">
+            {{ "Stellenangebote" | translate }}
+          </h1>
+
+          <div class="jobs-details">
+            <div *ngFor="let job of jobs" class="job-item">
+              <div class="job-icon">
+                <img
+                  src="./../../../../assets/img/Jobs/{{ job.imgname }}"
+                  alt="{{ job.imgname }}"
+                />
+              </div>
+
+              <div class="job-description">
+                <h3 *ngIf="job.title" class="job-title">
+                  <a href="/job/{{ job.filename }}" class="job-title-link">{{
+                    job.title
+                  }}</a>
+                </h3>
+                <p
+                  *ngIf="job.description"
+                  class="gray-text"
+                  style="text-align: left"
+                >
+                  {{ job.description }}
+                </p>
+                <a href="/job/{{ job.filename }}">
+                  <button class="button is-primary re-button">
+                    <span>{{ "MEHR_DAZU" | translate }}</span>
+                    <img src="/assets/img/logos/logo_black.svg" alt="Logo" />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="jobs-footer">
+          <h2 class="footer-title">
+            {{ "Ansprechpartner für weitere Fragen" | translate }}
+          </h2>
+          <div class="footer-job-contact">
+            <div class="footer-img">
+              <img src="./../../../../assets/img/Jobs/4.jpeg" alt="" />
+            </div>
+            <div class="footer-contact">
+              <div class="umut-img">
+                <img src="./../../../../assets/img/team/umut_new.jpg" alt="" />
+              </div>
+              <div class="contact-details">
+                <p>Umut Tas</p>
+                <p>Geschäftsführer & Entwickler</p>
+                <p>
+                  <a style="text-decoration-line: underline" href=""
+                    >u.tas@reedu.de</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

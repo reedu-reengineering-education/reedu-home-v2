@@ -1,0 +1,23 @@
+[
+  {
+    "mainTitle": "Wir stellen ein!",
+    "subTitle": "Werde Teil des re:edu Teams",
+    "description": "re:edu ist ein Startup und Spin-off des Instituts für Geoinformatik der Universität Münster und bietet Lösungen für Bildung, Forschung, Nachhaltigkeit und Partizipation - digital und offen - für alle. Wir entwickeln unter anderem webbasierte Geoinformations- und individuelle Lernmanagementsysteme, Datenanalyse-Software und Infrastrukturen, Lern- oder Citizen Science-Apps."
+  },
+  {
+    "item": "Flexible Arbeitszeiten und persönliche Verantwortung im Home Office",
+    "logUrl": "flexible-working.png"
+  },
+  {
+    "item": "Positive Mitgestaltung eines gesellschaftlich relevanten Themas",
+    "logUrl": "society.png"
+  },
+  {
+    "item": "Eine verantwortungsvolle Aufgabe mit Sinn und Spielraum",
+    "logUrl": "responsiable.png"
+  },
+  {
+    "item": "Ein großartiges kollegiales Umfeld, ein wertschätzendes und motiviertes Team",
+    "logUrl": "team.png"
+  }
+]

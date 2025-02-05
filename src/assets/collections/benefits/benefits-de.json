@@ -1,0 +1,18 @@
+[
+  {
+    "title": "JobRad",
+    "imgUrl": "bike.png"
+  },
+  {
+    "title": "Fitness",
+    "imgUrl": "gym.png"
+  },
+  {
+    "title": "Bildungsurlaub",
+    "imgUrl": "Book.png"
+  },
+  {
+    "title": "Schulung",
+    "imgUrl": "training.png"
+  }
+]

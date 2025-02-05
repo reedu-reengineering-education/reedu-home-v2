@@ -12,6 +12,39 @@
               </a>
               <div class="py-5">
                 <markdown [src]="job" class="markdown-container"></markdown>
+
+                <div class="benefits-section mt-6">
+                  <h1 class="has-text-centered mb-6">
+                    {{ "Vorteile" | translate }}
+                  </h1>
+                  <div class="columns is-multiline is-centered">
+                    <div
+                      class="column is-12-mobile is-6-tablet is-3-desktop"
+                      *ngFor="let benefit of benefits"
+                    >
+                      <a href="https://pad.sensebox.de/os7HMcU6QGOBGuC4u-KPeg">
+                        <div class="has-text-centered">
+                          <img
+                            src="./../../../../assets/img/benefits/{{
+                              benefit.imgUrl
+                            }}"
+                            alt="{{ benefit.title }}"
+                            style="
+                              width: 70px;
+                              height: 70px;
+                              margin-bottom: 0.2rem;
+                            "
+                          />
+                          <h3 class="is-5">
+                            <span style="color: #eb5c37">{{
+                              benefit.title
+                            }}</span>
+                          </h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

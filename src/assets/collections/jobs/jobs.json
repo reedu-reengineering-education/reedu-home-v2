@@ -1,38 +1,32 @@
 [
   {
-    "title": "Full-Stack Entwickler:in für Citizen Science Webanwendungen",
-    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine:n Full-Stack Entwickler:in für Citizen Science Webanwendungen",
-    "date": "",
-    "filename": "full-stack-developer.md"
+    "title": "Entwickler für Open-Source-Hardware-Anwendungen (Vollzeit)",
+    "description": "Bastelst du gerne an IoT, Mikrocontrollern und Sensoren und hast bereits Kenntnisse in Elektronik und Hardware-Prototyping? Dann unterstütze unser Team beim Testen und Bewerten von Mikrocontrollern und Sensoren sowie beim Entwerfen neuer Hardwareprodukte.",
+    "imgname": "Hardware.png",
+    "filename": "hardware-developer.md"
   },
   {
-    "title": "Werkstudierende:r Entwickler:in für Web-Apps",
-    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine:n Werkstudent:in für Web-Apps",
-    "date": "",
-    "filename": "werkstudent-web-app.md"
-  },
-  {
-    "title": "Studentische Hilfskraft für die Bildungsabteilung",
-    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine studentische Hilfskraft für unseren Bildungsbereich",
-    "date": "",
-    "filename": "werkstudent-bildung.md"
-  },
-  {
-    "title": "Werkstudierende:r Entwickler:in für eingebettete Systeme",
-    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine:n Werkstudent:in für eingebettete Systeme",
-    "date": "",
-    "filename": "werkstudent-embedded-systems.md"
-  },
-  {
-    "title": "Werkstudierende:r für Design",
-    "description": "Komme ins re:edu Team! Wir suchen ab sofort eine:n Designer:in für verschiedenste Aufgaben.",
-    "date": "",
-    "filename": "werkstudent-design.md"
-  },
-  {
-    "title": "External Semester Praktikanten",
-    "description": "Du brauchst ein längeres Praktikum für dein Studium? Egal ob Programmieren, Kommunikation, Design, etc... ",
-    "date": "",
+    "title": "Externe Semesterpraktikanten (Vollzeit)",
+    "description": "Interessierst du dich für Open-Source-Technologien und hast bereits Erfahrung in der Webentwicklung oder im Physical Computing? Dann absolviere dein externes Semester bei uns und sammel Erfahrungen in der eigenständigen Umsetzung von Projekten nach deinen Interessen oder Vorkenntnissen im Bereich Geoinformatik und arbeite an spannenden Forschungs- und Entwicklungsprojekten von re:edu!",
+    "imgname": "education.png",
     "filename": "external-semester.md"
+  },
+  {
+    "title": "Studentische Hilfskraft Bildung (5-10 Stunden/Woche)",
+    "description": "Hast du Erfahrung in der didaktischen Vermittlung von Inhalten und bei der Arbeit mit Jugendlichen oder möchtest du diese sammeln? Dann würden wir uns freuen, wenn du unser Bildungsressort unterstützt. Grundkenntnisse in Informatik oder anderen MINT-Fächern und ein lehramtsbezogenes Studium wären wünschenswert.",
+    "imgname": "education.png",
+    "filename": "werkstudent.md"
+  },
+  {
+    "title": "Studentische Hilfskraft WebEntwicklung (5-10 Stunden/Woche)",
+    "description": "Interessierst du dich für Web-Apps und hast bereits Erfahrung in der Softwareentwicklung? Dann unterstütze uns bei der Entwicklung, Implementierung und dem Testen von Apps, der Entwicklung verschiedener Funktionen und UX/UI-Konzepten in spannenden Projekte.",
+    "imgname": "soft-ware.png",
+    "filename": "werkstudent.md"
+  },
+  {
+    "title": "Studentische Hilfskraft Hardware-Prototyping (5-10 Stunden/Woche)",
+    "description": "Bastelst du gerne an IoT, Mikrocontrollern und Sensoren und hast bereits Kenntnisse in Elektronik und Hardware-Prototyping? Dann unterstütze unser Team beim Testen und Bewerten von Mikrocontrollern und Sensoren sowie beim Entwerfen neuer Hardwareprodukte.",
+    "imgname": "Hardware.png",
+    "filename": "werkstudent.md"
   }
 ]
