@@ -31,14 +31,6 @@
     "photo": "/assets/img/team/umut_new.jpg"
   },
   {
-    "name": "Matthias Pfeil",
-    "position": "Co-Founder & Developer",
-    "title": "B.Sc. Geoinformatics",
-    "tags": ["Citizen Science", "Maps", "Node", "Mongo", "Docker", "AWS"],
-    "email": "m.pfeil@reedu.de",
-    "photo": "/assets/img/team/matze_new.jpg"
-  },
-  {
     "name": "Felix Erdmann",
     "position": "Developer",
     "title": "M.Sc. Geoinformatics",
@@ -98,13 +90,6 @@
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
-    "name": "Paul Reichmuth",
-    "position": "Developer",
-    "title": "University Student (Electrical engineering)",
-    "tags": ["IoT", "Arduino", "LoRaWAN", "Support"],
-    "photo": "/assets/img/team/paul_new.png"
-  },
-  {
     "name": "Georgi Semov",
     "position": "Developer",
     "title": "Apprentice",
@@ -121,7 +106,7 @@
    {
     "name": "Björn Luig",
     "position": "Developer",
-    "title": "B.Sc. Mathematics & Physics ",
+    "title": "M.Sc. Mathematics",
     "tags": ["Physics", "Mathematics"],
     "photo": "/assets/img/team/Björn.JPG"
   },
@@ -139,5 +124,19 @@
     "tags": ["Organization", "Yoga"],
     "email": "r.federer@reedu.de",
     "photo": "/assets/img/team/ronja.jpg"
+  },
+  {
+    "name": "Ammar Yousaf",
+    "position": "Developer",
+    "title": "B.Sc. Geoinformatics",
+    "tags": ["Maps", "Node", "React","GIS"],
+    "photo": "/assets/img/team/ammar.jpg"
+  },
+  {
+    "name": "Mostafa Kandel",
+    "position": "Developer",
+    "title": "M.Sc. Electrical Engineering",
+    "tags": ["Python", "Node", "React","JavaScript"],
+    "photo": "/assets/img/team/mostafa.jpg"
   }
 ]
