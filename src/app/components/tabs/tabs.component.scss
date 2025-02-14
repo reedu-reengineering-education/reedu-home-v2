@@ -46,7 +46,7 @@
   margin-top: 4rem;
 
   .tab-title {
-    line-height: 1.2em;
+    line-height: -1.0rem;
   }
 
   .card {
@@ -63,7 +63,7 @@
       }
 
       h2 {
-        padding-bottom: 1.2em;
+        padding-bottom: 1.0rem;
       }
       .description-text {
         text-align: left;
@@ -93,12 +93,14 @@
       margin-bottom: 2rem;
     }
 
-    img.is-tab-image {
-      border: 5px solid white;
-      // max-height: 400px;
-      object-fit: cover;
-      background-color: white;
-    }
+	img.is-tab-image {
+		border: 5px solid white;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		background-color: white;
+		display: block;
+	  }
 
     .forschungs-info {
       @media screen and (min-width: $breakpoint-mobile) {
@@ -112,6 +114,70 @@
     }
   }
 }
+
+.research-period {
+	margin-top: -0.5rem;
+	line-height: 1.0; 
+	font-size: 1rem;
+	color: rgba(85, 85, 85, 0.8);
+	opacity: 0.65;
+  }
+
+  .forschungsverbund-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: flex-start;
+  }
+  
+  .forschungsverbund-logo {
+	width: 150px; 
+	height: 100px; 
+	object-fit: contain;
+	margin: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+  }
+  
+  .special-logo {
+	width: 180px;
+	height: 120px;
+	object-fit: contain;
+	margin: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+  }
+ 
+  .foerderung-logo, 
+  .foerderung-logo-bottom {
+	max-width: 150px; 
+	max-height: 100px; 
+	object-fit: contain;
+	margin: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	text-align: left;
+  }
+
+
+  .past-projects-section {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid #eee;
+  }
+  
+  .past-projects-title {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	color: #666;
+  }
+  
+  .tab-selector.past-project {
+	opacity: 0.8;
+  }
 
 .card-tab-switcher {
   $control-height: 4rem;
@@ -129,6 +195,8 @@
       transform: scale(1.2);
     }
   }
+
+
 
   .left {
     transform: rotate(180deg);
