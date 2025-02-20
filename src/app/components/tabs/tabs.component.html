@@ -1,5 +1,5 @@
 <div class="tab-wrapper">
-	
+    
     <!-- Only show on "Research" Page -->
     <div class="projects-section" *ngIf="isResearchPage">
         <h4 class="projects-title">{{ 'LAUFENDE_FORSCHUNGSPROJEKTE' | translate }}</h4>
@@ -17,7 +17,6 @@
         </div>
     </div>
 
-    <!-- Only show on "Research" Page -->
     <div class="past-projects-section" *ngIf="isResearchPage">
         <h4 class="projects-title">{{ 'ABGESCHLOSSENE_FORSCHUNGSPROJEKTE' | translate }}</h4>
         <div class="tab-switcher is-flex is-flex-wrap-wrap">
@@ -84,7 +83,6 @@
                         />
 
                         <p class="description-text">{{ activeTab.description }}</p>
-
                         <p>{{ activeTab.end }}</p>
                         <a *ngIf="activeTab.link" [href]="activeTab.link">
                             <button class="re-button">
@@ -97,6 +95,37 @@
                         <figure class="image">
                             <img class="is-tab-image" [src]="activeTab.image" />
                         </figure>
+                        <div class="forschungs-info">
+                            <div *ngIf="activeTab.forschungsverbund">
+                                <h3>{{ 'FORSCHUNGSVERBUND' | translate }}:</h3>
+                                <div class="is-flex is-flex-wrap-wrap forschungsverbund-container">
+                                    <img
+                                        *ngFor="let logo of activeTab.forschungsverbund"
+                                        [src]="logo"
+                                        class="forschungsverbund-logo"
+                                        [ngClass]="{ 'special-logo': logo === '/assets/img/logos/logo_small_text_orange.svg' }"
+                                        alt="Forschungsverbund Logo"
+                                    />
+                                </div>
+                            </div>
+                            <div *ngIf="activeTab.foerderung || activeTab.logoBottom">
+                                <h3>{{ 'FOERDERUNG' | translate }}: {{ activeTab.foerderungName }}</h3>
+                                <div class="is-flex is-flex-wrap-wrap">
+                                    <img
+                                        *ngFor="let logo of activeTab.foerderung"
+                                        [src]="logo"
+                                        class="foerderung-logo"
+                                        alt="Förderung Logo"
+                                    />
+                                    <img
+                                        *ngIf="activeTab.logoBottom"
+                                        [src]="activeTab.logoBottom"
+                                        class="foerderung-logo"
+                                        alt="Förderung Logo Bottom"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
