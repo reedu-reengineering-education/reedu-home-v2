@@ -12,7 +12,7 @@ export interface Tab {
     link2Text?: string;
     logo?: string;
     forschungsverbund?: string[];
-    foerderung?: string;
+    foerderung?: string[];
     foerderungName?: string;
     logoBottom?: string;
     image: string;
@@ -21,6 +21,7 @@ export interface Tab {
     list3?: string;
     list4?: string;
     list5?: string;
+    list6?: string;
     underscoreStyle?: "dark" | "red";
     startdate?: string;
     enddate?: string;
@@ -34,10 +35,13 @@ export interface Tab {
 export class TabsComponent implements OnInit, OnChanges {
   @Input() tabs: Tab[] = [];
   @Input() isResearchPage: boolean = false;
-  @Input() selectedTab: string;  
+  @Input() selectedTab: string;
 
-  activeTab: Tab;
-  activeTabIndex: number = 0;
+  activeTab: Tab | null = null; 
+  activeTabIndex: number = 0; 
+  
+  activeCurrentTab: Tab | null = null;
+  activePastTab: Tab | null = null;
   currentProjects: Tab[] = [];
   pastProjects: Tab[] = [];
 
@@ -45,37 +49,54 @@ export class TabsComponent implements OnInit, OnChanges {
 
   @HostListener('window:keydown', ['$event'])
   keyEvent(event: KeyboardEvent) {
-    if (event.code === "ArrowRight") {
-      this.nextTab();
-    }
-    if (event.code === "ArrowLeft") {
-      this.previousTab();
+    if (this.isResearchPage) {
+      if (event.code === "ArrowRight") {
+        this.nextTab(false);
+      }
+      if (event.code === "ArrowLeft") {
+        this.previousTab(false);
+      }
+    } else {
+      if (event.code === "ArrowRight") {
+        this.nextTabOriginal();
+      }
+      if (event.code === "ArrowLeft") {
+        this.previousTabOriginal();
+      }
     }
   }
 
   ngOnInit(): void {
     if (!this.tabs || this.tabs.length === 0) return;
-    this.activeTab = this.tabs[0];
-
-    if (this.selectedTab) {
-      this.changeTabByTitle(this.selectedTab);
-    }
 
     if (this.isResearchPage) {
       this.separateProjects();
+      
+      if (this.currentProjects.length > 0) {
+        this.activeCurrentTab = this.currentProjects[0];
+      }
+      if (this.pastProjects.length > 0) {
+        this.activePastTab = this.pastProjects[0];
+      }
+    } else {
+      if (this.selectedTab) {
+        this.activeTab = this.tabs.filter(tab => tab.title.toLowerCase() === this.selectedTab.toLowerCase())[0];
+        this.activeTabIndex = this.tabs.indexOf(this.activeTab);
+      }
+      
+      if (!this.activeTab) {
+        this.activeTab = this.tabs[0];
+      }
     }
   }
 
   ngOnChanges(): void {
     if (!this.tabs || this.tabs.length === 0) return;
-    this.activeTab = this.tabs[this.activeTabIndex] || this.tabs[0];
-
-    if (this.selectedTab) {
-      this.changeTabByTitle(this.selectedTab);
-    }
-
+    
     if (this.isResearchPage) {
       this.separateProjects();
+    } else {
+      this.activeTab = this.tabs[this.activeTabIndex];
     }
   }
 
@@ -94,51 +115,70 @@ export class TabsComponent implements OnInit, OnChanges {
 
   changeTab(index: number, isPastProject: boolean = false) {
     if (this.isResearchPage) {
-        const projectList = isPastProject ? this.pastProjects : this.currentProjects;
-
-        if (index < 0 || index >= projectList.length) {
-            return;
+        if (isPastProject) {
+            if (index >= 0 && index < this.pastProjects.length) {
+                this.activePastTab = this.pastProjects[index];
+            }
+        } else {
+            if (index >= 0 && index < this.currentProjects.length) {
+                this.activeCurrentTab = this.currentProjects[index];
+            }
         }
+    }
+  }
 
-        this.activeTab = projectList[index];
-        this.activeTabIndex = this.tabs.indexOf(this.activeTab);
+  nextTab(isPastProject: boolean = false) {
+    if (isPastProject) {
+      if (!this.activePastTab || this.pastProjects.length === 0) return;
+      
+      let currentIndex = this.pastProjects.indexOf(this.activePastTab);
+      let nextIndex = (currentIndex + 1) % this.pastProjects.length;
+      
+      this.activePastTab = this.pastProjects[nextIndex];
     } else {
-        if (index >= 0 && index < this.tabs.length) {
-            this.activeTab = this.tabs[index];
-            this.activeTabIndex = index;
-        }
+      if (!this.activeCurrentTab || this.currentProjects.length === 0) return;
+      
+      let currentIndex = this.currentProjects.indexOf(this.activeCurrentTab);
+      let nextIndex = (currentIndex + 1) % this.currentProjects.length;
+      
+      this.activeCurrentTab = this.currentProjects[nextIndex];
     }
   }
 
-  changeTabByTitle(title: string) {
-    const foundTab = this.tabs.find(tab => tab.title.toLowerCase() === title.toLowerCase());
-    if (foundTab) {
-      this.activeTab = foundTab;
-      this.activeTabIndex = this.tabs.indexOf(this.activeTab);
+  previousTab(isPastProject: boolean = false) {
+    if (isPastProject) {
+      if (!this.activePastTab || this.pastProjects.length === 0) return;
+      
+      let currentIndex = this.pastProjects.indexOf(this.activePastTab);
+      let previousIndex = (currentIndex - 1 + this.pastProjects.length) % this.pastProjects.length;
+      
+      this.activePastTab = this.pastProjects[previousIndex];
+    } else {
+      if (!this.activeCurrentTab || this.currentProjects.length === 0) return;
+      
+      let currentIndex = this.currentProjects.indexOf(this.activeCurrentTab);
+      let previousIndex = (currentIndex - 1 + this.currentProjects.length) % this.currentProjects.length;
+      
+      this.activeCurrentTab = this.currentProjects[previousIndex];
     }
   }
 
-  nextTab() {
-    let allProjects = this.isResearchPage ? [...this.currentProjects, ...this.pastProjects] : this.tabs;
-    
-    if (!this.activeTab || allProjects.length === 0) return;
-    
-    let currentIndex = allProjects.indexOf(this.activeTab);
-    let nextIndex = (currentIndex + 1) % allProjects.length;
-    
-    this.activeTab = allProjects[nextIndex];
-    this.activeTabIndex = this.tabs.indexOf(this.activeTab);
+  changeTabOriginal(index: number) {
+    if (index > this.tabs.length - 1) {
+      this.activeTabIndex = 0;
+    } else if (index < 0) {
+      this.activeTabIndex = this.tabs.length - 1;
+    } else {
+      this.activeTabIndex = index;
+    }
+    this.activeTab = this.tabs[this.activeTabIndex];
   }
 
-  previousTab() {
-    let allProjects = this.isResearchPage ? [...this.currentProjects, ...this.pastProjects] : this.tabs;
-    
-    if (!this.activeTab || allProjects.length === 0) return;
-    
-    let currentIndex = allProjects.indexOf(this.activeTab);
-    let previousIndex = (currentIndex - 1 + allProjects.length) % allProjects.length;
-    
-    this.activeTab = allProjects[previousIndex];
-    this.activeTabIndex = this.tabs.indexOf(this.activeTab);
+  previousTabOriginal() {
+    this.changeTabOriginal(--this.activeTabIndex);
+  }
+
+  nextTabOriginal() {
+    this.changeTabOriginal(++this.activeTabIndex);
   }
 }

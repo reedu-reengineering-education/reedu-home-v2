@@ -42,7 +42,7 @@
     "title": "Atrai Bikes",
 	"startdate": "01.01.2024",
 	"enddate": "31.12.2025",
-    "description": "Das Atrai Bike-Projekt steht als wegweisende Forschungsinitiative zur Transformation der Stadtplanung, indem Bürger, Unternehmen und lokale Regierungen in die systematische Erfassung und Analyse von Fahrradinfrastrukturdaten einbezogen werden. Dieses zweijährige Vorhaben, finanziert vom Bundesministerium für Bildung und Forschung Deutschlands und von FAPESP in Brasilien, ist eine gemeinsame Anstrengung von drei Organisationen: re:edu und 52°North in Münster/Deutschland sowie dem Cordial Institute in São Paulo/Brasilien. Das Projekt, das im Januar 2024 beginnen soll, zielt darauf ab, innovative Lösungen für den städtischen Radverkehr zu schaffen.",
+    "description": "The Atrai Bikes Project stands as a pioneering research initiative aimed at transforming urban planning by involving citizens, companies, and local governments in the systematic collection and analysis of bicycle infrastructure data. This two-year endeavor, funded by the Ministry of Research and Education and FAPESP in Brazil, is a collaborative effort between three organizations: re:edu and 52°North in Münster/Germany, and the Cordial Institute in São Paulo/Brazil. Set to commence in January 2024, the project seeks to spark innovative urban cycling solutions.",
     "link": "https://atrai.bike/de",
     "linkText": "Atrai Bikes",
     "logo": "/assets/img/forschung/AtraiBikeLogo.png",
@@ -146,6 +146,6 @@
 	  ],
 	  "image": "/assets/img/forschung/foodmission.png",
 	  "underscoreStyle": "red",
-	  "logoBottom": ""
+	  "logoBottom": "/assets/img/forschung/EU-PANTONE.jpg"
 	}
 ]

@@ -1,128 +1,96 @@
 <div class="tab-wrapper">
-    
-    <!-- Only show on "Research" Page -->
-    <div class="projects-section" *ngIf="isResearchPage">
-        <h4 class="projects-title">{{ 'LAUFENDE_FORSCHUNGSPROJEKTE' | translate }}</h4>
-        <div class="tab-switcher is-flex is-flex-wrap-wrap">
-            <h3
-                *ngFor="let tab of currentProjects; let i = index"
-                [class.active]="tab == activeTab"
-                class="tab-selector"
-                [class.underscore-dark]="tab.underscoreStyle == 'dark'"
-                [class.underscore-red]="tab.underscoreStyle == 'red'"
-                (click)="changeTab(i, false)"
-            >
-                {{ tab.title }}
-            </h3>
+    <ng-container *ngIf="isResearchPage">
+        <div class="projects-section">
+            <h4 class="projects-title">{{ 'LAUFENDE_FORSCHUNGSPROJEKTE' | translate }}</h4>
+            <div class="tab-switcher is-flex is-flex-wrap-wrap">
+                <h3
+                    *ngFor="let tab of currentProjects; let i = index"
+                    [class.active]="tab == activeCurrentTab"
+                    class="tab-selector"
+                    [class.underscore-dark]="tab.underscoreStyle == 'dark'"
+                    [class.underscore-red]="tab.underscoreStyle == 'red'"
+                    (click)="changeTab(i, false)"
+                >
+                    {{ tab.title }}
+                </h3>
+            </div>
         </div>
-    </div>
 
-    <div class="past-projects-section" *ngIf="isResearchPage">
-        <h4 class="projects-title">{{ 'ABGESCHLOSSENE_FORSCHUNGSPROJEKTE' | translate }}</h4>
-        <div class="tab-switcher is-flex is-flex-wrap-wrap">
-            <h3
-                *ngFor="let tab of pastProjects; let i = index"
-                [class.active]="tab == activeTab"
-                class="tab-selector past-project"
-                [class.underscore-dark]="tab.underscoreStyle == 'dark'"
-                [class.underscore-red]="tab.underscoreStyle == 'red'"
-                (click)="changeTab(i, true)"
-            >
-                {{ tab.title }}
-            </h3>
-        </div>
-    </div>
-
-    <div class="tab-switcher is-flex is-flex-wrap-wrap" *ngIf="!isResearchPage">
-        <h3
-            *ngFor="let tab of tabs; let i = index"
-            [class.active]="tab == activeTab"
-            class="tab-selector"
-            [class.underscore-dark]="tab.underscoreStyle == 'dark'"
-            [class.underscore-red]="tab.underscoreStyle == 'red'"
-            (click)="changeTab(i)"
-        >
-            {{ tab.title }}
-        </h3>
-    </div>
-
-    <div class="tab-content">
-        <div class="card">
-            <div class="card-content">
-                <div class="card-tab-switcher">
-                    <img
-                        class="right"
-                        (click)="nextTab()"
-                        src="assets/img/logos/logo_outline_red.svg"
-                    />
-                    <img
-                        class="left"
-                        (click)="previousTab()"
-                        src="assets/img/logos/logo_outline_red.svg"
-                    />
-                </div>
-                <div class="columns">
-                    <div class="column is-two-thirds">
-                        <div class="is-flex is-align-items-center is-justify-content-space-between">
-                            <h2 class="tab-title" *ngIf="activeTab.title2">
-                                <span>{{ activeTab.title }}: </span>{{ activeTab.title2 }}
-                            </h2>
-                            <h2 *ngIf="!activeTab.title2">{{ activeTab.title }}</h2>
-                        </div>
-                        <p *ngIf="activeTab.startdate || activeTab.enddate" class="research-period">
-                            {{ 'FORSCHUNGSZEITRAUM' | translate }}:
-                            <span *ngIf="activeTab.startdate">{{ activeTab.startdate }}</span>
-                            <span *ngIf="activeTab.startdate && activeTab.enddate"> - </span>
-                            <span *ngIf="activeTab.enddate">{{ activeTab.enddate }}</span>
-                        </p>
-
+        <div class="tab-content">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-tab-switcher">
                         <img
-                            *ngIf="activeTab.logo"
-                            [src]="activeTab.logo"
-                            class="tab-logo"
+                            class="right"
+                            (click)="nextTab(false)"
+                            src="assets/img/logos/logo_outline_red.svg"
                         />
-
-                        <p class="description-text">{{ activeTab.description }}</p>
-                        <p>{{ activeTab.end }}</p>
-                        <a *ngIf="activeTab.link" [href]="activeTab.link">
-                            <button class="re-button">
-                                <span>{{ activeTab.linkText }}</span>
-                                <img src="/assets/img/logos/logo_black.svg" />
-                            </button>
-                        </a>
+                        <img
+                            class="left"
+                            (click)="previousTab(false)"
+                            src="assets/img/logos/logo_outline_red.svg"
+                        />
                     </div>
-                    <div class="column is-full">
-                        <figure class="image">
-                            <img class="is-tab-image" [src]="activeTab.image" />
-                        </figure>
-                        <div class="forschungs-info">
-                            <div *ngIf="activeTab.forschungsverbund">
-                                <h3>{{ 'FORSCHUNGSVERBUND' | translate }}:</h3>
-                                <div class="is-flex is-flex-wrap-wrap forschungsverbund-container">
-                                    <img
-                                        *ngFor="let logo of activeTab.forschungsverbund"
-                                        [src]="logo"
-                                        class="forschungsverbund-logo"
-                                        [ngClass]="{ 'special-logo': logo === '/assets/img/logos/logo_small_text_orange.svg' }"
-                                        alt="Forschungsverbund Logo"
-                                    />
+                    <div class="columns">
+                        <div class="column is-two-thirds">
+                            <h2 class="tab-title">{{ activeCurrentTab?.title }}</h2>
+                            <p class="research-period" *ngIf="activeCurrentTab?.startdate || activeCurrentTab?.enddate">
+                                {{ 'FORSCHUNGSZEITRAUM' | translate }}:
+                                <span *ngIf="activeCurrentTab?.startdate">{{ activeCurrentTab?.startdate }}</span>
+                                <span *ngIf="activeCurrentTab?.startdate && activeCurrentTab?.enddate"> - </span>
+                                <span *ngIf="activeCurrentTab?.enddate">{{ activeCurrentTab?.enddate }}</span>
+                            </p>
+                            <img *ngIf="activeCurrentTab?.logo" [src]="activeCurrentTab?.logo" class="tab-logo" />
+                            <p class="description-text">{{ activeCurrentTab?.description }}</p>
+                            <a *ngIf="activeCurrentTab?.link" [href]="activeCurrentTab?.link">
+                                <button class="re-button">
+                                    <span>{{ activeCurrentTab?.linkText }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                            <br />
+                            <a *ngIf="activeCurrentTab?.link2" [href]="activeCurrentTab?.link2">
+                                <button class="re-button" [ngStyle]="{ 'margin-top': '1rem' }">
+                                    <span>{{ activeCurrentTab?.link2Text }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                        </div>
+                        <div class="column is-full">
+                            <figure class="image">
+                                <img class="is-tab-image" [src]="activeCurrentTab?.image" />
+                            </figure>
+                            <div class="forschungs-info">
+                                <div *ngIf="activeCurrentTab?.forschungsverbund">
+                                    <h3>{{ "FORSCHUNGSVERBUND" | translate }}:</h3>
+                                    <div class="is-flex is-flex-wrap-wrap forschungsverbund-container">
+                                        <img
+                                            *ngFor="let logo of activeCurrentTab?.forschungsverbund"
+                                            [src]="logo"
+                                            class="forschungsverbund-logo"
+                                            [ngClass]="{ 'special-logo': logo === '/assets/img/logos/logo_small_text_orange.svg' }"
+                                            alt="Forschungsverbund Logo"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                            <div *ngIf="activeTab.foerderung || activeTab.logoBottom">
-                                <h3>{{ 'FOERDERUNG' | translate }}: {{ activeTab.foerderungName }}</h3>
-                                <div class="is-flex is-flex-wrap-wrap">
-                                    <img
-                                        *ngFor="let logo of activeTab.foerderung"
-                                        [src]="logo"
-                                        class="foerderung-logo"
-                                        alt="Förderung Logo"
-                                    />
-                                    <img
-                                        *ngIf="activeTab.logoBottom"
-                                        [src]="activeTab.logoBottom"
-                                        class="foerderung-logo"
-                                        alt="Förderung Logo Bottom"
-                                    />
+                                <div *ngIf="activeCurrentTab?.foerderung || activeCurrentTab?.logoBottom">
+                                    <h3>
+                                        {{ "FOERDERUNG" | translate }}: {{ activeCurrentTab?.foerderungName }}
+                                    </h3>
+                                    <div class="is-flex is-flex-wrap-wrap">
+                                        <img
+                                            *ngFor="let logo of activeCurrentTab?.foerderung"
+                                            [src]="logo"
+                                            class="foerderung-logo"
+                                            alt="Förderung Logo"
+                                        />
+                                        <img
+                                            *ngIf="activeCurrentTab?.logoBottom"
+                                            [src]="activeCurrentTab?.logoBottom"
+                                            class="foerderung-logo"
+                                            alt="Förderung Logo Bottom"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -130,5 +98,217 @@
                 </div>
             </div>
         </div>
-    </div>
+
+        <div class="past-projects-section">
+            <h4 class="projects-title">{{ 'ABGESCHLOSSENE_FORSCHUNGSPROJEKTE' | translate }}</h4>
+            <div class="tab-switcher is-flex is-flex-wrap-wrap">
+                <h3
+                    *ngFor="let tab of pastProjects; let i = index"
+                    [class.active]="tab == activePastTab"
+                    class="tab-selector past-project"
+                    [class.underscore-dark]="tab.underscoreStyle == 'dark'"
+                    [class.underscore-red]="tab.underscoreStyle == 'red'"
+                    (click)="changeTab(i, true)"
+                >
+                    {{ tab.title }}
+                </h3>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-tab-switcher">
+                        <img
+                            class="right"
+                            (click)="nextTab(true)"
+                            src="assets/img/logos/logo_outline_red.svg"
+                        />
+                        <img
+                            class="left"
+                            (click)="previousTab(true)"
+                            src="assets/img/logos/logo_outline_red.svg"
+                        />
+                    </div>
+                    <div class="columns">
+                        <div class="column is-two-thirds">
+                            <h2 class="tab-title">{{ activePastTab?.title }}</h2>
+                            <p class="research-period" *ngIf="activePastTab?.startdate || activePastTab?.enddate">
+                                {{ 'FORSCHUNGSZEITRAUM' | translate }}:
+                                <span *ngIf="activePastTab?.startdate">{{ activePastTab?.startdate }}</span>
+                                <span *ngIf="activePastTab?.startdate && activePastTab?.enddate"> - </span>
+                                <span *ngIf="activePastTab?.enddate">{{ activePastTab?.enddate }}</span>
+                            </p>
+                            <img *ngIf="activePastTab?.logo" [src]="activePastTab?.logo" class="tab-logo" />
+                            <p class="description-text">{{ activePastTab?.description }}</p>
+                            <a *ngIf="activePastTab?.link" [href]="activePastTab?.link">
+                                <button class="re-button">
+                                    <span>{{ activePastTab?.linkText }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                            <br />
+                            <a *ngIf="activePastTab?.link2" [href]="activePastTab?.link2">
+                                <button class="re-button" [ngStyle]="{ 'margin-top': '1rem' }">
+                                    <span>{{ activePastTab?.link2Text }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                        </div>
+                        <div class="column is-full">
+                            <figure class="image">
+                                <img class="is-tab-image" [src]="activePastTab?.image" />
+                            </figure>
+                            <div class="forschungs-info">
+                                <div *ngIf="activePastTab?.forschungsverbund">
+                                    <h3>{{ "FORSCHUNGSVERBUND" | translate }}:</h3>
+                                    <div class="is-flex is-flex-wrap-wrap forschungsverbund-container">
+                                        <img
+                                            *ngFor="let logo of activePastTab?.forschungsverbund"
+                                            [src]="logo"
+                                            class="forschungsverbund-logo"
+                                            [ngClass]="{ 'special-logo': logo === '/assets/img/logos/logo_small_text_orange.svg' }"
+                                            alt="Forschungsverbund Logo"
+                                        />
+                                    </div>
+                                </div>
+                                <div *ngIf="activePastTab?.foerderung || activePastTab?.logoBottom">
+                                    <h3>
+                                        {{ "FOERDERUNG" | translate }}: {{ activePastTab?.foerderungName }}
+                                    </h3>
+                                    <div class="is-flex is-flex-wrap-wrap">
+                                        <img
+                                            *ngFor="let logo of activePastTab?.foerderung"
+                                            [src]="logo"
+                                            class="foerderung-logo"
+                                            alt="Förderung Logo"
+                                        />
+                                        <img
+                                            *ngIf="activePastTab?.logoBottom"
+                                            [src]="activePastTab?.logoBottom"
+                                            class="foerderung-logo"
+                                            alt="Förderung Logo Bottom"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="!isResearchPage">
+        <div class="tab-switcher is-flex is-flex-wrap-wrap">
+            <h3
+                *ngFor="let tab of tabs; let i = index"
+                [class.active]="tab == activeTab"
+                class="tab-selector"
+                [class.underscore-dark]="tab.underscoreStyle == 'dark'"
+                [class.underscore-red]="tab.underscoreStyle == 'red'"
+                (click)="changeTabOriginal(i)"
+            >
+                {{ tab.title }}
+            </h3>
+        </div>
+        <div class="tab-content">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-tab-switcher">
+                        <img
+                            class="right"
+                            (click)="nextTabOriginal()"
+                            src="assets/img/logos/logo_outline_red.svg"
+                        />
+                        <img
+                            class="left"
+                            (click)="previousTabOriginal()"
+                            src="assets/img/logos/logo_outline_red.svg"
+                        />
+                    </div>
+                    <div class="columns">
+                        <div class="column is-two-thirds">
+                            <div
+                                class="is-flex is-align-items-center is-justify-content-space-between"
+                            >
+                                <h2 class="tab-title" *ngIf="activeTab?.title2">
+                                    <span>{{ activeTab?.title }}: </span>{{ activeTab?.title2 }}
+                                </h2>
+                                <h2 *ngIf="!activeTab?.title2">{{ activeTab?.title }}</h2>
+
+                                <img
+                                    *ngIf="activeTab?.logo"
+                                    [src]="activeTab?.logo"
+                                    class="tab-logo"
+                                />
+                            </div>
+
+                            <p class="description-text">{{ activeTab?.description }}</p>
+                            <ul
+                                style="
+                                    list-style: circle;
+                                    margin-bottom: 2rem;
+                                    list-style-position: inside;
+                                    color: #eb5c37;
+                                "
+                                *ngIf="activeTab?.list1"
+                            >
+                                <li *ngIf="activeTab?.list1">{{ activeTab?.list1 }}</li>
+                                <li *ngIf="activeTab?.list2">{{ activeTab?.list2 }}</li>
+                                <li *ngIf="activeTab?.list3">{{ activeTab?.list3 }}</li>
+                                <li *ngIf="activeTab?.list4">{{ activeTab?.list4 }}</li>
+                                <li *ngIf="activeTab?.list5">{{ activeTab?.list5 }}</li>
+                                <li *ngIf="activeTab?.list6">{{ activeTab?.list6 }}</li>
+                            </ul>
+                            <p>{{ activeTab?.end }}</p>
+                            <img *ngIf="activeTab?.logoBottom" [src]="activeTab?.logoBottom" />
+                            <a *ngIf="activeTab?.link" [href]="activeTab?.link">
+                                <button class="re-button">
+                                    <span>{{ activeTab?.linkText }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                            <br />
+                            <a *ngIf="activeTab?.link2" [href]="activeTab?.link2">
+                                <button class="re-button" [ngStyle]="{ 'margin-top': '1rem' }">
+                                    <span>{{ activeTab?.link2Text }}</span>
+                                    <img src="/assets/img/logos/logo_black.svg" />
+                                </button>
+                            </a>
+                        </div>
+                        <div class="column is-full">
+                            <figure class="image is-3by2">
+                                <img class="is-tab-image" [src]="activeTab?.image" />
+                            </figure>
+                            <div class="forschungs-info">
+                                <div *ngIf="activeTab?.forschungsverbund">
+                                    <h3>{{ "FORSCHUNGSVERBUND" | translate }}:</h3>
+
+                                    <div class="is-flex is-flex-wrap-wrap">
+                                        <img
+                                            *ngFor="let logo of activeTab?.forschungsverbund"
+                                            [src]="logo"
+                                            class="tab-logo"
+                                        />
+                                    </div>
+                                </div>
+                                <div *ngIf="activeTab?.foerderung">
+                                    <h3>
+                                        {{ "FOERDERUNG" | translate }}: {{ activeTab?.foerderungName }}
+                                    </h3>
+                                    <div class="is-flex is-flex-wrap-wrap">
+                                        <img
+                                            *ngFor="let logo of activeTab?.foerderung"
+                                            [src]="logo"
+                                            class="tab-logo"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container>
 </div>
