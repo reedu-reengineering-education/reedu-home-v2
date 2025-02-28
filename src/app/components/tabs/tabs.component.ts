@@ -28,9 +28,10 @@ export interface Tab {
 }
 
 @Component({
-  selector: 're-tabs',
-  templateUrl: './tabs.component.html',
-  styleUrls: ['./tabs.component.scss']
+    selector: 're-tabs',
+    templateUrl: './tabs.component.html',
+    styleUrls: ['./tabs.component.scss'],
+    standalone: false
 })
 export class TabsComponent implements OnInit, OnChanges {
   @Input() tabs: Tab[] = [];

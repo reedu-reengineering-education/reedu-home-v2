@@ -40,9 +40,10 @@ let optionsDe = {
 };
 
 @Component({
-  selector: 're-start',
-  templateUrl: './start.component.html',
-  styleUrls: ['./start.component.scss'],
+    selector: 're-start',
+    templateUrl: './start.component.html',
+    styleUrls: ['./start.component.scss'],
+    standalone: false
 })
 export class StartComponent implements OnInit {
   constructor(private translate: TranslateService) {

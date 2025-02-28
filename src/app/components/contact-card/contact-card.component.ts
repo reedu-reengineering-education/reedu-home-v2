@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 're-contact-card',
-  templateUrl: './contact-card.component.html',
-  styleUrls: ['./contact-card.component.scss']
+    selector: 're-contact-card',
+    templateUrl: './contact-card.component.html',
+    styleUrls: ['./contact-card.component.scss'],
+    standalone: false
 })
 export class ContactCardComponent implements OnInit {
 

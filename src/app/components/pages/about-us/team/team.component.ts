@@ -4,9 +4,10 @@ import reTeamEN from '../../../../../assets/collections/team-en.json';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 're-team',
-  templateUrl: './team.component.html',
-  styleUrls: ['./team.component.scss']
+    selector: 're-team',
+    templateUrl: './team.component.html',
+    styleUrls: ['./team.component.scss'],
+    standalone: false
 })
 export class TeamComponent implements OnInit {
 

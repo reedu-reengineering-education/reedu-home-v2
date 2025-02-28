@@ -5,9 +5,10 @@ import reProjectsDE from '../../../../assets/collections/projects/projects.json'
 import reProjectsEN from '../../../../assets/collections/projects/projects-en.json';
 
 @Component({
-  selector: 're-portfolio-item',
-  templateUrl: './portfolio-item.component.html',
-  styleUrls: ['./portfolio-item.component.scss']
+    selector: 're-portfolio-item',
+    templateUrl: './portfolio-item.component.html',
+    styleUrls: ['./portfolio-item.component.scss'],
+    standalone: false
 })
 export class PortfolioItemComponent implements OnInit {
 
