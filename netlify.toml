@@ -1,5 +1,5 @@
 [build]
-  command = "yarn start"
+  command = "yarn build"
   publish = "dist/reedu-home-v2"
 
 [build.environment]
