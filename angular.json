@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "reedu-home-v2:build"
+            "buildTarget": "reedu-home-v2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "reedu-home-v2:build:production"
+              "buildTarget": "reedu-home-v2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reedu-home-v2:build"
+            "buildTarget": "reedu-home-v2:build"
           }
         },
         "test": {
