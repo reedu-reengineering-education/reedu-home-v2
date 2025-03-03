@@ -17,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-			"baseHref": "/",
             "outputPath": {
               "base": "dist/reedu-home-v2"
             },
@@ -100,12 +99,7 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-			  {
-				"glob": "_redirects",
-				"input": "src",
-				"output": "/"
-			  }
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
