@@ -1,8 +1,8 @@
 [build]
   command = "yarn build"
-  publish = "dist/reedu-home-v2"
+  publish = "dist/reedu-home-v2/browser"
 
 [build.environment]
-  NODE_VERSION = "20.11.1"
+  NODE_VERSION = "20.18.3"
   NPM_VERSION = "10.2.3"
   YARN_VERSION = "1.22.19"
