@@ -73,7 +73,7 @@
                 >
                   {{ job.description }}
                 </p>
-                <a href="/job/{{ job.filename }}">
+                <a [routerLink]="['/job', job.filename]">
                   <button class="button is-primary re-button">
                     <span>{{ "MEHR_DAZU" | translate }}</span>
                     <img src="/assets/img/logos/logo_black.svg" alt="Logo" />
