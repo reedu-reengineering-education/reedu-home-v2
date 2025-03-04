@@ -176,7 +176,6 @@
 	text-align: left;
   }
 
-
   .projects-title {
 	font-size: 1.8rem;
 	margin-bottom: 1rem;
@@ -189,10 +188,15 @@
   }
   
   .past-projects-section {
-	margin: 2rem 0;
+	margin-top: 6rem;
+	margin-bottom: 2rem;
 	padding: 1.5rem 0;
 	border-top: 1px solid #eee;
-	opacity: 0.85;
+	
+  }
+
+  .tab-content:last-of-type {
+    margin-top: 2rem;
   }
 
 .card-tab-switcher {
@@ -211,8 +215,6 @@
       transform: scale(1.2);
     }
   }
-
-
 
   .left {
     transform: rotate(180deg);
