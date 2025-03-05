@@ -34,29 +34,29 @@
 // $input-shadow: none;
 
 // Import only what you need from Bulma
-@import "~node_modules/bulma/sass/utilities/_all";
-@import "~node_modules/bulma/sass/base/_all";
-@import "~node_modules/bulma/sass/elements/button";
-@import "~node_modules/bulma/sass/elements/container";
-@import "~node_modules/bulma/sass/elements/title";
-@import "~node_modules/bulma/sass/elements/image";
-@import "~node_modules/bulma/sass/elements/tag";
-@import "~node_modules/bulma/sass/form/_all";
-@import "~node_modules/bulma/sass/components/navbar";
-@import "~node_modules/bulma/sass/components/card";
-@import "~node_modules/bulma/sass/components/modal";
-@import "~node_modules/bulma/sass/layout/hero";
-@import "~node_modules/bulma/sass/layout/section";
-@import "~node_modules/bulma/sass/grid/columns";
-@import "~node_modules/bulma/sass/grid/tiles";
-@import "~node_modules/bulma/sass/helpers/_all";
-// @import "~node_modules/bulma/sass/utilities/mixins";
-// @import "~node_modules/bulma/sass/utilities/controls";
-@import "~node_modules/bulma/bulma.sass";
+@import "node_modules/bulma/sass/utilities/_all";
+@import "node_modules/bulma/sass/base/_all";
+@import "node_modules/bulma/sass/elements/button";
+@import "node_modules/bulma/sass/elements/container";
+@import "node_modules/bulma/sass/elements/title";
+@import "node_modules/bulma/sass/elements/image";
+@import "node_modules/bulma/sass/elements/tag";
+@import "node_modules/bulma/sass/form/_all";
+@import "node_modules/bulma/sass/components/navbar";
+@import "node_modules/bulma/sass/components/card";
+@import "node_modules/bulma/sass/components/modal";
+@import "node_modules/bulma/sass/layout/hero";
+@import "node_modules/bulma/sass/layout/section";
+@import "node_modules/bulma/sass/grid/columns";
+@import "node_modules/bulma/sass/grid/tiles";
+@import "node_modules/bulma/sass/helpers/_all";
+// @import "node_modules/bulma/sass/utilities/mixins";
+// @import "node_modules/bulma/sass/utilities/controls";
+@import "node_modules/bulma/bulma.sass";
 @import "./styles/general.scss";
 
-@import "~node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "~node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-@import "~mapbox-gl/dist/mapbox-gl.css";
+@import "mapbox-gl/dist/mapbox-gl.css";

@@ -8,9 +8,10 @@ import jobsHeadEn from './../../../../../assets/collections/jobs/jobs-head-en.js
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 're-jobs',
-  templateUrl: './jobs.component.html',
-  styleUrls: ['./jobs.component.scss']
+    selector: 're-jobs',
+    templateUrl: './jobs.component.html',
+    styleUrls: ['./jobs.component.scss'],
+    standalone: false
 })
 export class JobsComponent implements OnInit {
 

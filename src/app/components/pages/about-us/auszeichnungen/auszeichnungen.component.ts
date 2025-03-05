@@ -5,9 +5,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
-  selector: 're-auszeichnungen',
-  templateUrl: './auszeichnungen.component.html',
-  styleUrls: ['./auszeichnungen.component.scss']
+    selector: 're-auszeichnungen',
+    templateUrl: './auszeichnungen.component.html',
+    styleUrls: ['./auszeichnungen.component.scss'],
+    standalone: false
 })
 export class AuszeichnungenComponent implements OnInit {
 

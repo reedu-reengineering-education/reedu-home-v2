@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 're-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss'],
+    selector: 're-nav',
+    templateUrl: './nav.component.html',
+    styleUrls: ['./nav.component.scss'],
+    standalone: false
 })
 export class NavComponent implements OnInit {
   currentLang =

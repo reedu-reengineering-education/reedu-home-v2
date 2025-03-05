@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { MarkdownModule } from 'ngx-markdown';
@@ -37,47 +37,39 @@ export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    NavComponent,
-    StartComponent,
-    AngeboteComponent,
-    PortfolioComponent,
-    FooterComponent,
-    ContactComponent,
-    ImprintComponent,
-    PrivacyComponent,
-    PhilosophieComponent,
-    AuszeichnungenComponent,
-    TeamComponent,
-    ContactCardComponent,
-    ForschungComponent,
-    TabsComponent,
-    ProjectCardComponent,
-    PortfolioItemComponent,
-    JobsComponent,
-    JobItemComponent,
-    TrimPipe,
-    WorkshopsComponent,
-
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'de',
-      loader: {
-        provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [HttpClient]
-      }
-    }),
-    NgxMapboxGLModule,
-    MarkdownModule.forRoot()
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        NavComponent,
+        StartComponent,
+        AngeboteComponent,
+        PortfolioComponent,
+        FooterComponent,
+        ContactComponent,
+        ImprintComponent,
+        PrivacyComponent,
+        PhilosophieComponent,
+        AuszeichnungenComponent,
+        TeamComponent,
+        ContactCardComponent,
+        ForschungComponent,
+        TabsComponent,
+        ProjectCardComponent,
+        PortfolioItemComponent,
+        JobsComponent,
+        JobItemComponent,
+        TrimPipe,
+        WorkshopsComponent,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'de',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: (createTranslateLoader),
+                deps: [HttpClient]
+            }
+        }),
+        NgxMapboxGLModule,
+        MarkdownModule.forRoot()], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }

@@ -1,6 +1,8 @@
 [
   {
     "title": "senseBox:Pro",
+	"startdate": "01.11.2020",
+	"enddate": "31.08.2023",
     "description": "Together with the Institute for Geoinformatics at the Westfälische Wilhelms-Universität Münster, we form the research network in the project 'senseBox:pro - The senseBox and openSenseMap as a photonics tool for innovations by professional users'. In the project, the senseBox hardware is further developed with respect to its self-sufficiency and miniaturization. We are also researching the use of cameras and a robotics extension for the senseBox:edu. We are developing a sensor wiki for the standardization of phenomena and sensors and an extension of the openSenseMap with social network functionalities and new visualization possibilities. We are also exploring a new learning environment to develop innovations faster and more sustainably with the senseBox, learning about programming and photonic technologies. ",
     "link": "https://sensebox.de/en/",
     "linkText": "sensebox.de",
@@ -17,21 +19,9 @@
     "underscoreStyle": "red"
   },
   {
-    "title": "Atrai Bikes",
-    "description": "Das Atrai Bike-Projekt steht als wegweisende Forschungsinitiative zur Transformation der Stadtplanung, indem Bürger, Unternehmen und lokale Regierungen in die systematische Erfassung und Analyse von Fahrradinfrastrukturdaten einbezogen werden. Dieses zweijährige Vorhaben, finanziert vom Bundesministerium für Bildung und Forschung Deutschlands und von FAPESP in Brasilien, ist eine gemeinsame Anstrengung von drei Organisationen: re:edu und 52°North in Münster/Deutschland sowie dem Cordial Institute in São Paulo/Brasilien. Das Projekt, das im Januar 2024 beginnen soll, zielt darauf ab, innovative Lösungen für den städtischen Radverkehr zu schaffen.",
-    "link": "https://atrai.bike/de",
-    "linkText": "Atrai Bikes",
-    "logo": "/assets/img/forschung/AtraiBikeLogo.png",
-    "forschungsverbund": [
-      "/assets/img/partner/Logo_52North_invers_v1.png",
-      "/assets/img/partner/cordial_logo.png"
-    ],
-    "foerderung": ["/assets/img/partner/BMBF_Logo.svg", "/assets/img/partner/fapesp.png"],
-    "underscoreStyle": "red",
-    "image": "/assets/img/forschung/AtraiBikes.jpg"
-  },
-  {
     "title": "SIMPORT",
+	"startdate": "01.07.2020",
+	"enddate": "31.06.2023",
     "description": "In a joint project with the Institute for Geoinformatics at the Westfälische Wilhelms-Universität Münster, the Münster University of Applied Sciences, the TU Berlin and here technologies, guidelines and software modules for the sovereign management of one's own location information on mobile devices are being developed. Freely available software components are being developed that allow users to visualize possible conclusions from their own location information in a comprehensible way. Thus help users to better understand the advantages and disadvantages of sharing location information. In this way, users are informed about the risks precisely when they have to decide whether or not to share this data. Innovative forms of interaction are being developed for this purpose: Here, users can specify in detail which location data is shared, when, with whom, and to what degree of accuracy.",
     "link": "https://simport.net/",
     "linkText": "SIMPORT",
@@ -47,25 +37,53 @@
     "foerderungName": "Digital Sovereignty",
     "image": "/assets/img/forschung/simport.png",
     "underscoreStyle": "red"
-  }, {
+  }, 
+  {
+    "title": "Atrai Bikes",
+	"startdate": "01.01.2024",
+	"enddate": "31.12.2025",
+    "description": "The Atrai Bikes Project stands as a pioneering research initiative aimed at transforming urban planning by involving citizens, companies, and local governments in the systematic collection and analysis of bicycle infrastructure data. This two-year endeavor, funded by the Ministry of Research and Education and FAPESP in Brazil, is a collaborative effort between three organizations: re:edu and 52°North in Münster/Germany, and the Cordial Institute in São Paulo/Brazil. Set to commence in January 2024, the project seeks to spark innovative urban cycling solutions.",
+    "link": "https://atrai.bike/de",
+    "linkText": "Atrai Bikes",
+    "logo": "/assets/img/forschung/AtraiBikeLogo.png",
+    "forschungsverbund": [
+      "/assets/img/partner/Logo_52North_invers_v1.png",
+      "/assets/img/partner/cordial_logo.png"
+    ],
+    "foerderung": ["/assets/img/partner/BMBF_Logo.svg", "/assets/img/partner/fapesp.png"],
+    "underscoreStyle": "red",
+    "image": "/assets/img/forschung/AtraiBikes.jpg"
+  },
+  {
     "title": "CS:iDrop",
+	"startdate": "01.03.2021",
+	"enddate": "31.12.2024",
     "description": "We support the CS:iDrop research project of the Ruhr University Bochum to investigate drinking water quality. For this purpose, citizens of Bochum receive a measuring kit to analyse their water samples taken at home with simple chemical methods at home and together with scientists in the laboratory and to publish them as open data on the openSenseMap (a platform for open sensor data) with the help of the CD:iDrop app developed by us. The data is thus made available to the public and exchanged and discussed in joint events.",
     "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
     "linkText": "CS:iDrop",
+	"logo": "/assets/img/forschung/idrop_screen.png",
     "foerderung": ["/assets/img/forschung/erasmus.png"],
     "foerderungName": "Guideline for the Funding of Citizen Science Projects of the Federal Ministry of Education and Research (BMBF)",
-    "image": "/assets/img/forschung/idrop_screen.png",
+    "image": "/assets/img/forschung/idrop.jpg",
     "underscoreStyle": "red"
-  }, {
+  },
+  {
     "title": "STEAM+",
+	"startdate": "15.10.2020",
+	"enddate": "31.12.2022",
     "description": "Innovating STE(A)M in Higher Education with Transdisciplinary Talent Programs (STEAM+) is a large-scale innovative project with a holistic approach, aiming to provide educational policy makers with instruments to prepare new generations for handling the challenges of our time. The project is coordinated by Hanze University of Applied Sciences in Groningen, the Netherlands. Europe faces grand challenges, such as climate change and energy transition, which have a STEM subject at their core, but need transversal skills and knowledge from All other subjects (the extra A) to create STEAM solutions. We need to use brains, hearts and hands of all talents to tackle these challenges.The STEAM+ project uses transdisciplinary talent programs as laboratories of innovation in higher education (HE). The project is co-created by a dedicated and qualified team of 18 partners from 9 countries, bringing together educators, policy makers and future employers, united in their aim to provide new generations with future-proof skills.",
     "link": "https://steamtalent.eu/",
     "linkText": "STEAM+",
-    "image": "/assets/img/forschung/logo_steam_sw.jpg",
+	"logo": "/assets/img/forschung/logo_steam_sw.jpg",
+    "foerderung": ["/assets/img/forschung/erasmus.png"],
+    "foerderungName": "EU - Lifelong Learning Programme: Erasmus+",
+    "image": "/assets/img/forschung/steam+.png",
     "underscoreStyle": "red"
   },
   {
     "title": "Essen auf Rädern",
+	"startdate": "01.11.2022",
+	"enddate": "30.11.2025",
     "description": "The aim of the project is to involve young people more strongly with their perspectives and wishes in the discourse on the sustainability-oriented traffic turnaround. For this purpose, young people from five schools in Essen with different socio-spatial environments are to collect spatial data on the cycling infrastructure in their respective school districts themselves using digital geomedia, digitally analyse it in relation to their perspectives, present it to politicians/public and thus actively participate in the social discourse (\"citizen science\" and \"spatial citizenship approach\"). The technical basis is the senseBox (www.sensebox.de), which has been adapted for attachment to bicycles and mobile use, and with the help of which the young people can measure important parameters such as distance to car traffic, cycle path quality, danger spots and environmental data. Together with experts from the University of Münster (Institute for Geoinformatics, Institute for Didactics of Geography, the citizens' initiative RadEntscheid Essen, the specialist shop for urban change and re:edu), the data and the measures derived from it will be digitally processed and intensively discussed for the public and local politics (e.g. using the platform openSenseMap (www.opensensemap.org). In the second part of the proposed development project, the materials and evaluation-based experiences of the Essen project will be comprehensively processed, bundled and documented. This will form the basis for conducting further training for teachers in various cities in the Ruhr region, where interested parties will learn how they can carry out an analogue project on a smaller time scale (streamlined to one or two days) in their school district and offer city administrations these participation formats tailored to young people as innovative products.",
      "forschungsverbund": [
       "/assets/img/forschung/logo.jpg",
@@ -73,40 +91,61 @@
       "/assets/img/forschung/GHE_Logo_de.png",
       "/assets/img/logos/logo_small_text_orange.svg"
     ],
-    "image": "/assets/img/projekte/senseBox-bike.png",
+    "image": "/assets/img/forschung/senseBox-bike.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/300617022004d3sq.png"
   },
   {
     "title": "TinyAIoT",
+	"startdate": "01.01.2023",
+	"enddate": "31.12.2025",
     "description": "The project aims to adapt AI methods to the needs of modern IoT applications. Nowadays, these are often based on microcontrollers, such as the senseBox, which can send and receive data via special network protocols (e.g. LoRa WAN). The research direction TinyAI aims to significantly reduce the resource requirements of AI processes. If a sufficiently strong reduction succeeds, AI procedures can possibly even be executed on the microcontrollers. The goal of the TinyAIoT project is to further reduce the resource requirements of existing AI procedures and to adapt further models accordingly. In addition, the results are to be incorporated into the adaptation of the senseBox, which will be supplemented with camera sensors and thus enable intelligent microcontrollers that can be operated autonomously for longer periods of time.",
-     "forschungsverbund": [
-      "/assets/img/forschung/2021-logo-ifgi-text-de.png",
-      "/assets/img/forschung/wi-muenster-logo.PNG",
-      "/assets/img/logos/logo_small_text_orange.svg"
-    ],
-    "image": "/assets/img/forschung/artificial-intelligence-g203dfe5f7_1920.jpg",
-    "underscoreStyle": "red",
-    "logoBottom": "/assets/img/forschung/BMU-Logo_en_2022.jpg"
+	"forschungsverbund": [
+		"/assets/img/forschung/2021-logo-ifgi-text-de.png",
+		"/assets/img/forschung/wi-muenster-logo.PNG",
+		"/assets/img/logos/logo_small_text_orange.svg"
+	  ],
+	  "image": "/assets/img/forschung/tinyaiot.jpg",
+	  "underscoreStyle": "red",
+	  "logoBottom": "/assets/img/forschung/BMU-Logo_2022_0.jpg"
   },
   {
     "title": "EXIST",
+	"startdate": "01.04.2018",
+	"enddate": "31.03.2019",
     "description": "Within the framework of the Exist-Gründerstipendium for start-ups from science, we were funded for 12 months with the working title \"edusense\".",
-    "image": "/assets/img/forschung/eduSense_logo.jpg",
+    "image": "/assets/img/forschung/exist/exist.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/exist/ESF-Logos-Reihe.jpg"
   },
   {
     "title": "QOOOL Sensing",
+	"startdate": "01.11.2023",
+	"enddate": "31.10.2026",
     "description": "The aim of the QOOOL Sensing project is to develop a compact and cost-effective NV quantum magnetometer in the form of a sensor kit (QOOOL Kit) for the first time, with which broad sections of the population can be sensitised to and inspired by quantum technologies. To this end, the senseBox (https://sensebox.de/en) is to be used and expanded as a microcontroller and didactic material is to be developed, particularly for use in STEM subjects. Interactive learning software will be used to clearly explain the functionality and structure of an NV magnetometer as a quantum sensor and the interaction of its individual components. The project will run until the end of October 2026.",
-     "link": "https://qoool-sensing.org/en",
-     "forschungsverbund": [
-        "/assets/img/forschung/Hahn-Schickard Logo mit Claim sRGB.jpg",
-        "/assets/img/forschung/IIS_Logo_blue-mit-Box.png",
-        "/assets/img/forschung/PuD_Logo_quadratisch.JPG"
-      ],
-    "image": "/assets/img/forschung/QOOOL-Logo.png",
-    "underscoreStyle": "red",
-    "logoBottom": "/assets/img/forschung/BMBF_CMYK_Gef_L.png"
-  }
+	"link": "https://qoool-sensing.org/de",
+	"linkText": "QOOOL Sensing",
+	"logo": "/assets/img/forschung/QOOOL-Logo.png",
+	"forschungsverbund": [
+	 "/assets/img/forschung/Hahn-Schickard Logo mit Claim sRGB.jpg",
+	 "/assets/img/forschung/IIS_Logo_blue-mit-Box.png",
+	 "/assets/img/logos/PuD_Logo_quadratisch.JPG"
+   ],
+   "image": "/assets/img/forschung/qoool.png",
+   "underscoreStyle": "red",
+   "logoBottom": "/assets/img/forschung/BMBF_CMYK_Gef_L.png"
+  },
+  {
+	"title": "Foodmission",
+	"startdate": "01.01.2025",
+	"enddate": "31.06.2028",
+	"description": "We are part of the European research project FOODMISSION, which involves citizens as active shapers of a more sustainable future of food. We use citizen science, gamification and educational approaches to explore eating habits, initiate behavioural change and accelerate the transition to a fair, healthy and environmentally friendly food system.",
+	"link": "https://google.com",
+	"linkText": "TO-DO",
+	"forschungsverbund": [
+	  ],
+	  "image": "/assets/img/forschung/foodmission.png",
+	  "underscoreStyle": "red",
+	  "logoBottom": "/assets/img/forschung/EU-PANTONE.jpg"
+	}
 ]

@@ -73,7 +73,7 @@
                 >
                   {{ job.description }}
                 </p>
-                <a href="/job/{{ job.filename }}">
+                <a [routerLink]="['/job', job.filename]">
                   <button class="button is-primary re-button">
                     <span>{{ "MEHR_DAZU" | translate }}</span>
                     <img src="/assets/img/logos/logo_black.svg" alt="Logo" />
@@ -101,7 +101,7 @@
                 <p>Geschäftsführer & Entwickler</p>
                 <p>
                   <a style="text-decoration-line: underline" href=""
-                    >u.tas@reedu.de</a
+                    >u.tas&#64;reedu.de</a
                   >
                 </p>
               </div>

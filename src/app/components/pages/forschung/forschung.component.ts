@@ -6,9 +6,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
-  selector: 're-forschung',
-  templateUrl: './forschung.component.html',
-  styleUrls: ['./forschung.component.scss']
+    selector: 're-forschung',
+    templateUrl: './forschung.component.html',
+    styleUrls: ['./forschung.component.scss'],
+    standalone: false
 })
 export class ForschungComponent implements OnInit {
 

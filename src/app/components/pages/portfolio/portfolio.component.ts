@@ -5,9 +5,10 @@ import rePartner from '../../../../assets/collections/partner/partner.json';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';
 @Component({
-  selector: 're-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+    selector: 're-portfolio',
+    templateUrl: './portfolio.component.html',
+    styleUrls: ['./portfolio.component.scss'],
+    standalone: false
 })
 export class PortfolioComponent implements OnInit {
 

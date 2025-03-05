@@ -139,6 +139,9 @@
   "Vorteile": "Benefits",
   "Stellenangebote":"Job Opportunities",
   "Wir bieten":"We offer",
-  "Ansprechpartner für weitere Fragen":"Contact person for further questions"
+  "Ansprechpartner für weitere Fragen":"Contact person for further questions",
 
+  "LAUFENDE_FORSCHUNGSPROJEKTE": "Ongoing Research Projects",
+  "ABGESCHLOSSENE_FORSCHUNGSPROJEKTE": "Completed Research Projects",
+  "FORSCHUNGSZEITRAUM": "Research Period"
 }

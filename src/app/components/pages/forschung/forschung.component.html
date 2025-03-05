@@ -1,20 +1,20 @@
 <div class="site sb-white-text">
-  <div class="container site-title-container">
-    <div class="columns is-desktop">
-      <div class="column is-half">
-        <h1 class="site-title">{{ "FORSCHUNG_TITLE" | translate }}</h1>
-        <h3>
-          {{ "FORSCHUNG_SUBTITLE" | translate }}
-        </h3>
-      </div>
-    </div>
-    <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
+	<div class="container site-title-container">
+	  <div class="columns is-desktop">
+		<div class="column is-half">
+		  <h1 class="site-title">{{ "FORSCHUNG_TITLE" | translate }}</h1>
+		  <h3>
+			{{ "FORSCHUNG_SUBTITLE" | translate }}
+		  </h3>
+		</div>
+	  </div>
+	  <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
+	</div>
+	<div class="stripes-container">
+	  <div class="stripes">
+		<div class="container">
+		  <re-tabs [tabs]="scienceTabs" [isResearchPage]="true"></re-tabs> 
+		</div>
+	  </div>
+	</div>
   </div>
-  <div class="stripes-container">
-    <div class="stripes">
-      <div class="container">
-        <re-tabs [tabs]="scienceTabs"></re-tabs>
-      </div>
-    </div>
-  </div>
-</div>

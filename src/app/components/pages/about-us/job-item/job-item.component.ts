@@ -6,9 +6,10 @@ import benefitsEn from './../../../../../assets/collections/benefits/benefits-en
 import benefitsDe from './../../../../../assets/collections/benefits/benefits-de.json';
 
 @Component({
-  selector: 're-job-item',
-  templateUrl: './job-item.component.html',
-  styleUrls: ['./job-item.component.scss']
+    selector: 're-job-item',
+    templateUrl: './job-item.component.html',
+    styleUrls: ['./job-item.component.scss'],
+    standalone: false
 })
 export class JobItemComponent implements OnInit, OnDestroy {
 

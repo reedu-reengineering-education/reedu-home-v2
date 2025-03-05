@@ -6,9 +6,10 @@ import angeboteEn from './../../../../assets/collections/tabs/angebote-en.json';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 're-angebote',
-  templateUrl: './angebote.component.html',
-  styleUrls: ['./angebote.component.scss']
+    selector: 're-angebote',
+    templateUrl: './angebote.component.html',
+    styleUrls: ['./angebote.component.scss'],
+    standalone: false
 })
 export class AngeboteComponent implements OnInit {
 

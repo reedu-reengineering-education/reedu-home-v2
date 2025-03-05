@@ -15,14 +15,16 @@
       "prefix": "re",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/reedu-home-v2",
+            "outputPath": {
+              "base": "dist/reedu-home-v2"
+            },
             "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": [
+              "src/polyfills.ts"
+            ],
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -30,7 +32,17 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "extractLicenses": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true,
+            "browser": "src/main.ts",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "."
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -45,8 +57,6 @@
               "sourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
-              "vendorChunk": false,
-              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -60,23 +70,24 @@
                 }
               ]
             }
-          }
+          },
+          "defaultConfiguration": ""
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "reedu-home-v2:build"
+            "buildTarget": "reedu-home-v2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "reedu-home-v2:build:production"
+              "buildTarget": "reedu-home-v2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reedu-home-v2:build"
+            "buildTarget": "reedu-home-v2:build"
           }
         },
         "test": {
@@ -124,7 +135,6 @@
       }
     }
   },
-  "defaultProject": "reedu-home-v2",
   "cli": {
     "analytics": "a542dd09-c8ba-45e4-bf41-746aa4009cba"
   }

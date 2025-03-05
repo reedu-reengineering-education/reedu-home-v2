@@ -1,6 +1,8 @@
 [
   {
     "title": "senseBox:Pro",
+	"startdate": "01.11.2020",
+	"enddate": "31.08.2023",
     "description": "Zusammen mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster bilden wir den Forschungsverbund im Projekt 'senseBox:pro - Die senseBox und openSenseMap als Photonik-Tool für Innovationen von professionellen Nutzern'. Im Projekt wird die senseBox-Hardware hinsichtlich ihrer Autarkisierung und Miniaturisierung weiterentwickelt. Zudem forschen wir an dem Einsatz von Kameras und einer Robotik-Erweiterung für die senseBox:edu. Wir entwickeln ein Sensor-Wiki für die Standardisierung von Phänomenen und Sensoren und eine Erweiterung der openSenseMap um Social Network Funktionalitäten und neue Visualisierungsmöglichkeiten. Außerdem erforschen wir eine neue Lernumgebung, um mit der senseBox Innovationen schneller und nachhaltiger entwickeln zu können und dabei Programmieren und photonische Technologien kennenzulernen. ",
     "link": "https://sensebox.de",
     "linkText": "sensebox.de",
@@ -18,6 +20,8 @@
   },
   {
     "title": "SIMPORT",
+	"startdate": "01.07.2020",
+	"enddate": "31.06.2023",
     "description": "In einem Verbund mit dem Institut für Geoinformatik der Westfälischen Wilhelms-Universität Münster, der Fachhochschule Münster, der TU Berlin und here technologies werden Richtlinien und Softwaremodule für das souveräne Management der eigenen Ortsinformationen am mobilen Endgerät entwickelt. Es entstehen frei verfügbare Softwarekomponenten, die es erlauben, mögliche Rückschlüsse aus den eigenen Ortsinformationen verständlich zu visualisieren und die Vor- und Nachteile der Weitergabe von Ortsinformationen besser zu verstehen. So werden Nutzende über die Risiken genau dann aufgeklärt, wenn sie über die Weitergabe dieser Daten entscheiden müssen. Dazu werden innovative Interaktionsformen entwickelt: Nutzerinnen und Nutzer können hier detailliert festlegen, welche Standortdaten wann, mit wem, und in welcher Genauigkeit geteilt werden. ",
     "link": "https://simport.net/",
     "linkText": "SIMPORT",
@@ -38,6 +42,8 @@
   },
   {
     "title": "Atrai Bikes",
+	"startdate": "01.01.2024",
+	"enddate": "31.12.2025",
     "description": "The Atrai Bikes Project stands as a pioneering research initiative aimed at transforming urban planning by involving citizens, companies, and local governments in the systematic collection and analysis of bicycle infrastructure data. This two-year endeavor, funded by the Ministry of Research and Education and FAPESP in Brazil, is a collaborative effort between three organizations: re:edu and 52°North in Münster/Germany, and the Cordial Institute in São Paulo/Brazil. Set to commence in January 2024, the project seeks to spark innovative urban cycling solutions.",
     "link": "https://atrai.bike/en",
     "linkText": "Atrai Bikes",
@@ -52,26 +58,34 @@
   },
     {
     "title": "CS:iDrop",
+	"startdate": "01.03.2021",
+	"enddate": "31.12.2024",
     "description": "Zur Untersuchung der Trinkwasserqualität unterstützen wir das Forschungsprojekt CS:iDrop der Ruhr-Universität Bochum. Dazu erhalten Bürger:innen aus Bochum einen Messkoffer, um ihre daheim entnommenen Wasserproben mit einfachen chemischen Methoden zu Hause und gemeinsam mit Wissenschaftler:innen im Labor zu analysieren und mit Hilfe der von uns entwickelten CD:iDrop App auf der openSenseMap (eine Plattform für offene Sensordaten) als Open Data zu veröffentlichen. Die Daten werden so der Öffentlichkeit zur Verfügung gestellt und in gemeinsamen Veranstaltungen miteinander ausgetauscht und diskutiert.",
     "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
     "linkText": "CS:iDrop",
+	"logo": "/assets/img/forschung/idrop_screen.png",
     "foerderung": ["/assets/img/forschung/erasmus.png"],
     "foerderungName": "Richtlinie zur Förderung von bürgerwissenschaftlichen Vorhaben des BMBF",
-    "image": "/assets/img/forschung/idrop_screen.png",
+    "image": "/assets/img/forschung/idrop.jpg",
     "underscoreStyle": "red"
   },
   {
     "title": "STEAM+",
+	"startdate": "15.10.2020",
+	"enddate": "31.12.2022",
     "description": "Mit 17 europäischen Hochschulen und Bildungsministerien forschen wir in \"Innovating STE(A)M in Higher Education with Transdisciplinary Talent Programs (STEAM+)\", einem groß angelegten, innovativen Projekt mit einem ganzheitlichen Ansatz, das darauf abzielt, bildungspolitischen Entscheidungsträgern Instrumente an die Hand zu geben, um neue Generationen auf den Umgang mit den Herausforderungen unserer Zeit vorzubereiten. Europa steht vor großen Herausforderungen, wie dem Klimawandel und der Energiewende, die im Kern durch MINT (STEM)-Fächer abgedeckt sind, aber transversale Fähigkeiten und Wissen aus allen anderen Fächern (das zusätzliche A) werden benötigt, um STEAM-Lösungen zu schaffen. Wir müssen die Köpfe, die Herzen und die Hände aller Talente nutzen, um diese Herausforderungen zu bewältigen. Das STEAM+ Projekt nutzt transdisziplinäre Talentprogramme als Laboratorien für Innovation in der Hochschulbildung (HE). Das Projekt wird von einem engagierten und qualifizierten Team von 18 Partnern aus 9 Ländern mitgestaltet, das Pädagogen, politische Entscheidungsträger und zukünftige Arbeitgeber zusammenbringt, vereint in ihrem Ziel, neue Generationen mit zukunftssicheren Fähigkeiten auszustatten.",
     "link": "https://steamtalent.eu/",
     "linkText": "STEAM+",
+	"logo": "/assets/img/forschung/logo_steam_sw.jpg",
     "foerderung": ["/assets/img/forschung/erasmus.png"],
-    "foerderungName": "Förderschema: EU - Programm Lebenslanges Lernen: Erasmus+",
-    "image": "/assets/img/forschung/logo_steam_sw.jpg",
+    "foerderungName": "EU - Programm Lebenslanges Lernen: Erasmus+",
+    "image": "/assets/img/forschung/steam+.png",
     "underscoreStyle": "red"
   },
     {
     "title": "Essen auf Rädern",
+	"startdate": "01.11.2022",
+	"enddate": "30.11.2025",
     "description": "Ziel des Projekts ist es, Jugendliche stärker mit ihren Perspektiven und Wünschen in den Diskurs über die nachhaltigkeitsorientierte Verkehrswende einzubinden. Dazu sollen Jugendliche von fünf Essener Schulen mit unterschiedlichem sozial-räumlichem Umfeld im Rahmen eines Projekts kooperativ mittels digitaler Geomedien raumbezogene Daten zur Radverkehrsinfrastruktur in ihrem jeweiligen Schulviertel selber erheben, in Bezug auf ihre Perspektiven digital analysieren, der Politik/Öffentlichkeit präsentieren und so aktiv im gesellschaftlichen Diskurs partizipieren („citizen science“ und “Spatial-Citizenship-Ansatz”). Die technische Basis bildet die für die Befestigung am Fahrrad und den mobilen Einsatz angepasste senseBox (www.sensebox.de), mit deren Hilfe die Jugendlichen wichtige Parameter, wie den Abstand zum PKW-Verkehr, die Radwegqualität, Gefahrenstellen und Umweltdaten messen können. Gemeinsam mit Expert*innen der Universität Münster (Institut für Geoinformatik, Institut für Didaktik der Geographie, der Bürgerinitiative RadEntscheid Essen, dem Fachgeschäft für Stadtwandel und re:edu) werden die Daten und die daraus abgeleiteten Maßnahmen für die Öffentlichkeit und die Lokalpolitik (z.B. mittels der Plattform openSenseMap (www.opensensemap.org) digital aufbereitet und intensiv diskutiert. Im zweiten Teil des beantragten Entwicklungsprojekts sollen die Materialien und evaluationsbasierten Erfahrungen des Essener Projekts umfassend aufgearbeitet, gebündelt und dokumentiert werden. Dies bildet die Basis, um danach in verschiedenen Ruhrgebietsstädten Lehrkräftefortbildungen durchzuführen, auf denen Interessierte lernen, wie sie selbst ein analoges Projekt in kleinerem zeitlichem Maßstab (auf ein bis zwei Tage gestrafft) in ihrem Schulviertel durchführen können und Stadtverwaltungen diese auf Jugendliche zugeschnittenen Partizipationsformate zu Verkehrswende als innovative Produkte anzubieten.",
      "forschungsverbund": [
       "/assets/img/forschung/logo.jpg",
@@ -79,40 +93,61 @@
       "/assets/img/forschung/GHE_Logo_de.png",
       "/assets/img/logos/logo_small_text_orange.svg"
     ],
-    "image": "/assets/img/projekte/senseBox-bike.png",
+    "image": "/assets/img/forschung/senseBox-bike.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/300617022004d3sq.png"
   },
   {
     "title": "TinyAIoT",
+	"startdate": "01.01.2023",
+	"enddate": "31.12.2025",
     "description": "Das Projekt hat zum Ziel, KI-Verfahren an die Bedürfnisse moderner IoT-Anwendungen anzupassen. Diese basieren heutzutage oft auf Mikrocontrollern, wie der senseBox, welche über spezielle Netzwerkprotokolle (z.B. LoRa WAN) Daten versenden und empfangen können. Die Forschungsrichtung TinyAI zielt auf die signifikante Reduktion des Ressourcenbedarfs von KI-Verfahren ab. Gelingt eine hinreichend starke Reduktion, so können KI-Verfahren ggf. sogar „auf“ den Mikrocontrollern ausgeführt werden. Das Ziel des TinyAIoTProjekts besteht in der weiteren Reduktion des Ressourcenbedarfs bestehender KI-Verfahren sowie der entsprechenden Anpassung weiterer Modelle. Zudem sollen die Ergebnisse in die Anpassung der senseBox einfließen, diese um Kamerasensorik ergänzt werden und so intelligente Mikrocontroller ermöglichen, die längere Zeit autark betrieben werden können.",
      "forschungsverbund": [
       "/assets/img/forschung/2021-logo-ifgi-text-de.png",
       "/assets/img/forschung/wi-muenster-logo.PNG",
       "/assets/img/logos/logo_small_text_orange.svg"
     ],
-    "image": "/assets/img/forschung/artificial-intelligence-g203dfe5f7_1920.jpg",
+    "image": "/assets/img/forschung/tinyaiot.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/BMU-Logo_2022_0.jpg"
   },
   {
     "title": "EXIST",
+	"startdate": "01.04.2018",
+	"enddate": "31.03.2019",
     "description": "Im Rahmen des Exist-Gründerstipendiums für Existenzgründungen aus der Wissenschaft wurden wir mit dem Arbeitstitel \"edusense\" 12 Monate lang gefördert.",
-    "image": "/assets/img/forschung/eduSense_logo.jpg",
+    "image": "/assets/img/forschung/exist/exist.jpg",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/exist/ESF-Logos-Reihe.jpg"
   },
   {
     "title": "QOOOL Sensing",
+	"startdate": "01.11.2023",
+	"enddate": "31.10.2026",
     "description": "Das Ziel des QOOOL Sensing Projektes ist die erstmalige Entwicklung eines kompakten und kostengünstigen NV-Quantenmagnetometers in Form eines Sensor-Kits (QOOOL Kit), mit dem breite Bevölkerungsschichten für Quantentechnologien sensibilisiert und begeistert werden können. Dazu soll die senseBox (https://sensebox.de/) als Mikrocontroller genutzt und erweitert sowie didaktisches Material insbesondere für den Einsatz im MINT-Bereich entwickelt werden. Mit einer interaktiven Lernsoftware sollen die Funktionsweise und der Aufbau eines NV-Magnetometers als Quantensensor sowie das Zusammenspiel dessen Einzelkomponenten anschaulich erklärt werden. Das Projekt hat eine Laufzeit bis Ende Oktober 2026.",
      "link": "https://qoool-sensing.org/de",
+	 "linkText": "QOOOL Sensing",
+	 "logo": "/assets/img/forschung/QOOOL-Logo.png",
      "forschungsverbund": [
       "/assets/img/forschung/Hahn-Schickard Logo mit Claim sRGB.jpg",
       "/assets/img/forschung/IIS_Logo_blue-mit-Box.png",
       "/assets/img/logos/PuD_Logo_quadratisch.JPG"
     ],
-    "image": "/assets/img/forschung/QOOOL-Logo.png",
+    "image": "/assets/img/forschung/qoool.png",
     "underscoreStyle": "red",
     "logoBottom": "/assets/img/forschung/BMBF_CMYK_Gef_L.png"
-  }
+  },
+  {
+	"title": "Foodmission",
+	"startdate": "01.01.2025",
+	"enddate": "31.06.2028",
+	"description": "Wir sind Teil des europäischen Forschungsprojekts FOODMISSION, das Bürger:innen als aktive Gestalter:innen einer nachhaltigeren Ernährungszukunft einbindet. Dabei nutzen wir Citizen Science, Gamification und Bildungsansätze, um Essgewohnheiten zu erforschen, Verhaltensänderungen zu initiieren und den Übergang zu einem fairen, gesunden und umweltfreundlichen Ernährungssystem zu beschleunigen.",
+	"link": "https://google.com",
+	"linkText": "TO-DO",
+	"forschungsverbund": [
+	  ],
+	  "image": "/assets/img/forschung/foodmission.png",
+	  "underscoreStyle": "red",
+	  "logoBottom": "/assets/img/forschung/EU-PANTONE.jpg"
+	}
 ]

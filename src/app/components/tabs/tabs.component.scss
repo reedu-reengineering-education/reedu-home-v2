@@ -46,7 +46,7 @@
   margin-top: 4rem;
 
   .tab-title {
-    line-height: 1.2em;
+    line-height: -1.0rem;
   }
 
   .card {
@@ -63,7 +63,7 @@
       }
 
       h2 {
-        padding-bottom: 1.2em;
+        padding-bottom: 1.0rem;
       }
       .description-text {
         text-align: left;
@@ -93,14 +93,17 @@
       margin-bottom: 2rem;
     }
 
-    img.is-tab-image {
-      border: 5px solid white;
-      // max-height: 400px;
-      object-fit: cover;
-      background-color: white;
-    }
+	img.is-tab-image {
+		border: 5px solid white;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		background-color: white;
+		display: block;
+	  }
 
     .forschungs-info {
+		margin-top: 1.3rem;
       @media screen and (min-width: $breakpoint-mobile) {
         width: 50%;
       }
@@ -112,6 +115,89 @@
     }
   }
 }
+
+.research-period {
+	margin-top: -0.5rem;
+	line-height: 1.0; 
+	font-size: 1rem;
+	color: rgba(85, 85, 85, 0.8);
+	opacity: 0.65;
+  }
+
+  .forschungsverbund-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: flex-start;
+	width: 100%;
+  }
+  
+  .forschungsverbund-logo {
+	width: 150px;  
+	height: 100px; 
+	object-fit: contain;
+	margin: 0.75rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+  }
+  
+  .special-logo {
+	width: 120px;   
+	height: 80px; 
+	object-fit: contain;
+	margin: 0.75rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.forschungsverbund-logo {
+	  width: 96px;
+	  height: 64px;
+	}
+	
+	.special-logo {
+	  width: 75px;
+	  height: 50px;
+	}
+  }
+ 
+  .foerderung-logo, 
+  .foerderung-logo-bottom {
+	max-width: 150px; 
+	max-height: 100px; 
+	object-fit: contain;
+	margin: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	text-align: left;
+  }
+
+  .projects-title {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	color: white;
+	opacity: 0.85;
+  }
+  
+  .projects-section {
+	margin-bottom: 2rem;
+  }
+  
+  .past-projects-section {
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+	padding: 1.5rem 0;
+	border-top: 1px solid #eee;
+	
+  }
+
+  .tab-content:last-of-type {
+    margin-top: 2rem;
+  }
 
 .card-tab-switcher {
   $control-height: 4rem;
