@@ -147,5 +147,22 @@
 	  "image": "/assets/img/forschung/foodmission.png",
 	  "underscoreStyle": "red",
 	  "logoBottom": "/assets/img/forschung/EU-PANTONE.jpg"
-	}
+	},
+	{
+		"title": "iCODE_MS",
+		"startdate": "01.01.2024",
+		"enddate": "31.12.2025",
+		"description": "Basic computer literacy and education for sustainable development (ESD) - two areas of expertise that are essential for a sustainable and digitalised world. The iCODE_MS project therefore pursues one goal: the extracurricular teaching of logical and algorithmic ways of thinking based on application-related aspects of environmental education.",
+		"link": "https://icode.ms/",
+		"linkText": "iCODE_MS",
+		"logo": "/assets/img/forschung/iCode_ms_logo.png",
+		"forschungsverbund": [
+		 "/assets/img/logos/logo_small_text_orange.svg",
+		 "/assets/img/forschung/openSenseLab_logo.png",
+		 "/assets/img/forschung/MExLab-ExperiMINTe_logo.png"
+	   ],
+	   "foerderung": ["/assets/img/partner/Kofinanziert-von-der-EU_logo.png", "/assets/img/partner/wirtschaft-nrw.svg"],
+	   "underscoreStyle": "red",
+	   "image": "/assets/img/projekte/icodems.jpg"
+	  }
 ]

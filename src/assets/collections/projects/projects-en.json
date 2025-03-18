@@ -10,17 +10,6 @@
     "year": [2024],
     "target": ["Citizens","Science", "Cities"]
   },
-      {
-    "name": "iCODE_MS",
-    "desc": "Basic computer literacy and education for sustainable development (ESD) - two areas of expertise that are essential for a sustainable and digitalised world. The iCODE_MS project therefore pursues one goal: the extracurricular teaching of logical and algorithmic ways of thinking based on application-related aspects of environmental education.",
-    "img": "/assets/img/projekte/icodems.jpg",
-    "link": "https://icode.ms/",
-    "topics": ["DigitaleBildung", "ESD", "ComputerLiteracy"],
-    "customer": "Ministry of Economic Affairs, Industry, Climate Protection and Energy of the State of North Rhine-Westphalia, co-financed by the European Union",
-    "angebote": ["Hackathon", "Event"],
-    "year": [2025,2024],
-    "target": ["Pupils"]
-  },
   {
     "name": "Mapstories 2.0",
     "desc": "Mapstories tells stories around the world. The tool offers a variety of options to illustrate global connections with the help of places as stations on a globe. Mapstories was created in 2021 as part of a cooperation between re:edu and Vamos e.V.. The starting point of the project \"welt.weit.virtuell\" was the implementation of a co-creative lab on the global garment industry. After a lot of positive feedback on the tool and numerous requests for adaptations, Mapstories was released in a new version in June 2023. This version brings a wealth of improvements and new features, such as a Story Lab.",
