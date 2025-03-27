@@ -139,5 +139,12 @@
     "title": "M.Sc. Elektrotechnik",
     "tags": ["Python", "Node", "React","JavaScript"],
     "photo": "/assets/img/team/mostafa.jpg"
+  },
+  {
+    "name": "Maria Zadnepryanets",
+    "position": "Entwicklerin",
+    "title": "M.Sc. Ingenieurwesen und Technologie",
+    "tags": ["React", "JavaScript"],
+    "photo": "/assets/img/team/maria.jpg"
   }
 ]
