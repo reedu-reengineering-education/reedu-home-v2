@@ -105,13 +105,6 @@
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   },
   {
-    "name": "Björn Luig",
-    "position": "Entwickler",
-    "title": "M.Sc. Mathematik",
-    "tags": ["Physik", "Mathe"],
-    "photo": "/assets/img/team/Björn.JPG"
-  },
-  {
     "name": "Kieran Galbraith",
     "position": "Werkstudent, Softwareentwickler",
     "title": "",
@@ -127,13 +120,6 @@
     "photo": "/assets/img/team/ronja.jpg"
   },
   {
-    "name": "Ammar Yousaf",
-    "position": "Entwickler",
-    "title": "B.Sc. Geoinformatik",
-    "tags": ["Maps", "Node", "React", "GIS"],
-    "photo": "/assets/img/team/ammar.jpg"
-  },
-  {
     "name": "Mostafa Kandel",
     "position": "Entwickler",
     "title": "M.Sc. Elektrotechnik",
@@ -146,5 +132,12 @@
     "title": "M.Sc. Ingenieurwesen und Technologie",
     "tags": ["React", "JavaScript"],
     "photo": "/assets/img/team/maria.jpg"
+  },
+  {
+    "name": "Matteo Weickert",
+    "position": "Bildung",
+    "title": "Werkstudent",
+    "tags": ["AGs", "Projekttage", "Machine Learning"],
+    "photo": "/assets/img/team/matteo.jpg"
   }
 ]
