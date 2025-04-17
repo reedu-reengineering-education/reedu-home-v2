@@ -139,5 +139,8 @@
 
   "LAUFENDE_FORSCHUNGSPROJEKTE": "Laufende Forschungsprojekte",
   "ABGESCHLOSSENE_FORSCHUNGSPROJEKTE": "Abgeschlossene Forschungsprojekte",
-  "FORSCHUNGSZEITRAUM": "Forschungszeitraum"
+  "FORSCHUNGSZEITRAUM": "Forschungszeitraum",
+
+  "INTERESSE_AN_DIESEM_PROJEKT": "Interesse an diesem Projekt?",
+  "MELDE_DICH_GERNE_BEI": "Melde Dich gerne bei"
 }

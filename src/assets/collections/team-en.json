@@ -113,8 +113,9 @@
      {
     "name": "Kieran Galbraith",
     "position": "Student assistant, Software Developer",
-    "title": "",
-    "tags": ["Python", "Java Script"],
+    "title": "B.Sc. Geoinformatics",
+    "tags": ["Python", "JavaScript"],
+	"email": "k.galbraith@reedu.de",
     "photo": "/assets/img/team/Kieran.jpg"
   },
   {
