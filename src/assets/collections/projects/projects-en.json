@@ -9,8 +9,8 @@
     "angebote": ["Hardware"],
     "year": [2024],
     "target": ["Citizens","Science", "Cities"],
-	"featured": true,
-	"responsible": "Dr. Thomas Bartoschek"
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "Mapstories 2.0",
