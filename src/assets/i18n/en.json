@@ -146,5 +146,8 @@
   "FORSCHUNGSZEITRAUM": "Research Period",
 
   "INTERESSE_AN_DIESEM_PROJEKT": "Are you interested in this project?",
-  "MELDE_DICH_GERNE_BEI": "Feel free to get in touch with"
+  "MELDE_DICH_GERNE_BEI": "Feel free to get in touch with",
+  
+  "ALLES_ANZEIGEN": "Show all projects",
+  "WENIGER_ANZEIGEN": "Show 'featured' projects only"
 }

@@ -14,6 +14,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class PortfolioComponent implements OnInit {
   projects: any[];
   filteredProjects: any[];
+  groupedProjects: { [key: string]: any[] } = {};
   customers;
   angebote = ["Software", "Hardware", "Veranstaltungen", "Forschung", "Beratung", "Lehrmaterial"];
   topics = [];
@@ -165,6 +166,7 @@ export class PortfolioComponent implements OnInit {
       return latestYearB - latestYearA;
     });
 
+    this.groupedProjects = this.groupProjectsByYear();
     this.filterOpen = false;
   }
 
@@ -173,8 +175,24 @@ export class PortfolioComponent implements OnInit {
     this.filterToUrl();
   }
 
-  toggleFeatured(event) {
-    this.showFeatured = event.target.checked;
+  toggleShowAll() {
+    this.showFeatured = !this.showFeatured;
     this.applyFilters();
+  }
+
+  groupProjectsByYear() {
+    const groupedProjects = {};
+    this.filteredProjects.forEach(project => {
+      const earliestYear = Math.min(...project.year);
+      if (!groupedProjects[earliestYear]) {
+        groupedProjects[earliestYear] = [];
+      }
+      groupedProjects[earliestYear].push(project);
+    });
+    return groupedProjects;
+  }
+
+  get sortedYears() {
+    return Object.keys(this.groupedProjects).sort((a, b) => parseInt(b) - parseInt(a));
   }
 }

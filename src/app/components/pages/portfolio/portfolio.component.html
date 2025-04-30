@@ -5,13 +5,6 @@
 	<div class="stripes-container sb-white-text">
 	  <div class="stripes">
 		<div class="container re-offset-container">
-		  <div class="toggle-switch">
-			<label class="switch">
-			  <input type="checkbox" (change)="toggleFeatured($event)" [checked]="showFeatured">
-			  <span class="slider round"></span>
-			</label>
-			<span>{{ showFeatured ? 'Featured' : 'All' }}</span>
-		  </div>
 		  <h3 class="re-pointer" (click)="toggleFilterModal()">
 			{{ "FILTERN" | translate }}
 			<i class="fa fa-filter"></i>
@@ -78,10 +71,20 @@
 		  </div>
   
 		  <div class="project-container">
-			<re-project-card
-			  *ngFor="let project of filteredProjects"
-			  [project]="project"
-			></re-project-card>
+			<div *ngFor="let year of sortedYears">
+			  <h2 class="year-header">{{ year }}</h2>
+			  <div class="project-group">
+				<re-project-card
+				  *ngFor="let project of groupedProjects[year]"
+				  [project]="project">
+				</re-project-card>
+			  </div>
+			</div>
+		  </div>
+		  <div class="show-all-container">
+			<button class="show-all-button" (click)="toggleShowAll()">
+			  {{ showFeatured ? ('ALLES_ANZEIGEN' | translate) : ('WENIGER_ANZEIGEN' | translate) }}
+			</button>
 		  </div>
 		</div>
 	  </div>
@@ -193,3 +196,4 @@
 	  ></button>
 	</div>
   </div>
+  
