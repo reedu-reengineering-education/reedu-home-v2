@@ -16,6 +16,7 @@ In this role, you will take on strategic and operational responsibility for our 
 - Designing and conducting workshops, project days, and project weeks for learners with a focus on environmental education & computer science
 - Organizing and delivering professional development courses for teachers on various STEM topics
 - Leading and coordinating a team of student assistants
+- Sales communication with educational institutions (offers for hardware & events)
 
 ### What you bring to the table:
 
