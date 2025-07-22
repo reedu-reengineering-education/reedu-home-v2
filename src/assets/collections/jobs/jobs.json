@@ -1,5 +1,11 @@
 [
   {
+    "title": "Head of Education (Vollzeit)",
+    "description": "Werde Head of Education bei re:edu und gestalte die Zukunft digitaler und offener Bildung aktiv mit. Entfalte dein Potenzial an der Schnittstelle von Pädagogik, Technologie und Nachhaltigkeit",
+    "imgname": "education.png",
+    "filename": "head-of-education.md"
+  },
+  {
     "title": "Entwickler für Open-Source-Hardware-Anwendungen (Vollzeit)",
     "description": "Bastelst du gerne an IoT, Mikrocontrollern und Sensoren und hast bereits Kenntnisse in Elektronik und Hardware-Prototyping? Dann unterstütze unser Team beim Testen und Bewerten von Mikrocontrollern und Sensoren sowie beim Entwerfen neuer Hardwareprodukte.",
     "imgname": "Hardware.png",
