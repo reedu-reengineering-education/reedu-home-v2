@@ -43,7 +43,7 @@ We look forward to receiving your application, including:
 
 - Resume
 - Motivation letter
-- Relevant certificates
+- Relevant certificates & certificates
 
 If this sounds like a fit for you, please send your application via email to: kontakt@reedu.de
 

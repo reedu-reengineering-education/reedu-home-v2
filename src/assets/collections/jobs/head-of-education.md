@@ -11,7 +11,7 @@ In dieser Rolle übernimmst du die strategische und operative Verantwortung für
 ### Zu deinen Aufgaben zählen:
 
 - Entwicklung und Pflege von Open Educational Resources (OER) im MINT-Bereich
-- Konzeptionelle Weiterentwicklung der senseBox:edu und Blockly für senseBox (siehe (senseBox.de)[senseBox.de])
+- Konzeptionelle Weiterentwicklung der senseBox:edu und Blockly für senseBox (siehe [senseBox.de](https://senseBox.de))
 - Koordination von Forschungsprojekten im Bildungsbereich
 - Konzeption und Durchführung von Workshops, Projekttage und Projektwochen für Lernende mit Fokus auf Umweltbildung & Informatik
 - Organisation und Durchführung von Fortbildungen für Lehrkräfte zu verschiedenen MINT-Themen
@@ -43,7 +43,7 @@ Wir freuen uns auf deine Bewerbung bestehend aus:
 
 - Lebenslauf
 - Motivationsschreiben
-- Relevanten Zeugnissen
+- Relevanten Zeugnissen & Zertifikate
 
 Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: kontakt@reedu.de
 
