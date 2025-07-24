@@ -28,8 +28,6 @@
   }
 }
 
-
-
 .project-description {
   .back-link {
     color: $black;
@@ -65,5 +63,12 @@ markdown::ng-deep {
   img {
     margin: auto;
     display: block;
+  }
+  h1 {
+    padding: 1em 0 0.5em 0;
+  }
+  h3 {
+    color: #38383a !important;
+    padding: 1em 0 0.5em 0;
   }
 }

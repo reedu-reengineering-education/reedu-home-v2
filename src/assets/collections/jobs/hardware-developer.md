@@ -1,8 +1,6 @@
-#  Entwickler*in für Open-Source-Hardware-Anwendungen (Vollzeit)
+# Entwickler\*in für Open-Source-Hardware-Anwendungen (Vollzeit)
 
 re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Universität Münster), das Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung - digital und offen - für alle Menschen anbietet. Wir entwickeln unter anderem webbasierte Geoinformationssysteme, individuelle Lernmanagementsysteme, Datenanalysesoftware, Forschungsdateninfrastrukturen, LernApps oder Citizen Science Apps.
-
- 
 
 **Zu deinen Aufgaben zählen:**
 
@@ -12,7 +10,7 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 - Performance-Analyse und Optimierung bestehender Anwendungen und Systeme.
 - Erstellung umfassender Dokumentationen für Hard- und Softwareprojekte, die der Community zur Weiterentwicklung dienen können.
 - Zusammenarbeit mit Open-Source-Communities, um zu bestehenden Projekten beizutragen und neue Projekte zu initiieren.
-- Enge Zusammenarbeit mit Entwicklerinnen, Technikerinnen und UX-Designer*innen, um Hardware und Software optimal aufeinander abzustimmen.
+- Enge Zusammenarbeit mit Entwicklerinnen, Technikerinnen und UX-Designer\*innen, um Hardware und Software optimal aufeinander abzustimmen.
 
 **Das bringst du mit:**
 
@@ -29,7 +27,7 @@ re:edu ist ein junges Start-Up (Spin-off des Instituts für Geoinformatik der Un
 - Eine verantwortungsvolle Aufgabe mit Sinn und Gestaltungsspielraum
 - Ein tolles kollegiales Umfeld, ein wertschätzendes und motiviertes Team
 
-Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: j.wirwahn@reedu.de  
+Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: j.wirwahn@reedu.de
 
 Büroadresse:
 re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster

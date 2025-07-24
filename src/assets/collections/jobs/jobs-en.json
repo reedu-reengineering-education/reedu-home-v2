@@ -1,5 +1,11 @@
 [
   {
+    "title": "Head of Education (100% or part-time)",
+    "description": "Join re:edu as Head of Education and help shape the future of digital and open learning. Discover how your passion for education and innovation can make a real impact.",
+    "imgname": "education.png",
+    "filename": "head-of-education-en.md"
+  },
+  {
     "title": "Developer for Open-Source Hardware Applications (Full-Time)",
     "description": "Do you enjoy tinkering with IoT, microcontrollers, and sensors, and already have knowledge in electronics and hardware prototyping? Then join our team to test and evaluate microcontrollers and sensors and design new hardware products.",
     "imgname": "Hardware.png",
