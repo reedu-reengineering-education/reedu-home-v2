@@ -1,4 +1,4 @@
-# Vollzeitstelle im Bildungsbereich bei re:edu
+# Voll- oder Teilzeitstelle im Bildungsbereich bei re:edu
 
 Die re:edu GmbH & Co. KG ist ein junges Unternehmen (Spin-off des Instituts für Geoinformatik der Universität Münster), das innovative, digitale und offene Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung entwickelt. Mit der senseBox und weiteren Softwarelösungen gestalten wir Bildung aktiv mit und setzen auf Open Educational Resources (OER) und praxisnahe Vermittlung.
 
@@ -13,10 +13,11 @@ In dieser Rolle übernimmst du die strategische und operative Verantwortung für
 - Entwicklung und Pflege von Open Educational Resources (OER) im MINT-Bereich
 - Konzeptionelle Weiterentwicklung der senseBox:edu und Blockly für senseBox (siehe [senseBox.de](https://senseBox.de))
 - Koordination von Forschungsprojekten im Bildungsbereich
-- Konzeption und Durchführung von Workshops, Projekttage und Projektwochen für Lernende mit Fokus auf Umweltbildung & Informatik
+- Konzeption und Durchführung von Workshops, Projekttagen und Projektwochen für Lernende mit Fokus auf Umweltbildung & Informatik
 - Organisation und Durchführung von Fortbildungen für Lehrkräfte zu verschiedenen MINT-Themen
 - Führung und Koordination eines Teams aus studentischen Mitarbeitenden
 - Vertriebskommunikation mit Bildungseinrichtungen (Angebote for Hardware & Events)
+- Angebote für Hardware & Workshops
 
 ### Das bringst du mit:
 
@@ -44,7 +45,7 @@ Wir freuen uns auf deine Bewerbung bestehend aus:
 
 - Lebenslauf
 - Motivationsschreiben
-- Relevanten Zeugnissen & Zertifikate
+- Relevante Zeugnisse & Zertifikate
 
 Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an: kontakt@reedu.de
 
