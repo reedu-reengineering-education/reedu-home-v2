@@ -16,8 +16,7 @@ In dieser Rolle übernimmst du die strategische und operative Verantwortung für
 - Konzeption und Durchführung von Workshops, Projekttagen und Projektwochen für Lernende mit Fokus auf Umweltbildung & Informatik
 - Organisation und Durchführung von Fortbildungen für Lehrkräfte zu verschiedenen MINT-Themen
 - Führung und Koordination eines Teams aus studentischen Mitarbeitenden
-- Vertriebskommunikation mit Bildungseinrichtungen (Angebote for Hardware & Events)
-- Angebote für Hardware & Workshops
+- Vertriebskommunikation mit Bildungseinrichtungen (Angebote für Hardware & Workshops)
 
 ### Das bringst du mit:
 
