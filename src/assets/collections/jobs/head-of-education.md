@@ -1,4 +1,4 @@
-# Voll- oder Teilzeitstelle im Bildungsbereich bei re:edu
+# Voll- oder Teilzeitstelle im Bildungs&shy;bereich bei re:edu
 
 Die re:edu GmbH & Co. KG ist ein junges Unternehmen (Spin-off des Instituts für Geoinformatik der Universität Münster), das innovative, digitale und offene Lösungen für Bildung, Forschung, Nachhaltigkeit und Beteiligung entwickelt. Mit der senseBox und weiteren Softwarelösungen gestalten wir Bildung aktiv mit und setzen auf Open Educational Resources (OER) und praxisnahe Vermittlung.
 
