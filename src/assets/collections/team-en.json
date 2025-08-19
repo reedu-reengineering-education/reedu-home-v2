@@ -138,5 +138,12 @@
     "title": "Werkstudent",
     "tags": ["AGs", "Projekttage", "Machine Learning"],
     "photo": "/assets/img/team/matteo.jpg"
+  },
+   {
+    "name": "Kalle Kröger",
+    "position": "Product development",
+    "title": "M.A. Produktdesign",
+    "tags": ["Design", "CAD", "3D-Printing"],
+    "photo": "/assets/img/team/Kroeger_Kalle.jpg"
   }
 ]
