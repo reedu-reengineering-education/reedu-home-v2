@@ -72,7 +72,7 @@
     "position": "Developer",
     "title": "M.Sc. Geoinformatics",
     "tags": ["IoT", "WebDevelopment"],
-    "photo": "/assets/img/team/Eric.png"
+    "photo": "/assets/img/team/eric_new.png"
   },
   {
     "name": "Sergey Mukhametov",
@@ -100,14 +100,15 @@
     "name": "Paula Scharf",
     "position": "Developer",
     "title": "M.Sc. Geoinformatics",
-    "tags": ["Web development","IoT", "AI"],
+    "tags": ["Web development", "IoT", "AI"],
     "photo": "/assets/img/team/Paula_Scharf_Foto.png"
   },
-     {
+  {
     "name": "Kieran Galbraith",
     "position": "Student assistant, Software Developer",
-    "title": "",
-    "tags": ["Python", "Java Script"],
+    "title": "B.Sc. Geoinformatics",
+    "tags": ["Python", "JavaScript"],
+    "email": "k.galbraith@reedu.de",
     "photo": "/assets/img/team/Kieran.jpg"
   },
   {
@@ -122,7 +123,7 @@
     "name": "Mostafa Kandel",
     "position": "Developer",
     "title": "M.Sc. Electrical Engineering",
-    "tags": ["Python", "Node", "React","JavaScript"],
+    "tags": ["Python", "Node", "React", "JavaScript"],
     "photo": "/assets/img/team/mostafa.jpg"
   },
   {

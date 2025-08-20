@@ -1,5 +1,31 @@
 [
-        {
+  {
+    "name": "Schlabberkappes - Arnsberg",
+    "desc": "Arnsberg makes the environment visible: Citizens collect environmental data with sensors for the city of tomorrow",
+    "img": "/assets/img/projekte/arnsberg.jpg",
+    "link": "https://www.arnsberg.de/rathaus-politik/pressestelle/presse-infos/meldung/arnsberg-macht-umwelt-sichtbar-buergerinnen-sammeln-mit-sensoren-umweltdaten-fuer-die-stadt-von-morgen",
+    "topics": ["SmartCity", "Mobility"],
+    "customer": "Arnsberg",
+    "angebote": ["Hardware", "Events"],
+    "year": [2025],
+    "target": ["Citizens", "Science", "Cities"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
+  },
+  {
+    "name": "Wiesbaden auf Rädern",
+    "desc": "Wiesbaden wants to become a sustainable and bicycle-friendly city. Where do we stand on this path? To make this more visible, Smart City Wiesbaden now brings together current data on bicycle use and the promotion of sustainable mobility in Wiesbaden in one central place",
+    "img": "/assets/img/projekte/wiesbaden.png",
+    "link": "https://www.wiesbaden.de/leben-in-wiesbaden/mobilitaet/radbuero/Datenwelt-Fahrradnutzung-in-Wiesbaden",
+    "topics": ["SmartCity", "Mobility"],
+    "customer": "Wiesbaden",
+    "angebote": ["Software", "Hardware", "Events"],
+    "year": [2025],
+    "target": ["Citizens", "Science", "Cities"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
+  },
+  {
     "name": "senseBox:bike",
     "desc": "The senseBox:bike is an AI-based open source sensor technology for the mobile collection of environmental and traffic data by bicycle (e.g. close overtaking, road conditions, particulate matter pollution, temperature, etc.), which can contribute to the improvement of cycling infrastructure in urban areas.",
     "img": "/assets/img/projekte/senseBox-bike-logo.png",
@@ -8,7 +34,35 @@
     "customer": "",
     "angebote": ["Hardware"],
     "year": [2024],
-    "target": ["Citizens","Science", "Cities"]
+    "target": ["Citizens", "Science", "Cities"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
+  },
+  {
+    "name": "senseBox Air-Quality-Explorer-Set",
+    "desc": "With the Air-Quality-Explorer-Set, you can measure air quality both indoors and outdoors. It includes a CO₂ sensor and a particulate matter sensor, along with the accessories needed to connect them to the senseBox microcontroller. The set is compatible with both the senseBox:edu and the senseBox:edu S2.",
+    "img": "/assets/img/projekte/aq-set.png",
+    "link": "https://sensebox.de/de/products-bike",
+    "topics": ["Hardware"],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2024],
+    "target": ["Bürger:innen", "Wissenschaft", "Städte"],
+    "featured": true,
+    "responsible": "Jan Wirwahn"
+  },
+  {
+    "name": "senseBox:bike App",
+    "desc": "The senseBox:bike app provides you with all the tools to store, visualize, and upload the data collected by the senseBox to the openSenseMap.",
+    "img": "/assets/img/projekte/bikeapp.jpg",
+    "link": "https://sensebox.de/de/products-bike",
+    "topics": ["Mobilität", "App"],
+    "customer": "",
+    "angebote": ["Software"],
+    "year": [2024],
+    "target": ["Bürger:innen", "Wissenschaft"],
+    "featured": true,
+    "responsible": "Felix Erdmann"
   },
   {
     "name": "Mapstories 2.0",
@@ -18,8 +72,10 @@
     "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Events"],
-    "year": [2023,2024],
-    "target": ["Pupils", "Teachers"]
+    "year": [2023, 2024],
+    "target": ["Pupils", "Teachers"],
+    "featured": true,
+    "responsible": "Eric Thieme-Garmann"
   },
   {
     "name": "Climate Dashboard",
@@ -29,8 +85,10 @@
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Software"],
-    "year": [2023,2024],
-    "target": ["Cities", "Citizens"]
+    "year": [2023, 2024],
+    "target": ["Cities", "Citizens"],
+    "featured": true,
+    "responsible": "Felix Erdmann"
   },
   {
     "name": "OER4SDI",
@@ -41,7 +99,8 @@
     "customer": "Bochum University of Applied Sciences",
     "angebote": ["Software"],
     "year": [2023],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "CENOGRID-Megasplice",
@@ -52,7 +111,8 @@
     "customer": "University of Münster",
     "angebote": ["Software"],
     "year": [2023],
-    "target": ["Science"]
+    "target": ["Science"],
+    "featured": false
   },
   {
     "name": "Mapstories – zeitgeisty",
@@ -62,8 +122,10 @@
     "topics": ["DigitalEducation", "WebDevelopment", "GlobalLearning"],
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Events"],
-    "year": [2023,2024],
-    "target": ["Pupils", "Teachers"]
+    "year": [2023, 2024],
+    "target": ["Pupils", "Teachers"],
+    "featured": true,
+    "responsible": "Eric Thieme-Garmann"
   },
   {
     "name": "Website for the Spatial Intelligence Lab of the University of Münster",
@@ -74,7 +136,8 @@
     "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2022],
-    "target": ["Students", "Universities"]
+    "target": ["Students", "Universities"],
+    "featured": false
   },
   {
     "name": "PVP-Map",
@@ -85,7 +148,9 @@
     "customer": "Ministry for School and Education of the State of NRW and 52°north ",
     "angebote": ["Software"],
     "year": [2022],
-    "target": ["Universities","Schools"]
+    "target": ["Universities", "Schools"],
+    "featured": true,
+    "responsible": "Umut Taş"
   },
   {
     "name": "3-2-1 heiss!",
@@ -94,9 +159,11 @@
     "link": "https://www.catta.ch/321heiss",
     "topics": ["Citizen Science"],
     "customer": "catta GmbH",
-    "angebote": ["Software","Hardware"],
+    "angebote": ["Software", "Hardware"],
     "year": [2022],
-    "target": ["Citizens","Science"]
+    "target": ["Citizens", "Science"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "CS:iDrop",
@@ -105,9 +172,11 @@
     "link": "https://www.ruhr-uni-bochum.de/didachem/CSiDrop.htm",
     "topics": ["Citizen Science"],
     "customer": "Ruhr-University Bochum",
-    "angebote": ["Software","App Development"],
+    "angebote": ["Software", "App Development"],
     "year": [2022],
-    "target": ["Citizens"]
+    "target": ["Citizens"],
+    "featured": true,
+    "responsible": "Umut Taş"
   },
   {
     "name": "re:quest",
@@ -118,9 +187,10 @@
     "customer": "Stifterverband, AWS",
     "angebote": ["Software"],
     "year": [2022],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
-        {
+  {
     "name": "mybadges",
     "desc": "myBadges is a system based on the Open Badge standard that can be used in school and non-school contexts. Badges are contextualised through an e-portfolio, documenting learning achievements, competence acquisition, successes and participation. As part of the #WirFürSchule 2020 hackathon, the project idea was further developed with an interdisciplinary team and a first prototype was implemented, which won first place. In the senseBox Pro project, this prototype will be docked onto the senseBox learning environment and the openSenseMap and, with the support of the Telekom Foundation, expanded and used in a pilot project in various educational institutions in Bonn.",
     "img": "/assets/img/projekte/myBadges.svg",
@@ -128,10 +198,11 @@
     "topics": ["DigitalEducation"],
     "customer": "Telekom Stiftung",
     "angebote": ["Software"],
-    "year": [2024,2023,2022,2021],
-    "target": ["Students", "Teachers"]
+    "year": [2024, 2023, 2022, 2021],
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
-       {
+  {
     "name": "Digtial-AG in the primary school",
     "desc": "In the open all-day programme of the Annette-von-Droste-Hülshoff Primary School Münster-Nienberge, we offer a weekly digital workshop for all children who enjoy using digital media and would like to take a look behind the scenes of their functions.",
     "img": "/assets/img/projekte/Digital-AG.jpg",
@@ -139,10 +210,11 @@
     "topics": ["DigitalEducation"],
     "customer": "Amt für Kinder, Jugendliche und Familien der Stadt Münster",
     "angebote": ["Event"],
-    "year": [2022,2021],
-    "target": ["Students"]
+    "year": [2022, 2021],
+    "target": ["Students"],
+    "featured": false
   },
-      {
+  {
     "name": "App Development: Invasive species in Europe",
     "desc": "Further development of the app \"Invasive species in Europe\" to obtain and share information on invasive species in Europe.",
     "img": "/assets/img/projekte/App-Invasive-Fremdarten-Europa.png",
@@ -151,18 +223,28 @@
     "customer": "European Union",
     "angebote": ["Software"],
     "year": [2021],
-    "target": ["Citizens", "Scientist"]
+    "target": ["Citizens", "Scientist"],
+    "featured": false
   },
   {
     "name": "Humboldt Explorers",
     "desc": "Development of a map-based web platform for the presentation and analysis of environmental data. Development of an individual senseBox for environmental data recording of the mobile student laboratory \"Humboldt Explorers\" of the Humboldt University Berlin.",
     "img": "/assets/img/projekte/Humboldt-Explorers.png",
     "link": "https://www.humboldt-bayer-mobil.de/de",
-    "topics": ["CitizenScience", "WebDevelopment", "DataLiteracy", "DigitalEducation", "Environment", "STEAM"],
+    "topics": [
+      "CitizenScience",
+      "WebDevelopment",
+      "DataLiteracy",
+      "DigitalEducation",
+      "Environment",
+      "STEAM"
+    ],
     "customer": "Humboldt University Berlin",
     "angebote": ["Software", "Hardware"],
-    "year": [2022,2021],
-    "target": ["Students", "Teachers"]
+    "year": [2022, 2021],
+    "target": ["Students", "Teachers"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "openSenseMap",
@@ -173,7 +255,9 @@
     "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2021, 2020],
-    "target": ["Students", "Citizens", "Scientist"]
+    "target": ["Students", "Citizens", "Scientist"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "GeoGami",
@@ -190,7 +274,9 @@
     "customer": "University of Münster",
     "angebote": ["Software", "Science", "Consulting"],
     "year": [2021, 2020, 2019],
-    "target": ["Students", "Teachers", "University"]
+    "target": ["Students", "Teachers", "University"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "senseBox goes Futurium",
@@ -201,7 +287,9 @@
     "customer": "Futurium gGmbH",
     "angebote": ["Software", "Hardware", "Consulting", "Event"],
     "year": [2018, 2019],
-    "target": ["Students", "Citizens"]
+    "target": ["Students", "Citizens"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "Landingpages for Bachelor and Master of Geoinformatics",
@@ -212,7 +300,8 @@
     "customer": "University of Münster",
     "angebote": ["Software", "Consulting"],
     "year": [2020],
-    "target": ["Students", "University"]
+    "target": ["Students", "University"],
+    "featured": false
   },
   {
     "name": "Reflectories",
@@ -230,7 +319,9 @@
     "customer": "University of Münster",
     "angebote": ["Software"],
     "year": [2021, 2020],
-    "target": ["Students", "Teachers", "University"]
+    "target": ["Students", "Teachers", "University"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "Biogas Database",
@@ -241,7 +332,9 @@
     "customer": "FH Münster - University of Applied Sciences",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["University"]
+    "target": ["University"],
+    "featured": true,
+    "responsible": "Umut Taş"
   },
   {
     "name": "Holiday-Workshops #DigitaleOstern #DigitalerHerbst",
@@ -252,7 +345,8 @@
     "customer": "Westfälische Wilhelms-Universität Münster",
     "angebote": ["Event"],
     "year": [2020, 2019],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "Climate Hackathon",
@@ -263,7 +357,8 @@
     "customer": "Junge Tüftler gGmbH, Goethe-Institut",
     "angebote": ["Event"],
     "year": [2020],
-    "target": ["Citizens"]
+    "target": ["Citizens"],
+    "featured": false
   },
   {
     "name": "Turing Bus Workshops",
@@ -274,7 +369,9 @@
     "customer": "Gesellschaft für Informatik",
     "angebote": ["Event"],
     "year": [2019],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": true,
+    "responsible": "Umut Taş"
   },
   {
     "name": "senseBox Space Hackathon",
@@ -285,7 +382,9 @@
     "customer": "KIMM e.V. Kindermuseum Münster",
     "angebote": ["Event"],
     "year": [2018],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": true,
+    "responsible": "Verena Witte"
   },
   {
     "name": "Handel-O-Mat",
@@ -296,7 +395,8 @@
     "customer": "Germanwatch e.V.",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["Students", "Society"]
+    "target": ["Students", "Society"],
+    "featured": false
   },
   {
     "name": "CodeWeek Workshops Berlin",
@@ -307,7 +407,8 @@
     "customer": "Junge Tüftler gGmbH",
     "angebote": ["Event"],
     "year": [2020],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "CodeWeek Workshops Bonn",
@@ -318,7 +419,8 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Event"],
     "year": [2020],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "Wetter.Wasser.Waterkant Workshops",
@@ -329,7 +431,8 @@
     "customer": "Climate Ambassadors - Klimabotschafter e.V.",
     "angebote": ["Event"],
     "year": [2020, 2019],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "Classroom of the Future",
@@ -340,7 +443,9 @@
     "customer": "ELIG Foundation gGmbH",
     "angebote": ["Event"],
     "year": [2020, 2019],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": true,
+    "responsible": "Verena Witte"
   },
   {
     "name": "openSenseMap Feature-Layer",
@@ -351,7 +456,8 @@
     "customer": "ESRI Deutschland",
     "angebote": ["Software"],
     "year": [2020],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "Indoor localization of hospital beds",
@@ -362,7 +468,8 @@
     "customer": "Stiegelmeyer",
     "angebote": ["Software"],
     "year": [2019],
-    "target": ["Hospitals"]
+    "target": ["Hospitals"],
+    "featured": false
   },
   {
     "name": "TTN-Mapper for urban LoRa network",
@@ -373,7 +480,8 @@
     "customer": "Stadtwerke Münster",
     "angebote": ["Software", "Hardware"],
     "year": [2020],
-    "target": ["Professionals"]
+    "target": ["Professionals"],
+    "featured": false
   },
   {
     "name": "Self-sufficient sensor network in Enschede",
@@ -384,7 +492,8 @@
     "customer": "University of Twente",
     "angebote": ["Hardware"],
     "year": [2020],
-    "target": ["Professionals", "Scientists"]
+    "target": ["Professionals", "Scientists"],
+    "featured": false
   },
   {
     "name": "senseBox Competition Hamburg",
@@ -395,7 +504,8 @@
     "customer": "Körber Stiftung",
     "angebote": ["Hardware", "Event", "Consulting"],
     "year": [2019],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
   {
     "name": "Klima findet Stadt",
@@ -406,7 +516,9 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Events", "EducationalResource"],
     "year": [2018, 2019],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": true,
+    "responsible": "Felix Erdmann"
   },
   {
     "name": "Mobile environmental laboratory",
@@ -417,7 +529,8 @@
     "customer": "Telekom Stiftung",
     "angebote": ["Hardware", "Software", "Events", "EducationalResource"],
     "year": [2021, 2020],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
   {
     "name": "Hopp Events",
@@ -428,7 +541,8 @@
     "customer": "HOPP Foundation",
     "angebote": ["Events"],
     "year": [2020, 2019],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
   {
     "name": "senseBox Online Video Tutorials",
@@ -439,7 +553,8 @@
     "customer": "HOPP Foundation",
     "angebote": ["EducationalResources"],
     "year": [2020],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
   {
     "name": "LoRa Sensornetwork",
@@ -450,7 +565,8 @@
     "customer": "TU Berlin - Institute of Ecology",
     "angebote": ["Hardware"],
     "year": [2020, 2019],
-    "target": ["Scientists"]
+    "target": ["Scientists"],
+    "featured": false
   },
   {
     "name": "STEM-Congress Workshop",
@@ -461,7 +577,8 @@
     "customer": "Stadtbibliothek Köln",
     "angebote": ["Event"],
     "year": [2020, 2019],
-    "target": ["Citizens"]
+    "target": ["Citizens"],
+    "featured": false
   },
   {
     "name": "LoRa WAN SensorKit",
@@ -472,7 +589,8 @@
     "customer": "Smart City Solutions",
     "angebote": ["Hardware"],
     "year": [2019],
-    "target": ["Cities"]
+    "target": ["Cities"],
+    "featured": false
   },
   {
     "name": "Smart City Dashboard",
@@ -482,8 +600,10 @@
     "topics": ["SmartCity", "WebDevelopment", "OpenData"],
     "customer": "Stadt Münster, Stabsstelle Smart City",
     "angebote": ["Hardware", "Software"],
-    "year": [2021,2022,2023,2024],
-    "target": ["Städte", "BürgerInnen"]
+    "year": [2021, 2022, 2023, 2024],
+    "target": ["Städte", "BürgerInnen"],
+    "featured": true,
+    "responsible": "Felix Erdmann"
   },
   {
     "name": "Story Map for international graduate students",
@@ -494,7 +614,8 @@
     "customer": "University of Münster, Graduate Center",
     "angebote": ["Software", "Lehrmaterial"],
     "year": [2021],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "Digital Classroom",
@@ -505,7 +626,8 @@
     "customer": "DigitalCampus Nordkirchen",
     "angebote": ["Event"],
     "year": [2019],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": false
   },
   {
     "name": "webGIS.nrw",
@@ -516,7 +638,9 @@
     "customer": "University of Münster, Institute for Geoinformatics",
     "angebote": ["Software"],
     "year": [2021],
-    "target": ["Students"]
+    "target": ["Students"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "Digital fair JurStart",
@@ -527,7 +651,8 @@
     "customer": "JurStart GmbH",
     "angebote": ["Software", "Event"],
     "year": [2021],
-    "target": ["Students","Law firms"]
+    "target": ["Students", "Law firms"],
+    "featured": false
   },
   {
     "name": "welt.weit.virtuell - Global learning with digital media",
@@ -538,9 +663,10 @@
     "customer": "Vamos e.V.",
     "angebote": ["Software", "Event"],
     "year": [2021],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": false
   },
-      {
+  {
     "name": "KlimaDatenSchule",
     "desc": "Development of a web app and consulting for BildungsCent e.V. and mediale pfade - Verein für Medienbildung e.V.",
     "img": "/assets/img/projekte/KlimaDatenSchule.png",
@@ -549,7 +675,9 @@
     "customer": "BildungsCent e.V., mediale pfade – Verein für Medienbildung e.V.",
     "angebote": ["Software", "Consulting"],
     "year": [2021],
-    "target": ["Students", "Teachers"]
+    "target": ["Students", "Teachers"],
+    "featured": true,
+    "responsible": "Felix Erdmann"
   },
   {
     "name": "senseBox:bike - Futurium",
@@ -560,6 +688,65 @@
     "customer": "Futurium gGmbH",
     "angebote": ["Hardware", "Software", "Event", "Learning"],
     "year": [2021],
-    "target": ["Citizens"]
+    "target": ["Citizens"],
+    "featured": false
+  },
+  {
+    "name": "senseBox:edu",
+    "desc": "The senseBox:edu is your all-in-one package for getting started with microcontrollers and programming. Even without prior knowledge, the microcontroller can be easily 'programmed' within 10 minutes by uploading a pre-made sketch. For advanced programmers, the Arduino IDE can be used as usual to implement new and individual projects. The senseBox:edu offers the largest hardware range in the senseBox family, enabling a wide variety of projects and experiments. All components are housed in a sturdy plastic case with foam insert.",
+    "img": "/assets/img/projekte/sensebox-edu.jpg",
+    "link": "https://sensebox.de/de/products-edu",
+    "topics": ["DigitalEducation", "Hardware"],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2018],
+    "target": ["Students", "Teachers", "Scientists"],
+    "featured": true,
+    "responsible": "Verena Witte"
+  },
+  {
+    "name": "senseBox:edu S2",
+    "desc": "The senseBox:edu S2 is the new version of the senseBox:edu. S2 is smaller, more powerful, and more versatile than its predecessor. It is specifically designed for the education sector, making it ideal for getting started with microcontrollers and programming. Even without prior knowledge, the microcontroller can be easily 'programmed' within 10 minutes by uploading a pre-made sketch. For advanced programmers, the Arduino IDE can be used as usual to implement new and individual projects. All components are housed in a sturdy plastic case with foam insert.",
+    "img": "/assets/img/projekte/eduS2.png",
+    "link": "https://sensebox.de/de/products-edus2",
+    "topics": ["DigitalEducation", "Hardware"],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2024],
+    "target": ["Students", "Teachers", "Scientists"],
+    "featured": true,
+    "responsible": "Verena Witte"
+  },
+  {
+    "name": "senseBox:home",
+    "desc": "An IoT environmental monitoring station for outdoor measurements. Citizen scientists, interested individuals, and municipalities use it to measure environmental data at their homes or wherever it's of interest and send the data to openSenseMap.",
+    "img": "/assets/img/projekte/sensebox-home.png",
+    "link": "https://sensebox.de/de/products-home",
+    "topics": ["DigitalEducation", "Hardware", "IoT", "Citizen Science"],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2018],
+    "target": ["Citizens", "Scientists"],
+    "featured": true,
+    "responsible": "Jan Wirwahn"
+  },
+  {
+    "name": "CO2-Traffic Light",
+    "desc": "The senseBox CO2-Traffic Light is designed as a kit and includes all essential components to build a CO2 traffic light for monitoring indoor air quality. The CO2 levels are displayed on the OLED screen and visualized quickly and easily via an RGB LED. The laser-cut case ensures the electronics are well protected, while still allowing free airflow for the sensor.",
+    "img": "/assets/img/projekte/sensebox-co2-ampel.jpg",
+    "link": "https://sensebox.de/de/products-co2",
+    "topics": [
+      "DigitalEducation",
+      "Hardware",
+      "Health",
+      "Sensors",
+      "Climate Change"
+    ],
+    "customer": "",
+    "angebote": ["Hardware"],
+    "year": [2021],
+    "target": ["Citizens", "Scientists", "Students", "Teachers"],
+    "featured": true,
+    "responsible": "Jan Wirwahn"
   }
 ]

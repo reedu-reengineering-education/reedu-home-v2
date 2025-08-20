@@ -69,7 +69,7 @@
   .back-link {
     color: $black;
     position: relative;
-   
+
     display: flex;
     align-items: flex-end;
 
@@ -77,8 +77,6 @@
       top: -1.5em;
       left: -1.5em;
     }
-
-
 
     img {
       width: 2rem;
@@ -93,6 +91,64 @@
   .re-button {
     color: $black;
   }
+  .responsible-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+
+    @media screen and (max-width: $breakpoint-mobile) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .responsible-email {
+      font-size: 1rem;
+      color: $primary !important;
+      font-weight: bold;
+      text-decoration: underline;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: darken($primary, 10%);
+      }
+    }
+
+    .responsible-text {
+      margin-right: 20px;
+      p {
+        font-size: 1.2em;
+        margin: 5px 0;
+      }
+    }
+
+    .responsible-person {
+      display: flex;
+      align-items: center;
+      img {
+        border-radius: 0%;
+        width: 100px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      .person-details {
+        p {
+          margin: 5px 0;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
+
+.separator {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
 }
 
 .padding-6-resp {
