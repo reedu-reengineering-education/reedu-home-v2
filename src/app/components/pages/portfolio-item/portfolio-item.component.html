@@ -1,128 +1,164 @@
 <div class="site black-section" *ngIf="project">
-	<div class="re-top-space-holder"></div>
-	<div class="stripes-container">
-	  <div class="stripes">
-		<div class="re-offset-container">
-		  <div class="project-container">
-			<div class="container padding-6-resp">
-			  <div class="white-section project-description padding-6-resp">
-				<div class="columns is-tablet">
-				  <div class="column is-6 description-tab">
-					<a class="back-link" href="javascript:history.go(-1)"
-					  ><img src="./../../../../assets/img/logos/logo_black.svg" />
-					  {{ "BACK" | translate }}</a
-					>
-					<h1 class="py-3">{{ project.name }}</h1>
-					<p class="py-3">{{ project.desc }}</p>
-					<div *ngIf="project.link">
-					  <a
-						class="re-button"
-						href="{{ project.link }}"
-						target="_blank"
-					  >
-						<span>{{ "WEBSEITE" | translate }}</span>
-						<span class="icon">
-						  <img src="assets/img/logos/logo_black.svg" />
-						</span>
-					  </a>
-					</div>
-				  </div>
-				  <div class="column is-6">
-					<div class="image-desktop">
-					  <figure class="image is-3by2">
-						<img class="project-image" src="{{ project.img }}" />
-					  </figure>
-					</div>
-				  </div>
-				</div>
-				<hr class="separator" />
-				<div class="responsible-section" *ngIf="responsiblePerson">
-				  <div class="responsible-text">
-					<p>{{ "INTERESSE_AN_DIESEM_PROJEKT" | translate }}</p>
-					<p>{{ "MELDE_DICH_GERNE_BEI" | translate }}:</p>
-					<p class="responsible-name">{{ responsiblePerson.name }}</p>
-					<a class="responsible-email" href="mailto:{{ responsiblePerson.email }}">{{ responsiblePerson.email }}</a>
-				  </div>
-				  <div class="responsible-person">
-					<img [src]="responsiblePerson.photo" [alt]="responsiblePerson.name" />
-				  </div>
-				</div>
-			  <div class="red-section link-section">
-				<div class="columns is-tablet">
-				  <div class="column is-6 split-column">
-					<div class="field-title">
-					  <span>{{ "KUNDE" | translate }}</span>
-					</div>
-					<div class="re-values">
-					  <span class="">{{ project.customer }}</span>
-					</div>
-				  </div>
-				  <div class="column is-6 split-column">
-					<div class="field-title">
-					  <span>{{ "ZIELGRUPPE" | translate }}</span>
-					</div>
-					<div class="re-values">
-					  <span
-						*ngFor="let target of project.target"
-						class="field-value"
-						[routerLink]="['/portfolio']"
-						[queryParams]="{ target: target }"
-						>{{ target }}</span
-					  >
-					</div>
-				  </div>
-				</div>
-				<div class="columns is-tablet">
-				  <div class="column is-6 split-column">
-					<div class="field-title">
-					  <span>{{ "ANGEBOTE" | translate }}</span>
-					</div>
-					<div class="re-values">
-					  <span
-						*ngFor="let angebot of project.angebote"
-						class="field-value"
-						[routerLink]="['/portfolio']"
-						[queryParams]="{ angebot: angebot }"
-						>{{ angebot }}</span
-					  >
-					</div>
-				  </div>
-				  <div class="column is-6 split-column">
-					<div class="field-title">
-					  <span>{{ "JAHR" | translate }}</span>
-					</div>
-					<div class="re-values">
-					  <span
-						*ngFor="let year of project.year"
-						class="field-value"
-						[routerLink]="['/portfolio']"
-						[queryParams]="{ year: year }"
-						>{{ year }}</span
-					  >
-					</div>
-				  </div>
-				</div>
-				<div class="columns is-tablet">
-				  <div class="column is-6 split-column">
-					<div class="field-title">
-					  <span>{{ "THEMEN" | translate }}</span>
-					</div>
-					<div class="re-values">
-					  <span
-						*ngFor="let topic of project.topics"
-						class="field-value"
-						[routerLink]="['/portfolio']"
-						[queryParams]="{ topic: topic }"
-						>#{{ topic }}</span
-					  >
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	</div>
+  <div class="re-top-space-holder"></div>
+  <div class="stripes-container">
+    <div class="stripes">
+      <div class="re-offset-container">
+        <div class="project-container">
+          <div class="container padding-6-resp">
+            <div class="white-section project-description padding-6-resp">
+              <div class="columns is-tablet">
+                <div class="column is-6 description-tab">
+                  <a class="back-link" href="javascript:history.go(-1)"
+                    ><img src="./../../../../assets/img/logos/logo_black.svg" />
+                    {{ "BACK" | translate }}</a
+                  >
+                  <h1 class="py-3">{{ project.name }}</h1>
+                  <p class="py-3">{{ project.desc }}</p>
+                  <div *ngIf="project.link">
+                    <a
+                      class="re-button"
+                      href="{{ project.link }}"
+                      target="_blank"
+                    >
+                      <span>{{ "WEBSEITE" | translate }}</span>
+                      <span class="icon">
+                        <img src="assets/img/logos/logo_black.svg" />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="image-desktop">
+                    <figure class="image is-3by2">
+                      <img class="project-image" src="{{ project.img }}" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <hr class="separator" />
+              <div class="responsible-section" *ngIf="responsiblePerson">
+                <div class="responsible-text">
+                  <h2>{{ "INTERESSE_AN_DIESEM_PROJEKT" | translate }}</h2>
+                  <h3>{{ "MELDE_DICH_GERNE_BEI" | translate }}:</h3>
+                </div>
+                <div
+                  class="is-flex justify-center is-align-content-center is-align-items-center"
+                >
+                  <div class="px-2">
+                    <p class="responsible-name">
+                      <b>{{ responsiblePerson.name }}</b>
+                    </p>
+                    <a
+                      class="responsible-email"
+                      href="mailto:{{ responsiblePerson.email }}"
+                      >{{ responsiblePerson.email }}</a
+                    >
+                  </div>
+                  <div class="responsible-person">
+                    <img
+                      [src]="responsiblePerson.photo"
+                      [alt]="responsiblePerson.name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="responsible-section" *ngIf="!responsiblePerson">
+                <div class="responsible-text">
+                  <h2>{{ "INTERESSE_AN_DIESEM_PROJEKT" | translate }}</h2>
+                  <h3>{{ "MELDE_DICH_GERNE_BEI" | translate }}:</h3>
+                </div>
+                <div
+                  class="is-flex justify-center is-align-content-center is-align-items-center"
+                >
+                  <div class="px-2">
+                    <p class="responsible-name">
+                      <b>Umut Tas</b>
+                    </p>
+                    <a class="responsible-email" href="mailto:u.tas@reedu.de"
+                      >u.tas&#64;reedu.de</a
+                    >
+                  </div>
+                  <div class="responsible-person">
+                    <img src="/assets/img/team/umut_new.jpg" alt="Umut Tas" />
+                  </div>
+                </div>
+              </div>
+              <div class="red-section link-section">
+                <div class="columns is-tablet">
+                  <div class="column is-6 split-column">
+                    <div class="field-title">
+                      <span>{{ "KUNDE" | translate }}</span>
+                    </div>
+                    <div class="re-values">
+                      <span class="">{{ project.customer }}</span>
+                    </div>
+                  </div>
+                  <div class="column is-6 split-column">
+                    <div class="field-title">
+                      <span>{{ "ZIELGRUPPE" | translate }}</span>
+                    </div>
+                    <div class="re-values">
+                      <span
+                        *ngFor="let target of project.target"
+                        class="field-value"
+                        [routerLink]="['/portfolio']"
+                        [queryParams]="{ target: target }"
+                        >{{ target }}</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-tablet">
+                  <div class="column is-6 split-column">
+                    <div class="field-title">
+                      <span>{{ "ANGEBOTE" | translate }}</span>
+                    </div>
+                    <div class="re-values">
+                      <span
+                        *ngFor="let angebot of project.angebote"
+                        class="field-value"
+                        [routerLink]="['/portfolio']"
+                        [queryParams]="{ angebot: angebot }"
+                        >{{ angebot }}</span
+                      >
+                    </div>
+                  </div>
+                  <div class="column is-6 split-column">
+                    <div class="field-title">
+                      <span>{{ "JAHR" | translate }}</span>
+                    </div>
+                    <div class="re-values">
+                      <span
+                        *ngFor="let year of project.year"
+                        class="field-value"
+                        [routerLink]="['/portfolio']"
+                        [queryParams]="{ year: year }"
+                        >{{ year }}</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-tablet">
+                  <div class="column is-6 split-column">
+                    <div class="field-title">
+                      <span>{{ "THEMEN" | translate }}</span>
+                    </div>
+                    <div class="re-values">
+                      <span
+                        *ngFor="let topic of project.topics"
+                        class="field-value"
+                        [routerLink]="['/portfolio']"
+                        [queryParams]="{ topic: topic }"
+                        >#{{ topic }}</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
+</div>

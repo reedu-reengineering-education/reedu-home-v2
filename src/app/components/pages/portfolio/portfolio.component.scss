@@ -32,7 +32,7 @@
   .project-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
   }
 }
 
@@ -111,22 +111,22 @@
 }
 
 .year-header {
-	font-size: 32px; 
-	font-weight: bold;
-	margin-top: 60px; 
-	margin-bottom: 40px; 
-	color: $primary;
-	border-bottom: 2px solid $primary; 
-	padding-bottom: 10px; 
-	width: fit-content; 
-	display: inline-block; 
-  }  
+  font-size: 56px;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: $primary;
+  border-bottom: 5px solid $primary;
+  padding-bottom: 0px;
+  width: fit-content;
+  display: inline-block;
+}
 
 .project-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; 
-  margin-top: 1x; 
+  justify-content: flex-start;
+  margin-top: 1x;
   margin-bottom: 60px;
-  width: 100%; 
+  width: 100%;
 }

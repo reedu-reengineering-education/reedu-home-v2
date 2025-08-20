@@ -1,199 +1,201 @@
 <div class="site black-section">
-	<div class="container p-4 sb-white-text">
-	  <h1 class="site-title">{{ "UNSERE_PROJEKTE" | translate }}</h1>
-	</div>
-	<div class="stripes-container sb-white-text">
-	  <div class="stripes">
-		<div class="container re-offset-container">
-		  <h3 class="re-pointer" (click)="toggleFilterModal()">
-			{{ "FILTERN" | translate }}
-			<i class="fa fa-filter"></i>
-		  </h3>
-		  <div
-			*ngIf="
-			  appliedFilter.customer != null ||
-			  appliedFilter.topic != null ||
-			  appliedFilter.angebot != null ||
-			  appliedFilter.year != null ||
-			  appliedFilter.target != null
-			"
-			class="re-active-filters p-3"
-		  >
-			<h5 class="">
-			  {{ "ACTIVE_FILTER" | translate }}
-			</h5>
-			<div class="tags">
-			  <span class="tag" *ngIf="appliedFilter.customer">
-				{{ "CUSTOMER" | translate }}:
-				{{ appliedFilter.customer }}
-				<button
-				  class="delete is-small"
-				  (click)="removeFilter('customer')"
-				></button>
-			  </span>
-  
-			  <span class="tag" *ngIf="appliedFilter.topic">
-				{{ "TOPIC" | translate }}:
-				{{ appliedFilter.topic }}
-				<button
-				  class="delete is-small"
-				  (click)="removeFilter('topic')"
-				></button>
-			  </span>
-  
-			  <span class="tag" *ngIf="appliedFilter.angebot">
-				{{ "ANGEBOT" | translate }}:
-				{{ appliedFilter.angebot | translate }}
-				<button
-				  class="delete is-small"
-				  (click)="removeFilter('angebot')"
-				></button>
-			  </span>
-  
-			  <span class="tag" *ngIf="appliedFilter.year">
-				{{ "YEAR" | translate }}:
-				{{ appliedFilter.year }}
-				<button
-				  class="delete is-small"
-				  (click)="removeFilter('year')"
-				></button>
-			  </span>
-  
-			  <span class="tag" *ngIf="appliedFilter.target">
-				{{ "TARGET" | translate }}:
-				{{ appliedFilter.target | translate }}
-				<button
-				  class="delete is-small"
-				  (click)="removeFilter('target')"
-				></button>
-			  </span>
-			</div>
-		  </div>
-  
-		  <div class="project-container">
-			<div *ngFor="let year of sortedYears">
-			  <h2 class="year-header">{{ year }}</h2>
-			  <div class="project-group">
-				<re-project-card
-				  *ngFor="let project of groupedProjects[year]"
-				  [project]="project">
-				</re-project-card>
-			  </div>
-			</div>
-		  </div>
-		  <div class="show-all-container">
-			<button class="show-all-button" (click)="toggleShowAll()">
-			  {{ showFeatured ? ('ALLES_ANZEIGEN' | translate) : ('WENIGER_ANZEIGEN' | translate) }}
-			</button>
-		  </div>
-		</div>
-	  </div>
-	</div>
-  
-	<div class="modal" [class.is-active]="filterOpen">
-	  <div class="modal-background" (click)="toggleFilterModal()"></div>
-	  <div class="modal-content re-modal white-section p-5">
-		<div>
-		  <div class="field">
-			<label class="label re-uppercase">{{
-			  "CUSTOMER" | translate
-			}}</label>
-			<div class="control">
-			  <div class="select">
-				<select
-				  name="customer"
-				  #c
-				  id="customer"
-				  (change)="changeCustomer(c.value)"
-				>
-				  <option value="null">{{ "AUSWAEHLEN" | translate }}</option>
-				  <option
-					*ngFor="let customer of customers"
-					value="{{ customer }}"
-				  >
-					{{ customer }}
-				  </option>
-				</select>
-			  </div>
-			</div>
-		  </div>
-  
-		  <div class="field">
-			<label class="label re-uppercase">{{ "TOPICS" | translate }}</label>
-			<div class="control">
-			  <div class="select">
-				<select
-				  #t
-				  name="topics"
-				  id="topics"
-				  (change)="changeTopic(t.value)"
-				>
-				  <option value="null">{{ "AUSWAEHLEN" | translate }}</option>
-				  <option *ngFor="let topic of topics" value="{{ topic }}">
-					{{ topic }}
-				  </option>
-				</select>
-			  </div>
-			</div>
-		  </div>
-  
-		  <div class="field">
-			<label class="label re-uppercase">{{ "ANGEBOT" | translate }}</label>
-			<div class="control">
-			  <button
-				class="re-button re-select-button"
-				*ngFor="let angebot of angebote"
-				(click)="toggleAngebot(angebot)"
-				[class.active]="angebot === filter.angebot"
-			  >
-				{{ angebot | translate }}
-			  </button>
-			</div>
-		  </div>
-  
-		  <div class="field">
-			<label class="label re-uppercase">{{ "YEAR" | translate }}</label>
-			<div class="control">
-			  <button
-				class="re-button re-select-button"
-				*ngFor="let year of years"
-				(click)="toggleYear(year)"
-				[class.active]="filter.year === year"
-			  >
-				{{ year }}
-			  </button>
-			</div>
-		  </div>
-  
-		  <div class="field">
-			<label class="label re-uppercase">{{ "TARGET" | translate }}</label>
-			<div class="control">
-			  <button
-				class="re-button re-select-button"
-				*ngFor="let target of targets"
-				(click)="toggleTarget(target)"
-				[class.active]="filter.target === target"
-			  >
-				{{ target | translate }}
-			  </button>
-			</div>
-		  </div>
-  
-		  <div class="pt-5">
-			<button (click)="filterToUrl()" class="is-pulled-right re-button">
-			  <span>{{ "FILTER_ANWENDEN" | translate }}</span>
-			  <span class="icon">
-				<img src="assets/img/logos/logo_black.svg" />
-			  </span>
-			</button>
-		  </div>
-		</div>
-	  </div>
-	  <button
-		class="modal-close is-large"
-		aria-label="close"
-		(click)="toggleFilterModal()"
-	  ></button>
-	</div>
+  <div class="container p-4 sb-white-text">
+    <h1 class="site-title">{{ "UNSERE_PROJEKTE" | translate }}</h1>
   </div>
-  
+  <div class="stripes-container sb-white-text">
+    <div class="stripes">
+      <div class="container re-offset-container">
+        <h3 class="re-pointer" (click)="toggleFilterModal()">
+          {{ "FILTERN" | translate }}
+          <i class="fa fa-filter"></i>
+        </h3>
+        <div
+          *ngIf="
+            appliedFilter.customer != null ||
+            appliedFilter.topic != null ||
+            appliedFilter.angebot != null ||
+            appliedFilter.year != null ||
+            appliedFilter.target != null
+          "
+          class="re-active-filters p-3"
+        >
+          <h5 class="">
+            {{ "ACTIVE_FILTER" | translate }}
+          </h5>
+          <div class="tags">
+            <span class="tag" *ngIf="appliedFilter.customer">
+              {{ "CUSTOMER" | translate }}:
+              {{ appliedFilter.customer }}
+              <button
+                class="delete is-small"
+                (click)="removeFilter('customer')"
+              ></button>
+            </span>
+
+            <span class="tag" *ngIf="appliedFilter.topic">
+              {{ "TOPIC" | translate }}:
+              {{ appliedFilter.topic }}
+              <button
+                class="delete is-small"
+                (click)="removeFilter('topic')"
+              ></button>
+            </span>
+
+            <span class="tag" *ngIf="appliedFilter.angebot">
+              {{ "ANGEBOT" | translate }}:
+              {{ appliedFilter.angebot | translate }}
+              <button
+                class="delete is-small"
+                (click)="removeFilter('angebot')"
+              ></button>
+            </span>
+
+            <span class="tag" *ngIf="appliedFilter.year">
+              {{ "YEAR" | translate }}:
+              {{ appliedFilter.year }}
+              <button
+                class="delete is-small"
+                (click)="removeFilter('year')"
+              ></button>
+            </span>
+
+            <span class="tag" *ngIf="appliedFilter.target">
+              {{ "TARGET" | translate }}:
+              {{ appliedFilter.target | translate }}
+              <button
+                class="delete is-small"
+                (click)="removeFilter('target')"
+              ></button>
+            </span>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div *ngFor="let year of sortedYears">
+            <h1 class="year-header">{{ year }}</h1>
+            <div class="project-group">
+              <re-project-card
+                *ngFor="let project of groupedProjects[year]"
+                [project]="project"
+              >
+              </re-project-card>
+            </div>
+          </div>
+        </div>
+        <div class="show-all-container">
+          <button class="show-all-button" (click)="toggleShowAll()">
+            {{
+              showFeatured
+                ? ("ALLES_ANZEIGEN" | translate)
+                : ("WENIGER_ANZEIGEN" | translate)
+            }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" [class.is-active]="filterOpen">
+    <div class="modal-background" (click)="toggleFilterModal()"></div>
+    <div class="modal-content re-modal white-section p-5">
+      <div>
+        <div class="field">
+          <label class="label re-uppercase">{{ "CUSTOMER" | translate }}</label>
+          <div class="control">
+            <div class="select">
+              <select
+                name="customer"
+                #c
+                id="customer"
+                (change)="changeCustomer(c.value)"
+              >
+                <option value="null">{{ "AUSWAEHLEN" | translate }}</option>
+                <option
+                  *ngFor="let customer of customers"
+                  value="{{ customer }}"
+                >
+                  {{ customer }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label re-uppercase">{{ "TOPICS" | translate }}</label>
+          <div class="control">
+            <div class="select">
+              <select
+                #t
+                name="topics"
+                id="topics"
+                (change)="changeTopic(t.value)"
+              >
+                <option value="null">{{ "AUSWAEHLEN" | translate }}</option>
+                <option *ngFor="let topic of topics" value="{{ topic }}">
+                  {{ topic }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label re-uppercase">{{ "ANGEBOT" | translate }}</label>
+          <div class="control">
+            <button
+              class="re-button re-select-button"
+              *ngFor="let angebot of angebote"
+              (click)="toggleAngebot(angebot)"
+              [class.active]="angebot === filter.angebot"
+            >
+              {{ angebot | translate }}
+            </button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label re-uppercase">{{ "YEAR" | translate }}</label>
+          <div class="control">
+            <button
+              class="re-button re-select-button"
+              *ngFor="let year of years"
+              (click)="toggleYear(year)"
+              [class.active]="filter.year === year"
+            >
+              {{ year }}
+            </button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label re-uppercase">{{ "TARGET" | translate }}</label>
+          <div class="control">
+            <button
+              class="re-button re-select-button"
+              *ngFor="let target of targets"
+              (click)="toggleTarget(target)"
+              [class.active]="filter.target === target"
+            >
+              {{ target | translate }}
+            </button>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <button (click)="filterToUrl()" class="is-pulled-right re-button">
+            <span>{{ "FILTER_ANWENDEN" | translate }}</span>
+            <span class="icon">
+              <img src="assets/img/logos/logo_black.svg" />
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      class="modal-close is-large"
+      aria-label="close"
+      (click)="toggleFilterModal()"
+    ></button>
+  </div>
+</div>
