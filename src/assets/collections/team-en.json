@@ -90,13 +90,6 @@
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
-    "name": "Georgi Semov",
-    "position": "Developer",
-    "title": "Apprentice",
-    "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/Georgi.png"
-  },
-  {
     "name": "Paula Scharf",
     "position": "Developer",
     "title": "M.Sc. Geoinformatics",
@@ -140,7 +133,7 @@
     "tags": ["AGs", "Projekttage", "Machine Learning"],
     "photo": "/assets/img/team/matteo.jpg"
   },
-   {
+  {
     "name": "Kalle Kröger",
     "position": "Product development",
     "title": "M.A. Produktdesign",
