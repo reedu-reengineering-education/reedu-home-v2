@@ -91,13 +91,6 @@
     "photo": "/assets/img/team/david_new.jpg"
   },
   {
-    "name": "Georgi Semov",
-    "position": "Entwickler",
-    "title": "Auszubildender",
-    "tags": ["IoT", "Arduino"],
-    "photo": "/assets/img/team/Georgi.png"
-  },
-  {
     "name": "Paula Scharf",
     "position": "Entwicklerin",
     "title": "M.Sc. Geoinformatik",
