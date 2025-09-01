@@ -139,5 +139,12 @@
     "title": "M.A. Produktdesign",
     "tags": ["Design", "CAD", "3D-Druck"],
     "photo": "/assets/img/team/Kroeger_Kalle.jpg"
+  },
+  {
+    "name": "Lavinia Şen",
+    "position": "Anwendungsentwicklerin",
+    "title": "Auszubildende",
+    "tags": ["Angular, TypeScript, Java, Spring Boot, Grafik- & Objektdesign, UI/UX"],
+    "photo": "/assets/img/team/lavinia.jpeg"
   }
 ]
