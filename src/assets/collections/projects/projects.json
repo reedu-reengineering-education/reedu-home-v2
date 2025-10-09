@@ -398,7 +398,7 @@
     "year": [2018],
     "target": ["Schüler:innen"],
     "featured": true,
-    "responsible": "Verena Witte"
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "Handel-O-Mat",
@@ -459,7 +459,7 @@
     "year": [2019],
     "target": ["Schüler:innen", "Lehrer:innen"],
     "featured": true,
-    "responsible": "Verena Witte"
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "openSenseMap Feature-Layer",
@@ -728,7 +728,7 @@
     "year": [2018],
     "target": ["Schüler:innen", "Lehrer:innen", "Wissenschaftler:innen"],
     "featured": true,
-    "responsible": "Verena Witte"
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "senseBox:edu S2",
@@ -741,7 +741,7 @@
     "year": [2024],
     "target": ["Schüler:innen", "Lehrer:innen", "Wissenschaftler:innen"],
     "featured": true,
-    "responsible": "Verena Witte"
+    "responsible": "Dr. Thomas Bartoschek"
   },
   {
     "name": "senseBox:home",
