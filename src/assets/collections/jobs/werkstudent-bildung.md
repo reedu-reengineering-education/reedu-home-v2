@@ -10,7 +10,7 @@ re:edu ist ein Start-Up aus Münster, das Lösungen für Bildung, Forschung, Nac
 
 Du hast Erfahrung in der didaktischen Vermittlung von Inhalten und Arbeit mit Jugendlichen oder möchtest diese sammeln? Dann freuen wir uns, wenn du unseren Bildungsbereich mit 6-8 Stunden pro Woche unterstützt. Wünschenswert wären grundlegende Kenntnisse der Informatik oder anderer MINT-Bereiche und ein Studium mit Lehramtsausrichtung. Du wirst in einem Team mit flexiblen Arbeitszeiten, flachen Hierarchien und viel Raum für neue Ideen & Kreativität empfangen.
 
-Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an Verena Witte: v.witte@reedu.de
+Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an Umut Tas: u.tas@reedu.de
 
 Büroadresse:
 re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster
