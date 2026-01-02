@@ -136,7 +136,17 @@
     "name": "Lavinia Şen",
     "position": "Developer",
     "title": "Apprentice",
-    "tags": ["Angular, TypeScript, Java, Spring Boot, Graphic & Object Design, UI/UX"],
+    "tags": [
+      "Angular, TypeScript, Java, Spring Boot, Graphic & Object Design, UI/UX"
+    ],
     "photo": "/assets/img/team/lavinia.jpeg"
+  },
+  {
+    "name": "Dr. Steffen Ciprina",
+    "position": "Head of Education",
+    "title": "Ph.D. Geography Education",
+    "tags": ["Education, Science, Workshops"],
+    "email": "s.ciprina@reedu.de",
+    "photo": "/assets/img/team/steffen.jpg"
   }
 ]
