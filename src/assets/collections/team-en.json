@@ -89,14 +89,6 @@
     "photo": "/assets/img/team/Paula_Scharf.jpg"
   },
   {
-    "name": "Kieran Galbraith",
-    "position": "Student assistant, Software Developer",
-    "title": "B.Sc. Geoinformatics",
-    "tags": ["Python", "JavaScript"],
-    "email": "k.galbraith@reedu.de",
-    "photo": "/assets/img/team/Kieran.jpg"
-  },
-  {
     "name": "Ronja Federer",
     "position": "Office Management",
     "title": "&#8203;",
@@ -117,13 +109,6 @@
     "title": "M.Sc. Engineering and Technology",
     "tags": ["React", "JavaScript"],
     "photo": "/assets/img/team/maria.jpg"
-  },
-  {
-    "name": "Matteo Weickert",
-    "position": "Bildung",
-    "title": "Werkstudent",
-    "tags": ["AGs", "Projekttage", "Machine Learning"],
-    "photo": "/assets/img/team/matteo.jpg"
   },
   {
     "name": "Kalle Kröger",
