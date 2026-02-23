@@ -1,11 +1,5 @@
 [
   {
-    "title": "Entwickler für Open-Source-Hardware-Anwendungen (Vollzeit)",
-    "description": "Bastelst du gerne an IoT, Mikrocontrollern und Sensoren und hast bereits Kenntnisse in Elektronik und Hardware-Prototyping? Dann unterstütze unser Team beim Testen und Bewerten von Mikrocontrollern und Sensoren sowie beim Entwerfen neuer Hardwareprodukte.",
-    "imgname": "Hardware.png",
-    "filename": "hardware-developer.md"
-  },
-  {
     "title": "Externe Semesterpraktikanten (Vollzeit)",
     "description": "Interessierst du dich für Open-Source-Technologien und hast bereits Erfahrung in der Webentwicklung oder im Physical Computing? Dann absolviere dein externes Semester bei uns und sammel Erfahrungen in der eigenständigen Umsetzung von Projekten nach deinen Interessen oder Vorkenntnissen im Bereich Geoinformatik und arbeite an spannenden Forschungs- und Entwicklungsprojekten von re:edu!",
     "imgname": "education.png",
