@@ -1,13 +1,13 @@
 [
   {
-    "name": "GreenCity Heilbronn",
+    "name": "Green City Heilbronn",
     "desc": "Together with Arkadia gGmbH, we organize a wide range of Citizen Science and education initiatives in Heilbronn. From teacher training to hackathons, there is something for every citizen of Heilbronn.",
     "img": "/assets/img/projekte/greencity.png",
     "link": "https://greencity.hn",
     "topics": ["Citizen Science", "SmartCity", "Mobility"],
     "customer": "Arkadia gGmbH",
     "angebote": ["Events", "Hardware", "Software"],
-    "year": [2065],
+    "year": [2026],
     "target": ["Citizens", "Science", "Cities"],
     "featured": true,
     "responsible": "Umut Taş"
