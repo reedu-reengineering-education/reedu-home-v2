@@ -1,5 +1,18 @@
 [
   {
+    "name": "GreenCity Heilbronn",
+    "desc": "Zusammen mit der Arkadia gGmbH verantalten wir verschiedenste Citizen Science und Bildungsinitiativen in Heilbronn. Von Lehrerfortbildungen bis zu Hackathons ist für jeden Bürger Heilbronns etwas dabei.",
+    "img": "/assets/img/projekte/greencity.png",
+    "link": "https://greencity.hn",
+    "topics": ["Citizen Science", "SmartCity", "Mobilität"],
+    "customer": "Arkadia gGmbH",
+    "angebote": ["Veranstaltung", "Hardware", "Software"],
+    "year": [2026],
+    "target": ["Bürger:innen", "Wissenschaft", "Städte"],
+    "featured": true,
+    "responsible": "Umut Taş"
+  },
+  {
     "name": "Schlabberkappes - Arnsberg",
     "desc": "Arnsberg macht Umwelt sichtbar: Bürger:innen sammeln mit Sensoren Umweltdaten für die Stadt von morgen",
     "img": "/assets/img/projekte/arnsberg.jpg",
