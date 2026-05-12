@@ -1,5 +1,31 @@
 [
   {
+    "name": "Digi-Fach",
+    "desc": "Design and development of workshops and professional development programs for early childhood digital education as part of the Digi-Fach project. The Digi-Fach project is a collaborative initiative between the Chair of Theory and Empirical Research in Social Pedagogy at TU Dortmund University and the Department of Educational Science, Social Work and Education at University of Kassel.",
+    "img": "/assets/img/projekte/DF.png",
+    "link": "https://www.uni-kassel.de/fb01/institute/institut-fuer-sozialwesen/fachgebiete/erziehungswissenschaft-mit-dem-schwerpunkt-soziale-arbeit-und-bildung/forschungsprojekte.html",
+    "topics": ["Early Childhood Digital Education"],
+    "customer": "TU Dortmund University & University of Kassel",
+    "angebote": ["Professional Development", "Events"],
+    "year": [2026],
+    "target": ["Early Childhood Educators", "Digital Education", "Professional Development"],
+    "featured": true,
+    "responsible": "Dr. Steffen Ciprina"
+  },
+  {
+  "name": "senseBox:basic",
+  "desc": "The senseBox:basic is our new product designed for use starting in primary school. It is an easy-to-use learning and experimentation kit that enables children and young people to carry out basic environmental measurements such as temperature, humidity, and light intensity. It is particularly well suited as an introduction to programming and digital education, providing first insights into sensor technology, data processing, and coding.",
+  "img": "assets/img/projekte/senseBoxBasic.png",
+  "link": "https://sensebox.de/en/products-basic",
+  "topics": ["Digital Education", "Primary School"],
+  "customer": "",
+  "angebote": ["Professional Development", "Hardware"],
+  "year": [2026],
+  "target": ["Students", "Teachers", "Researchers"],
+  "featured": true,
+  "responsible": "Dr. Thomas Bartoschek"
+  }, 
+  {
     "name": "Schlabberkappes - Arnsberg",
     "desc": "Arnsberg makes the environment visible: Citizens collect environmental data with sensors for the city of tomorrow",
     "img": "/assets/img/projekte/arnsberg.jpg",

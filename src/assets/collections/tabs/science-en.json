@@ -164,5 +164,24 @@
 	   "foerderung": ["/assets/img/partner/Kofinanziert-von-der-EU_logo.png", "/assets/img/partner/wirtschaft-nrw.svg"],
 	   "underscoreStyle": "red",
 	   "image": "/assets/img/projekte/icodems.jpg"
-	  }
+	  },
+    {
+  "title": "AI and Data Academy (ADA)",
+  "startdate": "01.01.2026",
+  "enddate": "31.12.2027",
+  "description": "The AI and Data Academy develops practice-oriented learning opportunities for students that foster foundational competencies in artificial intelligence and data literacy. As part of 12 extracurricular AI Days and the AI Festival in September 2027, students can participate in a variety of hands-on learning modules.",
+  "link": "https://ai-data.academy/",
+  "linkText": "ADA",
+  "logo": "/assets/img/forschung/ada.png",
+  "forschungsverbund": [
+    "/assets/img/forschung/openSenseLab_logo.png",
+    "/assets/img/forschung/2021-logo-ifgi-text-de.png"
+  ],
+  "foerderung": [
+    "/assets/img/partner/Kofinanziert-von-der-EU_logo.png",
+    "/assets/img/partner/wirtschaft-nrw.svg"
+  ],
+  "underscoreStyle": "red",
+  "image": "/assets/img/forschung/ada.png"
+  }
 ]
