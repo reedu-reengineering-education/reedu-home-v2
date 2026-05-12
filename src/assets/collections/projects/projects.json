@@ -1,5 +1,5 @@
 [
-  {
+ {
     "name": "Schlabberkappes - Arnsberg",
     "desc": "Arnsberg macht Umwelt sichtbar: Bürger:innen sammeln mit Sensoren Umweltdaten für die Stadt von morgen",
     "img": "/assets/img/projekte/arnsberg.jpg",
@@ -11,6 +11,32 @@
     "target": ["Bürger:innen", "Wissenschaft", "Städte"],
     "featured": true,
     "responsible": "Dr. Thomas Bartoschek"
+  },
+  {
+    "name": "senseBox:basic",
+    "desc": "Die senseBox:basic ist unser neues Produkt ab der Grundschule. Die senseBox:basic ist ein einfach zu nutzendes Lern- und Experimentierset, mit dem Kinder und Jugendliche grundlegende Umweltmessungen wie Temperatur, Luftfeuchtigkeit oder Lichtstärke durchführen können. Sie eignet sich besonders für den Einstieg in die Programmierung, digitale Bildung und vermittelt erste Kenntnisse in den Bereichen Sensorik, Datenverarbeitung und Programmierung. ",
+    "img":"assets/img/projekte/senseBoxBasic.png",
+    "link": "https://sensebox.de/de/products-basic",
+    "topics": ["DigitaleBildung", "Grundschule"],
+    "customer": "",
+    "angebote": ["Fortbildungen", "Hardware"],
+    "year": [2026],
+    "target": ["Schüler:innen", "Lehrkräfte", "Wissenschaftler:innen"],
+    "featured": true,
+    "responsible": "Dr. Thomas Bartoschek"
+  },
+  {
+    "name": "Digi-Fach",
+    "desc": "Konzeption von Workshops und Fortbildungen für die frühkindliche, digitale Bildung im Rahmen des Digi-Fach Projekts. Das Digi-Fach Projekt ist ein Kooperationsprojekt des Lehrstuhls für "Theorie und Empirie der Sozialpädagogik" der TU Dortmund sowie dem Fachgebiet "Erziehungswissenschaft, Soziale Arbeit & Bildung" der Universität Kassel.",
+    "img":"assets/img/projekte/DF.png",
+    "link": "https://www.uni-kassel.de/fb01/institute/institut-fuer-sozialwesen/fachgebiete/erziehungswissenschaft-mit-dem-schwerpunkt-soziale-arbeit-und-bildung/forschungsprojekte.html",
+    "topics": ["Frühkindliche, digitale Bildung"],
+    "customer": "TU Dortmund & Universität Kassel",
+    "angebote": ["Fortbildungen", "Veranstaltung"],
+    "year": [2026],
+    "target": ["Erzieher:innen", "Digitale Bildung", "Fortbildungen"],
+    "featured": true,
+    "responsible": "Dr. Steffen Ciprina"
   },
   {
     "name": "Wiesbaden auf Rädern",
