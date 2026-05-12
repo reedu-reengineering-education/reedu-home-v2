@@ -1,5 +1,18 @@
 [
   {
+    "name": "Green City Heilbronn",
+    "desc": "Together with Arkadia gGmbH, we organize a wide range of Citizen Science and education initiatives in Heilbronn. From teacher training to hackathons, there is something for every citizen of Heilbronn.",
+    "img": "/assets/img/projekte/greencity.png",
+    "link": "https://greencity.hn",
+    "topics": ["Citizen Science", "SmartCity", "Mobility"],
+    "customer": "Arkadia gGmbH",
+    "angebote": ["Events", "Hardware", "Software"],
+    "year": [2026],
+    "target": ["Citizens", "Science", "Cities"],
+    "featured": true,
+    "responsible": "Umut Taş"
+  },
+  {
     "name": "Digi-Fach",
     "desc": "Design and development of workshops and professional development programs for early childhood digital education as part of the Digi-Fach project. The Digi-Fach project is a collaborative initiative between the Chair of Theory and Empirical Research in Social Pedagogy at TU Dortmund University and the Department of Educational Science, Social Work and Education at University of Kassel.",
     "img": "/assets/img/projekte/DF.png",
