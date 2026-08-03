@@ -13,4 +13,4 @@ Du hast Erfahrung in der didaktischen Vermittlung von Inhalten und Arbeit mit Ju
 Wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung per E-Mail an Umut Tas: u.tas@reedu.de
 
 Büroadresse:
-re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster
+re:edu GmbH \& Co. KG // Johann-Krane-Weg 23 // 48149 Münster

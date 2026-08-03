@@ -29,4 +29,4 @@ re:edu is a young start-up (spin-off of the Institute for Geoinformatics at the 
 If this appeals to you, we look forward to receiving your application by e-mail to: kontakt@reedu.de
 
 Office address:
-re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster
+re:edu GmbH \& Co. KG // Johann-Krane-Weg 23 // 48149 Münster

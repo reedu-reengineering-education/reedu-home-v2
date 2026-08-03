@@ -31,5 +31,5 @@ Wenn du leidenschaftlich an Technologie interessiert bist und etwas bewirken mö
 
 Büroadresse:
 re:edu GmbH & Co. KG
-Von-Steuben-Str. 21
-48143 Münster
+Johann-Krane-Weg 23
+48149 Münster
