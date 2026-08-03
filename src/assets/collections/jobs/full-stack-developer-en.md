@@ -31,5 +31,5 @@ If you are passionate about technology and want to make a difference, we look fo
 
 Office Address:
 re:edu GmbH & Co. KG
-Von-Steuben-Str. 21
-48143 Münster
+Johann-Krane-Weg 23
+48149 Münster

@@ -51,5 +51,5 @@ If this sounds like a fit for you, please send your application via email to: ko
 ### Office Address:
 
 re:edu GmbH & Co. KG  
-Von-Steuben-Str. 21  
-48143 Münster
+Johann-Krane-Weg 23  
+48149 Münster

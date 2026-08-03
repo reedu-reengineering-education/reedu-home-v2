@@ -23,4 +23,4 @@ Egal, ob du dich für Programmierung, die Entwicklung von Hardware, die Gestaltu
   Werde Teil unseres re:edu-Teams und bringe deine Stärken ein! Schicke uns einfach eine kurze Bewerbung mit deiner Motivation und deinem Lebenslauf an kontakt@reedu.de. Hier kannst du dich gerne auch bei Rückfragen melden. Wir freuen uns darauf, dich kennenzulernen!
 
 Büroadresse:
-re:edu GmbH \& Co. KG // Von-Steuben-Str. 21 // 48143 Münster
+re:edu GmbH \& Co. KG // Johann-Krane-Weg 23 // 48149 Münster
