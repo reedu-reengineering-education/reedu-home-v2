@@ -53,11 +53,10 @@
     "photo": "/assets/img/team/Eduardo_Candeias_Schneider.jpg"
   },
   {
-    "name": "Artur Kim Shum",
-    "position": "Innovation Designer",
-    "title": "B.A. Architektur und Stadtplanung",
-    "tags": ["UX", "Prototyping", "Data Visualization", "Open Data"],
-    "photo": "/assets/img/team/Artur_Kim_Shum.jpg"
+    "name": "Eva",
+    "position": "Werkstudentin",
+    "tags": ["Bildung", "Workshops", "Bildungsmaterial"],
+    "photo": "/assets/img/team/eva.png"
   },
   {
     "name": "Eric Thieme-Garmann",
@@ -98,13 +97,6 @@
     "photo": "/assets/img/team/Ronja_Federer.jpg"
   },
   {
-    "name": "Mostafa Kandel",
-    "position": "Entwickler",
-    "title": "M.Sc. Elektrotechnik",
-    "tags": ["Python", "Node", "React", "JavaScript"],
-    "photo": "/assets/img/team/mostafa.jpg"
-  },
-  {
     "name": "Maria Zadnepryanets",
     "position": "Entwicklerin",
     "title": "M.Sc. Ingenieurwesen und Technologie",
@@ -117,15 +109,6 @@
     "title": "M.A. Produktdesign",
     "tags": ["Design", "CAD", "3D-Druck"],
     "photo": "/assets/img/team/Kalle_Kroeger.jpg"
-  },
-  {
-    "name": "Lavinia Şen",
-    "position": "Anwendungsentwicklerin",
-    "title": "Auszubildende",
-    "tags": [
-      "Angular, TypeScript, Java, Spring Boot, Grafik- & Objektdesign, UI/UX"
-    ],
-    "photo": "/assets/img/team/lavinia.jpeg"
   },
   {
     "name": "Dr. Steffen Ciprina",
