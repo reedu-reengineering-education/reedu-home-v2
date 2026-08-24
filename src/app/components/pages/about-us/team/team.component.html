@@ -1,6 +1,6 @@
-<div class="site">
+<div class="site" data-noimageindex>
   <div class="container column site-title-container">
-    <h1 class="site-title" >{{ "WER_WIR_SIND" | translate }}</h1>
+    <h1 class="site-title">{{ "WER_WIR_SIND" | translate }}</h1>
     <img class="floating-reedu-logo" src="assets/img/logos/logo_outline.svg" />
     <div class="floating-action-btn">
       <button class="re-button" button (click)="shuffle(team)">
@@ -23,10 +23,10 @@
                       class="profile-img"
                       src="{{ member.photo }}"
                       alt="image"
-                    />  
+                    />
                   </div>
                   <div class="column">
-                    <h1 class="title">{{ member.name }}</h1>
+                    <h1 class="title" data-nosnippet>{{ member.name }}</h1>
                     <h2 class="subtitle">{{ member.position }}</h2>
                     <h3 class="subtitle" [innerHTML]="member.title"></h3>
                     <h6 *ngIf="member.tags" class="title is-6 orange">
@@ -55,11 +55,13 @@
                       class="profile-img"
                       src="/assets/img/team/team_reedu.jpg"
                       alt="image"
-                    />  
+                    />
                   </div>
                   <div class="column">
                     <h1 class="title">{{ "DU" | translate }}</h1>
-                    <h2 class="subtitle">{{ "WERDE_TEIL_DES_TEAMS" | translate }}</h2>
+                    <h2 class="subtitle">
+                      {{ "WERDE_TEIL_DES_TEAMS" | translate }}
+                    </h2>
                     <a [routerLink]="['/jobs']">
                       <button class="re-button">
                         <span>Jobs</span>
