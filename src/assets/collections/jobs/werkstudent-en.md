@@ -22,4 +22,4 @@ Whether you're interested in programming, hardware development, content design, 
 
 Become part of our re:edu team and bring in your strengths! Simply send us a brief application with your motivation and resume to kontakt@reedu.de. Feel free to reach out to us with any questions. We look forward to getting to know you!
 
-Office address: re:edu GmbH & Co. KG // Von-Steuben-Str. 21 // 48143 Münster
+Office address: re:edu GmbH & Co. KG // Johann-Krane-Weg 23 // 48149 Münster
